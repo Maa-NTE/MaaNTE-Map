@@ -12,6 +12,8 @@ const {
   addCustomType,
   applyNavigationAutoCompleteRadius,
   applyNavigationEndpoint,
+  autoRouteCandidates,
+  autoRouteLimit,
   beginClearCompleted,
   bulkCompleteCategoryIds,
   bulkIncompleteCount,
@@ -19,6 +21,7 @@ const {
   cancelSegment,
   categoryLookup,
   centerNavigationEnabled,
+  canCreateAutoRoute,
   clearCategories,
   clearCompleted,
   clearCompletedConfirming,
@@ -31,6 +34,7 @@ const {
   completedImportInput,
   coordinates,
   copyCoordinates,
+  createAutoRoute,
   createRoute,
   deleteLocation,
   deleteRoute,
@@ -411,6 +415,21 @@ const announcementItems = computed(() =>
           <button type="button" @click="routeImportInput?.click()">导入 JSON</button>
           <button type="button" :disabled="!routes.length" @click="exportRoutes">导出 JSON</button>
           <input ref="routeImportInput" type="file" accept="application/json,.json" @change="importRoutes" />
+        </div>
+        <div class="route-auto-planner">
+          <label>
+            <span>自动规划数量</span>
+            <input v-model.number="autoRouteLimit" type="number" min="1" max="100" step="1" inputmode="numeric" />
+          </label>
+          <button
+            type="button"
+            :disabled="!canCreateAutoRoute"
+            :title="canCreateAutoRoute ? '' : '需要实时定位，并至少有 1 个当前可见未完成点位'"
+            @click="createAutoRoute"
+          >
+            自动规划
+          </button>
+          <small>{{ autoRouteCandidates.length }} 个可选点</small>
         </div>
         <div class="route-list">
           <button v-for="route in routes" :key="route.id" type="button" :class="{ active: activeRouteId === route.id, hidden: route.isHidden }" @click="toggleRouteVisibility(route)">

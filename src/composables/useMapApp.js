@@ -73,6 +73,12 @@ export function useMapApp() {
     )
   }
 
+  function normalizeAutoRouteLimit(value) {
+    const limit = Math.trunc(Number(value))
+    if (!Number.isFinite(limit)) return 20
+    return Math.min(Math.max(limit, 1), 100)
+  }
+
   // 页面和筛选状态：只保存 UI 当前选择，不直接操作 Leaflet。
   const mapElement = ref(null)
   const searchInput = ref(null)
@@ -150,6 +156,7 @@ export function useMapApp() {
   const isAddingSegment = ref(false)
   const editingSegmentId = ref(null)
   const segmentPoints = ref([])
+  const autoRouteLimit = ref(20)
   const routeImportInput = ref(null)
   const completedImportInput = ref(null)
   const locationChangesImportInput = ref(null)
@@ -292,6 +299,13 @@ export function useMapApp() {
       locations.value.filter((location) => location.types.includes(category.id)).length,
     ])),
   )
+  const autoRouteCandidates = computed(() => getAutoRouteCandidates())
+  const canCreateAutoRoute = computed(() => (
+    Boolean(navigationWorldPosition.value)
+    && Number.isFinite(Number(autoRouteLimit.value))
+    && Number(autoRouteLimit.value) >= 1
+    && autoRouteCandidates.value.length > 0
+  ))
 
   const groupedCategories = computed(() => {
     const groups = []
@@ -1548,6 +1562,133 @@ export function useMapApp() {
   }
 
   // 路线编辑器：路线和路段的增删改以及导入导出。
+  function getAutoRouteCandidates() {
+    return filteredLocations.value.filter((location) => {
+      if (completedIds.value.has(location.id)) return false
+      const lat = Number(location.lat)
+      const lng = Number(location.lng)
+      return Number.isFinite(lat) && Number.isFinite(lng)
+    })
+  }
+
+  function distanceBetweenPoints(a, b) {
+    return Math.hypot(Number(a.lat) - Number(b.lat), Number(a.lng) - Number(b.lng))
+  }
+
+  function buildNearestNeighborRoute(start, candidates, limit) {
+    const remaining = candidates.slice()
+    const route = []
+    let cursor = start
+    const count = Math.min(normalizeAutoRouteLimit(limit), remaining.length)
+
+    while (route.length < count && remaining.length) {
+      let nearestIndex = 0
+      let nearestDistance = distanceBetweenPoints(cursor, remaining[0])
+      for (let index = 1; index < remaining.length; index += 1) {
+        const distance = distanceBetweenPoints(cursor, remaining[index])
+        if (distance < nearestDistance) {
+          nearestIndex = index
+          nearestDistance = distance
+        }
+      }
+      const [next] = remaining.splice(nearestIndex, 1)
+      route.push(next)
+      cursor = next
+    }
+
+    return route
+  }
+
+  function routeLengthFromStart(start, points) {
+    let length = 0
+    let cursor = start
+    points.forEach((point) => {
+      length += distanceBetweenPoints(cursor, point)
+      cursor = point
+    })
+    return length
+  }
+
+  function optimizeRouteWithTwoOpt(start, points) {
+    const route = points.slice()
+    if (route.length < 3) return route
+
+    let improved = true
+    while (improved) {
+      improved = false
+      for (let i = 0; i < route.length - 1; i += 1) {
+        for (let k = i + 1; k < route.length; k += 1) {
+          const previous = routeLengthFromStart(start, route)
+          const candidate = [
+            ...route.slice(0, i),
+            ...route.slice(i, k + 1).reverse(),
+            ...route.slice(k + 1),
+          ]
+          if (routeLengthFromStart(start, candidate) + 1e-9 < previous) {
+            route.splice(0, route.length, ...candidate)
+            improved = true
+          }
+        }
+      }
+    }
+
+    return route
+  }
+
+  function formatAutoRouteTimestamp(date = new Date()) {
+    const pad = (value) => String(value).padStart(2, '0')
+    return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())} ${pad(date.getHours())}:${pad(date.getMinutes())}`
+  }
+
+  async function createAutoRoute() {
+    const start = navigationWorldPosition.value
+    if (!start) {
+      showStatus('请先开启实时定位')
+      return
+    }
+
+    autoRouteLimit.value = normalizeAutoRouteLimit(autoRouteLimit.value)
+    const candidates = getAutoRouteCandidates()
+    if (!candidates.length) {
+      showStatus('当前筛选下没有可规划的未完成点位')
+      return
+    }
+
+    const nearest = buildNearestNeighborRoute(start, candidates, autoRouteLimit.value)
+    const optimized = optimizeRouteWithTwoOpt(start, nearest)
+    const now = Date.now()
+    const points = [
+      {
+        lat: Number(start.lat.toFixed(6)),
+        lng: Number(start.lng.toFixed(6)),
+      },
+      ...optimized.map((location) => ({
+        locationId: location.id,
+        lat: Number(location.lat),
+        lng: Number(location.lng),
+      })),
+    ]
+    const route = {
+      id: `route-${now}`,
+      name: `自动规划 ${formatAutoRouteTimestamp()}`,
+      isHidden: false,
+      segments: [{
+        id: `segment-${now}`,
+        name: '当前位置出发',
+        isHidden: false,
+        points,
+      }],
+    }
+
+    cancelSegment()
+    mapData.value.routes.push(route)
+    activeRouteId.value = route.id
+    routePanelOpen.value = true
+    await persistMapData()
+    renderRouteArrows()
+    showStatus(`已规划 ${optimized.length} 个点位`)
+  }
+
   async function createRoute() {
     const name = window.prompt('路线名称')
     if (!name?.trim()) return
@@ -1800,6 +1941,8 @@ export function useMapApp() {
     addCustomType,
     applyNavigationAutoCompleteRadius,
     applyNavigationEndpoint,
+    autoRouteCandidates,
+    autoRouteLimit,
     beginClearCompleted,
     bulkCompleteCategoryIds,
     bulkIncompleteCount,
@@ -1807,6 +1950,7 @@ export function useMapApp() {
     cancelSegment,
     categoryLookup,
     centerNavigationEnabled,
+    canCreateAutoRoute,
     clearCategories,
     clearCompleted,
     clearCompletedConfirming,
@@ -1819,6 +1963,7 @@ export function useMapApp() {
     completedImportInput,
     coordinates,
     copyCoordinates,
+    createAutoRoute,
     createRoute,
     deleteLocation,
     deleteRoute,

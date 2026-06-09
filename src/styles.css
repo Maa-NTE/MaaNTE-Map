@@ -1463,6 +1463,50 @@ kbd {
   display: none;
 }
 
+.route-auto-planner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 6px;
+  margin-top: 10px;
+  align-items: end;
+}
+
+.route-auto-planner label {
+  display: grid;
+  gap: 4px;
+  color: #87aaa7;
+  font-size: 11px;
+}
+
+.route-auto-planner input {
+  width: 100%;
+  min-height: 30px;
+  padding: 6px 8px;
+  color: #eafffb;
+  border: 1px solid rgba(143, 208, 201, 0.2);
+  border-radius: 4px;
+  background: rgba(4, 18, 20, 0.72);
+}
+
+.route-auto-planner button {
+  min-height: 30px;
+  padding: 6px 10px;
+  color: #d5d5d5;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.07);
+  font-size: 11px;
+}
+
+.route-auto-planner button:disabled {
+  cursor: default;
+  opacity: 0.45;
+}
+
+.route-auto-planner small {
+  grid-column: 1 / -1;
+}
+
 .route-list button,
 .segment-list button,
 .add-segment-button,
