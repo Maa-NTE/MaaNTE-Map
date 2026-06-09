@@ -10,6 +10,7 @@ const {
   activeRoute,
   activeRouteId,
   addCustomType,
+  applyNavigationAutoCompleteRadius,
   applyNavigationEndpoint,
   beginClearCompleted,
   bulkCompleteCategoryIds,
@@ -67,6 +68,8 @@ const {
   locationForm,
   mapElement,
   mergeAdjacentLocationsEnabled,
+  navigationAutoCompleteEnabled,
+  navigationAutoCompleteRadius,
   navigationConnectionLabel,
   navigationConnectionStatus,
   navigationHost,
@@ -333,6 +336,19 @@ const announcementItems = computed(() =>
             <span><b>箭头保持居中</b><small>自动将导航箭头保持在窗口中心</small></span>
             <input v-model="centerNavigationEnabled" type="checkbox" /><i />
           </label>
+          <label v-if="realtimeNavigationEnabled" class="switch-row">
+            <span><b>到达自动完成</b><small>圈内已完成点半透明显示</small></span>
+            <input v-model="navigationAutoCompleteEnabled" type="checkbox" /><i />
+          </label>
+          <div v-if="realtimeNavigationEnabled && navigationAutoCompleteEnabled" class="navigation-endpoint-row">
+            <span><b>完成半径</b><small>{{ navigationAutoCompleteRadius }} 坐标单位</small></span>
+            <div class="navigation-endpoint-fields">
+              <label>
+                <span>半径</span>
+                <input v-model.number="navigationAutoCompleteRadius" type="number" min="0.1" max="20" step="0.1" inputmode="decimal" @change="applyNavigationAutoCompleteRadius" />
+              </label>
+            </div>
+          </div>
           <div v-if="realtimeNavigationEnabled" class="navigation-endpoint-row">
             <span><b>监听地址</b><small>{{ navigationWebSocketUrl }}</small></span>
             <div class="navigation-endpoint-fields">

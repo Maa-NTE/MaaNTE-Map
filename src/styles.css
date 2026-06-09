@@ -1213,6 +1213,11 @@ kbd {
   opacity: 0.62;
 }
 
+.navigation-auto-complete-radius {
+  stroke-dasharray: 8 8;
+  filter: drop-shadow(0 0 6px rgba(163, 239, 226, 0.24));
+}
+
 .map-marker {
   position: relative;
   display: grid;
