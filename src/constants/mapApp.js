@@ -24,9 +24,10 @@ export const NAVIGATION_AUTO_COMPLETE_MAX_RADIUS = 20
 // 默认折叠的分类组，文案必须和数据里的 group 字段保持一致。
 export const DEFAULT_COLLAPSED_CATEGORY_GROUPS = {
   探索度: false,
+  资源: false,
   传送点: false,
   怪物: true,
 }
 
 // 只有这些分类组支持在侧栏中折叠。
-export const COLLAPSIBLE_CATEGORY_GROUP_LABELS = ['探索度', '传送点', '怪物']
+export const COLLAPSIBLE_CATEGORY_GROUP_LABELS = ['探索度', '资源', '传送点', '怪物']
