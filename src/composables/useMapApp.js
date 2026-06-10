@@ -1164,7 +1164,7 @@ export function useMapApp() {
     navigationMarker.setOpacity(1)
     centerNavigationMarker(latlng)
     renderAutoCompleteRadiusCircle(latlng)
-    coordinates.value = worldPosition
+    coordinates.value = mapLatLngToMapLocator(latlng)
     navigationWorldPosition.value = worldPosition
     updateAutoCompleteNearbyLocations(worldPosition, { force: forceAutoComplete })
     const arrow = navigationMarker.getElement()?.querySelector('.navigation-arrow')
@@ -1272,6 +1272,17 @@ export function useMapApp() {
     }
     navigationConnection.value = 'disconnected'
     clearNavigationState()
+  }
+
+  function setRealtimeNavigationEnabled(enabled) {
+    const nextEnabled = Boolean(enabled)
+    realtimeNavigationEnabled.value = nextEnabled
+    persistMarkerFilters()
+    if (nextEnabled) {
+      connectNavigationSocket()
+    } else {
+      disconnectNavigationSocket()
+    }
   }
 
   function connectNavigationSocket() {
@@ -2198,6 +2209,7 @@ export function useMapApp() {
     segmentPoints,
     sendRouteToNavigation,
     sendSegmentToNavigation,
+    setRealtimeNavigationEnabled,
     showFavoritesOnly,
     showIncompleteOnly,
     showPendingLocationChangesOnly,

@@ -102,6 +102,7 @@ const {
   segmentPoints,
   sendRouteToNavigation,
   sendSegmentToNavigation,
+  setRealtimeNavigationEnabled,
   showFavoritesOnly,
   showIncompleteOnly,
   showPendingLocationChangesOnly,
@@ -125,6 +126,15 @@ const {
 } = useMapApp()
 
 const announcementPanelOpen = ref(true)
+
+const navigationPositionLabel = computed(() => {
+  const position = navigationState.value.position
+  if (!position) return ''
+  const pixelX = Number(position.pixelX)
+  const pixelY = Number(position.pixelY)
+  if (!Number.isFinite(pixelX) || !Number.isFinite(pixelY)) return ''
+  return `${pixelX.toFixed(0)}, ${pixelY.toFixed(0)}`
+})
 
 const normalizeAnnouncementUrl = (value) => {
   if (typeof value !== 'string') {
@@ -340,7 +350,7 @@ const announcementItems = computed(() =>
           </label>
           <label class="switch-row">
             <span><b>实时定位</b><small>开启后监听本地导航数据</small></span>
-            <input v-model="realtimeNavigationEnabled" type="checkbox" /><i />
+            <input :checked="realtimeNavigationEnabled" type="checkbox" @change="setRealtimeNavigationEnabled($event.target.checked)" /><i />
           </label>
           <label v-if="realtimeNavigationEnabled" class="switch-row">
             <span><b>箭头保持居中</b><small>自动将导航箭头保持在窗口中心</small></span>
@@ -509,7 +519,7 @@ const announcementItems = computed(() =>
       <button type="button" @click="resetView">重置视野</button>
       <span>ML X {{ coordinates.pixelX.toFixed(0) }}</span><span>ML Y {{ coordinates.pixelY.toFixed(0) }}</span>
       <span class="navigation-status" :class="`navigation-status--${navigationConnectionStatus}`">NAVI {{ navigationConnectionLabel }}</span>
-      <span v-if="navigationState.position">POS {{ navigationState.position.pixelX.toFixed(0) }}, {{ navigationState.position.pixelY.toFixed(0) }}</span>
+      <span v-if="navigationPositionLabel">POS {{ navigationPositionLabel }}</span>
       <span v-if="navigationState.angle !== null">ANGLE {{ navigationState.angle.toFixed(1) }}°</span>
     </div>
     <div v-if="editorMode" class="editor-tip glass-panel">编辑模式：点击地图空白处添加点位</div>
@@ -550,6 +560,23 @@ const announcementItems = computed(() =>
       </form>
     </div>
 
-    <div v-if="previewImage" class="image-preview" @click="previewImage = ''"><img :src="publicAssetUrl(previewImage)" alt="点位截图" @click.stop /></div>
   </main>
+
+  <Teleport to="body">
+    <div
+      v-if="previewImage"
+      class="image-preview"
+      @click.self="previewImage = ''"
+      @pointerdown.self="previewImage = ''"
+    >
+      <button
+        class="image-preview-close"
+        type="button"
+        aria-label="关闭截图"
+        @click.stop.prevent="previewImage = ''"
+        @pointerdown.stop.prevent="previewImage = ''"
+      >×</button>
+      <img :src="publicAssetUrl(previewImage)" alt="点位截图" @click.stop @pointerdown.stop />
+    </div>
+  </Teleport>
 </template>
