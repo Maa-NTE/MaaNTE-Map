@@ -8,7 +8,8 @@
     "build": "vite build --configLoader runner",
     "preview": "vite preview --configLoader runner --host 127.0.0.1",
     "qa": "node scripts/qa-map.mjs",
-    "clean:locations": "python scripts/clean-locations.py"
+    "clean:locations": "python scripts/clean-locations.py",
+    "download:lost-wallet-images": "node scripts/download-lost-wallet-images.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

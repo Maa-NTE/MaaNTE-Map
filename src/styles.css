@@ -1038,19 +1038,21 @@ kbd {
 
 .image-gallery {
   display: flex;
-  gap: 7px;
-  margin: -4px 22px 14px 0;
+  gap: 10px;
+  margin: 0 8px 14px;
   overflow-x: auto;
 }
 
 .image-gallery img {
-  width: 88px;
-  height: 58px;
-  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+  flex: 0 0 100%;
   border: 1px solid rgba(139, 219, 208, 0.22);
   border-radius: 4px;
   cursor: zoom-in;
-  object-fit: cover;
+  object-fit: contain;
+  background: rgba(5, 12, 14, 0.52);
 }
 
 .close-button {

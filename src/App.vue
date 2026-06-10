@@ -462,12 +462,12 @@ const announcementItems = computed(() =>
 
     <section v-if="selectedLocation" class="detail-card glass-panel">
       <button class="close-button" type="button" aria-label="关闭详情" @click="selectedLocation = null">×</button>
-      <div v-if="selectedLocation.images.length" class="image-gallery">
-        <img v-for="image in selectedLocation.images" :key="image" :src="publicAssetUrl(image)" :alt="selectedLocation.name" @click="previewImage = image" />
-      </div>
       <p class="eyebrow">{{ selectedLocation.district }}</p>
       <h2>{{ selectedLocation.name }}</h2>
       <p v-if="selectedLocation.description" class="detail-description">{{ selectedLocation.description }}</p>
+      <div v-if="selectedLocation.images.length" class="image-gallery">
+        <img v-for="image in selectedLocation.images" :key="image" :src="publicAssetUrl(image)" :alt="selectedLocation.name" @click="previewImage = image" />
+      </div>
       <div class="tag-row">
         <span v-for="type in getVisibleTypes(selectedLocation)" :key="type">{{ categoryLookup[type]?.label || type }}</span>
         <span v-for="tag in selectedLocation.tags" :key="tag"># {{ tag }}</span>
