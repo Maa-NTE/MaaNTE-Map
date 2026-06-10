@@ -1444,6 +1444,7 @@ kbd {
 
 .route-file-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 6px;
   margin-top: 12px;
 }
@@ -1559,6 +1560,13 @@ kbd {
 
 .segment-list i:first-of-type {
   color: #8adfd6;
+}
+
+.route-server-status {
+  display: block;
+  margin-top: 6px;
+  color: rgba(213, 213, 213, 0.76);
+  font-size: 11px;
 }
 
 .add-segment-button {

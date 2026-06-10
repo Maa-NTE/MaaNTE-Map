@@ -5,8 +5,11 @@ import {
   initialMapData,
   MAP_CONFIG,
   MAP_HEIGHT,
+  MAP_LOCATOR_SOURCE_HEIGHT,
+  MAP_LOCATOR_SOURCE_WIDTH,
   MAP_WIDTH,
   TILE_SIZE,
+  mapLatLngToMapLocator,
   mapPixelToMapLatLng,
   mapLatLngToWorld,
   worldToMapLatLng,
@@ -141,7 +144,7 @@ export function useMapApp() {
   const navigationProtocol = ref(normalizeNavigationProtocol(storedMarkerFilters?.navigationProtocol || defaultNavigationEndpoint.protocol))
   const navigationHost = ref(normalizeNavigationHost(storedMarkerFilters?.navigationHost || defaultNavigationEndpoint.host))
   const navigationPort = ref(normalizeNavigationPort(storedMarkerFilters?.navigationPort || defaultNavigationEndpoint.port))
-  const coordinates = ref({ lat: 0, lng: 0 })
+  const coordinates = ref({ pixelX: 0, pixelY: 0 })
   const navigationWorldPosition = ref(null)
   const sidebarCollapsed = ref(false)
   const districtFilterOpen = ref(storedMarkerFilters?.districtFilterOpen === true)
@@ -167,6 +170,7 @@ export function useMapApp() {
     position: null,
     angle: null,
     angleConfidence: 0,
+    route: null,
   })
   const navigationConnectionStatus = computed(() =>
     realtimeNavigationEnabled.value ? navigationConnection.value : 'disabled',
@@ -178,6 +182,9 @@ export function useMapApp() {
     disconnected: 'OFFLINE',
   })[navigationConnectionStatus.value])
   const navigationWebSocketUrl = computed(() => `${normalizeNavigationProtocol(navigationProtocol.value)}://${normalizeNavigationHost(navigationHost.value)}:${normalizeNavigationPort(navigationPort.value)}`)
+  const navigationRouteSendEnabled = computed(() =>
+    realtimeNavigationEnabled.value && navigationConnection.value === 'connected',
+  )
 
   const emptyLocationForm = () => ({
     locationId: '',
@@ -825,6 +832,80 @@ export function useMapApp() {
     showStatus('路线 JSON 已导出')
   }
 
+  function routePointToNavigationWaypoint(point) {
+    const normalized = normalizeRoutePoint(point)
+    if (!normalized) return null
+    const [lat, lng] = worldToMapLatLng(normalized)
+    const locatorPoint = mapLatLngToMapLocator({ lat, lng })
+    return {
+      pixelX: Number(locatorPoint.pixelX.toFixed(3)),
+      pixelY: Number(locatorPoint.pixelY.toFixed(3)),
+    }
+  }
+
+  function buildNavigationWaypoints(points) {
+    const waypoints = points.map(routePointToNavigationWaypoint).filter(Boolean)
+    return waypoints.filter((point, index) => {
+      const previous = waypoints[index - 1]
+      return !previous || previous.pixelX !== point.pixelX || previous.pixelY !== point.pixelY
+    })
+  }
+
+  function sendNavigationMessage(payload) {
+    if (!realtimeNavigationEnabled.value) {
+      showStatus('请先开启实时导航连接')
+      return false
+    }
+    if (!navigationSocket || navigationSocket.readyState !== WebSocket.OPEN) {
+      showStatus('导航 WebSocket 未连接')
+      return false
+    }
+    navigationSocket.send(JSON.stringify(payload))
+    return true
+  }
+
+  function sendNavigationWaypoints(points, label = '路径', start = true) {
+    const waypoints = buildNavigationWaypoints(points)
+    if (!waypoints.length) {
+      showStatus(`${label}没有可发送的路径点`)
+      return false
+    }
+    const ok = sendNavigationMessage({
+      type: 'navi-route-set',
+      sourceWidth: MAP_LOCATOR_SOURCE_WIDTH,
+      sourceHeight: MAP_LOCATOR_SOURCE_HEIGHT,
+      start,
+      waypoints,
+    })
+    if (ok) showStatus(`已发送 ${waypoints.length} 个路径点到导航服务`)
+    return ok
+  }
+
+  function sendRouteToNavigation(route = activeRoute.value, start = true) {
+    if (!route) return false
+    const points = route.segments
+      .filter((segment) => !segment.isHidden)
+      .flatMap((segment) => getSegmentPoints(segment))
+    return sendNavigationWaypoints(points, route.name || '路线', start)
+  }
+
+  function sendSegmentToNavigation(segment, start = true) {
+    if (!segment) return false
+    return sendNavigationWaypoints(getSegmentPoints(segment), segment.name || '路段', start)
+  }
+
+  function startNavigationRoute() {
+    if (sendNavigationMessage({ type: 'navi-route-start' })) showStatus('已发送开始寻路')
+  }
+
+  function stopNavigationRoute() {
+    if (sendNavigationMessage({ type: 'navi-route-stop' })) showStatus('已发送暂停寻路')
+  }
+
+  function clearNavigationRoute() {
+    if (sendNavigationMessage({ type: 'navi-route-clear' })) showStatus('已清空服务端路径')
+  }
+
   async function importRoutes(event) {
     const [file] = event.target.files || []
     event.target.value = ''
@@ -1104,6 +1185,7 @@ export function useMapApp() {
       position: null,
       angle: null,
       angleConfidence: 0,
+      route: null,
     }
     navigationDisplayAngle = null
     navigationWorldPosition.value = null
@@ -1132,6 +1214,20 @@ export function useMapApp() {
   function handleNavigationMessage(event) {
     try {
       const payload = JSON.parse(event.data)
+      if (payload.type === 'navi-route-ack') {
+        if (payload.route) {
+          navigationState.value = {
+            ...navigationState.value,
+            route: payload.route,
+          }
+        }
+        if (payload.message) showStatus(payload.message)
+        return
+      }
+      if (payload.type === 'navi-error') {
+        showStatus(payload.message || '导航服务返回错误')
+        return
+      }
       if (payload.type !== 'navi-state' || payload.version !== 1) return
       const pixelX = Number(payload.position?.pixelX)
       const pixelY = Number(payload.position?.pixelY)
@@ -1149,6 +1245,7 @@ export function useMapApp() {
           : null,
         angle: payload.angle !== null && Number.isFinite(angle) ? angle : null,
         angleConfidence: Number(payload.angleConfidence) || 0,
+        route: payload.route || navigationState.value.route || null,
       })
     } catch {
       // 单条导航消息格式错误时忽略，避免中断后续本地数据流。
@@ -1969,7 +2066,7 @@ export function useMapApp() {
     L.control.zoom({ position: 'bottomright' }).addTo(map)
     markerLayer = createMarkerLayer().addTo(map)
     arrowLayer = L.layerGroup().addTo(map)
-    map.on('mousemove', ({ latlng }) => { coordinates.value = mapLatLngToWorld(latlng) })
+    map.on('mousemove', ({ latlng }) => { coordinates.value = mapLatLngToMapLocator(latlng) })
     map.on('click', ({ latlng }) => {
       selectedLocation.value = null
       if (isAddingSegment.value) addRouteCoordinate(mapLatLngToWorld(latlng))
@@ -2018,6 +2115,7 @@ export function useMapApp() {
     categoryLookup,
     centerNavigationEnabled,
     canCreateAutoRoute,
+    clearNavigationRoute,
     clearCategories,
     clearCompleted,
     clearCompletedConfirming,
@@ -2077,6 +2175,7 @@ export function useMapApp() {
     navigationAutoCompleteRadius,
     navigationHost,
     navigationPort,
+    navigationRouteSendEnabled,
     navigationState,
     navigationWebSocketUrl,
     openEditLocation,
@@ -2098,12 +2197,16 @@ export function useMapApp() {
     selectAllCategories,
     selectedLocation,
     segmentPoints,
+    sendRouteToNavigation,
+    sendSegmentToNavigation,
     showFavoritesOnly,
     showIncompleteOnly,
     showPendingLocationChangesOnly,
     sidebarCollapsed,
+    startNavigationRoute,
     startSegment,
     statusMessage,
+    stopNavigationRoute,
     toggleCategory,
     toggleCategoryGroup,
     toggleCategoryGroupSelection,

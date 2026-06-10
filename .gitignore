@@ -3,6 +3,8 @@ dist/
 .npm-cache/
 output/
 scripts/*
+!scripts/
 !scripts/download-lost-wallet-images.mjs
+!scripts/import-zeroluck-map.mjs
 __pycache__/
 *.log

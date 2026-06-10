@@ -9,7 +9,8 @@
     "preview": "vite preview --configLoader runner --host 127.0.0.1",
     "qa": "node scripts/qa-map.mjs",
     "clean:locations": "python scripts/clean-locations.py",
-    "download:lost-wallet-images": "node scripts/download-lost-wallet-images.mjs"
+    "download:lost-wallet-images": "node scripts/download-lost-wallet-images.mjs",
+    "import:zeroluck": "node scripts/import-zeroluck-map.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
