@@ -68,7 +68,7 @@ button {
 
 .topbar {
   position: absolute;
-  z-index: 700;
+  z-index: 740;
   top: 0;
   right: 16px;
   left: 16px;
@@ -307,6 +307,7 @@ kbd {
 
 .progress-confirm-popover {
   position: absolute;
+  z-index: 1;
   top: calc(100% + 10px);
   right: 0;
   display: grid;
