@@ -61,7 +61,6 @@ export function useMapApp() {
   function normalizeDistrictLabel(value) {
     const label = String(value || '').trim()
     if (!label) return ''
-    if (label === '全地图') return '全地图'
     if (/�/.test(label) && label.endsWith('图')) return '全地图'
     if (/^[鍏ㄥ湴鍥?]+$/.test(label)) return '全地图'
     if (/^全.*图$/.test(label)) return '全地图'
@@ -374,8 +373,8 @@ export function useMapApp() {
       ...DEFAULT_COLLAPSED_CATEGORY_GROUPS,
       ...(storedCollapsedGroups && typeof storedCollapsedGroups === 'object'
         ? Object.fromEntries(
-            [...collapsibleGroupLabels].map((label) => [label, Boolean(storedCollapsedGroups[label])]),
-          )
+          [...collapsibleGroupLabels].map((label) => [label, Boolean(storedCollapsedGroups[label])]),
+        )
         : {}),
     }
 
@@ -608,11 +607,11 @@ export function useMapApp() {
   function createMarkerLayer() {
     return mergeAdjacentLocationsEnabled.value
       ? L.markerClusterGroup({
-          chunkedLoading: true,
-          maxClusterRadius: 52,
-          disableClusteringAtZoom: 0,
-          showCoverageOnHover: false,
-        })
+        chunkedLoading: true,
+        maxClusterRadius: 52,
+        disableClusteringAtZoom: 0,
+        showCoverageOnHover: false,
+      })
       : L.layerGroup()
   }
 
@@ -1237,11 +1236,11 @@ export function useMapApp() {
       scheduleNavigationRender({
         position: Number.isFinite(pixelX) && Number.isFinite(pixelY)
           ? {
-              pixelX,
-              pixelY,
-              sourceWidth: Number.isFinite(sourceWidth) && sourceWidth > 0 ? sourceWidth : MAP_WIDTH,
-              sourceHeight: Number.isFinite(sourceHeight) && sourceHeight > 0 ? sourceHeight : MAP_HEIGHT,
-            }
+            pixelX,
+            pixelY,
+            sourceWidth: Number.isFinite(sourceWidth) && sourceWidth > 0 ? sourceWidth : MAP_WIDTH,
+            sourceHeight: Number.isFinite(sourceHeight) && sourceHeight > 0 ? sourceHeight : MAP_HEIGHT,
+          }
           : null,
         angle: payload.angle !== null && Number.isFinite(angle) ? angle : null,
         angleConfidence: Number(payload.angleConfidence) || 0,
@@ -1442,11 +1441,11 @@ export function useMapApp() {
     if (!payload || payload.type !== 'location-changes') throw new Error('invalid location changes')
     const categories = Array.isArray(payload.categories)
       ? payload.categories
-          .filter((category) => category && typeof category === 'object' && typeof category.id === 'string')
-          .map((category) => ({
-            ...category,
-            group: normalizeCategoryGroup(category),
-          }))
+        .filter((category) => category && typeof category === 'object' && typeof category.id === 'string')
+        .map((category) => ({
+          ...category,
+          group: normalizeCategoryGroup(category),
+        }))
       : []
     const upsertLocations = Array.isArray(payload.upsertLocations)
       ? payload.upsertLocations.filter((location) => location && typeof location === 'object' && typeof location.id === 'string')
@@ -1533,10 +1532,10 @@ export function useMapApp() {
   }
 
   function toggleFavorite(locationId) {
-  const next = new Set(favoriteIds.value)
-  next.has(locationId) ? next.delete(locationId) : next.add(locationId)
-  favoriteIds.value = next
-  localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify([...next]))
+    const next = new Set(favoriteIds.value)
+    next.has(locationId) ? next.delete(locationId) : next.add(locationId)
+    favoriteIds.value = next
+    localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify([...next]))
   }
 
   function beginClearCompleted() {
@@ -1899,7 +1898,7 @@ export function useMapApp() {
     const targetIndex = index + offset
     if (targetIndex < 0 || targetIndex >= segmentPoints.value.length) return
     const nextPoints = [...segmentPoints.value]
-    ;[nextPoints[index], nextPoints[targetIndex]] = [nextPoints[targetIndex], nextPoints[index]]
+      ;[nextPoints[index], nextPoints[targetIndex]] = [nextPoints[targetIndex], nextPoints[index]]
     segmentPoints.value = nextPoints
     renderRouteArrows()
   }
