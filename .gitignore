@@ -2,6 +2,7 @@ node_modules/
 dist/
 .npm-cache/
 output/
-scripts/
+scripts/*
+!scripts/download-lost-wallet-images.mjs
 __pycache__/
 *.log

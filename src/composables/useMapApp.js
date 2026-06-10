@@ -960,6 +960,30 @@ export function useMapApp() {
     navigationAutoCompleteRadiusCircle.setRadius(circleRadius)
   }
 
+  function findNearestLocationWithImages(locationIds, position) {
+    let nearestLocation = null
+    let nearestDistance = Infinity
+    const currentLat = Number(position.lat)
+    const currentLng = Number(position.lng)
+
+    locationIds.forEach((locationId) => {
+      const location = locationLookup.value[locationId]
+      if (!location || !Array.isArray(location.images) || !location.images.length) return
+
+      const lat = Number(location.lat)
+      const lng = Number(location.lng)
+      if (!Number.isFinite(lat) || !Number.isFinite(lng)) return
+
+      const distance = (lat - currentLat) ** 2 + (lng - currentLng) ** 2
+      if (distance < nearestDistance) {
+        nearestDistance = distance
+        nearestLocation = location
+      }
+    })
+
+    return nearestLocation
+  }
+
   function updateAutoCompleteNearbyLocations(position, { force = false } = {}) {
     if (!navigationAutoCompleteEnabled.value || !position) {
       if (navigationAutoCompleteNearbyIds.value.size) navigationAutoCompleteNearbyIds.value = new Set()
@@ -994,6 +1018,10 @@ export function useMapApp() {
     const nextEnteredIds = new Set(navigationAutoCompleteEnteredIds.value)
     const previouslyEnteredKey = [...nextEnteredIds].sort().join('|')
     const nearbyIncompleteIds = [...nearbyIds].filter((locationId) => !completedIds.value.has(locationId))
+    const newlyEnteredIds = nearbyIncompleteIds.filter((locationId) => !navigationAutoCompleteEnteredIds.value.has(locationId))
+    const nearestNewLocationWithImages = findNearestLocationWithImages(newlyEnteredIds, position)
+    if (nearestNewLocationWithImages) selectedLocation.value = nearestNewLocationWithImages
+
     const newlyCompleted = []
     navigationAutoCompleteEnteredIds.value.forEach((locationId) => {
       if (completedIds.value.has(locationId)) {
