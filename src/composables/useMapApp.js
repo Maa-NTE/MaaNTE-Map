@@ -3,6 +3,7 @@ import L from 'leaflet'
 import 'leaflet.markercluster'
 import {
   initialMapData,
+  MAP_CONFIG,
   MAP_HEIGHT,
   MAP_LOCATOR_SOURCE_HEIGHT,
   MAP_LOCATOR_SOURCE_WIDTH,
@@ -22,9 +23,13 @@ import {
   INITIAL_ZOOM,
   MARKER_FILTERS_STORAGE_KEY,
   MIN_ZOOM,
+  NAVIGATION_AUTO_COMPLETE_UPDATE_INTERVAL,
   NAVIGATION_CENTER_MAX_STEP_PX,
   NAVIGATION_CENTER_SMOOTHING,
   NAVIGATION_CENTER_TOLERANCE_PX,
+  NAVIGATION_AUTO_COMPLETE_DEFAULT_RADIUS,
+  NAVIGATION_AUTO_COMPLETE_MAX_RADIUS,
+  NAVIGATION_AUTO_COMPLETE_MIN_RADIUS,
   NAVIGATION_RECONNECT_DELAY,
   ROUTES_STORAGE_KEY,
 } from '../constants/mapApp'
@@ -56,11 +61,25 @@ export function useMapApp() {
   function normalizeDistrictLabel(value) {
     const label = String(value || '').trim()
     if (!label) return ''
-    if (label === '全地图') return '全地图'
     if (/�/.test(label) && label.endsWith('图')) return '全地图'
     if (/^[鍏ㄥ湴鍥?]+$/.test(label)) return '全地图'
     if (/^全.*图$/.test(label)) return '全地图'
     return label
+  }
+
+  function normalizeAutoCompleteRadius(value) {
+    const radius = Number(value)
+    if (!Number.isFinite(radius)) return NAVIGATION_AUTO_COMPLETE_DEFAULT_RADIUS
+    return Math.min(
+      Math.max(radius, NAVIGATION_AUTO_COMPLETE_MIN_RADIUS),
+      NAVIGATION_AUTO_COMPLETE_MAX_RADIUS,
+    )
+  }
+
+  function normalizeAutoRouteLimit(value) {
+    const limit = Math.trunc(Number(value))
+    if (!Number.isFinite(limit)) return 20
+    return Math.min(Math.max(limit, 1), 100)
   }
 
   // 页面和筛选状态：只保存 UI 当前选择，不直接操作 Leaflet。
@@ -118,11 +137,14 @@ export function useMapApp() {
   const centerNavigationEnabled = ref(typeof storedMarkerFilters?.centerNavigationEnabled === 'boolean'
     ? storedMarkerFilters.centerNavigationEnabled
     : true)
+  const navigationAutoCompleteEnabled = ref(storedMarkerFilters?.navigationAutoCompleteEnabled === true)
+  const navigationAutoCompleteRadius = ref(normalizeAutoCompleteRadius(storedMarkerFilters?.navigationAutoCompleteRadius))
   const defaultNavigationEndpoint = parseNavigationWebSocketUrl(DEFAULT_NAVIGATION_WEBSOCKET_URL)
   const navigationProtocol = ref(normalizeNavigationProtocol(storedMarkerFilters?.navigationProtocol || defaultNavigationEndpoint.protocol))
   const navigationHost = ref(normalizeNavigationHost(storedMarkerFilters?.navigationHost || defaultNavigationEndpoint.host))
   const navigationPort = ref(normalizeNavigationPort(storedMarkerFilters?.navigationPort || defaultNavigationEndpoint.port))
   const coordinates = ref({ pixelX: 0, pixelY: 0 })
+  const navigationWorldPosition = ref(null)
   const sidebarCollapsed = ref(false)
   const districtFilterOpen = ref(storedMarkerFilters?.districtFilterOpen === true)
   const clearCompletedConfirming = ref(false)
@@ -137,6 +159,7 @@ export function useMapApp() {
   const isAddingSegment = ref(false)
   const editingSegmentId = ref(null)
   const segmentPoints = ref([])
+  const autoRouteLimit = ref(20)
   const routeImportInput = ref(null)
   const completedImportInput = ref(null)
   const locationChangesImportInput = ref(null)
@@ -187,12 +210,18 @@ export function useMapApp() {
   let markerLayer
   let arrowLayer
   let navigationMarker
+  let navigationAutoCompleteRadiusCircle
   let navigationSocket
   let navigationReconnectTimer
   let navigationClientStopped = false
   let navigationDisplayAngle = null
   let navigationFollowFrame = 0
   let navigationFollowLatLng = null
+  let navigationRenderFrame = 0
+  let pendingNavigationState = null
+  let navigationAutoCompleteLastUpdate = 0
+  const navigationAutoCompleteEnteredIds = ref(new Set())
+  const navigationAutoCompleteNearbyIds = ref(new Set())
   let districtAutoFitReady = false
   let mapViewPersistenceReady = false
   let skipNextDistrictAutoFit = false
@@ -243,20 +272,31 @@ export function useMapApp() {
     bulkCompleteLocations.value.filter((location) => !completedIds.value.has(location.id)).length
   ))
 
-  const filteredLocations = computed(() => {
+  function isLocationWithinAutoCompleteRadius(location) {
+    return navigationAutoCompleteEnabled.value && navigationAutoCompleteNearbyIds.value.has(location.id)
+  }
+
+  function isLocationVisibleByStaticFilters(location) {
     const keyword = query.value.trim().toLowerCase()
+    const categoryVisible = location.types.some((type) => activeCategories.value.has(type))
+    const districtLabel = normalizeDistrictLabel(location.district)
+    const districtVisible = !activeDistricts.value.size
+      || activeDistricts.value.has(districtLabel)
+      || (districtLabel === '全地图' && isTeleportLocation(location))
+    const favoriteVisible = !showFavoritesOnly.value || favoriteIds.value.has(location.id)
+    const pendingVisible = !showPendingLocationChangesOnly.value || pendingLocationChangeIds.value.has(location.id)
+    const typeLabels = location.types.map((type) => categoryLookup.value[type]?.label || type)
+    const text = `${location.name} ${districtLabel} ${location.tags.join(' ')} ${typeLabels.join(' ')}`.toLowerCase()
+    return categoryVisible && districtVisible && favoriteVisible && pendingVisible && (!keyword || text.includes(keyword))
+  }
+
+  const filteredLocations = computed(() => {
     return locations.value.filter((location) => {
-      const categoryVisible = location.types.some((type) => activeCategories.value.has(type))
-      const districtLabel = normalizeDistrictLabel(location.district)
-      const districtVisible = !activeDistricts.value.size
-        || activeDistricts.value.has(districtLabel)
-        || (districtLabel === '全地图' && isTeleportLocation(location))
-      const incompleteVisible = !showIncompleteOnly.value || !completedIds.value.has(location.id)
-      const favoriteVisible = !showFavoritesOnly.value || favoriteIds.value.has(location.id)
-      const pendingVisible = !showPendingLocationChangesOnly.value || pendingLocationChangeIds.value.has(location.id)
-      const typeLabels = location.types.map((type) => categoryLookup.value[type]?.label || type)
-      const text = `${location.name} ${districtLabel} ${location.tags.join(' ')} ${typeLabels.join(' ')}`.toLowerCase()
-      return categoryVisible && districtVisible && incompleteVisible && favoriteVisible && pendingVisible && (!keyword || text.includes(keyword))
+      const completed = completedIds.value.has(location.id)
+      const completedInAutoCompleteRadius = completed && isLocationWithinAutoCompleteRadius(location)
+      const incompleteVisible = !showIncompleteOnly.value || !completed || completedInAutoCompleteRadius
+      const autoCompleteVisible = !navigationAutoCompleteEnabled.value || !completed || completedInAutoCompleteRadius
+      return isLocationVisibleByStaticFilters(location) && incompleteVisible && autoCompleteVisible
     })
   })
 
@@ -266,6 +306,13 @@ export function useMapApp() {
       locations.value.filter((location) => location.types.includes(category.id)).length,
     ])),
   )
+  const autoRouteCandidates = computed(() => getAutoRouteCandidates())
+  const canCreateAutoRoute = computed(() => (
+    Boolean(navigationWorldPosition.value)
+    && Number.isFinite(Number(autoRouteLimit.value))
+    && Number(autoRouteLimit.value) >= 1
+    && autoRouteCandidates.value.length > 0
+  ))
 
   const groupedCategories = computed(() => {
     const groups = []
@@ -326,8 +373,8 @@ export function useMapApp() {
       ...DEFAULT_COLLAPSED_CATEGORY_GROUPS,
       ...(storedCollapsedGroups && typeof storedCollapsedGroups === 'object'
         ? Object.fromEntries(
-            [...collapsibleGroupLabels].map((label) => [label, Boolean(storedCollapsedGroups[label])]),
-          )
+          [...collapsibleGroupLabels].map((label) => [label, Boolean(storedCollapsedGroups[label])]),
+        )
         : {}),
     }
 
@@ -346,6 +393,8 @@ export function useMapApp() {
       showFavoritesOnly: showFavoritesOnly.value,
       realtimeNavigationEnabled: realtimeNavigationEnabled.value,
       centerNavigationEnabled: centerNavigationEnabled.value,
+      navigationAutoCompleteEnabled: navigationAutoCompleteEnabled.value,
+      navigationAutoCompleteRadius: normalizeAutoCompleteRadius(navigationAutoCompleteRadius.value),
       navigationProtocol: normalizeNavigationProtocol(navigationProtocol.value),
       navigationHost: normalizeNavigationHost(navigationHost.value),
       navigationPort: normalizeNavigationPort(navigationPort.value),
@@ -558,11 +607,11 @@ export function useMapApp() {
   function createMarkerLayer() {
     return mergeAdjacentLocationsEnabled.value
       ? L.markerClusterGroup({
-          chunkedLoading: true,
-          maxClusterRadius: 52,
-          disableClusteringAtZoom: 0,
-          showCoverageOnHover: false,
-        })
+        chunkedLoading: true,
+        maxClusterRadius: 52,
+        disableClusteringAtZoom: 0,
+        showCoverageOnHover: false,
+      })
       : L.layerGroup()
   }
 
@@ -958,13 +1007,151 @@ export function useMapApp() {
     }
   }
 
-  function renderNavigationArrow() {
+  function hideAutoCompleteRadiusCircle() {
+    navigationAutoCompleteRadiusCircle?.remove()
+    navigationAutoCompleteRadiusCircle = null
+  }
+
+  function renderAutoCompleteRadiusCircle(latlng) {
+    if (!map || !navigationAutoCompleteEnabled.value || !latlng) {
+      hideAutoCompleteRadiusCircle()
+      return
+    }
+
+    const radius = normalizeAutoCompleteRadius(navigationAutoCompleteRadius.value)
+    navigationAutoCompleteRadius.value = radius
+    const circleRadius = radius * MAP_CONFIG.pixelsPerWorldUnit
+
+    if (!navigationAutoCompleteRadiusCircle) {
+      navigationAutoCompleteRadiusCircle = L.circle(latlng, {
+        radius: circleRadius,
+        interactive: false,
+        className: 'navigation-auto-complete-radius',
+        color: '#a3efe2',
+        weight: 1.5,
+        opacity: 0.82,
+        fillColor: '#a3efe2',
+        fillOpacity: 0.08,
+      }).addTo(map)
+      return
+    }
+
+    navigationAutoCompleteRadiusCircle.setLatLng(latlng)
+    navigationAutoCompleteRadiusCircle.setRadius(circleRadius)
+  }
+
+  function findNearestLocationWithImages(locationIds, position) {
+    let nearestLocation = null
+    let nearestDistance = Infinity
+    const currentLat = Number(position.lat)
+    const currentLng = Number(position.lng)
+
+    locationIds.forEach((locationId) => {
+      const location = locationLookup.value[locationId]
+      if (!location || !Array.isArray(location.images) || !location.images.length) return
+
+      const lat = Number(location.lat)
+      const lng = Number(location.lng)
+      if (!Number.isFinite(lat) || !Number.isFinite(lng)) return
+
+      const distance = (lat - currentLat) ** 2 + (lng - currentLng) ** 2
+      if (distance < nearestDistance) {
+        nearestDistance = distance
+        nearestLocation = location
+      }
+    })
+
+    return nearestLocation
+  }
+
+  function updateAutoCompleteNearbyLocations(position, { force = false } = {}) {
+    if (!navigationAutoCompleteEnabled.value || !position) {
+      if (navigationAutoCompleteNearbyIds.value.size) navigationAutoCompleteNearbyIds.value = new Set()
+      return
+    }
+
+    const now = window.performance?.now?.() ?? Date.now()
+    if (!force && now - navigationAutoCompleteLastUpdate < NAVIGATION_AUTO_COMPLETE_UPDATE_INTERVAL) return
+    navigationAutoCompleteLastUpdate = now
+
+    const currentLat = Number(position.lat)
+    const currentLng = Number(position.lng)
+    if (!Number.isFinite(currentLat) || !Number.isFinite(currentLng)) return
+
+    const radius = normalizeAutoCompleteRadius(navigationAutoCompleteRadius.value)
+    navigationAutoCompleteRadius.value = radius
+    const radiusSquared = radius ** 2
+    const nearbyIds = new Set(locations.value.filter((location) => {
+      if (!isLocationVisibleByStaticFilters(location)) return false
+      const lat = Number(location.lat)
+      const lng = Number(location.lng)
+      if (!Number.isFinite(lat) || !Number.isFinite(lng)) return false
+      return (lat - currentLat) ** 2 + (lng - currentLng) ** 2 <= radiusSquared
+    }).map((location) => location.id))
+
+    const previousNearbyKey = [...navigationAutoCompleteNearbyIds.value].sort().join('|')
+    const nextNearbyKey = [...nearbyIds].sort().join('|')
+    if (nextNearbyKey !== previousNearbyKey) {
+      navigationAutoCompleteNearbyIds.value = nearbyIds
+    }
+
+    const nextEnteredIds = new Set(navigationAutoCompleteEnteredIds.value)
+    const previouslyEnteredKey = [...nextEnteredIds].sort().join('|')
+    const nearbyIncompleteIds = [...nearbyIds].filter((locationId) => !completedIds.value.has(locationId))
+    const newlyEnteredIds = nearbyIncompleteIds.filter((locationId) => !navigationAutoCompleteEnteredIds.value.has(locationId))
+    const nearestNewLocationWithImages = findNearestLocationWithImages(newlyEnteredIds, position)
+    if (nearestNewLocationWithImages) selectedLocation.value = nearestNewLocationWithImages
+
+    const newlyCompleted = []
+    navigationAutoCompleteEnteredIds.value.forEach((locationId) => {
+      if (completedIds.value.has(locationId)) {
+        nextEnteredIds.delete(locationId)
+        return
+      }
+
+      const location = locationLookup.value[locationId]
+      if (!location) {
+        nextEnteredIds.delete(locationId)
+        return
+      }
+
+      const lat = Number(location.lat)
+      const lng = Number(location.lng)
+      const isOutside = !Number.isFinite(lat)
+        || !Number.isFinite(lng)
+        || (lat - currentLat) ** 2 + (lng - currentLng) ** 2 > radiusSquared
+      if (!isOutside) return
+
+      newlyCompleted.push(location)
+      nextEnteredIds.delete(locationId)
+    })
+
+    nearbyIncompleteIds.forEach((locationId) => nextEnteredIds.add(locationId))
+    const nextEnteredKey = [...nextEnteredIds].sort().join('|')
+    if (nextEnteredKey !== previouslyEnteredKey) {
+      navigationAutoCompleteEnteredIds.value = nextEnteredIds
+    }
+
+    if (!newlyCompleted.length) return
+
+    const next = new Set(completedIds.value)
+    newlyCompleted.forEach((location) => next.add(location.id))
+    completedIds.value = next
+    localStorage.setItem(COMPLETED_STORAGE_KEY, JSON.stringify([...next]))
+    showStatus(`离开附近，自动完成 ${newlyCompleted.length} 个点位`)
+  }
+
+  function renderNavigationArrow({ forceAutoComplete = false } = {}) {
     if (!map || !navigationState.value.position) {
       navigationMarker?.setOpacity(0)
+      navigationWorldPosition.value = null
+      if (navigationAutoCompleteNearbyIds.value.size) navigationAutoCompleteNearbyIds.value = new Set()
+      hideAutoCompleteRadiusCircle()
       stopNavigationFollow()
       return
     }
-    const latlng = mapPixelToMapLatLng(navigationState.value.position)
+    const latlng = L.latLng(mapPixelToMapLatLng(navigationState.value.position))
+    const worldPosition = mapLatLngToWorld(latlng)
     if (!navigationMarker) {
       navigationMarker = L.marker(latlng, {
         icon: createNavigationIcon(),
@@ -976,6 +1163,10 @@ export function useMapApp() {
     navigationMarker.setLatLng(latlng)
     navigationMarker.setOpacity(1)
     centerNavigationMarker(latlng)
+    renderAutoCompleteRadiusCircle(latlng)
+    coordinates.value = mapLatLngToMapLocator(latlng)
+    navigationWorldPosition.value = worldPosition
+    updateAutoCompleteNearbyLocations(worldPosition, { force: forceAutoComplete })
     const arrow = navigationMarker.getElement()?.querySelector('.navigation-arrow')
     if (arrow) {
       arrow.classList.toggle('navigation-arrow--angle-missing', navigationState.value.angle === null)
@@ -984,6 +1175,11 @@ export function useMapApp() {
   }
 
   function clearNavigationState() {
+    if (navigationRenderFrame) {
+      window.cancelAnimationFrame(navigationRenderFrame)
+      navigationRenderFrame = 0
+    }
+    pendingNavigationState = null
     navigationState.value = {
       position: null,
       angle: null,
@@ -991,7 +1187,27 @@ export function useMapApp() {
       route: null,
     }
     navigationDisplayAngle = null
+    navigationWorldPosition.value = null
+    navigationAutoCompleteEnteredIds.value = new Set()
+    navigationAutoCompleteNearbyIds.value = new Set()
+    navigationAutoCompleteLastUpdate = 0
+    hideAutoCompleteRadiusCircle()
     renderNavigationArrow()
+  }
+
+  function flushNavigationState() {
+    navigationRenderFrame = 0
+    if (!pendingNavigationState) return
+    navigationState.value = pendingNavigationState
+    pendingNavigationState = null
+    renderNavigationArrow()
+  }
+
+  function scheduleNavigationRender(nextState) {
+    pendingNavigationState = nextState
+    if (!navigationRenderFrame) {
+      navigationRenderFrame = window.requestAnimationFrame(flushNavigationState)
+    }
   }
 
   function handleNavigationMessage(event) {
@@ -1017,20 +1233,19 @@ export function useMapApp() {
       const sourceWidth = Number(payload.position?.sourceWidth)
       const sourceHeight = Number(payload.position?.sourceHeight)
       const angle = Number(payload.angle)
-      navigationState.value = {
+      scheduleNavigationRender({
         position: Number.isFinite(pixelX) && Number.isFinite(pixelY)
           ? {
-              pixelX,
-              pixelY,
-              sourceWidth: Number.isFinite(sourceWidth) && sourceWidth > 0 ? sourceWidth : MAP_WIDTH,
-              sourceHeight: Number.isFinite(sourceHeight) && sourceHeight > 0 ? sourceHeight : MAP_HEIGHT,
-            }
+            pixelX,
+            pixelY,
+            sourceWidth: Number.isFinite(sourceWidth) && sourceWidth > 0 ? sourceWidth : MAP_WIDTH,
+            sourceHeight: Number.isFinite(sourceHeight) && sourceHeight > 0 ? sourceHeight : MAP_HEIGHT,
+          }
           : null,
         angle: payload.angle !== null && Number.isFinite(angle) ? angle : null,
         angleConfidence: Number(payload.angleConfidence) || 0,
         route: payload.route || navigationState.value.route || null,
-      }
-      renderNavigationArrow()
+      })
     } catch {
       // 单条导航消息格式错误时忽略，避免中断后续本地数据流。
     }
@@ -1057,6 +1272,17 @@ export function useMapApp() {
     }
     navigationConnection.value = 'disconnected'
     clearNavigationState()
+  }
+
+  function setRealtimeNavigationEnabled(enabled) {
+    const nextEnabled = Boolean(enabled)
+    realtimeNavigationEnabled.value = nextEnabled
+    persistMarkerFilters()
+    if (nextEnabled) {
+      connectNavigationSocket()
+    } else {
+      disconnectNavigationSocket()
+    }
   }
 
   function connectNavigationSocket() {
@@ -1086,6 +1312,11 @@ export function useMapApp() {
       disconnectNavigationSocket()
       connectNavigationSocket()
     }
+  }
+
+  function applyNavigationAutoCompleteRadius() {
+    navigationAutoCompleteRadius.value = normalizeAutoCompleteRadius(navigationAutoCompleteRadius.value)
+    persistMarkerFilters()
   }
 
   function focusSegment(segment) {
@@ -1221,11 +1452,11 @@ export function useMapApp() {
     if (!payload || payload.type !== 'location-changes') throw new Error('invalid location changes')
     const categories = Array.isArray(payload.categories)
       ? payload.categories
-          .filter((category) => category && typeof category === 'object' && typeof category.id === 'string')
-          .map((category) => ({
-            ...category,
-            group: normalizeCategoryGroup(category),
-          }))
+        .filter((category) => category && typeof category === 'object' && typeof category.id === 'string')
+        .map((category) => ({
+          ...category,
+          group: normalizeCategoryGroup(category),
+        }))
       : []
     const upsertLocations = Array.isArray(payload.upsertLocations)
       ? payload.upsertLocations.filter((location) => location && typeof location === 'object' && typeof location.id === 'string')
@@ -1312,10 +1543,10 @@ export function useMapApp() {
   }
 
   function toggleFavorite(locationId) {
-  const next = new Set(favoriteIds.value)
-  next.has(locationId) ? next.delete(locationId) : next.add(locationId)
-  favoriteIds.value = next
-  localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify([...next]))
+    const next = new Set(favoriteIds.value)
+    next.has(locationId) ? next.delete(locationId) : next.add(locationId)
+    favoriteIds.value = next
+    localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify([...next]))
   }
 
   function beginClearCompleted() {
@@ -1501,6 +1732,133 @@ export function useMapApp() {
   }
 
   // 路线编辑器：路线和路段的增删改以及导入导出。
+  function getAutoRouteCandidates() {
+    return filteredLocations.value.filter((location) => {
+      if (completedIds.value.has(location.id)) return false
+      const lat = Number(location.lat)
+      const lng = Number(location.lng)
+      return Number.isFinite(lat) && Number.isFinite(lng)
+    })
+  }
+
+  function distanceBetweenPoints(a, b) {
+    return Math.hypot(Number(a.lat) - Number(b.lat), Number(a.lng) - Number(b.lng))
+  }
+
+  function buildNearestNeighborRoute(start, candidates, limit) {
+    const remaining = candidates.slice()
+    const route = []
+    let cursor = start
+    const count = Math.min(normalizeAutoRouteLimit(limit), remaining.length)
+
+    while (route.length < count && remaining.length) {
+      let nearestIndex = 0
+      let nearestDistance = distanceBetweenPoints(cursor, remaining[0])
+      for (let index = 1; index < remaining.length; index += 1) {
+        const distance = distanceBetweenPoints(cursor, remaining[index])
+        if (distance < nearestDistance) {
+          nearestIndex = index
+          nearestDistance = distance
+        }
+      }
+      const [next] = remaining.splice(nearestIndex, 1)
+      route.push(next)
+      cursor = next
+    }
+
+    return route
+  }
+
+  function routeLengthFromStart(start, points) {
+    let length = 0
+    let cursor = start
+    points.forEach((point) => {
+      length += distanceBetweenPoints(cursor, point)
+      cursor = point
+    })
+    return length
+  }
+
+  function optimizeRouteWithTwoOpt(start, points) {
+    const route = points.slice()
+    if (route.length < 3) return route
+
+    let improved = true
+    while (improved) {
+      improved = false
+      for (let i = 0; i < route.length - 1; i += 1) {
+        for (let k = i + 1; k < route.length; k += 1) {
+          const previous = routeLengthFromStart(start, route)
+          const candidate = [
+            ...route.slice(0, i),
+            ...route.slice(i, k + 1).reverse(),
+            ...route.slice(k + 1),
+          ]
+          if (routeLengthFromStart(start, candidate) + 1e-9 < previous) {
+            route.splice(0, route.length, ...candidate)
+            improved = true
+          }
+        }
+      }
+    }
+
+    return route
+  }
+
+  function formatAutoRouteTimestamp(date = new Date()) {
+    const pad = (value) => String(value).padStart(2, '0')
+    return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())} ${pad(date.getHours())}:${pad(date.getMinutes())}`
+  }
+
+  async function createAutoRoute() {
+    const start = navigationWorldPosition.value
+    if (!start) {
+      showStatus('请先开启实时定位')
+      return
+    }
+
+    autoRouteLimit.value = normalizeAutoRouteLimit(autoRouteLimit.value)
+    const candidates = getAutoRouteCandidates()
+    if (!candidates.length) {
+      showStatus('当前筛选下没有可规划的未完成点位')
+      return
+    }
+
+    const nearest = buildNearestNeighborRoute(start, candidates, autoRouteLimit.value)
+    const optimized = optimizeRouteWithTwoOpt(start, nearest)
+    const now = Date.now()
+    const points = [
+      {
+        lat: Number(start.lat.toFixed(6)),
+        lng: Number(start.lng.toFixed(6)),
+      },
+      ...optimized.map((location) => ({
+        locationId: location.id,
+        lat: Number(location.lat),
+        lng: Number(location.lng),
+      })),
+    ]
+    const route = {
+      id: `route-${now}`,
+      name: `自动规划 ${formatAutoRouteTimestamp()}`,
+      isHidden: false,
+      segments: [{
+        id: `segment-${now}`,
+        name: '当前位置出发',
+        isHidden: false,
+        points,
+      }],
+    }
+
+    cancelSegment()
+    mapData.value.routes.push(route)
+    activeRouteId.value = route.id
+    routePanelOpen.value = true
+    await persistMapData()
+    renderRouteArrows()
+    showStatus(`已规划 ${optimized.length} 个点位`)
+  }
+
   async function createRoute() {
     const name = window.prompt('路线名称')
     if (!name?.trim()) return
@@ -1551,7 +1909,7 @@ export function useMapApp() {
     const targetIndex = index + offset
     if (targetIndex < 0 || targetIndex >= segmentPoints.value.length) return
     const nextPoints = [...segmentPoints.value]
-    ;[nextPoints[index], nextPoints[targetIndex]] = [nextPoints[targetIndex], nextPoints[index]]
+      ;[nextPoints[index], nextPoints[targetIndex]] = [nextPoints[targetIndex], nextPoints[index]]
     segmentPoints.value = nextPoints
     renderRouteArrows()
   }
@@ -1673,6 +2031,23 @@ export function useMapApp() {
     if (!centerNavigationEnabled.value) stopNavigationFollow()
     renderNavigationArrow()
   })
+  watch(navigationAutoCompleteEnabled, () => {
+    persistMarkerFilters()
+    if (!navigationAutoCompleteEnabled.value) {
+      navigationAutoCompleteEnteredIds.value = new Set()
+      navigationAutoCompleteNearbyIds.value = new Set()
+      navigationAutoCompleteLastUpdate = 0
+      hideAutoCompleteRadiusCircle()
+    }
+    renderNavigationArrow({ forceAutoComplete: true })
+    nextTick(renderMarkers)
+  })
+  watch(navigationAutoCompleteRadius, () => {
+    persistMarkerFilters()
+    navigationAutoCompleteLastUpdate = 0
+    renderNavigationArrow({ forceAutoComplete: true })
+    nextTick(renderMarkers)
+  })
   watch(districtFilterOpen, persistMarkerFilters)
   watch(collapsedCategoryGroups, persistMarkerFilters, { deep: true })
 
@@ -1724,8 +2099,10 @@ export function useMapApp() {
     navigationClientStopped = true
     if (navigationReconnectTimer) window.clearTimeout(navigationReconnectTimer)
     navigationSocket?.close()
+    if (navigationRenderFrame) window.cancelAnimationFrame(navigationRenderFrame)
     stopNavigationFollow(false)
     navigationMarker?.remove()
+    hideAutoCompleteRadiusCircle()
     window.removeEventListener('keydown', handleKeydown)
     map?.remove()
   })
@@ -1736,7 +2113,10 @@ export function useMapApp() {
     activeRoute,
     activeRouteId,
     addCustomType,
+    applyNavigationAutoCompleteRadius,
     applyNavigationEndpoint,
+    autoRouteCandidates,
+    autoRouteLimit,
     beginClearCompleted,
     bulkCompleteCategoryIds,
     bulkIncompleteCount,
@@ -1744,6 +2124,7 @@ export function useMapApp() {
     cancelSegment,
     categoryLookup,
     centerNavigationEnabled,
+    canCreateAutoRoute,
     clearNavigationRoute,
     clearCategories,
     clearCompleted,
@@ -1757,6 +2138,7 @@ export function useMapApp() {
     completedImportInput,
     coordinates,
     copyCoordinates,
+    createAutoRoute,
     createRoute,
     deleteLocation,
     deleteRoute,
@@ -1799,6 +2181,8 @@ export function useMapApp() {
     moveSegmentPoint,
     navigationConnectionLabel,
     navigationConnectionStatus,
+    navigationAutoCompleteEnabled,
+    navigationAutoCompleteRadius,
     navigationHost,
     navigationPort,
     navigationRouteSendEnabled,
@@ -1825,6 +2209,7 @@ export function useMapApp() {
     segmentPoints,
     sendRouteToNavigation,
     sendSegmentToNavigation,
+    setRealtimeNavigationEnabled,
     showFavoritesOnly,
     showIncompleteOnly,
     showPendingLocationChangesOnly,

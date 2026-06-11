@@ -10,7 +10,10 @@ const {
   activeRoute,
   activeRouteId,
   addCustomType,
+  applyNavigationAutoCompleteRadius,
   applyNavigationEndpoint,
+  autoRouteCandidates,
+  autoRouteLimit,
   beginClearCompleted,
   bulkCompleteCategoryIds,
   bulkIncompleteCount,
@@ -18,6 +21,7 @@ const {
   cancelSegment,
   categoryLookup,
   centerNavigationEnabled,
+  canCreateAutoRoute,
   clearNavigationRoute,
   clearCategories,
   clearCompleted,
@@ -31,6 +35,7 @@ const {
   completedImportInput,
   coordinates,
   copyCoordinates,
+  createAutoRoute,
   createRoute,
   deleteLocation,
   deleteRoute,
@@ -68,6 +73,8 @@ const {
   locationForm,
   mapElement,
   mergeAdjacentLocationsEnabled,
+  navigationAutoCompleteEnabled,
+  navigationAutoCompleteRadius,
   navigationConnectionLabel,
   navigationConnectionStatus,
   navigationHost,
@@ -95,6 +102,7 @@ const {
   segmentPoints,
   sendRouteToNavigation,
   sendSegmentToNavigation,
+  setRealtimeNavigationEnabled,
   showFavoritesOnly,
   showIncompleteOnly,
   showPendingLocationChangesOnly,
@@ -118,6 +126,15 @@ const {
 } = useMapApp()
 
 const announcementPanelOpen = ref(true)
+
+const navigationPositionLabel = computed(() => {
+  const position = navigationState.value.position
+  if (!position) return ''
+  const pixelX = Number(position.pixelX)
+  const pixelY = Number(position.pixelY)
+  if (!Number.isFinite(pixelX) || !Number.isFinite(pixelY)) return ''
+  return `${pixelX.toFixed(0)}, ${pixelY.toFixed(0)}`
+})
 
 const normalizeAnnouncementUrl = (value) => {
   if (typeof value !== 'string') {
@@ -333,12 +350,25 @@ const announcementItems = computed(() =>
           </label>
           <label class="switch-row">
             <span><b>实时定位</b><small>开启后监听本地导航数据</small></span>
-            <input v-model="realtimeNavigationEnabled" type="checkbox" /><i />
+            <input :checked="realtimeNavigationEnabled" type="checkbox" @change="setRealtimeNavigationEnabled($event.target.checked)" /><i />
           </label>
           <label v-if="realtimeNavigationEnabled" class="switch-row">
             <span><b>箭头保持居中</b><small>自动将导航箭头保持在窗口中心</small></span>
             <input v-model="centerNavigationEnabled" type="checkbox" /><i />
           </label>
+          <label v-if="realtimeNavigationEnabled" class="switch-row">
+            <span><b>到达自动完成</b><small>圈内已完成点半透明显示</small></span>
+            <input v-model="navigationAutoCompleteEnabled" type="checkbox" /><i />
+          </label>
+          <div v-if="realtimeNavigationEnabled && navigationAutoCompleteEnabled" class="navigation-endpoint-row">
+            <span><b>完成半径</b><small>{{ navigationAutoCompleteRadius }} 坐标单位</small></span>
+            <div class="navigation-endpoint-fields">
+              <label>
+                <span>半径</span>
+                <input v-model.number="navigationAutoCompleteRadius" type="number" min="0.1" max="20" step="0.1" inputmode="decimal" @change="applyNavigationAutoCompleteRadius" />
+              </label>
+            </div>
+          </div>
           <div v-if="realtimeNavigationEnabled" class="navigation-endpoint-row">
             <span><b>监听地址</b><small>{{ navigationWebSocketUrl }}</small></span>
             <div class="navigation-endpoint-fields">
@@ -402,6 +432,21 @@ const announcementItems = computed(() =>
           <button type="button" :disabled="!routes.length" @click="exportRoutes">导出 JSON</button>
           <input ref="routeImportInput" type="file" accept="application/json,.json" @change="importRoutes" />
         </div>
+        <div class="route-auto-planner">
+          <label>
+            <span>自动规划数量</span>
+            <input v-model.number="autoRouteLimit" type="number" min="1" max="100" step="1" inputmode="numeric" />
+          </label>
+          <button
+            type="button"
+            :disabled="!canCreateAutoRoute"
+            :title="canCreateAutoRoute ? '' : '需要实时定位，并至少有 1 个当前可见未完成点位'"
+            @click="createAutoRoute"
+          >
+            自动规划
+          </button>
+          <small>{{ autoRouteCandidates.length }} 个可选点</small>
+        </div>
         <div class="route-list">
           <button v-for="route in routes" :key="route.id" type="button" :class="{ active: activeRouteId === route.id, hidden: route.isHidden }" @click="toggleRouteVisibility(route)">
             <span>{{ route.name }}</span><small>{{ route.isHidden ? '已隐藏' : `${route.segments.length} 个路段` }}</small>
@@ -443,12 +488,12 @@ const announcementItems = computed(() =>
 
     <section v-if="selectedLocation" class="detail-card glass-panel">
       <button class="close-button" type="button" aria-label="关闭详情" @click="selectedLocation = null">×</button>
-      <div v-if="selectedLocation.images.length" class="image-gallery">
-        <img v-for="image in selectedLocation.images" :key="image" :src="publicAssetUrl(image)" :alt="selectedLocation.name" @click="previewImage = image" />
-      </div>
       <p class="eyebrow">{{ selectedLocation.district }}</p>
       <h2>{{ selectedLocation.name }}</h2>
       <p v-if="selectedLocation.description" class="detail-description">{{ selectedLocation.description }}</p>
+      <div v-if="selectedLocation.images.length" class="image-gallery">
+        <img v-for="image in selectedLocation.images" :key="image" :src="publicAssetUrl(image)" :alt="selectedLocation.name" @click="previewImage = image" />
+      </div>
       <div class="tag-row">
         <span v-for="type in getVisibleTypes(selectedLocation)" :key="type">{{ categoryLookup[type]?.label || type }}</span>
         <span v-for="tag in selectedLocation.tags" :key="tag"># {{ tag }}</span>
@@ -474,7 +519,7 @@ const announcementItems = computed(() =>
       <button type="button" @click="resetView">重置视野</button>
       <span>ML X {{ coordinates.pixelX.toFixed(0) }}</span><span>ML Y {{ coordinates.pixelY.toFixed(0) }}</span>
       <span class="navigation-status" :class="`navigation-status--${navigationConnectionStatus}`">NAVI {{ navigationConnectionLabel }}</span>
-      <span v-if="navigationState.position">POS {{ navigationState.position.pixelX.toFixed(0) }}, {{ navigationState.position.pixelY.toFixed(0) }}</span>
+      <span v-if="navigationPositionLabel">POS {{ navigationPositionLabel }}</span>
       <span v-if="navigationState.angle !== null">ANGLE {{ navigationState.angle.toFixed(1) }}°</span>
     </div>
     <div v-if="editorMode" class="editor-tip glass-panel">编辑模式：点击地图空白处添加点位</div>
@@ -515,6 +560,23 @@ const announcementItems = computed(() =>
       </form>
     </div>
 
-    <div v-if="previewImage" class="image-preview" @click="previewImage = ''"><img :src="publicAssetUrl(previewImage)" alt="点位截图" @click.stop /></div>
   </main>
+
+  <Teleport to="body">
+    <div
+      v-if="previewImage"
+      class="image-preview"
+      @click.self="previewImage = ''"
+      @pointerdown.self="previewImage = ''"
+    >
+      <button
+        class="image-preview-close"
+        type="button"
+        aria-label="关闭截图"
+        @click.stop.prevent="previewImage = ''"
+        @pointerdown.stop.prevent="previewImage = ''"
+      >×</button>
+      <img :src="publicAssetUrl(previewImage)" alt="点位截图" @click.stop @pointerdown.stop />
+    </div>
+  </Teleport>
 </template>
