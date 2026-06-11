@@ -10,7 +10,10 @@ const {
   activeRoute,
   activeRouteId,
   addCustomType,
+  applyNavigationAutoCompleteRadius,
   applyNavigationEndpoint,
+  autoRouteCandidates,
+  autoRouteLimit,
   beginClearCompleted,
   bulkCompleteCategoryIds,
   bulkIncompleteCount,
@@ -18,6 +21,7 @@ const {
   cancelSegment,
   categoryLookup,
   centerNavigationEnabled,
+  canCreateAutoRoute,
   clearNavigationRoute,
   clearCategories,
   clearCompleted,
@@ -31,6 +35,7 @@ const {
   completedImportInput,
   coordinates,
   copyCoordinates,
+  createAutoRoute,
   createRoute,
   deleteLocation,
   deleteRoute,
@@ -68,6 +73,8 @@ const {
   locationForm,
   mapElement,
   mergeAdjacentLocationsEnabled,
+  navigationAutoCompleteEnabled,
+  navigationAutoCompleteRadius,
   navigationConnectionLabel,
   navigationConnectionStatus,
   navigationHost,
@@ -339,6 +346,19 @@ const announcementItems = computed(() =>
             <span><b>箭头保持居中</b><small>自动将导航箭头保持在窗口中心</small></span>
             <input v-model="centerNavigationEnabled" type="checkbox" /><i />
           </label>
+          <label v-if="realtimeNavigationEnabled" class="switch-row">
+            <span><b>到达自动完成</b><small>圈内已完成点半透明显示</small></span>
+            <input v-model="navigationAutoCompleteEnabled" type="checkbox" /><i />
+          </label>
+          <div v-if="realtimeNavigationEnabled && navigationAutoCompleteEnabled" class="navigation-endpoint-row">
+            <span><b>完成半径</b><small>{{ navigationAutoCompleteRadius }} 坐标单位</small></span>
+            <div class="navigation-endpoint-fields">
+              <label>
+                <span>半径</span>
+                <input v-model.number="navigationAutoCompleteRadius" type="number" min="0.1" max="20" step="0.1" inputmode="decimal" @change="applyNavigationAutoCompleteRadius" />
+              </label>
+            </div>
+          </div>
           <div v-if="realtimeNavigationEnabled" class="navigation-endpoint-row">
             <span><b>监听地址</b><small>{{ navigationWebSocketUrl }}</small></span>
             <div class="navigation-endpoint-fields">
@@ -401,6 +421,21 @@ const announcementItems = computed(() =>
           <button type="button" @click="routeImportInput?.click()">导入 JSON</button>
           <button type="button" :disabled="!routes.length" @click="exportRoutes">导出 JSON</button>
           <input ref="routeImportInput" type="file" accept="application/json,.json" @change="importRoutes" />
+        </div>
+        <div class="route-auto-planner">
+          <label>
+            <span>自动规划数量</span>
+            <input v-model.number="autoRouteLimit" type="number" min="1" max="100" step="1" inputmode="numeric" />
+          </label>
+          <button
+            type="button"
+            :disabled="!canCreateAutoRoute"
+            :title="canCreateAutoRoute ? '' : '需要实时定位，并至少有 1 个当前可见未完成点位'"
+            @click="createAutoRoute"
+          >
+            自动规划
+          </button>
+          <small>{{ autoRouteCandidates.length }} 个可选点</small>
         </div>
         <div class="route-list">
           <button v-for="route in routes" :key="route.id" type="button" :class="{ active: activeRouteId === route.id, hidden: route.isHidden }" @click="toggleRouteVisibility(route)">
