@@ -623,6 +623,10 @@ kbd {
   border-color: rgba(255, 255, 255, 0.22) !important;
 }
 
+.leaflet-bottom.leaflet-right .leaflet-control-zoom {
+  margin-bottom: 72px;
+}
+
 .leaflet-bar a {
   color: #fff !important;
   border-bottom-color: rgba(255, 255, 255, 0.2) !important;
