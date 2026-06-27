@@ -59,7 +59,7 @@ export function useMapApp() {
     const label = String(value || '').trim()
     if (!label) return ''
     if (label === '全地图') return '全地图'
-    if (/�/.test(label) && label.endsWith('图')) return '全地图'
+    if (/\uFFFD/.test(label) && label.endsWith('图')) return '全地图'
     if (/^[鍏ㄥ湴鍥?]+$/.test(label)) return '全地图'
     if (/^全.*图$/.test(label)) return '全地图'
     return label
@@ -390,6 +390,17 @@ export function useMapApp() {
     }, 2600)
   }
 
+  function hasReplacementCharacter(value) {
+    if (typeof value === 'string') return value.includes('\uFFFD')
+    if (Array.isArray(value)) return value.some((item) => hasReplacementCharacter(item))
+    if (value && typeof value === 'object') return Object.values(value).some((item) => hasReplacementCharacter(item))
+    return false
+  }
+
+  function assertNoReplacementCharacters(value) {
+    if (hasReplacementCharacter(value)) throw new Error('replacement character detected')
+  }
+
   function readStoredRoutes() {
     try {
       const storedRoutes = JSON.parse(localStorage.getItem(ROUTES_STORAGE_KEY) || 'null')
@@ -404,7 +415,8 @@ export function useMapApp() {
   }
 
   function downloadJson(payload, filename) {
-    const blobUrl = URL.createObjectURL(new Blob([`${JSON.stringify(payload, null, 2)}\n`], { type: 'application/json' }))
+    assertNoReplacementCharacters(payload)
+    const blobUrl = URL.createObjectURL(new Blob([`${JSON.stringify(payload, null, 2)}\n`], { type: 'application/json;charset=utf-8' }))
     const link = document.createElement('a')
     link.href = blobUrl
     link.download = filename
@@ -531,6 +543,13 @@ export function useMapApp() {
 
   async function persistMapData({ staticChanges = null } = {}) {
     persistRoutesLocally()
+    try {
+      if (staticChanges) assertNoReplacementCharacters(staticChanges)
+      assertNoReplacementCharacters(mapData.value)
+    } catch {
+      showStatus('保存失败：文本包含乱码字符 U+FFFD')
+      return
+    }
     if (staticChanges) queueLocationChanges(staticChanges)
     if (!isLocalEditor) {
       if (staticChanges) exportLocationChanges(staticChanges)
@@ -1332,6 +1351,7 @@ export function useMapApp() {
 
   function normalizeLocationChanges(payload) {
     if (!payload || payload.type !== 'location-changes') throw new Error('invalid location changes')
+    assertNoReplacementCharacters(payload)
     const categories = Array.isArray(payload.categories)
       ? payload.categories
           .filter((category) => category && typeof category === 'object' && typeof category.id === 'string')
@@ -1357,7 +1377,7 @@ export function useMapApp() {
     event.target.value = ''
     if (!file) return
     try {
-      const changes = normalizeLocationChanges(JSON.parse(await file.text()))
+      const changes = normalizeLocationChanges(JSON.parse((await file.text()).replace(/^\uFEFF/, '')))
       changes.categories.forEach((category) => {
         const index = categories.value.findIndex((item) => item.id === category.id)
         const { id, group, label, icon, iconUrl, color, isDefault, isHidden } = category
@@ -1396,8 +1416,10 @@ export function useMapApp() {
       renderMarkers()
       renderRouteArrows()
       showStatus(`已导入 ${changes.upsertLocations.length} 条点位修改，删除 ${changes.deletedLocationIds.length} 个点位`)
-    } catch {
-      showStatus('点位修改 JSON 格式无效')
+    } catch (error) {
+      showStatus(error.message === 'replacement character detected'
+        ? '导入失败：JSON 包含乱码字符 U+FFFD'
+        : '点位修改 JSON 格式无效')
     }
   }
 
@@ -1562,6 +1584,13 @@ export function useMapApp() {
       description: form.description.trim(),
       tags: form.tagsText.split(',').map((tag) => tag.trim()).filter(Boolean),
       images: [...form.images],
+    }
+    try {
+      assertNoReplacementCharacters({ categories: addedCategories, location: saved })
+    } catch {
+      showStatus('保存失败：文本包含乱码字符 U+FFFD')
+      mapData.value.categories = categories.value.filter((category) => !addedCategories.some((item) => item.id === category.id))
+      return
     }
     const index = locations.value.findIndex((location) => location.id === saved.id)
     if (index >= 0) mapData.value.locations.splice(index, 1, saved)

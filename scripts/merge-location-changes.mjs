@@ -84,6 +84,19 @@ function validateChanges(changes) {
   if (changes.deletedLocationIds !== undefined) assertArray(changes.deletedLocationIds, 'source deletedLocationIds')
 }
 
+function findReplacementCharacters(value, pathParts = []) {
+  if (typeof value === 'string') {
+    return value.includes('\uFFFD') ? [pathParts.join('.') || '$'] : []
+  }
+  if (Array.isArray(value)) {
+    return value.flatMap((item, index) => findReplacementCharacters(item, [...pathParts, String(index)]))
+  }
+  if (value && typeof value === 'object') {
+    return Object.entries(value).flatMap(([key, item]) => findReplacementCharacters(item, [...pathParts, key]))
+  }
+  return []
+}
+
 function mergeCategories(mapData, changes) {
   const categories = [...mapData.categories]
   const existingIds = new Set(categories.map((category) => String(category.id)))
@@ -165,14 +178,23 @@ async function main() {
   validateMapData(mapData)
   validateChanges(changes)
 
+  const sourceReplacementPaths = findReplacementCharacters(changes)
+  if (sourceReplacementPaths.length > 0) {
+    throw new Error(`Source file contains replacement characters:\n${sourceReplacementPaths.map((item) => `  ${item}`).join('\n')}`)
+  }
+
   const categoryStats = options.mergeCategories
     ? mergeCategories(mapData, changes)
     : { added: 0, skippedIncomplete: 0 }
   const locationStats = mergeLocations(mapData, changes)
   const missingTypeRefs = validateTypeReferences(mapData)
+  const replacementPaths = findReplacementCharacters(mapData)
 
   if (missingTypeRefs.length > 0) {
     throw new Error(`Missing category references:\n${missingTypeRefs.map((item) => `  ${item}`).join('\n')}`)
+  }
+  if (replacementPaths.length > 0) {
+    throw new Error(`Merged data contains replacement characters:\n${replacementPaths.map((item) => `  ${item}`).join('\n')}`)
   }
 
   const stats = {

@@ -19,11 +19,24 @@ function sendJson(response, payload, statusCode = 200) {
 
 function readBody(request) {
   return new Promise((resolve, reject) => {
-    let body = ''
-    request.on('data', (chunk) => { body += chunk })
-    request.on('end', () => resolve(body))
+    const chunks = []
+    request.on('data', (chunk) => { chunks.push(Buffer.from(chunk)) })
+    request.on('end', () => resolve(Buffer.concat(chunks).toString('utf8').replace(/^\uFEFF/, '')))
     request.on('error', reject)
   })
+}
+
+function findReplacementCharacters(value, pathParts = []) {
+  if (typeof value === 'string') {
+    return value.includes('\uFFFD') ? [pathParts.join('.') || '$'] : []
+  }
+  if (Array.isArray(value)) {
+    return value.flatMap((item, index) => findReplacementCharacters(item, [...pathParts, String(index)]))
+  }
+  if (value && typeof value === 'object') {
+    return Object.entries(value).flatMap(([key, item]) => findReplacementCharacters(item, [...pathParts, key]))
+  }
+  return []
 }
 
 function contentTypeFor(filePath) {
@@ -84,6 +97,14 @@ function localMapEditorPlugin() {
           const data = JSON.parse(await readBody(request))
           if (!Array.isArray(data.categories) || !Array.isArray(data.locations) || !Array.isArray(data.routes)) {
             sendJson(response, { error: 'Invalid map data' }, 400)
+            return
+          }
+          const replacementPaths = findReplacementCharacters(data)
+          if (replacementPaths.length) {
+            sendJson(response, {
+              error: 'Refusing to save text that contains replacement characters.',
+              paths: replacementPaths.slice(0, 20),
+            }, 400)
             return
           }
           fs.writeFileSync(DATA_FILE, `${JSON.stringify(data, null, 2)}\n`, 'utf8')
