@@ -5,6 +5,7 @@ output/
 scripts/*
 !scripts/
 !scripts/import-zeroluck-map.mjs
+!scripts/merge-location-changes.mjs
 !scripts/clean-locations.py
 !scripts/qa-map.mjs
 __pycache__/
