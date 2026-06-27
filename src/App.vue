@@ -553,9 +553,14 @@ onBeforeUnmount(() => {
     <header class="topbar glass-panel">
       <div class="brand-block topbar-brand">
         <img class="brand-mark" :src="publicAssetUrl('/logo.png')" alt="MaaNTE" />
-        <div>
+        <div class="brand-copy">
           <p class="eyebrow">MaaNTE Map</p>
-          <h1>MaaNTE在线地图工具</h1>
+          <div class="brand-title-row">
+            <h1>MaaNTE在线地图工具</h1>
+            <a class="brand-map-link" href="https://pph.maante.org/" target="_blank" rel="noopener noreferrer">
+              前往粉爪大劫案在线地图
+            </a>
+          </div>
         </div>
       </div>
       <div class="topbar-search">

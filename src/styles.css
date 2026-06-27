@@ -96,6 +96,17 @@ button {
   gap: 13px;
 }
 
+.brand-copy {
+  min-width: 0;
+}
+
+.brand-title-row {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+}
+
 .topbar-brand,
 .topbar-search,
 .topbar-tools {
@@ -140,6 +151,29 @@ h1 {
 h2 {
   margin-bottom: 0;
   font-size: 17px;
+}
+
+.brand-map-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 7px 9px;
+  color: #a9d4cf;
+  border: 1px solid rgba(143, 208, 201, 0.18);
+  border-radius: 4px;
+  background: rgba(52, 108, 104, 0.18);
+  font-size: 11px;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.brand-map-link:hover,
+.brand-map-link:focus-visible {
+  color: #eafffb;
+  border-color: rgba(123, 235, 220, 0.46);
+  background: rgba(78, 170, 160, 0.34);
+  outline: none;
 }
 
 .search-box {
@@ -487,6 +521,7 @@ kbd {
 
 .toolbar-button,
 .toolbar button,
+.brand-map-link,
 .detail-actions button,
 .route-list button,
 .segment-list button,
@@ -499,6 +534,8 @@ kbd {
 
 .toolbar-button--active,
 .toolbar button:hover,
+.brand-map-link:hover,
+.brand-map-link:focus-visible,
 .route-list button.active,
 .route-list button:hover,
 .segment-list button:hover {
@@ -1949,6 +1986,11 @@ kbd {
 
   h1 {
     font-size: 15px;
+  }
+
+  .brand-title-row {
+    flex-wrap: wrap;
+    row-gap: 6px;
   }
 
   .sidebar {
