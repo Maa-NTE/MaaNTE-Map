@@ -127,6 +127,7 @@ export function useMapApp() {
   const coordinates = ref({ pixelX: 0, pixelY: 0, x: 0, y: 0 })
   const mapView = ref(null)
   const sidebarCollapsed = ref(false)
+  const sidebarFooterOpen = ref(storedMarkerFilters?.sidebarFooterOpen !== false)
   const districtFilterOpen = ref(storedMarkerFilters?.districtFilterOpen === true)
   const clearCompletedConfirming = ref(false)
   const editorMode = ref(false)
@@ -359,6 +360,7 @@ export function useMapApp() {
       navigationProtocol: normalizeNavigationProtocol(navigationProtocol.value),
       navigationHost: normalizeNavigationHost(navigationHost.value),
       navigationPort: normalizeNavigationPort(navigationPort.value),
+      sidebarFooterOpen: sidebarFooterOpen.value,
       districtFilterOpen: districtFilterOpen.value,
       collapsedCategoryGroups: Object.fromEntries(
         [...collapsibleGroupLabels].map((label) => [label, Boolean(collapsedCategoryGroups.value[label])]),
@@ -1827,6 +1829,7 @@ export function useMapApp() {
     if (!centerNavigationEnabled.value) stopNavigationFollow()
     renderNavigationArrow()
   })
+  watch(sidebarFooterOpen, persistMarkerFilters)
   watch(districtFilterOpen, persistMarkerFilters)
   watch(collapsedCategoryGroups, persistMarkerFilters, { deep: true })
 
@@ -2000,6 +2003,7 @@ export function useMapApp() {
     showIncompleteOnly,
     showPendingLocationChangesOnly,
     sidebarCollapsed,
+    sidebarFooterOpen,
     startNavigationRoute,
     startSegment,
     statusMessage,

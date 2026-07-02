@@ -103,6 +103,7 @@ const {
   showIncompleteOnly,
   showPendingLocationChangesOnly,
   sidebarCollapsed,
+  sidebarFooterOpen,
   startNavigationRoute,
   startSegment,
   statusMessage,
@@ -691,6 +692,11 @@ onBeforeUnmount(() => {
           </div>
         </div>
         <div class="sidebar-footer">
+          <button class="sidebar-footer__toggle" type="button" @click="sidebarFooterOpen = !sidebarFooterOpen">
+            <span><b>设置选项</b><small>{{ sidebarFooterOpen ? '点击收起设置' : '点击展开设置' }}</small></span>
+            <i>{{ sidebarFooterOpen ? '▾' : '▸' }}</i>
+          </button>
+          <div v-show="sidebarFooterOpen" class="sidebar-footer__body">
           <div class="sidebar-expander">
             <button class="sidebar-expander__toggle" type="button" @click="districtFilterOpen = !districtFilterOpen">
               <span><b>区域筛选</b><small>{{ hasActiveDistricts ? `${activeDistricts.size} 项已选` : '按区域筛选点位' }}</small></span>
@@ -758,6 +764,7 @@ onBeforeUnmount(() => {
             </div>
           </div>
           <div class="filter-summary">{{ filteredLocations.length }} 个标记显示中</div>
+          </div>
         </div>
       </div>
     </aside>

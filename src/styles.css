@@ -188,6 +188,7 @@ h2 {
 }
 
 .search-icon {
+  margin-top: -8px;
   margin-right: 10px;
   color: #8ce3d7;
   font-size: 25px;
@@ -2029,8 +2030,8 @@ kbd {
 
 /* Keep interface chrome monochrome; marker accents remain category-specific. */
 .sidebar-content {
-  display: grid;
-  grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+  display: flex;
+  flex-direction: column;
   min-height: 0;
   overflow: hidden;
 }
@@ -2038,6 +2039,7 @@ kbd {
 .sidebar-categories {
   display: flex;
   min-height: 0;
+  flex: 1 1 0;
   flex-direction: column;
   overflow: hidden;
 }
@@ -2052,6 +2054,8 @@ kbd {
 .sidebar-footer {
   min-height: 0;
   margin-top: 0;
+  display: flex;
+  flex-direction: column;
   overflow-y: scroll;
   padding-right: 4px;
 }
@@ -2063,6 +2067,49 @@ kbd {
 .sidebar-footer::-webkit-scrollbar-thumb {
   border-radius: 3px;
   background: rgba(117, 196, 186, 0.36);
+}
+
+.sidebar-footer__toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 11px 1px 15px;
+  margin-top: auto;
+  color: inherit;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  background: transparent;
+  text-align: left;
+  flex-shrink: 0;
+}
+
+.sidebar-footer__toggle b,
+.sidebar-footer__toggle small {
+  display: block;
+}
+
+.sidebar-footer__toggle b {
+  margin-bottom: 3px;
+  color: #ededed;
+  font-size: 12px;
+}
+
+.sidebar-footer__toggle small {
+  color: #7f9f9d;
+  font-size: 11px;
+}
+
+.sidebar-footer__toggle i {
+  color: #cfd7d6;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.sidebar-footer__body {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
 }
 
 .category-button {
