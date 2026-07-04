@@ -153,26 +153,74 @@ h2 {
   font-size: 17px;
 }
 
-.brand-map-link {
+.brand-map-menu {
+  position: relative;
+}
+
+.brand-map-menu summary {
   display: inline-flex;
   align-items: center;
+  gap: 6px;
   min-height: 28px;
-  padding: 7px 9px;
-  color: #a9d4cf;
-  border: 1px solid rgba(143, 208, 201, 0.18);
+  padding: 2px 7px 2px 0;
   border-radius: 4px;
-  background: rgba(52, 108, 104, 0.18);
+  color: #f5f5f5;
+  list-style: none;
+  cursor: pointer;
+}
+
+.brand-map-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.brand-map-menu summary:focus-visible {
+  outline: 1px solid rgba(255, 255, 255, 0.55);
+  outline-offset: 3px;
+}
+
+.brand-map-menu__hint {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  padding: 4px 7px;
+  color: #a9d4cf;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.07);
   font-size: 11px;
   line-height: 1;
+  white-space: nowrap;
+}
+
+.brand-map-menu__panel {
+  position: absolute;
+  z-index: 780;
+  top: calc(100% + 8px);
+  left: 0;
+  display: grid;
+  min-width: 190px;
+  padding: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 6px;
+  background: rgba(7, 12, 12, 0.96);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.34);
+}
+
+.brand-map-menu__panel a {
+  display: block;
+  padding: 9px 10px;
+  color: #d5d5d5;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.2;
   text-decoration: none;
   white-space: nowrap;
 }
 
-.brand-map-link:hover,
-.brand-map-link:focus-visible {
-  color: #eafffb;
-  border-color: rgba(123, 235, 220, 0.46);
-  background: rgba(78, 170, 160, 0.34);
+.brand-map-menu__panel a:hover,
+.brand-map-menu__panel a:focus-visible {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.14);
   outline: none;
 }
 
@@ -522,7 +570,6 @@ kbd {
 
 .toolbar-button,
 .toolbar button,
-.brand-map-link,
 .detail-actions button,
 .route-list button,
 .segment-list button,
@@ -535,8 +582,6 @@ kbd {
 
 .toolbar-button--active,
 .toolbar button:hover,
-.brand-map-link:hover,
-.brand-map-link:focus-visible,
 .route-list button.active,
 .route-list button:hover,
 .segment-list button:hover {
@@ -1998,6 +2043,10 @@ kbd {
     row-gap: 6px;
   }
 
+  .brand-map-menu__panel {
+    min-width: 176px;
+  }
+
   .sidebar {
     top: 168px;
     bottom: 12px;
@@ -2031,7 +2080,9 @@ kbd {
 /* Keep interface chrome monochrome; marker accents remain category-specific. */
 .sidebar-content {
   display: flex;
+  height: 100%;
   flex-direction: column;
+  gap: 12px;
   min-height: 0;
   overflow: hidden;
 }
@@ -2052,10 +2103,12 @@ kbd {
 }
 
 .sidebar-footer {
+  flex: 0 1 auto;
   min-height: 0;
   margin-top: 0;
   display: flex;
   flex-direction: column;
+  max-height: min(260px, 34%);
   overflow-y: scroll;
   padding-right: 4px;
 }
@@ -2166,6 +2219,109 @@ kbd {
   .navigation-endpoint-row {
     padding-top: 9px;
     padding-bottom: 11px;
+  }
+}
+
+@media (max-height: 680px) {
+  .sidebar-content {
+    gap: 8px;
+    padding: 12px 10px 10px;
+    overflow-y: auto;
+  }
+
+  .sidebar-content::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  .sidebar-content::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: rgba(117, 196, 186, 0.36);
+  }
+
+  .sidebar-categories {
+    flex: 0 0 auto;
+    overflow: visible;
+  }
+
+  .sidebar-layer-picker {
+    padding-bottom: 9px;
+  }
+
+  .sidebar-layer-picker__heading {
+    align-items: center;
+    margin-bottom: 7px;
+  }
+
+  .sidebar-layer-picker__heading .eyebrow,
+  .sidebar-heading .eyebrow {
+    display: none;
+  }
+
+  .sidebar-layer-picker__heading h2,
+  .sidebar-heading h2 {
+    font-size: 14px;
+  }
+
+  .sidebar-layer-picker__list {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 5px;
+  }
+
+  .sidebar-layer-picker__list button {
+    min-height: 27px;
+    padding: 4px 5px;
+    font-size: 10px;
+  }
+
+  .category-list {
+    flex: 0 0 auto;
+    margin-top: 8px;
+    overflow: visible;
+  }
+
+  .category-group-block {
+    gap: 6px;
+    margin-top: 5px;
+  }
+
+  .category-group-items {
+    gap: 5px;
+  }
+
+  .category-button {
+    gap: 5px;
+    min-height: 30px;
+    padding: 4px 6px;
+    font-size: 11px;
+  }
+
+  .category-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .category-icon img {
+    width: 17px;
+    height: 17px;
+  }
+
+  .category-group-toggle {
+    padding-top: 4px;
+  }
+
+  .category-select-all__box {
+    width: 16px;
+    height: 16px;
+  }
+
+  .sidebar-footer {
+    flex: 0 0 auto;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .filter-summary {
+    padding-top: 8px;
   }
 }
 
