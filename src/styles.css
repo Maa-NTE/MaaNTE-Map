@@ -1044,6 +1044,17 @@ kbd {
   border-color: rgba(123, 235, 220, 0.5);
 }
 
+.navigation-endpoint-fields input.is-danger {
+  color: #fff7f7;
+  border-color: rgba(255, 76, 76, 0.94);
+  background: rgba(107, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 1px rgba(255, 160, 160, 0.2), 0 0 12px rgba(255, 45, 45, 0.25);
+}
+
+.navigation-endpoint-fields input.is-danger:focus {
+  border-color: #ff3f3f;
+}
+
 .results-header {
   padding: 14px 1px 8px;
   color: #b8d1ce;
@@ -1759,6 +1770,30 @@ kbd {
 
 .status-toast {
   top: 96px;
+}
+
+.navigation-wildcard-modal {
+  position: fixed;
+  z-index: 1200;
+  inset: 0;
+  display: grid;
+  padding: 24px;
+  place-items: center;
+  pointer-events: none;
+}
+
+.navigation-wildcard-modal__panel {
+  width: min(620px, calc(100vw - 32px));
+  padding: 28px 32px;
+  color: #fff7f7;
+  border: 2px solid rgba(255, 84, 84, 0.95);
+  border-radius: 8px;
+  background: rgba(126, 0, 0, 0.94);
+  box-shadow: 0 0 0 999px rgba(0, 0, 0, 0.42), 0 24px 70px rgba(255, 0, 0, 0.36);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.55;
+  text-align: center;
 }
 
 .modal-backdrop,

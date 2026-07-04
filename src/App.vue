@@ -78,6 +78,8 @@ const {
   navigationPort,
   navigationRouteSendEnabled,
   navigationState,
+  navigationWildcardHostWarning,
+  navigationWildcardHostWarningMessage,
   navigationWebSocketUrl,
   openEditLocation,
   pendingLocationChangeCount,
@@ -761,7 +763,14 @@ onBeforeUnmount(() => {
             <div class="navigation-endpoint-fields">
               <label>
                 <span>IP</span>
-                <input v-model.trim="navigationHost" type="text" inputmode="url" autocomplete="off" @change="applyNavigationEndpoint" />
+                <input
+                  v-model.trim="navigationHost"
+                  type="text"
+                  inputmode="url"
+                  autocomplete="off"
+                  :class="{ 'is-danger': navigationWildcardHostWarning }"
+                  @change="applyNavigationEndpoint"
+                />
               </label>
               <label>
                 <span>端口</span>
@@ -904,6 +913,11 @@ onBeforeUnmount(() => {
     </div>
     <div v-if="editorMode" class="editor-tip glass-panel">编辑模式：点击地图空白处添加点位</div>
     <div v-if="statusMessage" class="status-toast glass-panel">{{ statusMessage }}</div>
+    <div v-if="navigationWildcardHostWarning" class="navigation-wildcard-modal" role="alert" aria-live="assertive">
+      <div class="navigation-wildcard-modal__panel">
+        {{ navigationWildcardHostWarningMessage }}
+      </div>
+    </div>
 
     <div v-if="editorFormOpen" class="modal-backdrop" @click.self="editorFormOpen = false">
       <form class="editor-form glass-panel" @submit.prevent="saveLocation">

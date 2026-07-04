@@ -1,5 +1,7 @@
 import { DEFAULT_NAVIGATION_WEBSOCKET_URL } from '../constants/mapApp'
 
+const WILDCARD_HOST = '0.0.0.0'
+
 // 把 ws://host:port 或 wss://host:port 拆成表单可编辑的协议、主机和端口。
 export function parseNavigationWebSocketUrl(url = DEFAULT_NAVIGATION_WEBSOCKET_URL) {
   try {
@@ -20,6 +22,10 @@ export function normalizeNavigationProtocol(value) {
 
 export function normalizeNavigationHost(value) {
   return String(value || '').trim() || parseNavigationWebSocketUrl().host
+}
+
+export function isWildcardNavigationHost(value) {
+  return normalizeNavigationHost(value) === WILDCARD_HOST
 }
 
 // 端口只接受 1-65535 的整数，非法输入回退到默认导航服务端口。

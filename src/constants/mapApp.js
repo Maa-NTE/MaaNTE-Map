@@ -9,6 +9,7 @@ export const COMPLETED_STORAGE_KEY = 'nte-completed'
 export const FAVORITES_STORAGE_KEY = 'nte-favorites'
 
 // 本地导航服务默认监听地址；生产环境可通过 Vite 环境变量覆盖。
+// 别把客户端连接地址改成 ws://0.0.0.0，0.0.0.0 是服务端监听占位，不是浏览器该连的目标。
 export const DEFAULT_NAVIGATION_WEBSOCKET_URL =
   import.meta.env.VITE_MAANTE_NAVI_WEBSOCKET_URL || 'ws://127.0.0.1:14514'
 
