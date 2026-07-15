@@ -8,12 +8,15 @@
     "build": "vite build --configLoader runner",
     "preview": "vite preview --configLoader runner --host 127.0.0.1",
     "qa": "node scripts/qa-map.mjs",
+    "qa:location-bundle": "node scripts/qa-location-bundle.mjs",
+    "qa:static-location-bundle": "npm run build && node scripts/qa-static-location-bundle.mjs",
     "check:encoding": "node scripts/check-encoding.mjs",
     "clean:locations": "python scripts/clean-locations.py",
     "import:zeroluck": "node scripts/import-zeroluck-map.mjs",
     "merge:locations": "node scripts/merge-location-changes.mjs"
   },
   "dependencies": {
+    "fflate": "^0.8.3",
     "leaflet": "^1.9.4",
     "leaflet.markercluster": "^1.5.3",
     "vue": "^3.5.13"

@@ -7,6 +7,8 @@ scripts/*
 !scripts/import-zeroluck-map.mjs
 !scripts/check-encoding.mjs
 !scripts/merge-location-changes.mjs
+!scripts/qa-location-bundle.mjs
+!scripts/qa-static-location-bundle.mjs
 !scripts/clean-locations.py
 !scripts/qa-map.mjs
 __pycache__/

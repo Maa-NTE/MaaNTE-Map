@@ -1,8 +1,10 @@
 import assert from 'node:assert/strict'
-import { copyFile, mkdir, readFile, rm } from 'node:fs/promises'
+import { createHash } from 'node:crypto'
+import { copyFile, mkdir, readFile, rm, stat } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { spawn } from 'node:child_process'
+import { strFromU8, unzipSync } from 'fflate'
 import { chromium } from 'playwright-core'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
@@ -14,13 +16,25 @@ const vitePath = path.join(root, 'node_modules', 'vite', 'bin', 'vite.js')
 const mapDataFile = path.join(root, 'src', 'data', 'map-data.json')
 const qaMapDataFile = path.join(output, 'map-data.qa.json')
 const qaUploadsDir = path.join(output, 'uploads')
+const qaLocationImagesDir = path.join(output, 'location-images')
 const qaImageBuffer = Buffer.from(
   'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAFgwJ/lz9WJwAAAABJRU5ErkJggg==',
   'base64',
 )
+const qaImageSha256 = createHash('sha256').update(qaImageBuffer).digest('hex')
+
+async function pathExists(filePath) {
+  try {
+    await stat(filePath)
+    return true
+  } catch {
+    return false
+  }
+}
 
 await mkdir(output, { recursive: true })
 await rm(qaUploadsDir, { recursive: true, force: true })
+await rm(qaLocationImagesDir, { recursive: true, force: true })
 await mkdir(qaUploadsDir, { recursive: true })
 await copyFile(mapDataFile, qaMapDataFile)
 
@@ -30,7 +44,12 @@ const server = spawn(
   {
     cwd: root,
     stdio: 'ignore',
-    env: { ...process.env, MAANTE_MAP_DATA_FILE: qaMapDataFile, MAANTE_UPLOADS_DIR: qaUploadsDir },
+    env: {
+      ...process.env,
+      MAANTE_MAP_DATA_FILE: qaMapDataFile,
+      MAANTE_UPLOADS_DIR: qaUploadsDir,
+      MAANTE_LOCATION_IMAGES_DIR: qaLocationImagesDir,
+    },
   },
 )
 
@@ -217,6 +236,7 @@ try {
   const markerCount = await page.locator('.map-marker').count()
   await firstCategory.click()
   assert.notEqual(await page.locator('.map-marker').count(), markerCount)
+  await firstCategory.click()
 
   await page.getByRole('button', { name: '编辑地图' }).click()
   await page.locator('.map-canvas').click({ position: { x: 1480, y: 880 } })
@@ -254,7 +274,18 @@ try {
     buffer: qaImageBuffer,
   })
   await page.locator('.form-images img').waitFor()
+  assert.equal(await pathExists(qaLocationImagesDir), false)
+  await page.getByRole('button', { name: '移除第 1 张点位截图' }).click()
+  assert.equal(await page.locator('.form-images img').count(), 0)
+  assert.equal(await pathExists(qaLocationImagesDir), false)
+  await page.locator('.editor-form input[type="file"]').setInputFiles({
+    name: 'qa-point.png',
+    mimeType: 'image/png',
+    buffer: qaImageBuffer,
+  })
+  await page.locator('.form-images img').waitFor()
   await page.getByRole('button', { name: '保存' }).click()
+  await page.locator('.editor-form').waitFor({ state: 'hidden' })
   const persistedMapData = await page.evaluate(() => fetch('/api/map-data').then((response) => response.json()))
   assert.equal(persistedMapData.categories.find((category) => category.id === 'qa-custom-type').group, '传送点')
   assert.equal(persistedMapData.categories.find((category) => category.id === 'qa-custom-type-2').group, '测试新大类')
@@ -262,11 +293,19 @@ try {
   assert.ok(savedLocation)
   assert.equal(savedLocation.id, 'qa-custom-location')
   assert.equal(savedLocation.district, '未闻浦')
-  assert.match(savedLocation.images[0], /^\/images\/uploads\/\d+-qa-point\.png$/)
+  assert.equal(savedLocation.images[0], `/images/locations/qa-custom-location/${qaImageSha256}.png`)
+  const qaStoredImagePath = path.join(qaLocationImagesDir, 'qa-custom-location', `${qaImageSha256}.png`)
+  assert.deepEqual(
+    await readFile(qaStoredImagePath),
+    qaImageBuffer,
+  )
   const locationChangesDownload = page.waitForEvent('download')
   await page.getByRole('button', { name: /导出点位修改/ }).click()
-  const locationChangesPath = await (await locationChangesDownload).path()
-  const locationChanges = JSON.parse(await readFile(locationChangesPath, 'utf8'))
+  const locationChangesDownloadResult = await locationChangesDownload
+  assert.match(locationChangesDownloadResult.suggestedFilename(), /^MaaNTE-location-changes-\d{4}-\d{2}-\d{2}\.zip$/)
+  const locationChangesPath = await locationChangesDownloadResult.path()
+  const locationChangesArchive = unzipSync(await readFile(locationChangesPath))
+  const locationChanges = JSON.parse(strFromU8(locationChangesArchive['location-changes.json']))
   assert.deepEqual(locationChanges.categories.find((category) => category.id === 'qa-custom-type'), {
     id: 'qa-custom-type',
     group: '传送点',
@@ -282,7 +321,65 @@ try {
     assert.ok(locationChanges.categories.find((category) => category.id === type)?.group)
   }
   assert.equal(locationChanges.upsertLocations.find((location) => location.id === savedLocation.id).images[0], savedLocation.images[0])
-  assert.equal(locationChanges.imageAssets, undefined)
+  assert.deepEqual(locationChanges.imageAssets, [{
+    path: savedLocation.images[0],
+    sha256: qaImageSha256,
+    mimeType: 'image/png',
+    size: qaImageBuffer.length,
+  }])
+  assert.deepEqual(Buffer.from(locationChangesArchive[`public${savedLocation.images[0]}`]), qaImageBuffer)
+  await page.locator('.leaflet-marker-icon[title="QA 自定义类型点位"]').dispatchEvent('click')
+  await page.locator('.detail-card').waitFor()
+  await page.locator('.detail-card').getByRole('button', { name: '编辑', exact: true }).click()
+  await page.getByRole('button', { name: '移除第 1 张点位截图' }).click()
+  await page.getByRole('button', { name: '保存', exact: true }).click()
+  await page.locator('.editor-form').waitFor({ state: 'hidden' })
+  for (let attempt = 0; attempt < 20 && await pathExists(qaStoredImagePath); attempt += 1) {
+    await page.waitForTimeout(50)
+  }
+  assert.equal(await pathExists(qaStoredImagePath), false)
+  await page.locator('.leaflet-marker-icon[title="QA 自定义类型点位"]').dispatchEvent('click')
+  await page.locator('.detail-card').waitFor()
+  await page.locator('.detail-card').getByRole('button', { name: '编辑', exact: true }).click()
+  await page.locator('.editor-form input[type="file"]').setInputFiles({
+    name: 'qa-point.png',
+    mimeType: 'image/png',
+    buffer: qaImageBuffer,
+  })
+  await page.locator('.form-images img').waitFor()
+  await page.getByRole('button', { name: '保存', exact: true }).click()
+  await page.locator('.editor-form').waitFor({ state: 'hidden' })
+  assert.deepEqual(await readFile(qaStoredImagePath), qaImageBuffer)
+  page.once('dialog', (dialog) => dialog.accept())
+  await page.locator('.detail-card .danger-button').click()
+  await page.locator('.detail-card').waitFor({ state: 'hidden' })
+  for (let attempt = 0; attempt < 20 && await pathExists(qaStoredImagePath); attempt += 1) {
+    await page.waitForTimeout(50)
+  }
+  assert.equal(await pathExists(qaStoredImagePath), false)
+  await page.locator('.toolbar-file-input').setInputFiles({
+    name: 'missing-image-location.json',
+    mimeType: 'application/json',
+    buffer: Buffer.from(JSON.stringify({
+      version: 2,
+      type: 'location-changes',
+      upsertLocations: [{
+        id: 'qa-missing-image',
+        name: 'QA missing image',
+        types: [initialMapData.categories[0].id],
+        district: '全地图',
+        x: 1,
+        y: 2,
+        description: '',
+        tags: [],
+        images: [`/images/locations/qa-missing-image/${'0'.repeat(64)}.png`],
+      }],
+    })),
+  })
+  await page.getByText(/点位修改导入失败/).waitFor()
+  assert.equal(await page.evaluate(() => fetch('/api/map-data')
+    .then((response) => response.json())
+    .then((data) => data.locations.some((location) => location.id === 'qa-missing-image'))), false)
   await page.evaluate(async (data) => {
     await fetch('/api/map-data', {
       method: 'POST',
@@ -297,7 +394,10 @@ try {
   await page.getByRole('button', { name: '+ 新建', exact: true }).click()
   await page.getByRole('button', { name: '+ 添加路段', exact: true }).click()
   await page.locator('.map-canvas').click({ position: { x: 760, y: 520 } })
-  await page.locator('.map-canvas').click({ position: { x: 900, y: 600 } })
+  await page.locator('.route-point-handle').waitFor()
+  await page.waitForTimeout(350)
+  await page.locator('.map-canvas').click({ position: { x: 1040, y: 700 } })
+  await page.locator('.route-point-handle').nth(1).waitFor()
   assert.equal(await page.locator('.route-point-handle').count(), 2)
   page.once('dialog', (dialog) => dialog.accept('QA 空白点路段'))
   await page.getByRole('button', { name: '完成', exact: true }).click()
@@ -346,4 +446,5 @@ try {
   server.kill()
   await rm(qaMapDataFile, { force: true })
   await rm(qaUploadsDir, { recursive: true, force: true })
+  await rm(qaLocationImagesDir, { recursive: true, force: true })
 }

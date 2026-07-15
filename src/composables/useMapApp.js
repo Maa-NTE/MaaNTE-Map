@@ -40,6 +40,186 @@ import {
 } from '../utils/navigationEndpoint'
 import { readStoredIds, readStoredMapView, readStoredMarkerFilters } from '../utils/storage'
 
+const LOCATION_IMAGE_MAX_BYTES = 10 * 1024 * 1024
+const LOCATION_IMAGE_MAX_COUNT = 8
+const LOCATION_BUNDLE_MAX_BYTES = 512 * 1024 * 1024
+const LOCATION_BUNDLE_MAX_MANIFEST_BYTES = 8 * 1024 * 1024
+const LOCATION_BUNDLE_MAX_ENTRIES = 4096
+const LOCATION_IMAGE_PATH_PATTERN = /^\/images\/locations\/([a-z0-9_-]{1,80})\/([a-f0-9]{64})\.(png|jpg|webp|gif)$/
+const LOCATION_IMAGE_TYPES = {
+  'image/gif': 'gif',
+  'image/jpeg': 'jpg',
+  'image/png': 'png',
+  'image/webp': 'webp',
+}
+
+function normalizeImageMimeType(value) {
+  const mimeType = String(value || '').toLowerCase()
+  return mimeType === 'image/jpg' ? 'image/jpeg' : mimeType
+}
+
+function detectLocationImageType(bytes) {
+  if (bytes.length >= 8
+    && bytes[0] === 0x89
+    && bytes[1] === 0x50
+    && bytes[2] === 0x4e
+    && bytes[3] === 0x47
+    && bytes[4] === 0x0d
+    && bytes[5] === 0x0a
+    && bytes[6] === 0x1a
+    && bytes[7] === 0x0a) {
+    return { mimeType: 'image/png', extension: 'png' }
+  }
+  if (bytes.length >= 3 && bytes[0] === 0xff && bytes[1] === 0xd8 && bytes[2] === 0xff) {
+    return { mimeType: 'image/jpeg', extension: 'jpg' }
+  }
+  if (bytes.length >= 6
+    && bytes[0] === 0x47
+    && bytes[1] === 0x49
+    && bytes[2] === 0x46
+    && bytes[3] === 0x38
+    && (bytes[4] === 0x37 || bytes[4] === 0x39)
+    && bytes[5] === 0x61) {
+    return { mimeType: 'image/gif', extension: 'gif' }
+  }
+  if (bytes.length >= 12
+    && bytes[0] === 0x52
+    && bytes[1] === 0x49
+    && bytes[2] === 0x46
+    && bytes[3] === 0x46
+    && bytes[8] === 0x57
+    && bytes[9] === 0x45
+    && bytes[10] === 0x42
+    && bytes[11] === 0x50) {
+    return { mimeType: 'image/webp', extension: 'webp' }
+  }
+  return null
+}
+
+async function sha256Hex(bytes) {
+  const digest = await crypto.subtle.digest('SHA-256', bytes)
+  return [...new Uint8Array(digest)].map((byte) => byte.toString(16).padStart(2, '0')).join('')
+}
+
+function sanitizeLocationImageId(value) {
+  const sanitized = String(value || '')
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-zA-Z0-9_-]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 80) || 'location'
+  return /^(?:con|prn|aux|nul|com[1-9]|lpt[1-9])$/.test(sanitized)
+    ? `location-${sanitized}`
+    : sanitized
+}
+
+function locationImagePath(locationId, asset) {
+  return `/images/locations/${sanitizeLocationImageId(locationId)}/${asset.sha256}.${asset.extension}`
+}
+
+function localDateStamp(date = new Date()) {
+  return [date.getFullYear(), date.getMonth() + 1, date.getDate()]
+    .map((part, index) => String(part).padStart(index ? 2 : 4, '0'))
+    .join('-')
+}
+
+function assertLocationImagePath(path, asset) {
+  const match = LOCATION_IMAGE_PATH_PATTERN.exec(String(path || ''))
+  if (!match || match[2] !== asset.sha256 || match[3] !== asset.extension) {
+    throw new Error(`invalid image asset path: ${path}`)
+  }
+}
+
+function inspectLocationChangesZip(bytes) {
+  if (bytes.byteLength < 22 || bytes.byteLength > LOCATION_BUNDLE_MAX_BYTES) {
+    throw new Error('invalid or oversized ZIP bundle')
+  }
+  const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength)
+  const minimumOffset = Math.max(0, bytes.byteLength - 22 - 0xffff)
+  let endOffset = -1
+  for (let offset = bytes.byteLength - 22; offset >= minimumOffset; offset -= 1) {
+    if (view.getUint32(offset, true) !== 0x06054b50) continue
+    if (offset + 22 + view.getUint16(offset + 20, true) === bytes.byteLength) {
+      endOffset = offset
+      break
+    }
+  }
+  if (endOffset < 0) throw new Error('invalid ZIP central directory')
+
+  const diskNumber = view.getUint16(endOffset + 4, true)
+  const centralDisk = view.getUint16(endOffset + 6, true)
+  const entriesOnDisk = view.getUint16(endOffset + 8, true)
+  const entryCount = view.getUint16(endOffset + 10, true)
+  const centralSize = view.getUint32(endOffset + 12, true)
+  const centralOffset = view.getUint32(endOffset + 16, true)
+  if (diskNumber !== 0
+    || centralDisk !== 0
+    || entriesOnDisk !== entryCount
+    || entryCount > LOCATION_BUNDLE_MAX_ENTRIES
+    || entryCount === 0xffff
+    || centralSize === 0xffffffff
+    || centralOffset === 0xffffffff
+    || centralOffset + centralSize > endOffset) {
+    throw new Error('unsupported ZIP directory layout')
+  }
+
+  const names = new Set()
+  const caseInsensitiveNames = new Set()
+  const decoder = new TextDecoder('utf-8', { fatal: true })
+  let totalUncompressedSize = 0
+  let cursor = centralOffset
+  for (let index = 0; index < entryCount; index += 1) {
+    if (cursor + 46 > centralOffset + centralSize || view.getUint32(cursor, true) !== 0x02014b50) {
+      throw new Error('invalid ZIP directory entry')
+    }
+    const flags = view.getUint16(cursor + 8, true)
+    const compressedSize = view.getUint32(cursor + 20, true)
+    const uncompressedSize = view.getUint32(cursor + 24, true)
+    const nameLength = view.getUint16(cursor + 28, true)
+    const extraLength = view.getUint16(cursor + 30, true)
+    const commentLength = view.getUint16(cursor + 32, true)
+    const entryEnd = cursor + 46 + nameLength + extraLength + commentLength
+    if ((flags & 0x0001) || entryEnd > centralOffset + centralSize || uncompressedSize === 0xffffffff) {
+      throw new Error('unsupported ZIP entry')
+    }
+
+    let name
+    try {
+      name = decoder.decode(bytes.subarray(cursor + 46, cursor + 46 + nameLength))
+    } catch {
+      throw new Error('invalid ZIP entry name')
+    }
+    const pathParts = (name.endsWith('/') ? name.slice(0, -1) : name).split('/')
+    if (!name
+      || name.includes('\\')
+      || name.includes('\0')
+      || name.startsWith('/')
+      || /^[a-zA-Z]:/.test(name)
+      || pathParts.some((part) => !part || part === '.' || part === '..')) {
+      throw new Error(`invalid ZIP entry path: ${name || '(empty)'}`)
+    }
+    const normalizedName = name.toLowerCase()
+    if (names.has(name) || caseInsensitiveNames.has(normalizedName)) {
+      throw new Error(`duplicate ZIP entry: ${name}`)
+    }
+    names.add(name)
+    caseInsensitiveNames.add(normalizedName)
+
+    if (name.endsWith('/')) {
+      if (compressedSize !== 0 || uncompressedSize !== 0) throw new Error(`invalid ZIP directory entry: ${name}`)
+    } else {
+      const entryLimit = name === 'location-changes.json'
+        ? LOCATION_BUNDLE_MAX_MANIFEST_BYTES
+        : LOCATION_IMAGE_MAX_BYTES
+      if (uncompressedSize > entryLimit) throw new Error(`oversized ZIP entry: ${name}`)
+      totalUncompressedSize += uncompressedSize
+      if (totalUncompressedSize > LOCATION_BUNDLE_MAX_BYTES) throw new Error('oversized ZIP contents')
+    }
+    cursor = entryEnd
+  }
+  if (cursor !== centralOffset + centralSize) throw new Error('invalid ZIP directory size')
+}
+
 // 地图应用的主组合函数。App.vue 只关心模板，具体行为在这里按功能区维护。
 export function useMapApp() {
   const mapData = ref(clone(initialMapData))
@@ -136,6 +316,8 @@ export function useMapApp() {
   const editingLocationId = ref(null)
   const showPendingLocationChangesOnly = ref(false)
   const previewImage = ref('')
+  const isProcessingImages = ref(false)
+  const isSavingLocation = ref(false)
   const statusMessage = ref('')
   const routePanelOpen = ref(false)
   const activeRouteId = ref(null)
@@ -189,6 +371,10 @@ export function useMapApp() {
   const locationForm = ref(emptyLocationForm())
   const editorCategories = computed(() => [...categories.value, ...locationForm.value.pendingCustomTypes])
   const editorCategoryGroups = computed(() => [...new Set(editorCategories.value.map((category) => category.group))])
+  const sessionImageAssets = new Map()
+  let imageProcessingCount = 0
+  let editorSessionId = 0
+  let draftImageSequence = 0
 
   // Leaflet 运行时对象：生命周期内创建，卸载时统一清理。
   let map
@@ -395,6 +581,64 @@ export function useMapApp() {
     }, 2600)
   }
 
+  function beginImageProcessing() {
+    imageProcessingCount += 1
+    isProcessingImages.value = true
+  }
+
+  function endImageProcessing() {
+    imageProcessingCount = Math.max(0, imageProcessingCount - 1)
+    isProcessingImages.value = imageProcessingCount > 0
+  }
+
+  function createSessionImageAsset(bytes, metadata, isDraft = false) {
+    return {
+      bytes,
+      sha256: metadata.sha256,
+      mimeType: metadata.mimeType,
+      extension: metadata.extension,
+      size: bytes.byteLength,
+      previewUrl: URL.createObjectURL(new Blob([bytes], { type: metadata.mimeType })),
+      isDraft,
+    }
+  }
+
+  function releaseSessionImageAsset(key) {
+    const asset = sessionImageAssets.get(key)
+    if (!asset) return
+    URL.revokeObjectURL(asset.previewUrl)
+    sessionImageAssets.delete(key)
+  }
+
+  function discardLocationFormDraftAssets() {
+    locationForm.value.images.forEach((image) => {
+      if (sessionImageAssets.get(image)?.isDraft) releaseSessionImageAsset(image)
+    })
+  }
+
+  function resolveLocationImageUrl(image) {
+    return sessionImageAssets.get(image)?.previewUrl || publicAssetUrl(image)
+  }
+
+  function removeLocationImage(imageOrIndex) {
+    const index = typeof imageOrIndex === 'number'
+      ? imageOrIndex
+      : locationForm.value.images.indexOf(imageOrIndex)
+    if (index < 0 || index >= locationForm.value.images.length) return
+    const [removedImage] = locationForm.value.images.splice(index, 1)
+    if (sessionImageAssets.get(removedImage)?.isDraft) releaseSessionImageAsset(removedImage)
+    if (previewImage.value === removedImage) previewImage.value = ''
+  }
+
+  function closeLocationEditor() {
+    if (isSavingLocation.value) return
+    editorSessionId += 1
+    discardLocationFormDraftAssets()
+    editorFormOpen.value = false
+    editingLocationId.value = null
+    locationForm.value = emptyLocationForm()
+  }
+
   function hasReplacementCharacter(value) {
     if (typeof value === 'string') return value.includes('\uFFFD')
     if (Array.isArray(value)) return value.some((item) => hasReplacementCharacter(item))
@@ -421,7 +665,14 @@ export function useMapApp() {
 
   function downloadJson(payload, filename) {
     assertNoReplacementCharacters(payload)
-    const blobUrl = URL.createObjectURL(new Blob([`${JSON.stringify(payload, null, 2)}\n`], { type: 'application/json;charset=utf-8' }))
+    downloadBlob(
+      new Blob([`${JSON.stringify(payload, null, 2)}\n`], { type: 'application/json;charset=utf-8' }),
+      filename,
+    )
+  }
+
+  function downloadBlob(blob, filename) {
+    const blobUrl = URL.createObjectURL(blob)
     const link = document.createElement('a')
     link.href = blobUrl
     link.download = filename
@@ -493,17 +744,66 @@ export function useMapApp() {
     return [...exportedCategories.values()]
   }
 
-  function exportLocationChanges(changes) {
-    const payload = {
-      version: 1,
-      type: 'location-changes',
+  function collectImageAssetsForChanges(changes) {
+    const referencedPaths = new Set(
+      (changes.upsertLocations || []).flatMap((location) => (
+        Array.isArray(location.images) ? location.images : []
+      )),
+    )
+    return [...referencedPaths]
+      .map((path) => ({ path, asset: sessionImageAssets.get(path) }))
+      .filter(({ asset }) => asset && !asset.isDraft)
+      .sort((left, right) => left.path.localeCompare(right.path))
+  }
+
+  async function exportLocationChanges(changes) {
+    beginImageProcessing()
+    try {
+      const { strToU8, zip } = await import('fflate')
+      const exportedAssets = collectImageAssetsForChanges(changes)
+      exportedAssets.forEach(({ path, asset }) => assertLocationImagePath(path, asset))
+
+      const payload = {
+        version: 2,
+        type: 'location-changes',
+      }
+      const exportCategories = collectCategoriesForChanges(changes)
+      if (exportCategories.length) payload.categories = exportCategories
+      if (changes.upsertLocations?.length) payload.upsertLocations = clone(changes.upsertLocations)
+      if (changes.deletedLocationIds?.length) payload.deletedLocationIds = [...changes.deletedLocationIds]
+      payload.imageAssets = exportedAssets.map(({ path, asset }) => ({
+        path,
+        sha256: asset.sha256,
+        mimeType: asset.mimeType,
+        size: asset.size,
+      }))
+      assertNoReplacementCharacters(payload)
+
+      const manifestBytes = strToU8(`${JSON.stringify(payload, null, 2)}\n`)
+      const totalAssetBytes = exportedAssets.reduce((total, { asset }) => total + asset.size, 0)
+      if (exportedAssets.length + 1 > LOCATION_BUNDLE_MAX_ENTRIES
+        || manifestBytes.byteLength > LOCATION_BUNDLE_MAX_MANIFEST_BYTES
+        || manifestBytes.byteLength + totalAssetBytes > LOCATION_BUNDLE_MAX_BYTES) {
+        throw new Error('location changes bundle is too large')
+      }
+      const zipEntries = {
+        'location-changes.json': [manifestBytes, { level: 6 }],
+      }
+      exportedAssets.forEach(({ path, asset }) => {
+        zipEntries[`public${path}`] = [asset.bytes, { level: 0 }]
+      })
+      const archive = await new Promise((resolve, reject) => {
+        zip(zipEntries, (error, data) => error ? reject(error) : resolve(data))
+      })
+      if (archive.byteLength > LOCATION_BUNDLE_MAX_BYTES) throw new Error('location changes bundle is too large')
+      downloadBlob(
+        new Blob([archive], { type: 'application/zip' }),
+        `MaaNTE-location-changes-${localDateStamp()}.zip`,
+      )
+      showStatus('点位修改 ZIP 已导出')
+    } finally {
+      endImageProcessing()
     }
-    const exportCategories = collectCategoriesForChanges(changes)
-    if (exportCategories.length) payload.categories = exportCategories
-    if (changes.upsertLocations?.length) payload.upsertLocations = clone(changes.upsertLocations)
-    if (changes.deletedLocationIds?.length) payload.deletedLocationIds = [...changes.deletedLocationIds]
-    downloadJson(payload, `MaaNTE-location-changes-${new Date().toISOString().slice(0, 10)}.json`)
-    showStatus('点位修改 JSON 已导出')
   }
 
   function queueLocationChanges(changes) {
@@ -541,9 +841,13 @@ export function useMapApp() {
     unusedCreatedCategoryIds.forEach((id) => sessionCreatedCategoryIds.delete(id))
   }
 
-  function exportPendingLocationChanges() {
+  async function exportPendingLocationChanges() {
     if (!pendingLocationChangeCount.value) return
-    exportLocationChanges(pendingLocationChanges.value)
+    try {
+      await exportLocationChanges(pendingLocationChanges.value)
+    } catch {
+      showStatus('点位修改 ZIP 导出失败')
+    }
   }
 
   async function persistMapData({ staticChanges = null } = {}) {
@@ -553,12 +857,12 @@ export function useMapApp() {
       assertNoReplacementCharacters(mapData.value)
     } catch {
       showStatus('保存失败：文本包含乱码字符 U+FFFD')
-      return
+      return false
     }
     if (staticChanges) queueLocationChanges(staticChanges)
     if (!isLocalEditor) {
-      if (staticChanges) exportLocationChanges(staticChanges)
-      return
+      if (staticChanges) await exportLocationChanges(staticChanges)
+      return true
     }
     try {
       const response = await fetch('/api/map-data', {
@@ -568,8 +872,10 @@ export function useMapApp() {
       })
       if (!response.ok) throw new Error('保存失败')
       showStatus('本地数据已保存')
+      return true
     } catch {
       showStatus('本地数据保存失败')
+      return false
     }
   }
 
@@ -836,7 +1142,7 @@ export function useMapApp() {
       version: 1,
       routes: normalizeRoutes(routes.value),
     }
-    downloadJson(payload, `MaaNTE-routes-${new Date().toISOString().slice(0, 10)}.json`)
+    downloadJson(payload, `MaaNTE-routes-${localDateStamp()}.json`)
     showStatus('路线 JSON 已导出')
   }
 
@@ -1363,7 +1669,10 @@ export function useMapApp() {
   function normalizeLocationChanges(payload) {
     if (!payload || payload.type !== 'location-changes') throw new Error('invalid location changes')
     assertNoReplacementCharacters(payload)
-    const categories = Array.isArray(payload.categories)
+    if (payload.categories !== undefined && !Array.isArray(payload.categories)) {
+      throw new Error('invalid categories')
+    }
+    const changeCategories = Array.isArray(payload.categories)
       ? payload.categories
           .filter((category) => category && typeof category === 'object' && typeof category.id === 'string')
           .map((category) => ({
@@ -1371,66 +1680,305 @@ export function useMapApp() {
             group: normalizeCategoryGroup(category),
           }))
       : []
-    const upsertLocations = Array.isArray(payload.upsertLocations)
-      ? payload.upsertLocations
-          .filter((location) => location && typeof location === 'object' && typeof location.id === 'string')
-          .map(normalizeLocationCoordinates)
-          .filter(Boolean)
-      : []
-    const deletedLocationIds = Array.isArray(payload.deletedLocationIds)
-      ? payload.deletedLocationIds.filter((id) => typeof id === 'string' && id)
-      : []
-    return { categories, upsertLocations, deletedLocationIds }
+    if (payload.upsertLocations !== undefined && !Array.isArray(payload.upsertLocations)) {
+      throw new Error('invalid upsert locations')
+    }
+    const upsertLocationIds = new Set()
+    const upsertLocations = (payload.upsertLocations || []).map((source, index) => {
+      if (!source || typeof source !== 'object' || Array.isArray(source)) {
+        throw new Error(`invalid location at index ${index}`)
+      }
+      const location = normalizeLocationCoordinates(source)
+      const id = typeof location?.id === 'string' ? location.id.trim() : ''
+      const name = typeof location?.name === 'string' ? location.name.trim() : ''
+      const types = Array.isArray(location?.types)
+        ? location.types.filter((type) => typeof type === 'string' && type)
+        : []
+      const images = location?.images === undefined ? [] : location.images
+      const tags = location?.tags === undefined ? [] : location.tags
+      if (!location
+        || !id
+        || !name
+        || !Array.isArray(location.types)
+        || !types.length
+        || types.length !== location.types.length
+        || upsertLocationIds.has(id)) {
+        throw new Error(`invalid location fields at index ${index}`)
+      }
+      if (!Array.isArray(images)
+        || images.length > LOCATION_IMAGE_MAX_COUNT
+        || images.some((image) => typeof image !== 'string' || !image)) {
+        throw new Error(`invalid images for location: ${id}`)
+      }
+      if (!Array.isArray(tags) || tags.some((tag) => typeof tag !== 'string')) {
+        throw new Error(`invalid tags for location: ${id}`)
+      }
+      upsertLocationIds.add(id)
+      return {
+        ...location,
+        id,
+        name,
+        types,
+        district: typeof location.district === 'string' && location.district ? location.district : '全地图',
+        description: typeof location.description === 'string' ? location.description : '',
+        tags,
+        images,
+      }
+    })
+    const knownCategoryIds = new Set([
+      ...categories.value.map((category) => category.id),
+      ...changeCategories.map((category) => category.id),
+    ])
+    if (upsertLocations.some((location) => location.types.some((type) => !knownCategoryIds.has(type)))) {
+      throw new Error('location changes contain an unknown category')
+    }
+    if (payload.deletedLocationIds !== undefined && !Array.isArray(payload.deletedLocationIds)) {
+      throw new Error('invalid deleted location IDs')
+    }
+    const deletedLocationIds = (payload.deletedLocationIds || []).filter((id) => typeof id === 'string' && id)
+    if (deletedLocationIds.length !== (payload.deletedLocationIds || []).length) {
+      throw new Error('invalid deleted location IDs')
+    }
+    const deletedLocationIdSet = new Set(deletedLocationIds)
+    if (deletedLocationIdSet.size !== deletedLocationIds.length
+      || [...upsertLocationIds].some((id) => deletedLocationIdSet.has(id))) {
+      throw new Error('duplicate or conflicting location IDs')
+    }
+    return { categories: changeCategories, upsertLocations, deletedLocationIds }
+  }
+
+  function normalizeImageAssetManifest(payload, requireManifest = false) {
+    if (requireManifest && (payload.version !== 2 || !Array.isArray(payload.imageAssets))) {
+      throw new Error('invalid image asset manifest')
+    }
+    if (payload.imageAssets === undefined) return []
+    if (!Array.isArray(payload.imageAssets)) throw new Error('invalid image asset manifest')
+
+    const paths = new Set()
+    return payload.imageAssets.map((item) => {
+      const path = String(item?.path || '')
+      const sha256 = String(item?.sha256 || '').toLowerCase()
+      const mimeType = normalizeImageMimeType(item?.mimeType)
+      const extension = LOCATION_IMAGE_TYPES[mimeType]
+      const size = Number(item?.size)
+      const asset = { path, sha256, mimeType, extension, size }
+      if (!/^[a-f0-9]{64}$/.test(sha256)
+        || !extension
+        || !Number.isSafeInteger(size)
+        || size <= 0
+        || size > LOCATION_IMAGE_MAX_BYTES
+        || paths.has(path)) {
+        throw new Error(`invalid image asset: ${path || '(missing path)'}`)
+      }
+      assertLocationImagePath(path, asset)
+      paths.add(path)
+      return asset
+    })
+  }
+
+  async function validateExistingLocationImageReferences(changes, bundledPaths = new Set()) {
+    for (const location of changes.upsertLocations) {
+      for (const path of location.images) {
+        const pathMatch = LOCATION_IMAGE_PATH_PATTERN.exec(path)
+        if (!pathMatch) continue
+        if (pathMatch[1] !== sanitizeLocationImageId(location.id)) {
+          throw new Error(`image path does not match location: ${location.id}`)
+        }
+        if (bundledPaths.has(path)) continue
+
+        const current = sessionImageAssets.get(path)
+        if (current?.sha256 === pathMatch[2] && current.extension === pathMatch[3]) continue
+        const response = await fetch(publicAssetUrl(path))
+        if (!response.ok) throw new Error(`missing image asset: ${path}`)
+        const bytes = new Uint8Array(await response.arrayBuffer())
+        const detectedType = detectLocationImageType(bytes)
+        if (bytes.byteLength <= 0
+          || bytes.byteLength > LOCATION_IMAGE_MAX_BYTES
+          || !detectedType
+          || detectedType.extension !== pathMatch[3]
+          || await sha256Hex(bytes) !== pathMatch[2]) {
+          throw new Error(`invalid existing image asset: ${path}`)
+        }
+      }
+    }
+  }
+
+  async function parseLocationChangesFile(file) {
+    const prefix = new Uint8Array(await file.slice(0, 4).arrayBuffer())
+    const isZip = file.name.toLowerCase().endsWith('.zip')
+      || (prefix[0] === 0x50 && prefix[1] === 0x4b)
+    const sizeLimit = isZip ? LOCATION_BUNDLE_MAX_BYTES : LOCATION_BUNDLE_MAX_MANIFEST_BYTES
+    if (file.size > sizeLimit) throw new Error('location changes file is too large')
+    const fileBytes = new Uint8Array(await file.arrayBuffer())
+    if (!isZip) {
+      const payload = JSON.parse(new TextDecoder().decode(fileBytes).replace(/^\uFEFF/, ''))
+      const changes = normalizeLocationChanges(payload)
+      if (normalizeImageAssetManifest(payload).length) {
+        throw new Error('image assets require a ZIP file')
+      }
+      await validateExistingLocationImageReferences(changes)
+      return { changes, assets: [] }
+    }
+
+    inspectLocationChangesZip(fileBytes)
+    const { strFromU8, unzipSync } = await import('fflate')
+    const entries = unzipSync(fileBytes)
+    const manifestBytes = entries['location-changes.json']
+    if (!manifestBytes) throw new Error('missing location-changes.json')
+    const payload = JSON.parse(strFromU8(manifestBytes).replace(/^\uFEFF/, ''))
+    const changes = normalizeLocationChanges(payload)
+    const manifestAssets = normalizeImageAssetManifest(payload, true)
+    const manifestByPath = new Map(manifestAssets.map((asset) => [asset.path, asset]))
+    await validateExistingLocationImageReferences(changes, new Set(manifestByPath.keys()))
+    const referencedAssetPaths = new Set()
+
+    for (const location of changes.upsertLocations) {
+      for (const path of location.images) {
+        const asset = manifestByPath.get(path)
+        if (asset) {
+          referencedAssetPaths.add(path)
+        }
+      }
+    }
+    if (manifestAssets.some((asset) => !referencedAssetPaths.has(asset.path))) {
+      throw new Error('ZIP contains an unreferenced image asset')
+    }
+
+    const expectedEntryNames = new Set([
+      'location-changes.json',
+      ...manifestAssets.map((asset) => `public${asset.path}`),
+    ])
+    if (Object.keys(entries).some((name) => !name.endsWith('/') && !expectedEntryNames.has(name))) {
+      throw new Error('ZIP contains an unexpected file')
+    }
+
+    const assets = []
+    for (const metadata of manifestAssets) {
+      const bytes = entries[`public${metadata.path}`]
+      if (!bytes || bytes.byteLength !== metadata.size) {
+        throw new Error(`image size mismatch: ${metadata.path}`)
+      }
+      const detectedType = detectLocationImageType(bytes)
+      if (!detectedType || detectedType.mimeType !== metadata.mimeType) {
+        throw new Error(`image type mismatch: ${metadata.path}`)
+      }
+      if (await sha256Hex(bytes) !== metadata.sha256) {
+        throw new Error(`image hash mismatch: ${metadata.path}`)
+      }
+      assets.push({ ...metadata, bytes })
+    }
+    return { changes, assets }
+  }
+
+  async function writeLocationImage(path, asset) {
+    const response = await fetch(`/api/location-image?path=${encodeURIComponent(path)}`, {
+      method: 'POST',
+      headers: { 'Content-Type': asset.mimeType },
+      body: asset.bytes,
+    })
+    if (!response.ok) throw new Error(`failed to write image: ${path}`)
+  }
+
+  async function deleteStoredLocationImage(path) {
+    const response = await fetch(`/api/location-image?path=${encodeURIComponent(path)}`, { method: 'DELETE' })
+    if (!response.ok) throw new Error(`failed to delete image: ${path}`)
+  }
+
+  async function cleanupUnusedSessionImageAssets(candidatePaths) {
+    const referencedPaths = new Set(
+      locations.value.flatMap((location) => Array.isArray(location.images) ? location.images : []),
+    )
+    const disposablePaths = [...new Set(candidatePaths)].filter((path) => (
+      sessionImageAssets.has(path)
+      && LOCATION_IMAGE_PATH_PATTERN.test(path)
+      && !referencedPaths.has(path)
+    ))
+    let cleanupFailed = false
+    if (isLocalEditor) {
+      for (const path of disposablePaths) {
+        try {
+          await deleteStoredLocationImage(path)
+        } catch {
+          cleanupFailed = true
+        }
+      }
+    }
+    disposablePaths.forEach(releaseSessionImageAsset)
+    return cleanupFailed
+  }
+
+  async function retainImportedImageAssets(assets) {
+    if (isLocalEditor) {
+      for (const asset of assets) await writeLocationImage(asset.path, asset)
+    }
+    assets.forEach((asset) => {
+      const current = sessionImageAssets.get(asset.path)
+      if (current) {
+        if (current.sha256 !== asset.sha256 || current.size !== asset.size) {
+          throw new Error(`conflicting image asset: ${asset.path}`)
+        }
+        return
+      }
+      sessionImageAssets.set(asset.path, createSessionImageAsset(asset.bytes, asset))
+    })
+  }
+
+  async function applyLocationChanges(changes) {
+    changes.categories.forEach((category) => {
+      const index = categories.value.findIndex((item) => item.id === category.id)
+      const { id, group, label, icon, iconUrl, color, isDefault, isHidden } = category
+      if (index >= 0) {
+        const current = categories.value[index]
+        mapData.value.categories.splice(index, 1, {
+          ...current,
+          group,
+          ...(label ? { label } : {}),
+        })
+      } else {
+        mapData.value.categories.push({
+          id,
+          group,
+          label: label || id,
+          icon: icon || '·',
+          ...(iconUrl ? { iconUrl } : {}),
+          color: color || '#87a9ff',
+          isDefault: Boolean(isDefault),
+          ...(typeof isHidden === 'boolean' ? { isHidden } : {}),
+        })
+      }
+    })
+    changes.upsertLocations.forEach((location) => {
+      const index = locations.value.findIndex((item) => item.id === location.id)
+      if (index >= 0) mapData.value.locations.splice(index, 1, location)
+      else mapData.value.locations.push(location)
+    })
+    if (changes.deletedLocationIds.length) {
+      const deletedIds = new Set(changes.deletedLocationIds)
+      mapData.value.locations = locations.value.filter((location) => !deletedIds.has(location.id))
+      removeLocationReferencesFromRoutes(deletedIds)
+      if (selectedLocation.value && deletedIds.has(selectedLocation.value.id)) selectedLocation.value = null
+    }
+    if (!await persistMapData()) throw new Error('map data write failed')
+    renderMarkers()
+    renderRouteArrows()
   }
 
   async function importLocationChanges(event) {
     const [file] = event.target.files || []
     event.target.value = ''
     if (!file) return
+    beginImageProcessing()
     try {
-      const changes = normalizeLocationChanges(JSON.parse((await file.text()).replace(/^\uFEFF/, '')))
-      changes.categories.forEach((category) => {
-        const index = categories.value.findIndex((item) => item.id === category.id)
-        const { id, group, label, icon, iconUrl, color, isDefault, isHidden } = category
-        if (index >= 0) {
-          const current = categories.value[index]
-          mapData.value.categories.splice(index, 1, {
-            ...current,
-            group,
-            ...(label ? { label } : {}),
-          })
-        } else {
-          mapData.value.categories.push({
-            id,
-            group,
-            label: label || id,
-            icon: icon || '·',
-            ...(iconUrl ? { iconUrl } : {}),
-            color: color || '#87a9ff',
-            isDefault: Boolean(isDefault),
-            ...(typeof isHidden === 'boolean' ? { isHidden } : {}),
-          })
-        }
-      })
-      changes.upsertLocations.forEach((location) => {
-        const index = locations.value.findIndex((item) => item.id === location.id)
-        if (index >= 0) mapData.value.locations.splice(index, 1, location)
-        else mapData.value.locations.push(location)
-      })
-      if (changes.deletedLocationIds.length) {
-        const deletedIds = new Set(changes.deletedLocationIds)
-        mapData.value.locations = locations.value.filter((location) => !deletedIds.has(location.id))
-        removeLocationReferencesFromRoutes(deletedIds)
-        if (selectedLocation.value && deletedIds.has(selectedLocation.value.id)) selectedLocation.value = null
-      }
-      await persistMapData()
-      renderMarkers()
-      renderRouteArrows()
+      const { changes, assets } = await parseLocationChangesFile(file)
+      await retainImportedImageAssets(assets)
+      await applyLocationChanges(changes)
       showStatus(`已导入 ${changes.upsertLocations.length} 条点位修改，删除 ${changes.deletedLocationIds.length} 个点位`)
     } catch (error) {
       showStatus(error.message === 'replacement character detected'
         ? '导入失败：JSON 包含乱码字符 U+FFFD'
-        : '点位修改 JSON 格式无效')
+        : `点位修改导入失败：${error.message}`)
+    } finally {
+      endImageProcessing()
     }
   }
 
@@ -1438,7 +1986,7 @@ export function useMapApp() {
     downloadJson({
       version: 1,
       completedIds: [...completedIds.value],
-    }, `MaaNTE-completed-${new Date().toISOString().slice(0, 10)}.json`)
+    }, `MaaNTE-completed-${localDateStamp()}.json`)
     showStatus('完成记录 JSON 已导出')
   }
 
@@ -1518,6 +2066,8 @@ export function useMapApp() {
 
   // 点位编辑器：新增、编辑、删除和图片上传。
   function openCreateLocation(point) {
+    editorSessionId += 1
+    discardLocationFormDraftAssets()
     editingLocationId.value = null
     locationForm.value = {
       ...emptyLocationForm(),
@@ -1529,6 +2079,8 @@ export function useMapApp() {
   }
 
   function openEditLocation(location) {
+    editorSessionId += 1
+    discardLocationFormDraftAssets()
     editingLocationId.value = location.id
     locationForm.value = {
       ...emptyLocationForm(),
@@ -1537,8 +2089,8 @@ export function useMapApp() {
       district: districtOptions.value.includes(normalizeDistrictLabel(location.district))
         ? normalizeDistrictLabel(location.district)
         : '全地图',
-      tagsText: location.tags.join(', '),
-      images: [...location.images],
+      tagsText: Array.isArray(location.tags) ? location.tags.join(', ') : '',
+      images: Array.isArray(location.images) ? [...location.images] : [],
     }
     editorFormOpen.value = true
   }
@@ -1570,7 +2122,48 @@ export function useMapApp() {
     locationForm.value.customTypeNewGroup = ''
   }
 
+  function imageSha256(image) {
+    return sessionImageAssets.get(image)?.sha256 || LOCATION_IMAGE_PATH_PATTERN.exec(image)?.[2] || ''
+  }
+
+  async function prepareLocationImagesForSave(locationId, images) {
+    const finalizedImages = []
+    const finalizedAssets = []
+    for (const image of images) {
+      const asset = sessionImageAssets.get(image)
+      if (!asset?.isDraft) {
+        finalizedImages.push(image)
+        continue
+      }
+      const path = locationImagePath(locationId, asset)
+      assertLocationImagePath(path, asset)
+      finalizedImages.push(path)
+      finalizedAssets.push({ sourceKey: image, path, asset })
+    }
+
+    if (isLocalEditor) {
+      for (const item of finalizedAssets) await writeLocationImage(item.path, item.asset)
+    }
+    return { finalizedImages, finalizedAssets }
+  }
+
+  function retainFinalizedLocationImages(finalizedAssets) {
+    finalizedAssets.forEach(({ sourceKey, path, asset }) => {
+      const current = sessionImageAssets.get(path)
+      if (current) {
+        if (current.sha256 !== asset.sha256 || current.size !== asset.size) {
+          throw new Error(`conflicting image asset: ${path}`)
+        }
+        releaseSessionImageAsset(sourceKey)
+        return
+      }
+      sessionImageAssets.delete(sourceKey)
+      sessionImageAssets.set(path, { ...asset, isDraft: false })
+    })
+  }
+
   async function saveLocation() {
+    if (isProcessingImages.value) return
     const form = locationForm.value
     if (!form.name.trim() || !form.types.length) {
       showStatus('请填写名称并选择至少一个类型')
@@ -1582,87 +2175,172 @@ export function useMapApp() {
       showStatus('点位 ID 已存在')
       return
     }
-    const addedCategories = clone(form.pendingCustomTypes)
-    mapData.value.categories.push(...addedCategories)
-    addedCategories.forEach((category) => sessionCreatedCategoryIds.add(category.id))
-    const saved = {
-      id: locationId,
-      name: form.name.trim(),
-      types: [...form.types],
-      district: districtOptions.value.includes(form.district) ? form.district : '全地图',
-      x: Number(form.x),
-      y: Number(form.y),
-      description: form.description.trim(),
-      tags: form.tagsText.split(',').map((tag) => tag.trim()).filter(Boolean),
-      images: [...form.images],
-    }
+    isSavingLocation.value = true
+    beginImageProcessing()
     try {
+      const { finalizedImages, finalizedAssets } = await prepareLocationImagesForSave(locationId, form.images)
+      const addedCategories = clone(form.pendingCustomTypes)
+      const saved = {
+        id: locationId,
+        name: form.name.trim(),
+        types: [...form.types],
+        district: districtOptions.value.includes(form.district) ? form.district : '全地图',
+        x: Number(form.x),
+        y: Number(form.y),
+        description: form.description.trim(),
+        tags: form.tagsText.split(',').map((tag) => tag.trim()).filter(Boolean),
+        images: finalizedImages,
+      }
       assertNoReplacementCharacters({ categories: addedCategories, location: saved })
-    } catch {
-      showStatus('保存失败：文本包含乱码字符 U+FFFD')
-      mapData.value.categories = categories.value.filter((category) => !addedCategories.some((item) => item.id === category.id))
-      return
+      retainFinalizedLocationImages(finalizedAssets)
+      form.images = finalizedImages
+      mapData.value.categories.push(...addedCategories)
+      addedCategories.forEach((category) => sessionCreatedCategoryIds.add(category.id))
+      form.pendingCustomTypes = []
+      const index = locations.value.findIndex((location) => location.id === saved.id)
+      const previousImages = index >= 0 && Array.isArray(locations.value[index].images)
+        ? [...locations.value[index].images]
+        : []
+      if (index >= 0) mapData.value.locations.splice(index, 1, saved)
+      else mapData.value.locations.push(saved)
+      if (isNewLocation) sessionCreatedLocationIds.add(saved.id)
+      selectedLocation.value = saved
+      const persisted = await persistMapData({
+        staticChanges: {
+          categories: addedCategories,
+          upsertLocations: [saved],
+        },
+      })
+      if (!persisted) {
+        editingLocationId.value = saved.id
+        form.locationId = saved.id
+        return
+      }
+      const cleanupFailed = await cleanupUnusedSessionImageAssets(
+        previousImages.filter((path) => !saved.images.includes(path)),
+      )
+      isSavingLocation.value = false
+      closeLocationEditor()
+      renderMarkers()
+      if (cleanupFailed) showStatus('点位已保存，但有旧图片文件未清理')
+    } catch (error) {
+      if (locations.value.some((location) => location.id === locationId)) {
+        editingLocationId.value = locationId
+        form.locationId = locationId
+      }
+      showStatus(error.message === 'replacement character detected'
+        ? '保存失败：文本包含乱码字符 U+FFFD'
+        : `点位保存失败：${error.message}`)
+    } finally {
+      isSavingLocation.value = false
+      endImageProcessing()
     }
-    const index = locations.value.findIndex((location) => location.id === saved.id)
-    if (index >= 0) mapData.value.locations.splice(index, 1, saved)
-    else mapData.value.locations.push(saved)
-    if (isNewLocation) sessionCreatedLocationIds.add(saved.id)
-    editorFormOpen.value = false
-    selectedLocation.value = saved
-    await persistMapData({
-      staticChanges: {
-        categories: addedCategories,
-        upsertLocations: [saved],
-      },
-    })
-    renderMarkers()
   }
 
   async function deleteLocation(location) {
     if (!window.confirm(`删除“${location.name}”？`)) return
     const wasCreatedThisSession = sessionCreatedLocationIds.has(location.id)
+    const previousCategories = mapData.value.categories
+    const previousLocations = mapData.value.locations
+    const previousRoutes = clone(mapData.value.routes)
+    const previousSelectedLocation = selectedLocation.value
+    const previousPendingChanges = clone(pendingLocationChanges.value)
+    const previousCreatedCategoryIds = [...sessionCreatedCategoryIds]
     mapData.value.locations = locations.value.filter((item) => item.id !== location.id)
     removeLocationReferencesFromRoutes([location.id])
+    selectedLocation.value = null
+    if (wasCreatedThisSession) discardCreatedLocationChanges(location.id)
+    let persisted = false
+    try {
+      persisted = await persistMapData({
+        staticChanges: wasCreatedThisSession ? null : { deletedLocationIds: [location.id] },
+      })
+    } catch (error) {
+      showStatus(`点位删除失败：${error.message}`)
+    }
+    if (!persisted) {
+      mapData.value.categories = previousCategories
+      mapData.value.locations = previousLocations
+      mapData.value.routes = previousRoutes
+      pendingLocationChanges.value = previousPendingChanges
+      sessionCreatedCategoryIds.clear()
+      previousCreatedCategoryIds.forEach((id) => sessionCreatedCategoryIds.add(id))
+      selectedLocation.value = previousSelectedLocation
+      renderMarkers()
+      renderRouteArrows()
+      return
+    }
     if (wasCreatedThisSession) {
       sessionCreatedLocationIds.delete(location.id)
-      discardCreatedLocationChanges(location.id)
     }
-    selectedLocation.value = null
-    await persistMapData({
-      staticChanges: wasCreatedThisSession ? null : { deletedLocationIds: [location.id] },
-    })
+    if (wasCreatedThisSession && persisted) {
+      const cleanupFailed = await cleanupUnusedSessionImageAssets(location.images || [])
+      if (cleanupFailed) showStatus('点位已删除，但有图片文件未清理')
+    }
     renderMarkers()
     renderRouteArrows()
-    if (wasCreatedThisSession) showStatus('已删除新建点位，未保留修改记录')
-  }
-
-  function readFileAsDataUrl(file) {
-    return new Promise((resolve, reject) => {
-      const reader = new FileReader()
-      reader.onload = () => resolve(reader.result)
-      reader.onerror = reject
-      reader.readAsDataURL(file)
-    })
+    if (wasCreatedThisSession && persisted && !statusMessage.value.includes('未清理')) {
+      showStatus('已删除新建点位，未保留修改记录')
+    }
   }
 
   async function uploadImages(event) {
     const files = [...event.target.files]
-    for (const file of files) {
-      try {
-        const dataUrl = await readFileAsDataUrl(file)
-        const response = await fetch('/api/upload-image', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ dataUrl, name: file.name }),
-        })
-        const data = await response.json()
-        if (!data.ok) throw new Error(data.error)
-        locationForm.value.images.push(data.path)
-      } catch {
-        showStatus('图片上传失败，请使用本地开发服务器')
-      }
-    }
     event.target.value = ''
+    if (!files.length || isProcessingImages.value) return
+    const activeEditorSessionId = editorSessionId
+    const skippedReasons = []
+    let addedCount = 0
+    beginImageProcessing()
+    try {
+      for (const file of files) {
+        if (activeEditorSessionId !== editorSessionId) break
+        if (locationForm.value.images.length >= LOCATION_IMAGE_MAX_COUNT) {
+          skippedReasons.push(`每个点位最多 ${LOCATION_IMAGE_MAX_COUNT} 张`)
+          break
+        }
+        if (file.size <= 0 || file.size > LOCATION_IMAGE_MAX_BYTES) {
+          skippedReasons.push(`${file.name} 超过 10 MiB 或为空文件`)
+          continue
+        }
+        const declaredMimeType = normalizeImageMimeType(file.type)
+        if (declaredMimeType && !LOCATION_IMAGE_TYPES[declaredMimeType]) {
+          skippedReasons.push(`${file.name} 格式不受支持`)
+          continue
+        }
+
+        const bytes = new Uint8Array(await file.arrayBuffer())
+        const detectedType = detectLocationImageType(bytes)
+        if (!detectedType || (declaredMimeType && declaredMimeType !== detectedType.mimeType)) {
+          skippedReasons.push(`${file.name} 图片内容与格式不一致`)
+          continue
+        }
+        const sha256 = await sha256Hex(bytes)
+        if (locationForm.value.images.some((image) => imageSha256(image) === sha256)) {
+          skippedReasons.push(`${file.name} 已存在`)
+          continue
+        }
+        if (activeEditorSessionId !== editorSessionId) break
+
+        draftImageSequence += 1
+        const draftKey = `draft-image:${activeEditorSessionId}:${draftImageSequence}:${sha256}`
+        const asset = createSessionImageAsset(bytes, { ...detectedType, sha256 }, true)
+        sessionImageAssets.set(draftKey, asset)
+        locationForm.value.images.push(draftKey)
+        addedCount += 1
+      }
+      if (addedCount) {
+        showStatus(skippedReasons.length
+          ? `已添加 ${addedCount} 张图片；${skippedReasons[0]}`
+          : `已添加 ${addedCount} 张图片`)
+      } else if (skippedReasons.length) {
+        showStatus(skippedReasons[0])
+      }
+    } catch (error) {
+      showStatus(`图片处理失败：${error.message}`)
+    } finally {
+      endImageProcessing()
+    }
   }
 
   // 路线编辑器：路线和路段的增删改以及导入导出。
@@ -1783,7 +2461,7 @@ export function useMapApp() {
     }
     if (event.key === 'Escape') {
       previewImage.value = ''
-      editorFormOpen.value = false
+      closeLocationEditor()
       selectedLocation.value = null
       clearCompletedConfirming.value = false
       searchInput.value?.blur()
@@ -1911,6 +2589,8 @@ export function useMapApp() {
     navigationArrowImage = null
     navigationMarkerVisible = false
     navigationAngleMissing = null
+    sessionImageAssets.forEach((asset) => URL.revokeObjectURL(asset.previewUrl))
+    sessionImageAssets.clear()
     window.removeEventListener('keydown', handleKeydown)
     map?.remove()
   })
@@ -1934,6 +2614,7 @@ export function useMapApp() {
     clearCompleted,
     clearCompletedConfirming,
     clearDistricts,
+    closeLocationEditor,
     collapsibleGroupLabels,
     collapsedCategoryGroups,
     completeDistrictCategory,
@@ -1976,6 +2657,8 @@ export function useMapApp() {
     isGroupFullySelected,
     isGroupPartiallySelected,
     isLocalEditor,
+    isProcessingImages,
+    isSavingLocation,
     keepTeleportEnabled,
     locationChangesImportInput,
     locationForm,
@@ -2001,7 +2684,9 @@ export function useMapApp() {
     query,
     realtimeNavigationEnabled,
     renderRouteArrows,
+    removeLocationImage,
     removeSegmentPoint,
+    resolveLocationImageUrl,
     resetView,
     routeImportInput,
     routePanelOpen,

@@ -25,6 +25,7 @@ const {
   clearCategories,
   clearCompleted,
   clearCompletedConfirming,
+  closeLocationEditor,
   clearDistricts,
   collapsibleGroupLabels,
   collapsedCategoryGroups,
@@ -66,6 +67,8 @@ const {
   isGroupFullySelected,
   isGroupPartiallySelected,
   isLocalEditor,
+  isProcessingImages,
+  isSavingLocation,
   keepTeleportEnabled,
   locationChangesImportInput,
   locationForm,
@@ -89,6 +92,8 @@ const {
   publicAssetUrl,
   query,
   realtimeNavigationEnabled,
+  removeLocationImage,
+  resolveLocationImageUrl,
   renderRouteArrows,
   resetView,
   routeImportInput,
@@ -584,8 +589,8 @@ onBeforeUnmount(() => {
           {{ editorMode ? '编辑已开启' : '编辑地图' }}
         </button>
         <button v-if="editorMode" type="button" @click="locationChangesImportInput?.click()">导入点位修改</button>
-        <button v-if="editorMode" type="button" :disabled="!pendingLocationChangeCount" @click="exportPendingLocationChanges">
-          导出点位修改<span v-if="pendingLocationChangeCount">（{{ pendingLocationChangeCount }}）</span>
+        <button v-if="editorMode" type="button" :disabled="!pendingLocationChangeCount || isProcessingImages" @click="exportPendingLocationChanges">
+          导出点位修改包<span v-if="pendingLocationChangeCount">（{{ pendingLocationChangeCount }}）</span>
         </button>
         <button
           v-if="editorMode"
@@ -596,7 +601,7 @@ onBeforeUnmount(() => {
         >
           当前修改<span v-if="pendingLocationFilterCount">（{{ pendingLocationFilterCount }}）</span>
         </button>
-        <input ref="locationChangesImportInput" class="toolbar-file-input" type="file" accept="application/json,.json" @change="importLocationChanges" />
+        <input ref="locationChangesImportInput" class="toolbar-file-input" type="file" accept="application/zip,application/json,.zip,.json" :disabled="isProcessingImages" @change="importLocationChanges" />
         <button :class="{ 'toolbar-button--active': routePanelOpen }" type="button" @click="routePanelOpen = !routePanelOpen">
           路线
         </button>
@@ -871,7 +876,9 @@ onBeforeUnmount(() => {
     <section v-if="selectedLocation" class="detail-card glass-panel">
       <button class="close-button" type="button" aria-label="关闭详情" @click="selectedLocation = null">×</button>
       <div v-if="selectedLocation.images.length" class="image-gallery">
-        <img v-for="image in selectedLocation.images" :key="image" :src="publicAssetUrl(image)" :alt="selectedLocation.name" @click="previewImage = image" />
+        <button v-for="(image, index) in selectedLocation.images" :key="image" type="button" :aria-label="`预览${selectedLocation.name}的第 ${index + 1} 张截图`" @click="previewImage = image">
+          <img :src="resolveLocationImageUrl(image)" :alt="`${selectedLocation.name}截图 ${index + 1}`" />
+        </button>
       </div>
       <p class="eyebrow">{{ selectedLocation.district }}</p>
       <h2>{{ selectedLocation.name }}</h2>
@@ -919,9 +926,9 @@ onBeforeUnmount(() => {
       </div>
     </div>
 
-    <div v-if="editorFormOpen" class="modal-backdrop" @click.self="editorFormOpen = false">
-      <form class="editor-form glass-panel" @submit.prevent="saveLocation">
-        <div class="sidebar-heading"><h2>{{ editingLocationId ? '编辑点位' : '新建点位' }}</h2><button type="button" class="close-button" @click="editorFormOpen = false">×</button></div>
+    <div v-if="editorFormOpen" class="modal-backdrop" @click.self="closeLocationEditor">
+      <form class="editor-form glass-panel" :aria-busy="isProcessingImages" aria-labelledby="location-editor-title" role="dialog" aria-modal="true" @submit.prevent="saveLocation">
+        <div class="sidebar-heading"><h2 id="location-editor-title">{{ editingLocationId ? '编辑点位' : '新建点位' }}</h2><button type="button" class="close-button" aria-label="关闭点位编辑器" :disabled="isSavingLocation" @click="closeLocationEditor">×</button></div>
         <label>点位 ID<input v-model.trim="locationForm.locationId" :disabled="!!editingLocationId" placeholder="留空自动生成 local ID" /></label>
         <label>名称<input v-model="locationForm.name" required /></label>
         <label>区域<select v-model="locationForm.district">
@@ -946,14 +953,23 @@ onBeforeUnmount(() => {
           </div>
           <button type="button" :disabled="!locationForm.customTypeId.trim() || !locationForm.customTypeText.trim() || (!locationForm.customTypeGroup && !locationForm.customTypeNewGroup.trim())" @click="addCustomType">+ 添加类型</button>
         </div></fieldset>
-        <label>截图<input type="file" accept="image/*" multiple @change="uploadImages" /></label>
-        <div v-if="locationForm.images.length" class="form-images">
-          <span v-for="(image, index) in locationForm.images" :key="image"><img :src="publicAssetUrl(image)" alt="" /><button type="button" @click="locationForm.images.splice(index, 1)">×</button></span>
+        <label class="image-upload-field">截图<input type="file" accept="image/png,image/jpeg,image/webp,image/gif,.png,.jpg,.jpeg,.webp,.gif" multiple :disabled="isProcessingImages" @change="uploadImages" /></label>
+        <div v-if="isProcessingImages" class="image-processing-status" role="status" aria-live="polite">
+          <span aria-hidden="true" />正在处理图片…
         </div>
-        <div class="detail-actions editor-form-actions"><button type="button" @click="editorFormOpen = false">取消</button><button class="primary-action" type="submit">{{ isLocalEditor ? '保存' : '导出修改 JSON' }}</button></div>
+        <div v-if="locationForm.images.length" class="form-images" aria-label="点位截图">
+          <span v-for="(image, index) in locationForm.images" :key="image">
+            <img :src="resolveLocationImageUrl(image)" :alt="`点位截图 ${index + 1}`" />
+            <button type="button" :aria-label="`移除第 ${index + 1} 张点位截图`" :disabled="isProcessingImages" @click="removeLocationImage(index)">×</button>
+          </span>
+        </div>
+        <div class="detail-actions editor-form-actions"><button type="button" :disabled="isSavingLocation" @click="closeLocationEditor">取消</button><button class="primary-action" type="submit" :disabled="isProcessingImages">{{ isProcessingImages ? '处理图片中…' : (isLocalEditor ? '保存' : '导出点位修改包') }}</button></div>
       </form>
     </div>
 
-    <div v-if="previewImage" class="image-preview" @click="previewImage = ''"><img :src="publicAssetUrl(previewImage)" alt="点位截图" @click.stop /></div>
+    <div v-if="previewImage" class="image-preview" role="dialog" aria-modal="true" aria-label="点位截图预览" @click="previewImage = ''">
+      <button class="image-preview__close" type="button" aria-label="关闭图片预览" @click="previewImage = ''">×</button>
+      <img :src="resolveLocationImageUrl(previewImage)" alt="点位截图" @click.stop />
+    </div>
   </main>
 </template>

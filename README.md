@@ -28,7 +28,7 @@ npm run clean:locations
 
 ## 编辑地图
 
-通过 `npm run dev` 启动本地开发服务器后，点击页面右上角的“编辑地图”：
+点击页面右上角的“编辑地图”：
 
 1. 点击地图空白处新建点位。
 2. 在点位详情中编辑或删除点位。
@@ -36,7 +36,18 @@ npm run clean:locations
 4. 点位可以上传多张截图，详情页支持预览。
 5. 路线面板可以新建路线，再依次点击标点建立路段。
 
-本地点位编辑结果写回 `src/data/map-data.json`，截图保存在 `public/images/uploads/`。保存或删除点位后，本次会话的变更会累计到编辑工具栏的“导出点位修改”中；生产构建和 GitHub Pages 等静态部署还会在每次操作后自动导出仅包含该次新增、修改或删除内容的点位修改 JSON。开启编辑模式后可通过“导入点位修改”同步应用。路线编辑会保存在浏览器本地存储中，并可通过路线面板导入或导出 JSON 文件。
+图片会先在浏览器内暂存，保存点位时按点位 ID 和图片内容哈希生成稳定路径。通过本地开发服务器编辑时，点位会写回 `src/data/map-data.json`，截图会写入 `public/images/locations/<点位 ID>/`；取消表单或移除尚未保存的图片不会产生孤儿文件。
+
+保存或删除点位后，本次会话的变更会累计到编辑工具栏的“导出点位修改包”中。导出的 ZIP 同时包含 `location-changes.json` 和本次修改引用的图片，可直接交给仓库合并脚本处理。生产构建和 GitHub Pages 等静态部署会在每次保存后自动导出本次修改包，不依赖服务端上传接口。开启编辑模式后可导入旧版点位 JSON 或新版 ZIP 修改包。路线编辑仍保存在浏览器本地存储中，并可通过路线面板导入或导出 JSON 文件。
+
+在仓库根目录合并修改包：
+
+```powershell
+npm run merge:locations -- C:/Users/owo/Downloads/MaaNTE-location-changes-2026-07-16.zip
+git status --short
+```
+
+合并脚本会先校验图片路径、格式、大小和 SHA-256，再统一更新地图数据与 `public/images/locations/`。旧版 `location-changes.json` 仍可继续合并；使用 `--dry-run` 可以只检查和查看统计而不写入文件。
 
 如果删除的是本次会话刚创建的点位，该点位会直接从累计修改中移除，不生成删除记录；仅由该点位使用的本次新建分类也会一并移除。
 
@@ -73,20 +84,22 @@ npm run clean:locations
 
 ### 本地接口
 
-`npm run dev` 会通过 Vite 中间件提供两个仅用于本地编辑的接口：
+`npm run dev` 会通过 Vite 中间件提供仅用于本地编辑的接口：
 
 - `GET /api/map-data`：读取最新的 `src/data/map-data.json`。
 - `POST /api/map-data`：写回地图数据。
-- `POST /api/upload-image`：把点位截图写入 `public/images/uploads/`。
+- `POST /api/location-image?path=...`：校验内容哈希后把点位截图写入 `public/images/locations/`。
+- `DELETE /api/location-image?path=...`：清理本次会话已移除且不再使用的点位截图。
+- `POST /api/upload-image`：保留的旧版截图上传接口。
 
-`npm run build` 生成的静态站点不包含写入能力。
+`npm run build` 生成的静态站点不会直接写仓库文件，而是生成可由 `merge:locations` 合并的修改包。
 
 ### 修改流程
 
 1. 运行 `npm install` 安装依赖。
 2. 运行 `npm run dev`，在浏览器中检查交互和编辑写入。
 3. 修改分类或点位后，按需运行 `npm run clean:locations` 统一数据格式。
-4. 提交前运行 `npm run build` 和 `npm run qa`。
+4. 提交前运行 `npm run build`、`npm run qa:location-bundle`、`npm run qa:static-location-bundle` 和 `npm run qa`。
 
 ## 坐标与扩图
 
@@ -113,6 +126,8 @@ npm run clean:locations
 
 ```powershell
 npm run build
+npm run qa:location-bundle
+npm run qa:static-location-bundle
 npm run qa
 ```
 
