@@ -963,7 +963,7 @@ onBeforeUnmount(() => {
             <button type="button" :aria-label="`移除第 ${index + 1} 张点位截图`" :disabled="isProcessingImages" @click="removeLocationImage(index)">×</button>
           </span>
         </div>
-        <div class="detail-actions editor-form-actions"><button type="button" :disabled="isSavingLocation" @click="closeLocationEditor">取消</button><button class="primary-action" type="submit" :disabled="isProcessingImages">{{ isProcessingImages ? '处理图片中…' : (isLocalEditor ? '保存' : '导出点位修改包') }}</button></div>
+        <div class="detail-actions editor-form-actions"><button type="button" :disabled="isSavingLocation" @click="closeLocationEditor">取消</button><button class="primary-action" type="submit" :disabled="isProcessingImages">{{ isProcessingImages ? '处理图片中…' : (isLocalEditor ? '保存' : '确认') }}</button></div>
       </form>
     </div>
 

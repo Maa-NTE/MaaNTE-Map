@@ -861,7 +861,7 @@ export function useMapApp() {
     }
     if (staticChanges) queueLocationChanges(staticChanges)
     if (!isLocalEditor) {
-      if (staticChanges) await exportLocationChanges(staticChanges)
+      if (staticChanges) showStatus('点位修改已暂存')
       return true
     }
     try {

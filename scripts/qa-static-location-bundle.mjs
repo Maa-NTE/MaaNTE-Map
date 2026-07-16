@@ -79,10 +79,12 @@ try {
   })
   const apiRequests = []
   const consoleErrors = []
+  const downloads = []
   page.on('console', (message) => {
     if (message.type() === 'error') consoleErrors.push(message.text())
   })
   page.on('pageerror', (error) => { consoleErrors.push(error.message) })
+  page.on('download', (download) => { downloads.push(download) })
   page.on('request', (request) => {
     if (new URL(request.url()).pathname.startsWith('/api/')) {
       apiRequests.push(`${request.method()} ${request.url()}`)
@@ -106,12 +108,20 @@ try {
   await formImage.waitFor()
   assert.equal(await formImage.evaluate((image) => image.complete && image.naturalWidth > 0), true)
 
+  await page.locator('.editor-form').getByRole('button', { name: '确认', exact: true }).click()
+  await page.locator('.editor-form').waitFor({ state: 'hidden' })
+  const stagedStatus = page.locator('.status-toast')
+  await stagedStatus.waitFor()
+  assert.match(await stagedStatus.textContent(), /点位修改已暂存/)
+  await page.waitForTimeout(300)
+  assert.equal(downloads.length, 0)
+  assert.deepEqual(apiRequests, [])
+
   const [download] = await Promise.all([
     page.waitForEvent('download'),
-    page.locator('.editor-form').getByRole('button', { name: '导出点位修改包', exact: true }).click(),
+    page.getByRole('button', { name: '导出点位修改包（1）', exact: true }).click(),
   ])
-  await page.locator('.editor-form').waitFor({ state: 'hidden' })
-  assert.deepEqual(apiRequests, [])
+  assert.equal(downloads.length, 1)
 
   const bundlePath = await download.path()
   assert.ok(bundlePath)
