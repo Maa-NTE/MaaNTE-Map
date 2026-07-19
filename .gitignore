@@ -2,6 +2,7 @@ node_modules/
 dist/
 .npm-cache/
 output/
+wallet_screenshots/
 scripts/*
 !scripts/
 !scripts/import-zeroluck-map.mjs
