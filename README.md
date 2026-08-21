@@ -16,6 +16,10 @@ npm run dev
 地图数据维护在 `src/data/map-data.json`，不再从第三方接口同步。文件包括：
 
 - `map`：底图像素尺寸、瓦片尺寸、世界原点像素与缩放比例。
+- `map.tileUrl`：MapSource 仓库的瓦片模板。生产构建默认读取
+  `https://raw.githubusercontent.com/Maa-NTE/MapSource/main/tiles/{z}/{x}/{y}.jpg`；
+  本地开发通过 Vite 映射到同一份 sibling `MapSource/tiles`，可用
+  `VITE_MAP_TILE_URL` 覆盖。
 - `categories`：本地分类定义。分类可通过 `isHidden: true` 暂时从浏览界面隐藏。
 - `locations`：点位数据，支持多类型、描述、标签和截图。
 - `routes`：路线与有序路段。
@@ -110,8 +114,8 @@ git status --short
 [pixelX, pixelY] = affine([gameX, gameY])
 ```
 
-仿射变换同时处理平移、缩放、轻微旋转和剪切。定位服务和路线下发仍使用
-`11264 × 11264` 的 MapLocator 像素坐标；Leaflet 坐标仅用于页面内部渲染。
+仿射变换同时处理平移、缩放、轻微旋转和剪切。定位服务和路线下发使用
+`13056 × 13056` 的 MapLocator 像素坐标；Leaflet 坐标仅用于页面内部渲染。
 
 坐标转换关系如下：
 
@@ -120,7 +124,15 @@ git status --short
 ```
 
 更新标定文件后，点位、路线、鼠标坐标和 WebSocket 路径点会统一使用新的变换。
-扩图时仍只需要更新底图尺寸和瓦片；不要修改已有真实坐标。
+本次 `13-bigworldmap-1` 相对旧 44×44 图从左侧扩 1 个瓦片、顶部扩 7 个瓦片，
+右侧扩 6 个瓦片，底部不变。对未变化区域做像素配准后，旧图内容在新图中的有效
+偏移约为 `(466, 3477)` 全分辨率像素，即定位坐标原点增加 `(233, 1738)`；
+`mapLocatorSourceWidth/Height` 从 `11264` 更新为 `13056`。已有真实坐标未修改。
+
+原始大图和压缩分层瓦片位于独立的
+[`Maa-NTE/MapSource`](https://github.com/Maa-NTE/MapSource) 仓库，Map 仓库只保留
+瓦片地址引用。`13-bigworldmap-2` 仅用于本地拼图对比，输出到 `output/map_bigworld_13-2.png`，
+不会进入 Git。
 
 ## 验证
 
@@ -150,8 +162,8 @@ npm run qa
     "pixelY": 8902,
     "score": 0.82,
     "mode": "local",
-    "sourceWidth": 11264,
-    "sourceHeight": 11264
+    "sourceWidth": 13056,
+    "sourceHeight": 13056
   },
   "angle": 123.4,
   "angleConfidence": 0.96,

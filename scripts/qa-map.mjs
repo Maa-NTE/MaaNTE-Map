@@ -131,8 +131,8 @@ try {
         pixelY: 8902,
         score: 0.82,
         mode: 'local',
-        sourceWidth: 11264,
-        sourceHeight: 11264,
+        sourceWidth: 13056,
+        sourceHeight: 13056,
       },
       angle: 123.4,
       angleConfidence: 0.96,
@@ -149,8 +149,8 @@ try {
     return mapPixelToMapLatLng({
       pixelX: 5788,
       pixelY: 8902,
-      sourceWidth: 11264,
-      sourceHeight: 11264,
+      sourceWidth: 13056,
+      sourceHeight: 13056,
     })
   }), [-17804, 11576])
   assert.match(await page.locator('.map-hud .game-coordinate').innerText(), /^XYZ -?\d+, -?\d+, --$/)
@@ -162,10 +162,10 @@ try {
         x: -134394.56,
         y: 199913.53,
         z: 11416.17,
-        pixelX: 4090,
-        pixelY: 6750,
-        sourceWidth: 11264,
-        sourceHeight: 11264,
+        pixelX: 4323,
+        pixelY: 8488,
+        sourceWidth: 13056,
+        sourceHeight: 13056,
       },
       angle: 123.4,
     })
@@ -393,10 +393,11 @@ try {
   page.once('dialog', (dialog) => dialog.accept('QA 路线'))
   await page.getByRole('button', { name: '+ 新建', exact: true }).click()
   await page.getByRole('button', { name: '+ 添加路段', exact: true }).click()
-  await page.locator('.map-canvas').click({ position: { x: 760, y: 520 } })
+  await page.waitForTimeout(500)
+  await page.mouse.click(760, 850)
   await page.locator('.route-point-handle').waitFor()
   await page.waitForTimeout(350)
-  await page.locator('.map-canvas').click({ position: { x: 1040, y: 700 } })
+  await page.mouse.click(1040, 700)
   await page.locator('.route-point-handle').nth(1).waitFor()
   assert.equal(await page.locator('.route-point-handle').count(), 2)
   page.once('dialog', (dialog) => dialog.accept('QA 空白点路段'))

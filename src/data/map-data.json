@@ -1,11 +1,12 @@
 {
   "version": 2,
   "map": {
-    "width": 22528,
-    "height": 22528,
+    "width": 26112,
+    "height": 26112,
     "tileSize": 512,
-    "mapLocatorSourceWidth": 11264,
-    "mapLocatorSourceHeight": 11264,
+    "mapLocatorSourceWidth": 13056,
+    "mapLocatorSourceHeight": 13056,
+    "tileUrl": "https://raw.githubusercontent.com/Maa-NTE/MapSource/main/tiles/{z}/{x}/{y}.jpg",
     "coordinateSystem": "game-affine-v1"
   },
   "categories": [

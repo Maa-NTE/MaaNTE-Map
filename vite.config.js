@@ -14,6 +14,9 @@ const UPLOADS_DIR = process.env.MAANTE_UPLOADS_DIR
 const LOCATION_IMAGES_DIR = process.env.MAANTE_LOCATION_IMAGES_DIR
   ? path.resolve(process.env.MAANTE_LOCATION_IMAGES_DIR)
   : fileURLToPath(new URL('./public/images/locations', import.meta.url))
+const MAPSOURCE_TILES_DIR = process.env.MAANTE_MAPSOURCE_TILES_DIR
+  ? path.resolve(process.env.MAANTE_MAPSOURCE_TILES_DIR)
+  : fileURLToPath(new URL('../MapSource/tiles', import.meta.url))
 const MAX_LOCATION_IMAGE_BYTES = 10 * 1024 * 1024
 const LOCATION_IMAGE_PATH_PATTERN = /^\/images\/locations\/([a-z0-9_-]{1,80})\/([a-f0-9]{64})\.(png|jpg|webp|gif)$/
 
@@ -175,6 +178,41 @@ function localMapEditorPlugin() {
   return {
     name: 'local-map-editor',
     configureServer(server) {
+      server.middlewares.use('/mapsource-tiles', (request, response, next) => {
+        if (request.method !== 'GET' && request.method !== 'HEAD') {
+          next()
+          return
+        }
+
+        let relativePath
+        try {
+          relativePath = decodeURIComponent(new URL(request.url || '/', 'http://localhost').pathname).replace(/^\/+/, '')
+        } catch {
+          next()
+          return
+        }
+        if (!relativePath || !/^-?\d+\/\d+\/\d+\.jpg$/.test(relativePath)) {
+          next()
+          return
+        }
+
+        const filePath = path.resolve(MAPSOURCE_TILES_DIR, relativePath)
+        if (!isFileInside(MAPSOURCE_TILES_DIR, filePath) || !fs.existsSync(filePath) || !fs.statSync(filePath).isFile()) {
+          next()
+          return
+        }
+
+        const stat = fs.statSync(filePath)
+        response.setHeader('Content-Type', 'image/jpeg')
+        response.setHeader('Content-Length', stat.size)
+        response.setHeader('Cache-Control', 'no-cache')
+        if (request.method === 'HEAD') {
+          response.end()
+          return
+        }
+        fs.createReadStream(filePath).pipe(response)
+      })
+
       server.middlewares.use('/images/locations', (request, response, next) => {
         if (request.method !== 'GET' && request.method !== 'HEAD') {
           next()

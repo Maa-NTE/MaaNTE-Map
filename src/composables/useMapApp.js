@@ -4,6 +4,7 @@ import 'leaflet.markercluster'
 import {
   initialMapData,
   MAP_HEIGHT,
+  MAP_TILE_URL,
   MAP_LOCATOR_SOURCE_HEIGHT,
   MAP_LOCATOR_SOURCE_WIDTH,
   MAP_WIDTH,
@@ -2538,7 +2539,7 @@ export function useMapApp() {
       zoomControl: false,
       attributionControl: false,
     })
-    L.tileLayer(publicAssetUrl('/tiles/{z}/{x}/{y}.jpg'), {
+    L.tileLayer(publicAssetUrl(MAP_TILE_URL), {
       bounds,
       minZoom: MIN_ZOOM,
       maxNativeZoom: 0,

@@ -12,5 +12,7 @@ scripts/*
 !scripts/qa-static-location-bundle.mjs
 !scripts/clean-locations.py
 !scripts/qa-map.mjs
+!scripts/analyze-map-expansion.py
+!scripts/generate-map-source-tiles.py
 __pycache__/
 *.log

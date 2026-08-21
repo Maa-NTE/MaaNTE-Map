@@ -2,7 +2,7 @@
 import { computed, onBeforeUnmount, ref, watch } from 'vue'
 import L from 'leaflet'
 import { useMapApp } from './composables/useMapApp'
-import { MAP_HEIGHT, MAP_WIDTH, TILE_SIZE, gameToMapLatLng, mapPixelToGame, mapPixelToMapLatLng } from './data/locations'
+import { MAP_HEIGHT, MAP_TILE_URL, MAP_WIDTH, TILE_SIZE, gameToMapLatLng, mapPixelToGame, mapPixelToMapLatLng } from './data/locations'
 import { INITIAL_ZOOM, MIN_ZOOM } from './constants/mapApp'
 import announcement from './data/announcements.json'
 
@@ -477,7 +477,7 @@ const initializePictureInPictureMap = (pipWindow) => {
     zoomAnimation: false,
     markerZoomAnimation: false,
   })
-  L.tileLayer(publicAssetUrl('/tiles/{z}/{x}/{y}.jpg'), {
+  L.tileLayer(publicAssetUrl(MAP_TILE_URL), {
     bounds,
     minZoom: MIN_ZOOM,
     maxNativeZoom: 0,

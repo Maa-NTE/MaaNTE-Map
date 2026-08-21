@@ -30,7 +30,7 @@ VITE_MAANTE_NAVI_WEBSOCKET_URL=ws://127.0.0.1:14514
 - `pixelX` 向右递增。
 - `pixelY` 向下递增。
 - `sourceWidth` 和 `sourceHeight` 表示坐标所基于的图片尺寸。
-- 地图站当前发送路线时使用 `11264 × 11264` 定位坐标系。
+- 地图站当前发送路线时使用 `13056 × 13056` 定位坐标系。
 
 地图站内部的点位和路线使用游戏真实 `X/Y` 坐标保存。发送路线前，地图站根据
 `src/data/navi-coordinate-calibration.json` 中的标定点计算二维仿射变换，将真实坐标
@@ -74,12 +74,12 @@ WebSocket 可以同时传输游戏原始 XYZ 和 MapLocator 像素坐标。像�
     "x": -134394.56,
     "y": 199913.53,
     "z": 11416.17,
-    "pixelX": 4090,
-    "pixelY": 6750,
+    "pixelX": 4323,
+    "pixelY": 8488,
     "score": 0.82,
     "mode": "local",
-    "sourceWidth": 11264,
-    "sourceHeight": 11264
+    "sourceWidth": 13056,
+    "sourceHeight": 13056
   },
   "angle": 123.4,
   "angleConfidence": 0.96,
@@ -128,7 +128,7 @@ WebSocket 可以同时传输游戏原始 XYZ 和 MapLocator 像素坐标。像�
 - 旧格式只发送 `pixelX/pixelY` 时仍然兼容；地图站会通过标定矩阵反算游戏 X/Y，Z 显示为空。
 - 未发送像素坐标但提供有效 `x/y` 时，地图站会通过标定矩阵计算像素位置并正常渲染定位箭头。
 - 像素坐标和游戏 `x/y` 均无效时，本次状态视为无有效位置并隐藏定位箭头。
-- `sourceWidth` 或 `sourceHeight` 缺失、非法或不大于 `0` 时，地图站使用 MapLocator 基准尺寸 `11264 × 11264`。
+- `sourceWidth` 或 `sourceHeight` 缺失、非法或不大于 `0` 时，地图站使用 MapLocator 基准尺寸 `13056 × 13056`。
 - `angle` 可以是任意有限数值，地图站会按 360° 周期平滑显示。
 
 ### 4.2 路线命令确认 `navi-route-ack`
@@ -184,8 +184,8 @@ WebSocket 可以同时传输游戏原始 XYZ 和 MapLocator 像素坐标。像�
 ```json
 {
   "type": "navi-route-set",
-  "sourceWidth": 11264,
-  "sourceHeight": 11264,
+  "sourceWidth": 13056,
+  "sourceHeight": 13056,
   "start": true,
   "waypoints": [
     {
@@ -203,8 +203,8 @@ WebSocket 可以同时传输游戏原始 XYZ 和 MapLocator 像素坐标。像�
 | 字段 | 类型 | 必填 | 说明 |
 | --- | --- | --- | --- |
 | `type` | string | 是 | 固定为 `navi-route-set` |
-| `sourceWidth` | number | 是 | 路径点坐标源宽度，当前为 `11264` |
-| `sourceHeight` | number | 是 | 路径点坐标源高度，当前为 `11264` |
+| `sourceWidth` | number | 是 | 路径点坐标源宽度，当前为 `13056` |
+| `sourceHeight` | number | 是 | 路径点坐标源高度，当前为 `13056` |
 | `start` | boolean | 是 | `true` 表示设置后立即开始，`false` 表示只设置路线 |
 | `waypoints` | array | 是 | 路径点列表，至少包含一个元素 |
 | `waypoints[].pixelX` | number | 是 | X 像素坐标，地图站最多保留 3 位小数 |

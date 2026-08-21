@@ -6,10 +6,14 @@ export const MAP_CONFIG = mapData.map
 export const MAP_WIDTH = MAP_CONFIG.width
 export const MAP_HEIGHT = MAP_CONFIG.height
 export const TILE_SIZE = MAP_CONFIG.tileSize
+// Production tiles live in MapSource; local development serves the sibling
+// MapSource checkout through Vite so it cannot silently fall back to old tiles.
+export const MAP_TILE_URL = import.meta.env.VITE_MAP_TILE_URL
+  || (import.meta.env.DEV ? '/mapsource-tiles/{z}/{x}/{y}.jpg' : MAP_CONFIG.tileUrl)
 export const MAP_LOCATOR_SOURCE_WIDTH =
-  coordinateCalibration.sourceWidth || MAP_CONFIG.mapLocatorSourceWidth || 11264
+  coordinateCalibration.sourceWidth || MAP_CONFIG.mapLocatorSourceWidth || 13056
 export const MAP_LOCATOR_SOURCE_HEIGHT =
-  coordinateCalibration.sourceHeight || MAP_CONFIG.mapLocatorSourceHeight || 11264
+  coordinateCalibration.sourceHeight || MAP_CONFIG.mapLocatorSourceHeight || 13056
 
 function solveAffine(points) {
   if (!Array.isArray(points) || points.length < 3) throw new Error('至少需要 3 个坐标标定点')
