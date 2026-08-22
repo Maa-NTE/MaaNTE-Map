@@ -30,13 +30,14 @@ VITE_MAANTE_NAVI_WEBSOCKET_URL=ws://127.0.0.1:14514
 - `pixelX` 向右递增。
 - `pixelY` 向下递增。
 - `sourceWidth` 和 `sourceHeight` 表示坐标所基于的图片尺寸。
+- `coordinateFrame`（可选）标识坐标所基于的地图帧；地图扩图后服务端应继续发送旧帧坐标，或切换到当前帧坐标并填写新的帧 ID。
 - 地图站当前发送路线时使用 `13056 × 13056` 定位坐标系。
 
 地图站内部的点位和路线使用游戏真实 `X/Y` 坐标保存。发送路线前，地图站根据
 `src/data/navi-coordinate-calibration.json` 中的标定点计算二维仿射变换，将真实坐标
 转换为本协议使用的像素坐标。该变换可同时处理平移、缩放、轻微旋转和剪切。
 
-服务端发送定位状态时，建议始终携带坐标系尺寸。地图站会按以下方式换算到当前底图：
+服务端发送定位状态时，建议始终携带坐标系尺寸和 `coordinateFrame`。地图站会把已知历史帧的像素坐标先反算为游戏坐标，再用当前标定转换到当前底图；未知帧才按尺寸进行等比例换算：
 
 ```text
 mapX = pixelX × mapWidth / sourceWidth
@@ -44,7 +45,7 @@ mapY = pixelY × mapHeight / sourceHeight
 ```
 
 WebSocket 可以同时传输游戏原始 XYZ 和 MapLocator 像素坐标。像素坐标用于地图渲染，
-原始 XYZ 用于精确显示；旧服务端只发送像素坐标时仍然兼容。
+原始 XYZ 用于精确显示；只发送像素坐标的旧服务端也会按 `coordinateFrame` 或尺寸匹配历史标定。
 
 ## 3. 消息一览
 
@@ -79,7 +80,8 @@ WebSocket 可以同时传输游戏原始 XYZ 和 MapLocator 像素坐标。像�
     "score": 0.82,
     "mode": "local",
     "sourceWidth": 13056,
-    "sourceHeight": 13056
+    "sourceHeight": 13056,
+    "coordinateFrame": "map-2026-08"
   },
   "angle": 123.4,
   "angleConfidence": 0.96,
@@ -118,17 +120,18 @@ WebSocket 可以同时传输游戏原始 XYZ 和 MapLocator 像素坐标。像�
 | `pixelY` | number | 条件必填 | Y 像素坐标；未提供时必须提供有效 `x/y` |
 | `sourceWidth` | number | 建议 | 坐标源宽度，必须大于 `0` |
 | `sourceHeight` | number | 建议 | 坐标源高度，必须大于 `0` |
+| `coordinateFrame` | string | 建议 | 坐标标定帧 ID；用于扩图后的历史坐标转换 |
 | `score` | number | 否 | 定位置信度，当前地图站不读取 |
 | `mode` | string | 否 | 定位模式，当前地图站不读取 |
 
 处理规则：
 
 - `type` 不是 `navi-state` 或 `version` 不是 `1` 时，地图站忽略消息。
-- 新格式建议同时发送游戏原始 `x/y/z` 和像素 `pixelX/pixelY`。页面优先显示服务端提供的原始 XYZ。
-- 旧格式只发送 `pixelX/pixelY` 时仍然兼容；地图站会通过标定矩阵反算游戏 X/Y，Z 显示为空。
+- 新格式建议同时发送游戏原始 `x/y/z` 和像素 `pixelX/pixelY`。页面优先显示服务端提供的原始 XYZ；同时存在有效原始 `x/y` 时，定位箭头也会以当前地图标定重新计算位置，避免地图更新后旧版定位端的像素坐标造成偏移。
+- 旧格式只发送 `pixelX/pixelY` 时仍然兼容；地图站会按 `coordinateFrame` 或源尺寸匹配历史标定，反算游戏 X/Y 后转换到当前地图，Z 显示为空。
 - 未发送像素坐标但提供有效 `x/y` 时，地图站会通过标定矩阵计算像素位置并正常渲染定位箭头。
 - 像素坐标和游戏 `x/y` 均无效时，本次状态视为无有效位置并隐藏定位箭头。
-- `sourceWidth` 或 `sourceHeight` 缺失、非法或不大于 `0` 时，地图站使用 MapLocator 基准尺寸 `13056 × 13056`。
+- `sourceWidth` 或 `sourceHeight` 缺失、非法或不大于 `0` 时，带有效游戏 `x/y` 的消息仍按当前标定重算；只有旧版纯像素消息才按扩图前的历史标定帧转换到当前底图。
 - `angle` 可以是任意有限数值，地图站会按 360° 周期平滑显示。
 
 ### 4.2 路线命令确认 `navi-route-ack`
@@ -184,6 +187,7 @@ WebSocket 可以同时传输游戏原始 XYZ 和 MapLocator 像素坐标。像�
 ```json
 {
   "type": "navi-route-set",
+  "coordinateFrame": "map-2026-08",
   "sourceWidth": 13056,
   "sourceHeight": 13056,
   "start": true,
@@ -203,6 +207,7 @@ WebSocket 可以同时传输游戏原始 XYZ 和 MapLocator 像素坐标。像�
 | 字段 | 类型 | 必填 | 说明 |
 | --- | --- | --- | --- |
 | `type` | string | 是 | 固定为 `navi-route-set` |
+| `coordinateFrame` | string | 建议 | 路径点的地图标定帧 ID；地图扩图后用于避免混用坐标原点 |
 | `sourceWidth` | number | 是 | 路径点坐标源宽度，当前为 `13056` |
 | `sourceHeight` | number | 是 | 路径点坐标源高度，当前为 `13056` |
 | `start` | boolean | 是 | `true` 表示设置后立即开始，`false` 表示只设置路线 |

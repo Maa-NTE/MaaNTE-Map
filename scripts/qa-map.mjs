@@ -122,6 +122,7 @@ try {
   assert.equal(await page.locator('.map-canvas').getAttribute('data-min-zoom'), '-3')
   assert.equal(await page.locator('.map-canvas').getAttribute('data-initial-zoom'), '-3')
   await page.getByText('实时定位', { exact: true }).click()
+  await page.locator('.switch-row').filter({ hasText: '箭头保持居中' }).locator('input').uncheck()
   await page.evaluate(() => {
     window.__qaNavigationSocket.receive({
       type: 'navi-state',
@@ -140,20 +141,73 @@ try {
     })
   })
   await page.locator('.navigation-arrow').waitFor()
+  const pixelOnlyArrowTransform = await page.locator('.navigation-arrow-shell.leaflet-marker-icon').getAttribute('style')
   assert.equal(
     await page.locator('.navigation-arrow img').evaluate((element) => element.style.transform),
     'translateZ(0px) rotate(123.4deg)',
   )
   assert.deepEqual(await page.evaluate(async () => {
-    const { mapPixelToMapLatLng } = await import('/src/data/locations.js')
-    return mapPixelToMapLatLng({
+    const { mapPixelToCurrentMapPixel, mapPixelToMapLatLng } = await import('/src/data/locations.js')
+    const currentPixel = mapPixelToCurrentMapPixel({
       pixelX: 5788,
       pixelY: 8902,
       sourceWidth: 13056,
       sourceHeight: 13056,
     })
-  }), [-17804, 11576])
+    return {
+      currentPixel: [Math.round(currentPixel.pixelX), Math.round(currentPixel.pixelY)],
+      latLng: mapPixelToMapLatLng({ ...currentPixel, sourceWidth: 13056, sourceHeight: 13056 }),
+    }
+  }), { currentPixel: [5788, 8902], latLng: [-17804, 11576] })
+  assert.deepEqual(await page.evaluate(async () => {
+    const { mapPixelToCurrentMapPixel } = await import('/src/data/locations.js')
+    return Object.fromEntries(Object.entries(mapPixelToCurrentMapPixel({
+      pixelX: 4090,
+      pixelY: 6750,
+      coordinateFrame: 'map-2026-06',
+    })).map(([key, value]) => [key, Math.round(value)]))
+  }), { pixelX: 4323, pixelY: 8488 })
+  await page.evaluate(() => {
+    window.__qaNavigationSocket.receive({
+      type: 'navi-state',
+      version: 1,
+      position: {
+        // Legacy clients did not send source dimensions or a frame id.
+        pixelX: 4090,
+        pixelY: 6750,
+      },
+      angle: 123.4,
+    })
+  })
+  await page.waitForFunction(() => document.querySelector('.map-hud .game-coordinate')?.textContent.includes('-134395'))
+  assert.equal(
+    (await page.locator('.map-hud .game-coordinate').innerText()).replace(/\s+/g, ' '),
+    'XYZ -134395, 199914, --',
+  )
   assert.match(await page.locator('.map-hud .game-coordinate').innerText(), /^XYZ -?\d+, -?\d+, --$/)
+  await page.evaluate(() => {
+    window.__qaNavigationSocket.receive({
+      type: 'navi-state',
+      version: 1,
+      position: {
+        pixelX: 4090,
+        pixelY: 6750,
+        sourceWidth: 11264,
+        sourceHeight: 11264,
+        coordinateFrame: 'map-2026-06',
+      },
+      angle: 123.4,
+    })
+  })
+  await page.waitForFunction(() => document.querySelector('.game-coordinate')?.textContent.includes('-134395'))
+  await page.waitForFunction((previousTransform) => (
+    document.querySelector('.navigation-arrow-shell.leaflet-marker-icon')?.getAttribute('style') !== previousTransform
+  ), pixelOnlyArrowTransform)
+  const oldFrameArrowTransform = await page.locator('.navigation-arrow-shell.leaflet-marker-icon').getAttribute('style')
+  assert.equal(
+    (await page.locator('.map-hud .game-coordinate').innerText()).replace(/\s+/g, ' '),
+    'XYZ -134395, 199914, --',
+  )
   await page.evaluate(() => {
     window.__qaNavigationSocket.receive({
       type: 'navi-state',
@@ -162,15 +216,21 @@ try {
         x: -134394.56,
         y: 199913.53,
         z: 11416.17,
-        pixelX: 4323,
-        pixelY: 8488,
-        sourceWidth: 13056,
-        sourceHeight: 13056,
+        // Simulate a locator still reporting the prior map's pixel position.
+        // The arrow must follow the current calibration from x/y instead.
+        pixelX: 5788,
+        pixelY: 8902,
+        sourceWidth: 11264,
+        sourceHeight: 11264,
       },
       angle: 123.4,
     })
   })
-  await page.waitForFunction(() => document.querySelector('.game-coordinate')?.textContent.includes('-134395'))
+  await page.waitForFunction(() => document.querySelector('.game-coordinate')?.textContent.includes('11416'))
+  assert.equal(
+    await page.locator('.navigation-arrow-shell.leaflet-marker-icon').getAttribute('style'),
+    oldFrameArrowTransform,
+  )
   assert.equal(
     (await page.locator('.map-hud .game-coordinate').innerText()).replace(/\s+/g, ' '),
     'XYZ -134395, 199914, 11416',

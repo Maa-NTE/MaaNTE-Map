@@ -14,6 +14,15 @@ export const MAP_LOCATOR_SOURCE_WIDTH =
   coordinateCalibration.sourceWidth || MAP_CONFIG.mapLocatorSourceWidth || 13056
 export const MAP_LOCATOR_SOURCE_HEIGHT =
   coordinateCalibration.sourceHeight || MAP_CONFIG.mapLocatorSourceHeight || 13056
+export const MAP_LOCATOR_COORDINATE_FRAME =
+  coordinateCalibration.coordinateFrame || 'current'
+// A locator that predates the map expansion may omit both frame metadata and
+// source dimensions. Keep its first historical frame available so navigation
+// pixels can still be moved onto the current map.
+export const MAP_LOCATOR_LEGACY_COORDINATE_FRAME =
+  Array.isArray(coordinateCalibration.previousFrames)
+    ? coordinateCalibration.previousFrames[0]?.coordinateFrame || coordinateCalibration.previousFrames[0]?.id || null
+    : null
 
 function solveAffine(points) {
   if (!Array.isArray(points) || points.length < 3) throw new Error('至少需要 3 个坐标标定点')
@@ -56,31 +65,106 @@ function solveAffine(points) {
 }
 
 export const COORDINATE_CALIBRATION = coordinateCalibration
-const affine = solveAffine(coordinateCalibration.points)
+
+// Keep prior locator frames in the calibration file. Map expansions can add
+// pixels around the old map, so resizing an old pixel coordinate is not enough
+// to locate it on the current map; converting through game X/Y preserves the
+// historical origin and offset.
+const coordinateFrames = [
+  {
+    id: MAP_LOCATOR_COORDINATE_FRAME,
+    sourceWidth: MAP_LOCATOR_SOURCE_WIDTH,
+    sourceHeight: MAP_LOCATOR_SOURCE_HEIGHT,
+    affine: solveAffine(coordinateCalibration.points),
+  },
+  ...(Array.isArray(coordinateCalibration.previousFrames)
+    ? coordinateCalibration.previousFrames.map((frame) => ({
+        id: frame.coordinateFrame || frame.id,
+        sourceWidth: Number(frame.sourceWidth),
+        sourceHeight: Number(frame.sourceHeight),
+        affine: solveAffine(frame.points),
+      })).filter((frame) => frame.id && frame.sourceWidth > 0 && frame.sourceHeight > 0)
+    : []),
+]
+const currentCoordinateFrame = coordinateFrames[0]
+const coordinateFrameById = new Map(coordinateFrames.map((frame) => [frame.id, frame]))
+const coordinateFrameBySize = new Map(coordinateFrames.map((frame) => [
+  `${frame.sourceWidth}x${frame.sourceHeight}`,
+  frame,
+]))
+
+function findCoordinateFrame({ coordinateFrame, sourceWidth, sourceHeight } = {}) {
+  if (coordinateFrame) {
+    const explicitFrame = coordinateFrameById.get(coordinateFrame)
+    if (explicitFrame) return explicitFrame
+  }
+  const width = Number(sourceWidth)
+  const height = Number(sourceHeight)
+  if (width > 0 && height > 0) {
+    const matchingFrame = coordinateFrameBySize.get(`${width}x${height}`)
+    if (matchingFrame) return matchingFrame
+  }
+  return currentCoordinateFrame
+}
+
+function mapPixelToGameWithFrame({ pixelX, pixelY, sourceWidth, sourceHeight }, frame) {
+  const inputWidth = Number(sourceWidth) > 0 ? Number(sourceWidth) : frame.sourceWidth
+  const inputHeight = Number(sourceHeight) > 0 ? Number(sourceHeight) : frame.sourceHeight
+  const calibratedX = Number(pixelX) * frame.sourceWidth / inputWidth
+  const calibratedY = Number(pixelY) * frame.sourceHeight / inputHeight
+  const shiftedX = calibratedX - frame.affine.mapX.offset
+  const shiftedY = calibratedY - frame.affine.mapY.offset
+  return {
+    x: (shiftedX * frame.affine.mapY.y - frame.affine.mapX.y * shiftedY) / frame.affine.inverseDeterminant,
+    y: (frame.affine.mapX.x * shiftedY - shiftedX * frame.affine.mapY.x) / frame.affine.inverseDeterminant,
+  }
+}
 
 export function gameToMapPixel({ x, y }) {
   const gameX = Number(x)
   const gameY = Number(y)
   return {
-    pixelX: affine.mapX.x * gameX + affine.mapX.y * gameY + affine.mapX.offset,
-    pixelY: affine.mapY.x * gameX + affine.mapY.y * gameY + affine.mapY.offset,
+    pixelX: currentCoordinateFrame.affine.mapX.x * gameX
+      + currentCoordinateFrame.affine.mapX.y * gameY
+      + currentCoordinateFrame.affine.mapX.offset,
+    pixelY: currentCoordinateFrame.affine.mapY.x * gameX
+      + currentCoordinateFrame.affine.mapY.y * gameY
+      + currentCoordinateFrame.affine.mapY.offset,
   }
 }
 
 export function mapPixelToGame({
   pixelX,
   pixelY,
-  sourceWidth = MAP_LOCATOR_SOURCE_WIDTH,
-  sourceHeight = MAP_LOCATOR_SOURCE_HEIGHT,
+  sourceWidth,
+  sourceHeight,
+  coordinateFrame,
 }) {
-  const calibratedX = Number(pixelX) * MAP_LOCATOR_SOURCE_WIDTH / Number(sourceWidth)
-  const calibratedY = Number(pixelY) * MAP_LOCATOR_SOURCE_HEIGHT / Number(sourceHeight)
-  const shiftedX = calibratedX - affine.mapX.offset
-  const shiftedY = calibratedY - affine.mapY.offset
-  return {
-    x: (shiftedX * affine.mapY.y - affine.mapX.y * shiftedY) / affine.inverseDeterminant,
-    y: (affine.mapX.x * shiftedY - shiftedX * affine.mapY.x) / affine.inverseDeterminant,
+  return mapPixelToGameWithFrame(
+    { pixelX, pixelY, sourceWidth, sourceHeight },
+    findCoordinateFrame({ coordinateFrame, sourceWidth, sourceHeight }),
+  )
+}
+
+export function mapPixelToCurrentMapPixel({
+  pixelX,
+  pixelY,
+  sourceWidth,
+  sourceHeight,
+  coordinateFrame,
+}) {
+  const frame = findCoordinateFrame({ coordinateFrame, sourceWidth, sourceHeight })
+  const inputWidth = Number(sourceWidth) > 0 ? Number(sourceWidth) : frame.sourceWidth
+  const inputHeight = Number(sourceHeight) > 0 ? Number(sourceHeight) : frame.sourceHeight
+  const normalizedX = Number(pixelX) * frame.sourceWidth / inputWidth
+  const normalizedY = Number(pixelY) * frame.sourceHeight / inputHeight
+  if (frame === currentCoordinateFrame) {
+    return { pixelX: normalizedX, pixelY: normalizedY }
   }
+  return gameToMapPixel(mapPixelToGameWithFrame(
+    { pixelX, pixelY, sourceWidth, sourceHeight },
+    frame,
+  ))
 }
 
 export function mapPixelToMapLatLng({ pixelX, pixelY, sourceWidth = MAP_WIDTH, sourceHeight = MAP_HEIGHT }) {

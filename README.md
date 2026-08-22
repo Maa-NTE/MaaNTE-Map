@@ -145,7 +145,7 @@ npm run qa
 
 ## MaaNTE 实时定位
 
-页面默认连接 `ws://127.0.0.1:14514`，接收 MaaNTE 的 Navi 定位状态，并在地图上展示玩家位置箭头、像素坐标和朝向角度。
+页面默认连接 `ws://127.0.0.1:14514`，接收 MaaNTE 的 Navi 定位状态，并在地图上展示玩家位置箭头、像素坐标和朝向角度。定位消息包含有效游戏原始 `x/y` 时，箭头会按当前地图标定重新换算；旧版只发送像素且不带帧信息时，会按扩图前历史标定帧转换，避免地图更新后箭头停留在旧底图位置。
 
 在 MaaNTE 中运行 `MapLocator.json` 提供的 `NaviWebSocket` 节点即可同时启动 NCC 定位、方向预测和本地广播。
 
@@ -163,7 +163,8 @@ npm run qa
     "score": 0.82,
     "mode": "local",
     "sourceWidth": 13056,
-    "sourceHeight": 13056
+    "sourceHeight": 13056,
+    "coordinateFrame": "map-2026-08"
   },
   "angle": 123.4,
   "angleConfidence": 0.96,

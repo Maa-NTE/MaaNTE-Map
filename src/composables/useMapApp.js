@@ -7,6 +7,8 @@ import {
   MAP_TILE_URL,
   MAP_LOCATOR_SOURCE_HEIGHT,
   MAP_LOCATOR_SOURCE_WIDTH,
+  MAP_LOCATOR_COORDINATE_FRAME,
+  MAP_LOCATOR_LEGACY_COORDINATE_FRAME,
   MAP_WIDTH,
   TILE_SIZE,
   gameToMapLatLng,
@@ -15,6 +17,7 @@ import {
   mapLatLngToMapLocator,
   mapLatLngToGame,
   mapPixelToMapLatLng,
+  mapPixelToCurrentMapPixel,
 } from '../data/locations'
 import {
   COLLAPSIBLE_CATEGORY_GROUP_LABELS,
@@ -1186,6 +1189,7 @@ export function useMapApp() {
     }
     const ok = sendNavigationMessage({
       type: 'navi-route-set',
+      coordinateFrame: MAP_LOCATOR_COORDINATE_FRAME,
       sourceWidth: MAP_LOCATOR_SOURCE_WIDTH,
       sourceHeight: MAP_LOCATOR_SOURCE_HEIGHT,
       start,
@@ -1449,23 +1453,43 @@ export function useMapApp() {
       const receivedPixelY = readCoordinate(positionPayload.pixelY, payload.pixelY)
       const receivedSourceWidth = readCoordinate(positionPayload.sourceWidth, payload.sourceWidth)
       const receivedSourceHeight = readCoordinate(positionPayload.sourceHeight, payload.sourceHeight)
-      const sourceWidth = receivedSourceWidth > 0 ? receivedSourceWidth : MAP_LOCATOR_SOURCE_WIDTH
-      const sourceHeight = receivedSourceHeight > 0 ? receivedSourceHeight : MAP_LOCATOR_SOURCE_HEIGHT
-      const derivedPixel = (receivedPixelX === null || receivedPixelY === null)
-        && gameX !== null
-        && gameY !== null
+      const coordinateFrame = [positionPayload.coordinateFrame, payload.coordinateFrame]
+        .find((value) => typeof value === 'string' && value.trim()) || null
+      const sourceWidth = receivedSourceWidth > 0 ? receivedSourceWidth : undefined
+      const sourceHeight = receivedSourceHeight > 0 ? receivedSourceHeight : undefined
+      const hasSourceDimensions = sourceWidth !== undefined && sourceHeight !== undefined
+      // Older navigation clients emitted only 11264px pixels. Their payload
+      // has no way to identify the old frame, so use the first historical
+      // calibration when all frame metadata is absent.
+      const resolvedCoordinateFrame = coordinateFrame
+        || (!hasSourceDimensions && receivedPixelX !== null && receivedPixelY !== null
+          ? MAP_LOCATOR_LEGACY_COORDINATE_FRAME
+          : null)
+      // The map calibration is the source of truth when the locator provides
+      // game coordinates. This keeps the arrow aligned after a map update even
+      // while a locator still emits pixel coordinates for an earlier map image.
+      const calibratedPixel = gameX !== null && gameY !== null
         ? gameToMapPixel({ x: gameX, y: gameY })
-        : null
-      const pixelX = receivedPixelX ?? derivedPixel?.pixelX ?? null
-      const pixelY = receivedPixelY ?? derivedPixel?.pixelY ?? null
+        : receivedPixelX !== null && receivedPixelY !== null
+          ? mapPixelToCurrentMapPixel({
+              pixelX: receivedPixelX,
+              pixelY: receivedPixelY,
+              sourceWidth,
+              sourceHeight,
+              coordinateFrame: resolvedCoordinateFrame,
+            })
+          : null
+      const pixelX = calibratedPixel?.pixelX ?? receivedPixelX ?? null
+      const pixelY = calibratedPixel?.pixelY ?? receivedPixelY ?? null
       const currentState = getCurrentNavigationState()
       scheduleNavigationRender({
         position: pixelX !== null && pixelY !== null
           ? {
               pixelX,
               pixelY,
-              sourceWidth: derivedPixel ? MAP_LOCATOR_SOURCE_WIDTH : sourceWidth,
-              sourceHeight: derivedPixel ? MAP_LOCATOR_SOURCE_HEIGHT : sourceHeight,
+              sourceWidth: MAP_LOCATOR_SOURCE_WIDTH,
+              sourceHeight: MAP_LOCATOR_SOURCE_HEIGHT,
+              coordinateFrame: MAP_LOCATOR_COORDINATE_FRAME,
             }
           : null,
         gamePosition: gameX !== null && gameY !== null
