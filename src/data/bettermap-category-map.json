@@ -1,0 +1,106 @@
+{
+  "mon_01_BP": {
+    "id": "bettermap-monster-3cd5ff1b9b1be95b2cfd",
+    "iconUrl": "/icons/whisper-spawn.png"
+  },
+  "mon_02_BP": {
+    "id": "wind-cave",
+    "iconUrl": "/icons/wind-cave.png"
+  },
+  "mon_04_BP": {
+    "id": "lost",
+    "iconUrl": "/icons/lost.png"
+  },
+  "mon_05_BP": {
+    "id": "possessed",
+    "iconUrl": "/icons/possessed.png"
+  },
+  "mon_011_BP": {
+    "id": "hug-vine",
+    "iconUrl": "/icons/hug-vine.png"
+  },
+  "mon_012_BP": {
+    "id": "pop",
+    "iconUrl": "/icons/pop.png"
+  },
+  "mon_013_BP": {
+    "id": "demon-blade",
+    "iconUrl": "/icons/demon-blade.png"
+  },
+  "mon_014_BP": {
+    "id": "dismantler",
+    "iconUrl": "/icons/dismantler.png"
+  },
+  "mon_015_BP": {
+    "id": "towboat",
+    "iconUrl": "/icons/towboat.png"
+  },
+  "mon_016_BP": {
+    "id": "vending-spirit",
+    "iconUrl": "/icons/vending-spirit.png"
+  },
+  "mon_017_BP": {
+    "id": "rain-man",
+    "iconUrl": "/icons/rain-man.png"
+  },
+  "mon_018_BP": {
+    "id": "cotton",
+    "iconUrl": "/icons/cotton.png"
+  },
+  "mon_019_SadBear_BP": {
+    "id": "sad-bear",
+    "iconUrl": "/icons/sad-bear.png"
+  },
+  "mon_020_BP": {
+    "id": "bettermap-monster-0c4aba1eb7494cd58cba",
+    "iconUrl": "/icons/empty-shell.png"
+  },
+  "mon_023_BP": {
+    "id": "eternal-lamp",
+    "iconUrl": "/icons/eternal-lamp.png"
+  },
+  "mon_024_BP": {
+    "id": "mask-kite",
+    "iconUrl": "/icons/mask-kite.png"
+  },
+  "mon_025_BP": {
+    "id": "fish-banner",
+    "iconUrl": "/icons/fish-banner.png"
+  },
+  "mon_026_BP": {
+    "id": "category-014",
+    "iconUrl": "/icons/category-014.png"
+  },
+  "mon_027_BP": {
+    "id": "nonos",
+    "iconUrl": "/icons/nonos.png"
+  },
+  "mon_029_BP": {
+    "id": "record-spirit",
+    "iconUrl": "/icons/record-spirit.png"
+  },
+  "mon_030_BP": {
+    "id": "sunshine-doll",
+    "iconUrl": "/icons/sunshine-doll.png"
+  },
+  "mon_033_BP": {
+    "id": "dream",
+    "iconUrl": "/icons/dream.png"
+  },
+  "mon_037_BP": {
+    "id": "fake-phonebooth",
+    "iconUrl": "/icons/fake-phonebooth.png"
+  },
+  "mon_038_BP": {
+    "id": "category-017",
+    "iconUrl": "/icons/category-017.png"
+  },
+  "mon_041_BP": {
+    "id": "feather-doll",
+    "iconUrl": "/icons/feather-doll.png"
+  },
+  "mon_048_BP": {
+    "id": "cardboard-castle",
+    "iconUrl": "/icons/ardboard-castle.png"
+  }
+}

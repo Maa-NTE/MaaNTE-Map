@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
+import { readMapData } from './lib/map-data-store.mjs'
 
 const SOURCE_URL = 'https://zeroluck.gg/nte/interactive-map/'
 const LOCAL_DATA_FILE = path.resolve('src/data/map-data.json')
@@ -442,7 +443,7 @@ function buildLocation(marker, category, context) {
 }
 
 async function buildImport(options) {
-  const localData = await readJsonIfExists(LOCAL_DATA_FILE, { categories: [], locations: [] })
+  const localData = readMapData(LOCAL_DATA_FILE)
   const payload = await readInitialPayload()
   if (!payload?.categories?.length) {
     throw new Error('Source payload does not contain categories')

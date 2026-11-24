@@ -1,0 +1,80 @@
+[
+  {
+    "id": "towboat-002",
+    "name": "拖车艄 #002",
+    "types": [
+      "towboat"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 拖车艄",
+    "tags": [
+      "怪物",
+      "拖车艄",
+      "全地图"
+    ],
+    "images": [],
+    "x": -17011.272514,
+    "y": 57081.449727,
+    "z": 7209.570162,
+    "betterMapId": "monster/mon_015_BP/-17011.272514/57081.449726999999/7209.570162",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_015_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "towboat-003",
+    "name": "拖车艄 #003",
+    "types": [
+      "towboat"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 拖车艄",
+    "tags": [
+      "怪物",
+      "拖车艄",
+      "全地图"
+    ],
+    "images": [],
+    "x": -56283.695798,
+    "y": 51629.016196,
+    "z": 7921.999998,
+    "betterMapId": "monster/mon_015_BP/-56283.695798000001/51629.016195999997/7921.9999980000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_015_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "towboat-004",
+    "name": "拖车艄 #004",
+    "types": [
+      "towboat"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 拖车艄",
+    "tags": [
+      "怪物",
+      "拖车艄",
+      "全地图"
+    ],
+    "images": [],
+    "x": -71912.445636,
+    "y": 146407.129221,
+    "z": 4003.811359,
+    "betterMapId": "monster/mon_015_BP/-71912.445636000004/146407.12922100001/4003.8113589999998",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_015_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

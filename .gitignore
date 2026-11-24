@@ -8,6 +8,9 @@ scripts/*
 !scripts/import-zeroluck-map.mjs
 !scripts/check-encoding.mjs
 !scripts/merge-location-changes.mjs
+!scripts/import-bettermap.mjs
+!scripts/lib/
+!scripts/lib/map-data-store.mjs
 !scripts/qa-location-bundle.mjs
 !scripts/qa-static-location-bundle.mjs
 !scripts/clean-locations.py
@@ -16,3 +19,4 @@ scripts/*
 !scripts/generate-map-source-tiles.py
 __pycache__/
 *.log
+.local/

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "pop-001",
+    "name": "波普 #001",
+    "types": [
+      "pop"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 波普",
+    "tags": [
+      "怪物",
+      "波普",
+      "全地图"
+    ],
+    "images": [],
+    "x": -182317,
+    "y": 124780,
+    "z": 7495,
+    "betterMapId": "monster/mon_012_BP/-182317/124780/7495",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_012_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "pop-002",
+    "name": "波普 #002",
+    "types": [
+      "pop"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 波普",
+    "tags": [
+      "怪物",
+      "波普",
+      "全地图"
+    ],
+    "images": [],
+    "x": -113638.580154,
+    "y": 64461.186982,
+    "z": 8864.293689,
+    "betterMapId": "monster/mon_012_BP/-113638.580154/64461.186981999999/8864.2936890000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_012_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "pop-003",
+    "name": "波普 #003",
+    "types": [
+      "pop"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 波普",
+    "tags": [
+      "怪物",
+      "波普",
+      "全地图"
+    ],
+    "images": [],
+    "x": -92031,
+    "y": 97467,
+    "z": 6708,
+    "betterMapId": "monster/mon_012_BP/-92031/97467/6708",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_012_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "pop-004",
+    "name": "波普 #004",
+    "types": [
+      "pop"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 波普",
+    "tags": [
+      "怪物",
+      "波普",
+      "全地图"
+    ],
+    "images": [],
+    "x": -128959.41335,
+    "y": 127042.704483,
+    "z": 6893.284636,
+    "betterMapId": "monster/mon_012_BP/-128959.41335/127042.70448299999/6893.2846360000003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_012_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "pop-005",
+    "name": "波普 #005",
+    "types": [
+      "pop"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 波普",
+    "tags": [
+      "怪物",
+      "波普",
+      "全地图"
+    ],
+    "images": [],
+    "x": -123157,
+    "y": 156724,
+    "z": 10210,
+    "betterMapId": "monster/mon_012_BP/-123157/156724/10210",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_012_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-187ccd15d8573310b3e6",
+    "name": "波普 · mon_012_BP",
+    "types": [
+      "pop"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -119666,
+    "y": 185499,
+    "z": 6243,
+    "betterMapId": "monster/mon_012_BP/-119666/185499/6243",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_012_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

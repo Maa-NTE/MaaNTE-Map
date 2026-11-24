@@ -13,6 +13,7 @@
     "check:encoding": "node scripts/check-encoding.mjs",
     "clean:locations": "python scripts/clean-locations.py",
     "import:zeroluck": "node scripts/import-zeroluck-map.mjs",
+    "import:bettermap": "node scripts/import-bettermap.mjs",
     "merge:locations": "node scripts/merge-location-changes.mjs"
   },
   "dependencies": {

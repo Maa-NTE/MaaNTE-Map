@@ -1,0 +1,1096 @@
+[
+  {
+    "id": "anomaly-021",
+    "name": "「后街拳王」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "桥间地",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -82191.17,
+    "y": 156935.55,
+    "z": 4247.4893,
+    "gameDataId": "DT_Vision/Vision_Boxing_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Boxing_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-017",
+    "name": "「天台拳王」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "桥间地",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -135865.77,
+    "y": 169107.6,
+    "z": 10068.344,
+    "gameDataId": "DT_Vision/Vision_Boxing_02",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Boxing_02",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-020",
+    "name": "「连环爆炸案」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "桥间地",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -87909.58,
+    "y": 143882.72,
+    "z": 4150.5005,
+    "gameDataId": "DT_Vision/Vision_Projector_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Projector_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-013",
+    "name": "「品牌纪念日」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "未闻浦",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -202012.45,
+    "y": 215869.14,
+    "z": 7806.2944,
+    "gameDataId": "DT_Vision/Vision_WorldFilm",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_WorldFilm",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-79a5574cf6d370ce828a",
+    "name": "「C的魔方」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "未闻浦",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": -190100.64,
+    "y": 192419.77,
+    "z": 9905,
+    "gameDataId": "DT_Vision/Vision_MagicBox_Cube_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_MagicBox_Cube_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-023",
+    "name": "「C的高塔」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "桥间地",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -123900.05,
+    "y": 135966.19,
+    "z": 8377,
+    "gameDataId": "DT_Vision/Vision_MagicBox_Tower_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_MagicBox_Tower_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-66e02b9fae71661b694f",
+    "name": "「校园旧时光」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "桥间地",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": -87035.71,
+    "y": 170735.19,
+    "z": 3444.3813,
+    "gameDataId": "DT_Vision/Vision_TheDoor",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_TheDoor",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-e53c99dcd728fa6bb9de",
+    "name": "「铁驭强袭」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "桥间地",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": -103871.51,
+    "y": 181596.58,
+    "z": 5214,
+    "gameDataId": "DT_Vision/Vision_MotoBoss_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_MotoBoss_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-032",
+    "name": "「影像幽宅」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "绘空町",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -132650.5,
+    "y": 131027.57,
+    "z": 6989.543,
+    "gameDataId": "DT_Vision/Vision_Projector_Time_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Projector_Time_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-019",
+    "name": "「灵感夺回大作战」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "桥间地",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -115421.06,
+    "y": 146731.73,
+    "z": 9574,
+    "gameDataId": "DT_Vision/Vision_ColorsWearOff",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_ColorsWearOff",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-022",
+    "name": "「放学后」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "桥间地",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -146186.19,
+    "y": 166783.94,
+    "z": 8226.126,
+    "gameDataId": "DT_Vision/Vision_Peekaboo",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Peekaboo",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-033",
+    "name": "「未雨绸缪」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "绘空町",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -177750,
+    "y": 118862,
+    "z": 7120,
+    "gameDataId": "DT_Vision/Vision_RainMan_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_RainMan_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-fca9eab283893a5beac6",
+    "name": "「超音速涂鸦」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "桥间地",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": -70198.14,
+    "y": 137958,
+    "z": 2882.1016,
+    "gameDataId": "DT_Vision/Vision_TuyaGuai_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_TuyaGuai_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-035",
+    "name": "「何处是归乡」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "绘空町",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -195554.78,
+    "y": 121705.87,
+    "z": 7211.051,
+    "gameDataId": "DT_Vision/Vision_YaoDao_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_YaoDao_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-018",
+    "name": "「替班龙门」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "桥间地",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -133249,
+    "y": 176579,
+    "z": 9857,
+    "gameDataId": "DT_Vision/Vision_LiyuuQi_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_LiyuuQi_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-034",
+    "name": "「律动大师」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "绘空町",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -105535.555,
+    "y": 94329.28,
+    "z": 6794.7305,
+    "gameDataId": "DT_Vision/Vision_BoomBox",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_BoomBox",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-005",
+    "name": "「伤心的熊不流泪」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "新赫兰德",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 37572.625,
+    "y": 86033.875,
+    "z": 6312.6807,
+    "gameDataId": "DT_Vision/Vision_Sadbear_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Sadbear_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-027",
+    "name": "「省电侠」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "米尔格",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -7986.45,
+    "y": 31533.71,
+    "z": 7685.8027,
+    "gameDataId": "DT_Vision/Vision_Lamp_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Lamp_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-007",
+    "name": "「派对拳王」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "新赫兰德",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -22378.705,
+    "y": 112436.33,
+    "z": 12426.4375,
+    "gameDataId": "DT_Vision/Vision_Boxing_03",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Boxing_03",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-029",
+    "name": "「球场拳王」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "米尔格",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -63075.582,
+    "y": 39391.258,
+    "z": 7711.939,
+    "gameDataId": "DT_Vision/Vision_Boxing_04",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Boxing_04",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-81f8fdb0109c6900e15b",
+    "name": "「天弃之子」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "新赫兰德",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": 5249.8276,
+    "y": 109465.95,
+    "z": 29041.549,
+    "gameDataId": "DT_Vision/Vision_RainLiyuuQi_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_RainLiyuuQi_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-3d88e5aa556b34f8ab75",
+    "name": "「孤独玩家」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "绘空町",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": -152481.8,
+    "y": 101272.36,
+    "z": 7251.038,
+    "gameDataId": "DT_Vision/Vision_SchoolDoll",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_SchoolDoll",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-010",
+    "name": "「换个角度？」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "新赫兰德",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 27175,
+    "y": 59317,
+    "z": 6439,
+    "gameDataId": "DT_Vision/Vision_BuildingDrawing_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_BuildingDrawing_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-004",
+    "name": "「深蓝之恸」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "新赫兰德",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -52630,
+    "y": 175120,
+    "z": -1490,
+    "gameDataId": "DT_Vision/Vision_OceanChase",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_OceanChase",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-66969374245ce85d1afb",
+    "name": "「毛线球还是方斯？」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "新赫兰德",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": 16779.594,
+    "y": 121539.55,
+    "z": 1080.1494,
+    "gameDataId": "DT_Vision/Vision_Mammon",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Mammon",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-009",
+    "name": "「唤孤归」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "新赫兰德",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -49854.613,
+    "y": 63796.395,
+    "z": 13743,
+    "gameDataId": "DT_Vision/Vision_Boss33",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Boss33",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-006",
+    "name": "「去看电影吧」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "新赫兰德",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -4438.9624,
+    "y": 104782.71,
+    "z": 7173.236,
+    "gameDataId": "DT_Vision/Vision_Boss08",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Boss08",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-003",
+    "name": "「盛情难却」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "新赫兰德",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -16338.051,
+    "y": 65915.7,
+    "z": 6769.396,
+    "gameDataId": "DT_Vision/Vision_PaperCastle01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_PaperCastle01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-025",
+    "name": "「这不是一幅画」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "米尔格",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -102644,
+    "y": 11552.559,
+    "z": 9908.627,
+    "gameDataId": "DT_Vision/Vision_NiKanDao",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_NiKanDao",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-026",
+    "name": "「消雨祈晴」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "米尔格",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -15682.075,
+    "y": 18164.508,
+    "z": 8835.289,
+    "gameDataId": "DT_Vision/Vision_TeruTeruBozu01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_TeruTeruBozu01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-030",
+    "name": "「脑洞修复工程」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "米尔格",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -44912,
+    "y": -17819,
+    "z": 9004,
+    "gameDataId": "DT_Vision/Vision_ColorsMerge",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_ColorsMerge",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-6e95cc8d46007448f32f",
+    "name": "「谁家漏水」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "米尔格",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": -23936.77,
+    "y": 48682.336,
+    "z": 7794.965,
+    "gameDataId": "DT_Vision/Vision_Elevator_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Elevator_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-024",
+    "name": "「骤雪初霁」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "米尔格",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -6596.843,
+    "y": -779.4488,
+    "z": 8958.348,
+    "gameDataId": "DT_Vision/Vision_TeruTeruBozuSnow01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_TeruTeruBozuSnow01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "anomaly-037",
+    "name": "「噩梦缠身」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "绘空町",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [
+      "探索度",
+      "异象委托",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -157877.97,
+    "y": 132582.34,
+    "z": 6857.6807,
+    "gameDataId": "DT_Vision/Vision_Hospital",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Hospital",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-feac3837372388fe6b41",
+    "name": "「后青春期的书」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "新赫兰德",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": 750.26807,
+    "y": 75068.54,
+    "z": 15059.354,
+    "gameDataId": "DT_Vision/Vision_BlackBook",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_BlackBook",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-5a790829690e7d1c0605",
+    "name": "「沉水之扉」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "泊暮区",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": -239840,
+    "y": -98470,
+    "z": 10220,
+    "gameDataId": "DT_Vision/Vision_Mirror",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Mirror",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-28e2c4ed9d9fe6e11d5d",
+    "name": "「双花并蒂」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "泊暮区",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": -268487.38,
+    "y": -157384.44,
+    "z": 13566.526,
+    "gameDataId": "DT_Vision/Vision_RedFlower",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_RedFlower",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-c7055cd8415906e70f7c",
+    "name": "「提灯夜行」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "泊暮区",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": -290127,
+    "y": 34514,
+    "z": 13713,
+    "gameDataId": "DT_Vision/Vision_ShadowChase",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_ShadowChase",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-1b80e243a798c2df3a1d",
+    "name": "「童话战役」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "泊暮区",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": -199829.67,
+    "y": -162536.19,
+    "z": 13477,
+    "gameDataId": "DT_Vision/Vision_Sadbear_02",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Sadbear_02",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-6644433284fc290f1010",
+    "name": "「终幕：从头反复」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "泊暮区",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": -259095,
+    "y": -243865,
+    "z": 27282.844,
+    "gameDataId": "DT_Vision/Vision_Dancer_01",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Dancer_01",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-4275814a49cec0fff5f3",
+    "name": "「小鹿当家」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "泊暮区",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": -271280,
+    "y": 82700,
+    "z": 5460,
+    "gameDataId": "DT_Vision/Vision_ChasingDeer",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_ChasingDeer",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-7b2f5e9de2574d9d6a39",
+    "name": "「末班公交之夜」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "泊暮区",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": -246522.22,
+    "y": 139492.5,
+    "z": 3006.3,
+    "gameDataId": "DT_Vision/Vision_BusStop",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_BusStop",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-21f35a7c47eb2b580a62",
+    "name": "「镜中世界的小人国」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "全地图",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": 84621.29,
+    "y": 159878,
+    "z": 3196.1887,
+    "gameDataId": "DT_Vision/Vision_Scaled",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_Scaled",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-5def2281bcc0aafbc85e",
+    "name": "「平凡的美梦」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "泊暮区",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": -233070.89,
+    "y": 36629.582,
+    "z": 8580,
+    "gameDataId": "DT_Vision/Vision_PillowDreams",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_PillowDreams",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-62f9cd98cd53c864e5a6",
+    "name": "「诡乐屋不打烊」",
+    "types": [
+      "anomaly"
+    ],
+    "district": "全地图",
+    "description": "异象委托触发位置；部分委托需要满足任务进度或其他解锁条件。",
+    "tags": [],
+    "images": [],
+    "x": 93982.51,
+    "y": 149631.1,
+    "z": 2883.692,
+    "gameDataId": "DT_Vision/Vision_SpookyHouse",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Vision/DT_Vision",
+      "rowId": "Vision_SpookyHouse",
+      "coordinateField": "VisionLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

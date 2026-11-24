@@ -1,0 +1,28 @@
+[
+  {
+    "id": "teleport-boss_09_bp_worldboss",
+    "name": "黑之书",
+    "types": [
+      "boss-09"
+    ],
+    "district": "全地图",
+    "description": "世界 Boss 入口",
+    "tags": [
+      "传送点",
+      "异象追猎",
+      "黑之书"
+    ],
+    "images": [],
+    "x": 1474.2069,
+    "y": 74887.555,
+    "z": 15019.816,
+    "gameDataId": "DT_TeleportPoint/boss_09_BP_WorldBoss",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "boss_09_BP_WorldBoss",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

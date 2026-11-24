@@ -1,0 +1,128 @@
+[
+  {
+    "id": "possessed-001",
+    "name": "凭依种 #001",
+    "types": [
+      "possessed"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 凭依种",
+    "tags": [
+      "怪物",
+      "凭依种",
+      "全地图"
+    ],
+    "images": [],
+    "x": 48595.215023,
+    "y": 114878.446348,
+    "z": 11118.121234,
+    "betterMapId": "monster/mon_05_BP/48595.215022999997/114878.446348/11118.121234",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_05_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "possessed-002",
+    "name": "凭依种 #002",
+    "types": [
+      "possessed"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 凭依种",
+    "tags": [
+      "怪物",
+      "凭依种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -51149,
+    "y": 81011,
+    "z": 3069,
+    "betterMapId": "monster/mon_05_BP/-51149/81011/3069",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_05_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "possessed-003",
+    "name": "凭依种 #003",
+    "types": [
+      "possessed"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 凭依种",
+    "tags": [
+      "怪物",
+      "凭依种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -164263,
+    "y": 112452,
+    "z": 7444.293259,
+    "betterMapId": "monster/mon_05_BP/-164263/112452/7444.293259",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_05_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "possessed-004",
+    "name": "凭依种 #004",
+    "types": [
+      "possessed"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 凭依种",
+    "tags": [
+      "怪物",
+      "凭依种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -138224.455135,
+    "y": 171022.443855,
+    "z": 7193,
+    "betterMapId": "monster/mon_05_BP/-138224.455135/171022.44385499999/7193",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_05_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-630f9dff1018d1dc96f0",
+    "name": "凭依种 · mon_05_BP",
+    "types": [
+      "possessed"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -166200,
+    "y": 195070,
+    "z": 8160,
+    "betterMapId": "monster/mon_05_BP/-166200/195070/8160",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_05_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

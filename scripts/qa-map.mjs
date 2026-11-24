@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict'
 import { createHash } from 'node:crypto'
-import { copyFile, mkdir, readFile, rm, stat } from 'node:fs/promises'
+import { mkdir, readFile, rm, stat, writeFile } from 'node:fs/promises'
+import { readMapData } from './lib/map-data-store.mjs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { spawn } from 'node:child_process'
@@ -36,7 +37,7 @@ await mkdir(output, { recursive: true })
 await rm(qaUploadsDir, { recursive: true, force: true })
 await rm(qaLocationImagesDir, { recursive: true, force: true })
 await mkdir(qaUploadsDir, { recursive: true })
-await copyFile(mapDataFile, qaMapDataFile)
+await writeFile(qaMapDataFile, JSON.stringify(readMapData(mapDataFile)), 'utf8')
 
 const server = spawn(
   process.execPath,

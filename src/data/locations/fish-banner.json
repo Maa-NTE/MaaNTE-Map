@@ -1,0 +1,362 @@
+[
+  {
+    "id": "fish-banner-001",
+    "name": "洄天鱼幡 #001",
+    "types": [
+      "fish-banner"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 洄天鱼幡",
+    "tags": [
+      "怪物",
+      "洄天鱼幡",
+      "全地图"
+    ],
+    "images": [],
+    "x": -184348.15999,
+    "y": 99059.995593,
+    "z": 12660.655834,
+    "betterMapId": "monster/mon_025_BP/-184348.15998999999/99059.995593/12660.655833999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_025_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "fish-banner-002",
+    "name": "洄天鱼幡 #002",
+    "types": [
+      "fish-banner"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 洄天鱼幡",
+    "tags": [
+      "怪物",
+      "洄天鱼幡",
+      "全地图"
+    ],
+    "images": [],
+    "x": -179774.204526,
+    "y": 146678.535509,
+    "z": 10800.591985,
+    "betterMapId": "monster/mon_025_BP/-179774.20452599999/146678.53550900001/10800.591984999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_025_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "fish-banner-003",
+    "name": "洄天鱼幡 #003",
+    "types": [
+      "fish-banner"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 洄天鱼幡",
+    "tags": [
+      "怪物",
+      "洄天鱼幡",
+      "全地图"
+    ],
+    "images": [],
+    "x": -206981.728288,
+    "y": 193483.812231,
+    "z": 8709.35019,
+    "betterMapId": "monster/mon_025_BP/-206981.72828800001/193483.81223099999/8709.3501899999992",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_025_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "fish-banner-004",
+    "name": "洄天鱼幡 #004",
+    "types": [
+      "fish-banner"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 洄天鱼幡",
+    "tags": [
+      "怪物",
+      "洄天鱼幡",
+      "全地图"
+    ],
+    "images": [],
+    "x": -181489.907695,
+    "y": 239834.403167,
+    "z": 3517.011475,
+    "betterMapId": "monster/mon_025_BP/-181489.907695/239834.40316700001/3517.0114749999998",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_025_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "fish-banner-006",
+    "name": "洄天鱼幡 #006",
+    "types": [
+      "fish-banner"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 洄天鱼幡",
+    "tags": [
+      "怪物",
+      "洄天鱼幡",
+      "全地图"
+    ],
+    "images": [],
+    "x": -123606,
+    "y": 190131,
+    "z": 9435,
+    "betterMapId": "monster/mon_025_BP/-123606/190131/9435",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_025_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "fish-banner-007",
+    "name": "洄天鱼幡 #007",
+    "types": [
+      "fish-banner"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 洄天鱼幡",
+    "tags": [
+      "怪物",
+      "洄天鱼幡",
+      "全地图"
+    ],
+    "images": [],
+    "x": -139479,
+    "y": 156255,
+    "z": 12177,
+    "betterMapId": "monster/mon_025_BP/-139479/156255/12177",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_025_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "fish-banner-008",
+    "name": "洄天鱼幡 #008",
+    "types": [
+      "fish-banner"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 洄天鱼幡",
+    "tags": [
+      "怪物",
+      "洄天鱼幡",
+      "全地图"
+    ],
+    "images": [],
+    "x": -141865,
+    "y": 127841,
+    "z": 13553,
+    "betterMapId": "monster/mon_025_BP/-141865/127841/13553",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_025_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "fish-banner-009",
+    "name": "洄天鱼幡 #009",
+    "types": [
+      "fish-banner"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 洄天鱼幡",
+    "tags": [
+      "怪物",
+      "洄天鱼幡",
+      "全地图"
+    ],
+    "images": [],
+    "x": -124610,
+    "y": 96869,
+    "z": 13442,
+    "betterMapId": "monster/mon_025_BP/-124610/96869/13442",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_025_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "fish-banner-010",
+    "name": "洄天鱼幡 #010",
+    "types": [
+      "fish-banner"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 洄天鱼幡",
+    "tags": [
+      "怪物",
+      "洄天鱼幡",
+      "全地图"
+    ],
+    "images": [],
+    "x": -110313.392425,
+    "y": 79412.671465,
+    "z": 16030.484412,
+    "betterMapId": "monster/mon_025_BP/-110313.392425/79412.671465000007/16030.484412",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_025_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "fish-banner-011",
+    "name": "洄天鱼幡 #011",
+    "types": [
+      "fish-banner"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 洄天鱼幡",
+    "tags": [
+      "怪物",
+      "洄天鱼幡",
+      "全地图"
+    ],
+    "images": [],
+    "x": -76602.912966,
+    "y": 69510.076997,
+    "z": 10624.548877,
+    "betterMapId": "monster/mon_025_BP/-76602.912966000004/69510.076996999996/10624.548876999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_025_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "fish-banner-012",
+    "name": "洄天鱼幡 #012",
+    "types": [
+      "fish-banner"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 洄天鱼幡",
+    "tags": [
+      "怪物",
+      "洄天鱼幡",
+      "全地图"
+    ],
+    "images": [],
+    "x": -35867.746531,
+    "y": 119015.216899,
+    "z": 15166.269027,
+    "betterMapId": "monster/mon_025_BP/-35867.746530999997/119015.21689900001/15166.269027",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_025_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "fish-banner-013",
+    "name": "洄天鱼幡 #013",
+    "types": [
+      "fish-banner"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 洄天鱼幡",
+    "tags": [
+      "怪物",
+      "洄天鱼幡",
+      "全地图"
+    ],
+    "images": [],
+    "x": -45670.528199,
+    "y": 87777.681208,
+    "z": 9388.040152,
+    "betterMapId": "monster/mon_025_BP/-45670.528199/87777.681207999995/9388.0401519999996",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_025_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "fish-banner-014",
+    "name": "洄天鱼幡 #014",
+    "types": [
+      "fish-banner"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 洄天鱼幡",
+    "tags": [
+      "怪物",
+      "洄天鱼幡",
+      "全地图"
+    ],
+    "images": [],
+    "x": 38567.918193,
+    "y": 55560.510875,
+    "z": 9217.497594,
+    "betterMapId": "monster/mon_025_BP/38567.918192999998/55560.510875/9217.4975940000004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_025_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-f5f801d110096151d815",
+    "name": "洄天鱼幡 · mon_025_BP",
+    "types": [
+      "fish-banner"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -153417.753184,
+    "y": 204916,
+    "z": 7151,
+    "betterMapId": "monster/mon_025_BP/-153417.753184/204916/7151",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_025_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "id": "fake-phonebooth-002",
+    "name": "伪电话亭 #002",
+    "types": [
+      "fake-phonebooth"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 伪电话亭",
+    "tags": [
+      "怪物",
+      "伪电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": 34463.238209,
+    "y": 66678.580201,
+    "z": 5483.208918,
+    "betterMapId": "monster/mon_037_BP/34463.238209000003/66678.580201000004/5483.2089180000003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_037_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "fake-phonebooth-003",
+    "name": "伪电话亭 #003",
+    "types": [
+      "fake-phonebooth"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 伪电话亭",
+    "tags": [
+      "怪物",
+      "伪电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": 46661.009352,
+    "y": 115828.421441,
+    "z": 11118.121234,
+    "betterMapId": "monster/mon_037_BP/46661.009352000001/115828.421441/11118.121234",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_037_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "fake-phonebooth-005",
+    "name": "伪电话亭 #005",
+    "types": [
+      "fake-phonebooth"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 伪电话亭",
+    "tags": [
+      "怪物",
+      "伪电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": -88778.682409,
+    "y": 92869.240388,
+    "z": 4500,
+    "betterMapId": "monster/mon_037_BP/-88778.682409000001/92869.240388000006/4500",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_037_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "fake-phonebooth-006",
+    "name": "伪电话亭 #006",
+    "types": [
+      "fake-phonebooth"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 伪电话亭",
+    "tags": [
+      "怪物",
+      "伪电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": -122818.121016,
+    "y": 176978.125462,
+    "z": 7058.9575,
+    "betterMapId": "monster/mon_037_BP/-122818.121016/176978.125462/7058.9575000000004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_037_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782104447747",
+    "name": "电话亭",
+    "types": [
+      "fake-phonebooth"
+    ],
+    "district": "全地图",
+    "x": -147823.921626,
+    "y": 165261.729335,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8195.573189,
+    "betterMapId": "monster/mon_037_BP/-147823.921626/165261.72933500001/8195.5731890000006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_037_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-c9a7b379aa5e5f664752",
+    "name": "伪电话亭 · mon_037_BP",
+    "types": [
+      "fake-phonebooth"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -41306.677645,
+    "y": 122490.922096,
+    "z": 4423.254001,
+    "betterMapId": "monster/mon_037_BP/-41306.677645000003/122490.92209599999/4423.2540010000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_037_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

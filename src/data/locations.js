@@ -1,5 +1,9 @@
-import mapData from './map-data.json'
+import metadata from './map-data.json'
+import { assembleMapData } from './map-data-layout'
 import coordinateCalibration from './navi-coordinate-calibration.json'
+
+const categoryFiles = import.meta.glob('./locations/*.json', { eager: true, import: 'default' })
+const mapData = assembleMapData(metadata, new Map(Object.entries(categoryFiles).map(([file, locations]) => [file.slice(2), locations])))
 
 export const initialMapData = mapData
 export const MAP_CONFIG = mapData.map

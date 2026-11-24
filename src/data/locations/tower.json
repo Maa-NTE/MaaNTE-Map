@@ -1,0 +1,154 @@
+[
+  {
+    "id": "tower-004",
+    "name": "维特海默塔 #004",
+    "types": [
+      "tower"
+    ],
+    "district": "桥间地",
+    "description": "传送点 · 维特海默塔",
+    "tags": [
+      "传送点",
+      "维特海默塔",
+      "全地图"
+    ],
+    "images": [],
+    "x": -94823,
+    "y": 165376,
+    "z": 4128,
+    "gameDataId": "DT_TeleportPoint/WertheimerTower_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "WertheimerTower_001",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "tower-005",
+    "name": "维特海默塔 #005",
+    "types": [
+      "tower"
+    ],
+    "district": "未闻浦",
+    "description": "传送点 · 维特海默塔",
+    "tags": [
+      "传送点",
+      "维特海默塔",
+      "全地图"
+    ],
+    "images": [],
+    "x": -184528.28,
+    "y": 211012.42,
+    "z": 16476,
+    "gameDataId": "DT_TeleportPoint/WertheimerTower_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "WertheimerTower_002",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "tower-003",
+    "name": "维特海默塔 #003",
+    "types": [
+      "tower"
+    ],
+    "district": "绘空町",
+    "description": "传送点 · 维特海默塔",
+    "tags": [
+      "传送点",
+      "维特海默塔",
+      "全地图"
+    ],
+    "images": [],
+    "x": -171144.38,
+    "y": 106510.41,
+    "z": 7156,
+    "gameDataId": "DT_TeleportPoint/WertheimerTower_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "WertheimerTower_003",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "tower-002",
+    "name": "维特海默塔 #002",
+    "types": [
+      "tower"
+    ],
+    "district": "米尔格",
+    "description": "传送点 · 维特海默塔",
+    "tags": [
+      "传送点",
+      "维特海默塔",
+      "全地图"
+    ],
+    "images": [],
+    "x": -30515.836,
+    "y": 7779.323,
+    "z": 8163,
+    "gameDataId": "DT_TeleportPoint/WertheimerTower_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "WertheimerTower_004",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-b410b16f4605b98077f1",
+    "name": "维特海默塔",
+    "types": [
+      "tower"
+    ],
+    "district": "新赫兰德",
+    "description": "传送点 · 维特海默塔",
+    "tags": [],
+    "images": [],
+    "x": 10521.551,
+    "y": 65394.363,
+    "z": 6341,
+    "gameDataId": "DT_TeleportPoint/WertheimerTower_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "WertheimerTower_005",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "tower-006",
+    "name": "维特海默塔 #006",
+    "types": [
+      "tower"
+    ],
+    "district": "泊暮区",
+    "description": "传送点 · 维特海默塔",
+    "tags": [
+      "传送点",
+      "维特海默塔",
+      "全地图"
+    ],
+    "images": [],
+    "x": -280851.16,
+    "y": 104839.2,
+    "z": 3676.017,
+    "gameDataId": "DT_TeleportPoint/WertheimerTower_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "WertheimerTower_006",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

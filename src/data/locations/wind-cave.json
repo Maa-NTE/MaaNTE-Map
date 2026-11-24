@@ -1,0 +1,276 @@
+[
+  {
+    "id": "wind-cave-001",
+    "name": "风洞种 #001",
+    "types": [
+      "wind-cave"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 风洞种",
+    "tags": [
+      "怪物",
+      "风洞种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -136081,
+    "y": 181402,
+    "z": 7381,
+    "betterMapId": "monster/mon_02_BP/-136081/181402/7381",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_02_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "wind-cave-002",
+    "name": "风洞种 #002",
+    "types": [
+      "wind-cave"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 风洞种",
+    "tags": [
+      "怪物",
+      "风洞种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -85200,
+    "y": 164610,
+    "z": 4280,
+    "betterMapId": "monster/mon_02_BP/-85200/164610/4280",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_02_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "wind-cave-003",
+    "name": "风洞种 #003",
+    "types": [
+      "wind-cave"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 风洞种",
+    "tags": [
+      "怪物",
+      "风洞种",
+      "全地图"
+    ],
+    "images": [],
+    "x": 25438.093094,
+    "y": 29783.413041,
+    "z": 8126.931641,
+    "betterMapId": "monster/mon_02_BP/25438.093094/29783.413041/8126.9316410000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_02_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "wind-cave-004",
+    "name": "风洞种 #004",
+    "types": [
+      "wind-cave"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 风洞种",
+    "tags": [
+      "怪物",
+      "风洞种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -31683.238253,
+    "y": 23861.863749,
+    "z": 8126.301871,
+    "betterMapId": "monster/mon_02_BP/-31683.238253/23861.863749/8126.3018709999997",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_02_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "wind-cave-005",
+    "name": "风洞种 #005",
+    "types": [
+      "wind-cave"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 风洞种",
+    "tags": [
+      "怪物",
+      "风洞种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -70717.40918,
+    "y": 38815.184569,
+    "z": 8144.498019,
+    "betterMapId": "monster/mon_02_BP/-70717.409180000002/38815.184568999997/8144.4980189999997",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_02_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "wind-cave-006",
+    "name": "风洞种 #006",
+    "types": [
+      "wind-cave"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 风洞种",
+    "tags": [
+      "怪物",
+      "风洞种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -87275.576733,
+    "y": 54735.023547,
+    "z": 8019.194867,
+    "betterMapId": "monster/mon_02_BP/-87275.576732999994/54735.023546999997/8019.1948670000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_02_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "wind-cave-007",
+    "name": "风洞种 #007",
+    "types": [
+      "wind-cave"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 风洞种",
+    "tags": [
+      "怪物",
+      "风洞种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -133488.16197,
+    "y": 87698.750365,
+    "z": 7686,
+    "betterMapId": "monster/mon_02_BP/-133488.16196999999/87698.750365/7686",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_02_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "wind-cave-008",
+    "name": "风洞种 #008",
+    "types": [
+      "wind-cave"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 风洞种",
+    "tags": [
+      "怪物",
+      "风洞种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -190854.801791,
+    "y": 106540.064996,
+    "z": 7569.229204,
+    "betterMapId": "monster/mon_02_BP/-190854.80179100001/106540.064996/7569.2292040000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_02_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-cf33bd0f49527ae37fdf",
+    "name": "风洞种 · mon_02_BP",
+    "types": [
+      "wind-cave"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -177175,
+    "y": 139895,
+    "z": 6965,
+    "betterMapId": "monster/mon_02_BP/-177175/139895/6965",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_02_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-872324884d4b00ae7c0d",
+    "name": "风洞种 · mon_02_BP",
+    "types": [
+      "wind-cave"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -135441.640428,
+    "y": 142533.413785,
+    "z": 6941.448106,
+    "betterMapId": "monster/mon_02_BP/-135441.64042800001/142533.41378500001/6941.4481059999998",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_02_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-b8a5aa232dae7d7bb175",
+    "name": "风洞种 · mon_02_BP",
+    "types": [
+      "wind-cave"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -168666,
+    "y": 114021,
+    "z": 7409,
+    "betterMapId": "monster/mon_02_BP/-168666/114021/7409",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_02_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

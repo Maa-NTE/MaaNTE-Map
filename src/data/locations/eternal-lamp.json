@@ -1,0 +1,184 @@
+[
+  {
+    "id": "eternal-lamp-001",
+    "name": "长明灯 #001",
+    "types": [
+      "eternal-lamp"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 长明灯",
+    "tags": [
+      "怪物",
+      "长明灯",
+      "全地图"
+    ],
+    "images": [],
+    "x": -35010.642913,
+    "y": 1397.141604,
+    "z": 9069.371873,
+    "betterMapId": "monster/mon_023_BP/-35010.642913000003/1397.1416039999999/9069.3718730000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_023_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "eternal-lamp-002",
+    "name": "长明灯 #002",
+    "types": [
+      "eternal-lamp"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 长明灯",
+    "tags": [
+      "怪物",
+      "长明灯",
+      "全地图"
+    ],
+    "images": [],
+    "x": -22510.360458,
+    "y": 139093.277054,
+    "z": 5857.00026,
+    "betterMapId": "monster/mon_023_BP/-22510.360457999999/139093.27705400001/5857.0002599999998",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_023_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "eternal-lamp-003",
+    "name": "长明灯 #003",
+    "types": [
+      "eternal-lamp"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 长明灯",
+    "tags": [
+      "怪物",
+      "长明灯",
+      "全地图"
+    ],
+    "images": [],
+    "x": 674.576128,
+    "y": 90425.069919,
+    "z": 13625.541721,
+    "betterMapId": "monster/mon_023_BP/674.57612800000004/90425.069919000001/13625.541721",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_023_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "eternal-lamp-004",
+    "name": "长明灯 #004",
+    "types": [
+      "eternal-lamp"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 长明灯",
+    "tags": [
+      "怪物",
+      "长明灯",
+      "全地图"
+    ],
+    "images": [],
+    "x": 31870,
+    "y": 100780,
+    "z": 8780,
+    "betterMapId": "monster/mon_023_BP/31870/100780/8780",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_023_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "eternal-lamp-005",
+    "name": "长明灯 #005",
+    "types": [
+      "eternal-lamp"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 长明灯",
+    "tags": [
+      "怪物",
+      "长明灯",
+      "全地图"
+    ],
+    "images": [],
+    "x": 44748.74871,
+    "y": 43858.346299,
+    "z": 5853.276272,
+    "betterMapId": "monster/mon_023_BP/44748.74871/43858.346298999997/5853.2762720000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_023_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "eternal-lamp-006",
+    "name": "长明灯 #006",
+    "types": [
+      "eternal-lamp"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 长明灯",
+    "tags": [
+      "怪物",
+      "长明灯",
+      "全地图"
+    ],
+    "images": [],
+    "x": 9581.838516,
+    "y": 22003.846749,
+    "z": 8207.305003,
+    "betterMapId": "monster/mon_023_BP/9581.8385159999998/22003.846749/8207.3050029999995",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_023_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "eternal-lamp-007",
+    "name": "长明灯 #007",
+    "types": [
+      "eternal-lamp"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 长明灯",
+    "tags": [
+      "怪物",
+      "长明灯",
+      "全地图"
+    ],
+    "images": [],
+    "x": -21373.652865,
+    "y": 31467.95021,
+    "z": 8318.95769,
+    "betterMapId": "monster/mon_023_BP/-21373.652865/31467.950209999999/8318.9576899999993",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_023_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

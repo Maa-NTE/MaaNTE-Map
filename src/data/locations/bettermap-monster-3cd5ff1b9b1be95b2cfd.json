@@ -1,0 +1,442 @@
+[
+  {
+    "id": "bettermap-74d8066f40c7460b0bda",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -133488.16197,
+    "y": 87698.750365,
+    "z": 7686,
+    "betterMapId": "monster/mon_01_BP/-133488.16196999999/87698.750365/7686",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-1f09fbd03ecc31cdd397",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -100923,
+    "y": 149597,
+    "z": 7489,
+    "betterMapId": "monster/mon_01_BP/-100923/149597/7489",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-b058da8d2cc022451401",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -177175,
+    "y": 139895,
+    "z": 6965,
+    "betterMapId": "monster/mon_01_BP/-177175/139895/6965",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-5c64e24e1736a4a95604",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -61196.046948,
+    "y": 31574.011633,
+    "z": 8160.78065,
+    "betterMapId": "monster/mon_01_BP/-61196.046948000003/31574.011632999998/8160.7806499999997",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-dc4235f739f803246417",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": 13096.338115,
+    "y": 61150.553148,
+    "z": 7251.221253,
+    "betterMapId": "monster/mon_01_BP/13096.338115/61150.553147999999/7251.2212529999997",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-e126eb3a6fd01fbf0654",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -190854.801791,
+    "y": 106540.064996,
+    "z": 7569.229204,
+    "betterMapId": "monster/mon_01_BP/-190854.80179100001/106540.064996/7569.2292040000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-13ac834ab0e659c3b008",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -88395.105808,
+    "y": 79649.184648,
+    "z": 4606,
+    "betterMapId": "monster/mon_01_BP/-88395.105807999993/79649.184647999995/4606",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-e77e84df0161c2ecee13",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -94502.814773,
+    "y": 152377.421147,
+    "z": 4640,
+    "betterMapId": "monster/mon_01_BP/-94502.814773000006/152377.42114699999/4640",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-db16cea4f4cf1ebe0bf6",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -6052.812354,
+    "y": 134729.236286,
+    "z": 6327.885912,
+    "betterMapId": "monster/mon_01_BP/-6052.8123539999997/134729.236286/6327.8859119999997",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-0f7637a921f7f7ad1b5d",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -133458.038237,
+    "y": 211422.569975,
+    "z": 10113.246629,
+    "betterMapId": "monster/mon_01_BP/-133458.038237/211422.56997499999/10113.246628999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-4e3606947e98046c0616",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -107234,
+    "y": 178261,
+    "z": 6219,
+    "betterMapId": "monster/mon_01_BP/-107234/178261/6219",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-0700fc76b3c48871055e",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -87275.576733,
+    "y": 54735.023547,
+    "z": 8019.194867,
+    "betterMapId": "monster/mon_01_BP/-87275.576732999994/54735.023546999997/8019.1948670000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-e1534d98c9c2270243c9",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -135441.640428,
+    "y": 142533.413785,
+    "z": 6941.448106,
+    "betterMapId": "monster/mon_01_BP/-135441.64042800001/142533.41378500001/6941.4481059999998",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-f908416b2fa410c05a82",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -168666,
+    "y": 114021,
+    "z": 7409,
+    "betterMapId": "monster/mon_01_BP/-168666/114021/7409",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-0118179f9d2f52130ae1",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -85200,
+    "y": 164610,
+    "z": 4280,
+    "betterMapId": "monster/mon_01_BP/-85200/164610/4280",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-20a11f8889ddae6678b8",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -35904.263821,
+    "y": 70967.986935,
+    "z": 6463.927028,
+    "betterMapId": "monster/mon_01_BP/-35904.263821/70967.986934999994/6463.9270280000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-95b4bd71f544dadff084",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -31683.238253,
+    "y": 23861.863749,
+    "z": 8126.301871,
+    "betterMapId": "monster/mon_01_BP/-31683.238253/23861.863749/8126.3018709999997",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-548ba9b8c0447a6b2e4b",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": 25438.093094,
+    "y": 29783.413041,
+    "z": 8126.931641,
+    "betterMapId": "monster/mon_01_BP/25438.093094/29783.413041/8126.9316410000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-018d68dfeba42ab9f67a",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -70717.40918,
+    "y": 38815.184569,
+    "z": 8144.498019,
+    "betterMapId": "monster/mon_01_BP/-70717.409180000002/38815.184568999997/8144.4980189999997",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-c674e223e839e85fbd84",
+    "name": "低语种 · mon_01_BP",
+    "types": [
+      "bettermap-monster-3cd5ff1b9b1be95b2cfd"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -136081,
+    "y": 181402,
+    "z": 7381,
+    "betterMapId": "monster/mon_01_BP/-136081/181402/7381",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_01_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

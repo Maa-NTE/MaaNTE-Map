@@ -1,0 +1,258 @@
+[
+  {
+    "id": "figurine-009",
+    "name": "手办 #009",
+    "types": [
+      "figurine"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 手办",
+    "tags": [
+      "资源",
+      "手办",
+      "全地图"
+    ],
+    "images": [],
+    "x": -92137,
+    "y": 154894,
+    "z": 4077,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/PropBox_Geft_A_Area01_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "PropBox_Geft_A_Area01_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "figurine-006",
+    "name": "手办 #006",
+    "types": [
+      "figurine"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 手办",
+    "tags": [
+      "资源",
+      "手办",
+      "全地图"
+    ],
+    "images": [],
+    "x": -89075,
+    "y": 167932,
+    "z": 4147,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/PropBox_Geft_B_Area01_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "PropBox_Geft_B_Area01_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "figurine-005",
+    "name": "手办 #005",
+    "types": [
+      "figurine"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 手办",
+    "tags": [
+      "资源",
+      "手办",
+      "全地图"
+    ],
+    "images": [],
+    "x": -82780,
+    "y": 166949,
+    "z": 3325,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/PropBox_Geft_C_Area01_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "PropBox_Geft_C_Area01_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "figurine-008",
+    "name": "手办 #008",
+    "types": [
+      "figurine"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 手办",
+    "tags": [
+      "资源",
+      "手办",
+      "全地图"
+    ],
+    "images": [],
+    "x": -77573.516,
+    "y": 146041.98,
+    "z": 3750.5728,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/PropBox_Geft_D_Area01_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "PropBox_Geft_D_Area01_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "figurine-007",
+    "name": "手办 #007",
+    "types": [
+      "figurine"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 手办",
+    "tags": [
+      "资源",
+      "手办",
+      "全地图"
+    ],
+    "images": [],
+    "x": -92146,
+    "y": 166285,
+    "z": 4144,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/PropBox_Geft_E_Area01_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "PropBox_Geft_E_Area01_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "figurine-002",
+    "name": "手办 #002",
+    "types": [
+      "figurine"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 手办",
+    "tags": [
+      "资源",
+      "手办",
+      "全地图"
+    ],
+    "images": [],
+    "x": -142131,
+    "y": 164455,
+    "z": 7569.2964,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/PropBox_Geft_F_Area01_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "PropBox_Geft_F_Area01_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "figurine-003",
+    "name": "手办 #003",
+    "types": [
+      "figurine"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 手办",
+    "tags": [
+      "资源",
+      "手办",
+      "全地图"
+    ],
+    "images": [],
+    "x": -127385,
+    "y": 156939,
+    "z": 6687,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/PropBox_Geft_G_Area01_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "PropBox_Geft_G_Area01_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "figurine-004",
+    "name": "手办 #004",
+    "types": [
+      "figurine"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 手办",
+    "tags": [
+      "资源",
+      "手办",
+      "全地图"
+    ],
+    "images": [],
+    "x": -116799,
+    "y": 172769,
+    "z": 6716,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/PropBox_Geft_H_Area01_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "PropBox_Geft_H_Area01_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "figurine-001",
+    "name": "手办 #001",
+    "types": [
+      "figurine"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 手办",
+    "tags": [
+      "资源",
+      "手办",
+      "全地图"
+    ],
+    "images": [],
+    "x": -122568,
+    "y": 191607,
+    "z": 6688,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/PropBox_Geft_I_Area01_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "PropBox_Geft_I_Area01_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-046d7ebb1802c5118ebb",
+    "name": "手办",
+    "types": [
+      "figurine"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 手办",
+    "tags": [],
+    "images": [],
+    "x": -129695,
+    "y": 181026,
+    "z": 6950,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/PropBox_Geft_A_Area01_010",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "PropBox_Geft_A_Area01_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

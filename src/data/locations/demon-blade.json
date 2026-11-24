@@ -1,0 +1,184 @@
+[
+  {
+    "id": "demon-blade-001",
+    "name": "妖刀 #001",
+    "types": [
+      "demon-blade"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 妖刀",
+    "tags": [
+      "怪物",
+      "妖刀",
+      "全地图"
+    ],
+    "images": [],
+    "x": -143280,
+    "y": 213290,
+    "z": 9010,
+    "betterMapId": "monster/mon_013_BP/-143280/213290/9010",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_013_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "demon-blade-002",
+    "name": "妖刀 #002",
+    "types": [
+      "demon-blade"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 妖刀",
+    "tags": [
+      "怪物",
+      "妖刀",
+      "全地图"
+    ],
+    "images": [],
+    "x": -201581.889253,
+    "y": 106933.893136,
+    "z": 7664.329816,
+    "betterMapId": "monster/mon_013_BP/-201581.889253/106933.893136/7664.3298160000004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_013_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "demon-blade-003",
+    "name": "妖刀 #003",
+    "types": [
+      "demon-blade"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 妖刀",
+    "tags": [
+      "怪物",
+      "妖刀",
+      "全地图"
+    ],
+    "images": [],
+    "x": -172797.853913,
+    "y": 121555.164762,
+    "z": 7529.912873,
+    "betterMapId": "monster/mon_013_BP/-172797.853913/121555.164762/7529.9128730000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_013_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "demon-blade-004",
+    "name": "妖刀 #004",
+    "types": [
+      "demon-blade"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 妖刀",
+    "tags": [
+      "怪物",
+      "妖刀",
+      "全地图"
+    ],
+    "images": [],
+    "x": -150946.024809,
+    "y": 82297.45225,
+    "z": 7547.160016,
+    "betterMapId": "monster/mon_013_BP/-150946.024809/82297.452250000002/7547.1600159999998",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_013_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "demon-blade-008",
+    "name": "妖刀 #008",
+    "types": [
+      "demon-blade"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 妖刀",
+    "tags": [
+      "怪物",
+      "妖刀",
+      "全地图"
+    ],
+    "images": [],
+    "x": -36646.424782,
+    "y": 88424.249492,
+    "z": 5511.694252,
+    "betterMapId": "monster/mon_013_BP/-36646.424782000002/88424.249492000003/5511.6942520000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_013_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "demon-blade-010",
+    "name": "妖刀 #010",
+    "types": [
+      "demon-blade"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 妖刀",
+    "tags": [
+      "怪物",
+      "妖刀",
+      "全地图"
+    ],
+    "images": [],
+    "x": -86633.074551,
+    "y": 130567.49732,
+    "z": 8221.351096,
+    "betterMapId": "monster/mon_013_BP/-86633.074550999998/130567.49731999999/8221.3510960000003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_013_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "demon-blade-012",
+    "name": "妖刀 #012",
+    "types": [
+      "demon-blade"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 妖刀",
+    "tags": [
+      "怪物",
+      "妖刀",
+      "全地图"
+    ],
+    "images": [],
+    "x": -128932.802829,
+    "y": 132891.925553,
+    "z": 6819.652553,
+    "betterMapId": "monster/mon_013_BP/-128932.80282899999/132891.92555300001/6819.6525529999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_013_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

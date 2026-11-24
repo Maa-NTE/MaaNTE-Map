@@ -1,0 +1,1388 @@
+[
+  {
+    "id": "game-3d77777f55bf1f626604",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -93993,
+    "y": 162962,
+    "z": 4146,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area01_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area01_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-efb13bcb566a433c55d1",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -90231,
+    "y": 150748,
+    "z": 4658,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area01_026",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area01_026",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-c639eb2d4b8171739175",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -88938,
+    "y": 175712,
+    "z": 4262,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area01_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area01_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-5cb090f07798e9e24d5a",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -120167.57,
+    "y": 189845.56,
+    "z": 5893.5386,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area01_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area01_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-bb56de26c164ee001571",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -139751,
+    "y": 165035,
+    "z": 6913,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area01_027",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area01_027",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-7ba2d49cfe1038a7b115",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -124468,
+    "y": 153604,
+    "z": 6651,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area01_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area01_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-829c9973521a70028cbd",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -147956,
+    "y": 165930,
+    "z": 8109,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area01_007",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area01_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-e5059ff5940595e97fa4",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -97350.555,
+    "y": 173222.02,
+    "z": 5004,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area01_008",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area01_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-57b749829f2e1a5f9153",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -111874,
+    "y": 178466,
+    "z": 6556,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area01_028",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area01_028",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-dcae1b44d5ff005bbede",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -121477,
+    "y": 120899,
+    "z": 9338,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area01_030",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area01_030",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-78adc421555e77d44cb8",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -134762,
+    "y": 177117,
+    "z": 7158,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area01_019",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area01_019",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-4fa352be5a310e046eda",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -107213,
+    "y": 184311,
+    "z": 3617,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area01_023",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area01_023",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-17c1fdd4c6b7e4ed32d0",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -130398,
+    "y": 192256,
+    "z": 6577,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area02_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area02_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-630cf63eb6706dbcb0b9",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -138196,
+    "y": 206263,
+    "z": 10247,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area02_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area02_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-2560997d6154fe71f7de",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -159076,
+    "y": 203948,
+    "z": 6777.7075,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area02_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area02_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-5412585508866dcf82d5",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -155661,
+    "y": 217273,
+    "z": 10583,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area02_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area02_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-0738bc1f4e18942a6de6",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -159311,
+    "y": 229709,
+    "z": 7763,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area02_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area02_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-b0805161ca1306c7a349",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -192990,
+    "y": 206154,
+    "z": 15787,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area02_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area02_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-59fc42db65216e04de1f",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -186307,
+    "y": 222499,
+    "z": 15977,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area02_007",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area02_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-45bdaa91308e53d4d0ab",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -155231,
+    "y": 154036,
+    "z": 6368,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area03_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area03_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-ef3202319576630dd0d3",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -153578,
+    "y": 140310,
+    "z": 6823,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area03_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area03_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-2151128108709a91fa85",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -135071,
+    "y": 148264,
+    "z": 6800,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area03_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area03_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-5b5e4d04d189aa9e9ded",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -139637.4,
+    "y": 121460.25,
+    "z": 7154,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area03_007",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area03_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-182fe4720e375e98db2b",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -155617,
+    "y": 131646,
+    "z": 7637,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area03_009",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area03_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-2bd5fd80feda91c66610",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -156775,
+    "y": 134509,
+    "z": 6804,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area03_010",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area03_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-0f9870f0dedca650a473",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -149982,
+    "y": 97444,
+    "z": 7294,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area03_023",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area03_023",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-076c9f4ec1ee9dfa412c",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -130676,
+    "y": 95843,
+    "z": 7482,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area03_025",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area03_025",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-8de9a7ac5785c6548225",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -91899,
+    "y": 108943,
+    "z": 4423.268,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area03_028",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area03_028",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-58b1c33e81ce05ef405e",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -92096,
+    "y": 94744,
+    "z": 6213,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area03_030",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area03_030",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-edfda3e678dfe61749b2",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -101910,
+    "y": 75433,
+    "z": 6707,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area03_038",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area03_038",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-931683f722ac52d9fca6",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -125124,
+    "y": 142789,
+    "z": 6833.6484,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area03_041",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area03_041",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-1e0cfd4c9a71cf05b911",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -89944,
+    "y": 53908,
+    "z": 7892,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area04_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area04_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-83a8ab6385c4472a467b",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -87444,
+    "y": 4091,
+    "z": 8562,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area04_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area04_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-85cfe3f787621caa519a",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -42445,
+    "y": -18040,
+    "z": 9125,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area04_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area04_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-b7373866562aa0877daa",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -19184,
+    "y": 15347,
+    "z": 8824,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area04_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area04_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-92e48711e39a6f2bfef6",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -34785,
+    "y": 33572,
+    "z": 7675,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area04_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area04_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-d658a022031ffac6fe1e",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": 28822,
+    "y": 39587,
+    "z": 7653,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area04_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area04_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-26446d74fedc1b3b1eb9",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -6605,
+    "y": 53272,
+    "z": 8683,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area04_007",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area04_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-49619960b13303195b07",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -64030,
+    "y": 37445,
+    "z": 7755,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area04_008",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area04_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-f192afcb43b7aed68afc",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -38518,
+    "y": 48501,
+    "z": 7770,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area04_009",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area04_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-811f42f6f44c4992c72d",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -61679,
+    "y": 19354,
+    "z": 7756,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area04_010",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area04_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-616a6a1f27babbbee165",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -20291,
+    "y": 50786,
+    "z": 7346,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area04_011",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area04_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-82928086c33fd9adb59d",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": 23567,
+    "y": 20724,
+    "z": 7696,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area04_012",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area04_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-13ed3af208dbbdf3e59b",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -33931,
+    "y": 70962,
+    "z": 6615,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area05_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area05_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-ccdaab31fb90c5db5b2b",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -9574,
+    "y": 80930,
+    "z": 6396.881,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area05_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area05_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-067ce22af348c4a46fa4",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -27605,
+    "y": 153041,
+    "z": 4849,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area05_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area05_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-57d22f139be85ea2db03",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": 55060,
+    "y": 111339,
+    "z": 12350,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area05_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area05_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-153c3abb6fddd60e39b9",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": 34982,
+    "y": 92733,
+    "z": 8393,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area05_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area05_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-58d8cdf4864e1d0312c6",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -52004,
+    "y": 127355,
+    "z": 2907,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area05_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area05_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-dfdabe1969654855f7ab",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -59213,
+    "y": 80872.73,
+    "z": 3152,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area05_007",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area05_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-5a8be302a7e7b33044ed",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -9597,
+    "y": 107003,
+    "z": 7320,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area05_008",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area05_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-077226fc4a55c3034c64",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": 21139,
+    "y": 68554,
+    "z": 6350,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area05_009",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area05_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-e8c9abeaf19ab6bb90be",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": 2877,
+    "y": 148800,
+    "z": 5559,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area05_010",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area05_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-ce52a343626422377830",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -7815,
+    "y": 93939,
+    "z": 6379,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area05_011",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area05_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-2388f1de22abd538dc22",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": 27743.283,
+    "y": 79394.28,
+    "z": 6384.5884,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area05_012",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area05_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-9a2c632b018b61f37e71",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -258265,
+    "y": 354254,
+    "z": 3135,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area06_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area06_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-9ace3777110ba7b254eb",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -270537,
+    "y": 363926,
+    "z": 4453,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area06_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area06_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-90ace4b2ac15d3290d05",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -261880,
+    "y": 159816,
+    "z": 3401,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area006_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area006_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-2791e23535d15e144146",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -255857,
+    "y": 137380,
+    "z": 2619,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area006_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area006_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-576017892f87837c2d87",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -308777,
+    "y": -127514,
+    "z": 15490,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area006_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area006_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-229ce2fa6fa1219672e0",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -219092,
+    "y": -64528,
+    "z": 10420,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area006_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area006_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-566a14140c0a7c82e954",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -242014,
+    "y": -241448,
+    "z": 24705.396,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area006_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area006_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-666a73bf52cc897cb27e",
+    "name": "特级猎人攻略",
+    "types": [
+      "hunter-guide"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 特级猎人攻略",
+    "tags": [],
+    "images": [],
+    "x": -232944,
+    "y": 36320,
+    "z": 8695,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/HunterBox_Lv3_Area006_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "HunterBox_Lv3_Area006_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

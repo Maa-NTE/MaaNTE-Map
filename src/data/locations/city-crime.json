@@ -1,0 +1,2718 @@
+[
+  {
+    "id": "bettermap-070afed853479e512c97",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_001_006",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -149340.1786166493,
+    "y": 170695.74917032896,
+    "z": 8360.32477409054,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_001_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_001_006",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-99c1ee5ec1e5ba3988f2",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_001_004",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -138423.20936999522,
+    "y": 164717.08668713216,
+    "z": 6685.921164494497,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_001_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_001_004",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-766a96ee903001ddd7f3",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_001_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -101549.98492356492,
+    "y": 184320.26755895163,
+    "z": 3723.3291073177534,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_001_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_001_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-ddb5d77e61905f6ab31b",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_001_005",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -125660.59722803536,
+    "y": 156639.558324,
+    "z": 7094.175098241845,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_001_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_001_005",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-b44a2f25270539cea4a2",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_001_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -91629.8749585688,
+    "y": 182846.94732243745,
+    "z": 3498.005931915147,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_001_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_001_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-678cce21bb75c91aaf75",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_001_007",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -124356.413993741,
+    "y": 147887.48156552293,
+    "z": 6959.437860339373,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_001_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_001_007",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-4d1dedf11d367c8f1131",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_001_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -132435.60876057894,
+    "y": 181353.8625653071,
+    "z": 7001.5680496613795,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_001_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_001_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-f1ce20355b661d20edeb",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_001_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -121553.27110954125,
+    "y": 183605.80963265404,
+    "z": 6609.460740261381,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_001_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_001_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-ceabc9045485534c7254",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_001_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -145851.12900392074,
+    "y": 172711.50114262218,
+    "z": 8331.705847092997,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_001_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_001_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-31f4a176e2b7bfef6608",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_001_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -141979.27053800656,
+    "y": 163252.1645397004,
+    "z": 7027.840211790572,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_001_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_001_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-4d681d41449d3d7b7ab7",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_001_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -96009.47063080144,
+    "y": 174738.1562989712,
+    "z": 5034.263306470755,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_001_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_001_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-72faa1680b7871fc0b44",
+    "name": "城市违规行径 · CityEvent_Gardua_RD_001_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -84745.9141463229,
+    "y": 123142.77218050676,
+    "z": 4962.7023408859895,
+    "betterMapId": "city-crime/CityEvent_Gardua_RD_001_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_RD_001_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-3940b2ef5f282cd92d3a",
+    "name": "城市违规行径 · CityEvent_Gardua_RD_001_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -142297.59942061748,
+    "y": 183677.563323349,
+    "z": 6993.402926999999,
+    "betterMapId": "city-crime/CityEvent_Gardua_RD_001_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_RD_001_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-553e1deeaf27a278fc5e",
+    "name": "城市违规行径 · CityEvent_Gardua_VP_001_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -152132.517982,
+    "y": 162047.207617,
+    "z": 7565.672517,
+    "betterMapId": "city-crime/CityEvent_Gardua_VP_001_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VP_001_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-61d6deda0481a0b0f46e",
+    "name": "城市违规行径 · CityEvent_Gardua_VP_001_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -87937.427177,
+    "y": 100745.635673,
+    "z": 4237.541249,
+    "betterMapId": "city-crime/CityEvent_Gardua_VP_001_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VP_001_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-579d09c9eac8368ccab6",
+    "name": "城市违规行径 · CityEvent_Gardua_VP_001_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -77100.57992,
+    "y": 146466.072096,
+    "z": 3835.331158,
+    "betterMapId": "city-crime/CityEvent_Gardua_VP_001_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VP_001_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-8d8745f324bdb265cc5a",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_001_005",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -116085.74719404819,
+    "y": 151381.3466626623,
+    "z": 7383.189408360069,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_001_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_001_005",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-c356937f9d3142190d78",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_001_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -121217.02320254607,
+    "y": 170209.9973882687,
+    "z": 7014.190605115963,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_001_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_001_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-93593f78fe8d46544bcc",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_002_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -155508.51956915867,
+    "y": 219410.6373769421,
+    "z": 11228.384658493449,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_002_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_002_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-0ff7078828fb036c7151",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_002_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -147626.25409394785,
+    "y": 240641.33337278114,
+    "z": 2921.8630370370197,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_002_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_002_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-835a2417c9a806012e78",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_002_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -152231.72597854474,
+    "y": 215630.0642362709,
+    "z": 10270.379252501829,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_002_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_002_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-f65f0938349c8651404d",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_002_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -196469.57867079007,
+    "y": 208843.88082195594,
+    "z": 16073.884748589757,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_002_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_002_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-ea1c07af3f1ef1bd3ac2",
+    "name": "城市违规行径 · CityEvent_Gardua_RD_002_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -179643.9837220786,
+    "y": 224641.86151064467,
+    "z": 7838.469879523387,
+    "betterMapId": "city-crime/CityEvent_Gardua_RD_002_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_RD_002_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-5b82f6173e0ef1159539",
+    "name": "城市违规行径 · CityEvent_Gardua_RD_002_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -175803.9786144798,
+    "y": 202486.14969257757,
+    "z": 11114.740468364273,
+    "betterMapId": "city-crime/CityEvent_Gardua_RD_002_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_RD_002_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-4f3ffd949f7e5d185247",
+    "name": "城市违规行径 · CityEvent_Gardua_RD_002_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -207492.06590429155,
+    "y": 223865.46348238498,
+    "z": 5405.863737406186,
+    "betterMapId": "city-crime/CityEvent_Gardua_RD_002_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_RD_002_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-65f4077e473a95054cbe",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_003_004",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -137339,
+    "y": 80901,
+    "z": 8282.000099999997,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_003_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_003_004",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-0fd57e915dc91f08bea1",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_003_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -142772.59204824202,
+    "y": 121915.91444722754,
+    "z": 7136.476728447695,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_003_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_003_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-aa652091b15afdaba8fd",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_003_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -166991,
+    "y": 103092,
+    "z": 6710,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_003_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_003_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-82731c647fa9239592d7",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_003_006",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -113247,
+    "y": 104338,
+    "z": 6507,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_003_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_003_006",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-8abfd17f699d62c9239d",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_003_005",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -129580,
+    "y": 93319,
+    "z": 7929.972939355466,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_003_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_003_005",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-c733d403ee4a788b9963",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_003_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -192695,
+    "y": 131026,
+    "z": 7174,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_003_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_003_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-033ef4193725b1dd5992",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_003_007",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -167182,
+    "y": 120375,
+    "z": 7110,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_003_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_003_007",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-64229f996bc4e1fa876a",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_003_005",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -124691,
+    "y": 84252,
+    "z": 7096.7562035156225,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_003_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_003_005",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-bd4a773d7b6aa8b62e13",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_003_004",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -91523.54950116409,
+    "y": 112368.59476447347,
+    "z": 4342.39182363281,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_003_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_003_004",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-a211300b31f8e16e1b3d",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_003_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -98068.00000053512,
+    "y": 96203.1372874726,
+    "z": 6808.5362328124975,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_003_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_003_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-3e06f8f05dcb5d0e861c",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_003_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -131578,
+    "y": 140519,
+    "z": 6741.8726585937475,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_003_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_003_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-a69bafb0a302d063d860",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_003_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -159541,
+    "y": 128986,
+    "z": 6737.825486865229,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_003_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_003_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-9243e6b4b10f0e8c6371",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_003_007",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -111800,
+    "y": 75552,
+    "z": 7135,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_003_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_003_007",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-10ae6df3ccffb2b8a1d1",
+    "name": "城市违规行径 · CityEvent_Gardua_RD_003_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -131567.3211794258,
+    "y": 67891.11125207633,
+    "z": 7446.049996240232,
+    "betterMapId": "city-crime/CityEvent_Gardua_RD_003_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_RD_003_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-989ed2c2fc23cdb8af64",
+    "name": "城市违规行径 · CityEvent_Gardua_RD_003_004",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -173185,
+    "y": 91495,
+    "z": 7665,
+    "betterMapId": "city-crime/CityEvent_Gardua_RD_003_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_RD_003_004",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-49ab0d36e4482c92cb1a",
+    "name": "城市违规行径 · CityEvent_Gardua_RD_003_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -144918,
+    "y": 114603,
+    "z": 7094,
+    "betterMapId": "city-crime/CityEvent_Gardua_RD_003_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_RD_003_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-7fb7e95387301fc5b389",
+    "name": "城市违规行径 · CityEvent_Gardua_RD_003_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -168605.0346708048,
+    "y": 164169.07115907766,
+    "z": 5874,
+    "betterMapId": "city-crime/CityEvent_Gardua_RD_003_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_RD_003_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-056f35126abb8dddb964",
+    "name": "城市违规行径 · CityEvent_Gardua_VP_003_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -158338.025364,
+    "y": 101843.500757,
+    "z": 7200.729299,
+    "betterMapId": "city-crime/CityEvent_Gardua_VP_003_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VP_003_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-1a92bbd5924cf07bbe1c",
+    "name": "城市违规行径 · CityEvent_Gardua_VP_003_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -122551.733065,
+    "y": 65937.810361,
+    "z": 7512.075235,
+    "betterMapId": "city-crime/CityEvent_Gardua_VP_003_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VP_003_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-319664ceaeb7b1fe1602",
+    "name": "城市违规行径 · CityEvent_Gardua_VP_003_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -163197.093526,
+    "y": 139730.658851,
+    "z": 6802.68744,
+    "betterMapId": "city-crime/CityEvent_Gardua_VP_003_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VP_003_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-1f6545c5502802031812",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_003_004",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -109262,
+    "y": 63553,
+    "z": 7403,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_003_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_003_004",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-6e62830cb1d836a7e4d8",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_003_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -159009,
+    "y": 152170,
+    "z": 6318,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_003_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_003_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-3a5120576da4196bf1ba",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_003_005",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -186742,
+    "y": 116305,
+    "z": 7146.573747363291,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_003_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_003_005",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-d8ac43d667b2d7aa19be",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_003_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -191488,
+    "y": 147352,
+    "z": 5619,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_003_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_003_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-c9874ebdedb211db5915",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_003_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -90798,
+    "y": 70427,
+    "z": 6169.407563073728,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_003_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_003_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-4a50342a17f7e1059fe3",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_003_006",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -200120,
+    "y": 112224,
+    "z": 7262,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_003_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_003_006",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-2642c72ca5fdef4777eb",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_004_004",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -9573.091241199081,
+    "y": 23424.44876898,
+    "z": 8114.457063882279,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_004_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_004_004",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-4515f54b3d79a815015e",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_004_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -2228.5899231297617,
+    "y": 21716.439408610346,
+    "z": 7967.828616625243,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_004_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_004_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-8c745f5d2f3140cd4e25",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_004_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -58295.34490936884,
+    "y": 39555.67453250947,
+    "z": 7975.843417796421,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_004_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_004_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-ddc2dd17b2008731a9c1",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_004_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 53513.90026255379,
+    "y": 24332.106712174304,
+    "z": 6902.773516607062,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_004_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_004_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-b0e95daf112b612b875c",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_004_005",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -52774.51433970201,
+    "y": 51491.93941759192,
+    "z": 8201.782796161076,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_004_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_004_005",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-4f0c7adad885d1b16df9",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_004_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 5806.032290169367,
+    "y": 40110.448515368436,
+    "z": 7872.705853152589,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_004_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_004_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-4128c0fccdadd54991ae",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_004_006",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -41021.26592215598,
+    "y": -3322.253719623772,
+    "z": 7670.681689735089,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_004_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_004_006",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-c60e0f782a8a88ffe700",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_004_007",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -1226.4163379500399,
+    "y": 15316.890470684348,
+    "z": 8922.567065971683,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_004_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_004_007",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-dfb225460fb1ce8d01a4",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_004_004",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 11115.586379332093,
+    "y": 29385.48243920294,
+    "z": 7611.716654702563,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_004_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_004_004",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-22e46a538fdfe424b72c",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_004_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -61164.08399889193,
+    "y": 24496.515470243525,
+    "z": 7704.7110819095205,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_004_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_004_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-78f0d98a867e551eac11",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_004_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -93931.32734487315,
+    "y": -16614.022593032638,
+    "z": 15554.643091473088,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_004_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_004_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-b7e50e30c6ca63792e10",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_004_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -82537.96527892917,
+    "y": 33175.4846699297,
+    "z": 7715.786063257404,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_004_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_004_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-90e58c5e9077470de561",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_004_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -14838.568386954317,
+    "y": 29254.9407449114,
+    "z": 7695.761298971069,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_004_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_004_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-7df312509cf40bed38cd",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_004_004",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -60625.045948027786,
+    "y": 17767.83231715576,
+    "z": 7715.786132939854,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_004_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_004_004",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-e42b96a0fcddd56b2026",
+    "name": "城市违规行径 · CityEvent_Gardua_RD_004_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -108639.00262172127,
+    "y": 37524.23348376992,
+    "z": 9063.833125345727,
+    "betterMapId": "city-crime/CityEvent_Gardua_RD_004_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_RD_004_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-bac6a4573dc749f2bc25",
+    "name": "城市违规行径 · CityEvent_Gardua_RD_004_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 52127.196291347995,
+    "y": -1123.9395357440458,
+    "z": 7829.493365148619,
+    "betterMapId": "city-crime/CityEvent_Gardua_RD_004_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_RD_004_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-09e80c5e0da6d6c4a2b9",
+    "name": "城市违规行径 · CityEvent_Gardua_VP_004_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -45346.166963,
+    "y": 30471.375272,
+    "z": 7799.586368,
+    "betterMapId": "city-crime/CityEvent_Gardua_VP_004_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VP_004_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-da8f75a8afbfcb644f30",
+    "name": "城市违规行径 · CityEvent_Gardua_VP_004_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 17228.798385,
+    "y": 22107.367967,
+    "z": 7666.739468,
+    "betterMapId": "city-crime/CityEvent_Gardua_VP_004_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VP_004_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-7fe108e372350f7a9971",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_004_005",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -38361.771199713956,
+    "y": 23600.051971030487,
+    "z": 8076.580089,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_004_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_004_005",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-6090401fd4949fa3ff63",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_004_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -39384.5588679334,
+    "y": 18321.664878705906,
+    "z": 8132.513424244647,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_004_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_004_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-f57abd36ad2a16c540cb",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_005_004",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 43786,
+    "y": 82261,
+    "z": 6094,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_005_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_005_004",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-1817b164d29dabedb5c8",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_005_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -23021,
+    "y": 117465,
+    "z": 6328,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_005_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_005_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-671a33eae5925df0efac",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_005_007",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -37741,
+    "y": 136019,
+    "z": 2856,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_005_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_005_007",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-2b438ce8c72fd1e18d6d",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_005_009",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -74206,
+    "y": 62468,
+    "z": 6355,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_005_009",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_005_009",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-d6f8ed74bd9aea252257",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_005_010",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 8876,
+    "y": 107506,
+    "z": 5758.110672814939,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_005_010",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_005_010",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-9dc99720d5f5a3fefbc7",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_005_005",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 9099,
+    "y": 170256,
+    "z": 4633,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_005_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_005_005",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-e59edec45e39e12a0b8a",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_005_008",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -5751,
+    "y": 63760,
+    "z": 6354.8438499999975,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_005_008",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_005_008",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-6df11a072c7c07371673",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_005_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 14482,
+    "y": 79308,
+    "z": 6290,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_005_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_005_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-06566f2e8b085f56dbc1",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_005_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -40433.07669771724,
+    "y": 161734.77180327193,
+    "z": 2292,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_005_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_005_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-e3418b396ee3b7988282",
+    "name": "城市违规行径 · CityEvent_Gardua_IB_005_006",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -46327,
+    "y": 94875,
+    "z": 2888,
+    "betterMapId": "city-crime/CityEvent_Gardua_IB_005_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_IB_005_006",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-6e2e622303130996cd40",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_005_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -8348.110629439168,
+    "y": 126257.86093506786,
+    "z": 6350.922933094478,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_005_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_005_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-569edf278982af9e81c1",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_005_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -43029,
+    "y": 110503,
+    "z": 4924,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_005_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_005_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-d1b2644a22d04c6f1497",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_005_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 42334,
+    "y": 100895,
+    "z": 9932.728707177732,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_005_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_005_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-3003f6dcfaf8dc0feba9",
+    "name": "城市违规行径 · CityEvent_Gardua_VT_005_004",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 25894,
+    "y": 142696,
+    "z": 3171,
+    "betterMapId": "city-crime/CityEvent_Gardua_VT_005_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VT_005_004",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-44111e913a345fdb5425",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_005_007",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 37188.35981135309,
+    "y": 128452.4660177072,
+    "z": 7013.337363581352,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_005_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_005_007",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-8d4781942468c8648610",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_005_006",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -13475,
+    "y": 87741,
+    "z": 6333,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_005_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_005_006",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-b38c39be1ae6285d8888",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_005_008",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 21746,
+    "y": 58620,
+    "z": 6346.244820458982,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_005_008",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_005_008",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-29f3e204d83b8cae7d4d",
+    "name": "城市违规行径 · CityEvent_Gardua_RD_005_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 63730,
+    "y": 120450,
+    "z": 6053,
+    "betterMapId": "city-crime/CityEvent_Gardua_RD_005_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_RD_005_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-8f9be6586a98033c09c4",
+    "name": "城市违规行径 · CityEvent_Gardua_RD_005_004",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -1097,
+    "y": 98039,
+    "z": 6647.336526,
+    "betterMapId": "city-crime/CityEvent_Gardua_RD_005_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_RD_005_004",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-64bc09e13c6823e0ddd5",
+    "name": "城市违规行径 · CityEvent_Gardua_RD_005_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -25563,
+    "y": 149041,
+    "z": 3983,
+    "betterMapId": "city-crime/CityEvent_Gardua_RD_005_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_RD_005_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-cc2649f11feb8649385a",
+    "name": "城市违规行径 · CityEvent_Gardua_VP_005_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 30928.468025,
+    "y": 108577.678468,
+    "z": 7391.759452,
+    "betterMapId": "city-crime/CityEvent_Gardua_VP_005_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VP_005_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-13710f660d7da6e8991e",
+    "name": "城市违规行径 · CityEvent_Gardua_VP_005_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -30981.603997,
+    "y": 71482.364256,
+    "z": 6622.390791,
+    "betterMapId": "city-crime/CityEvent_Gardua_VP_005_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_VP_005_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-fe1f034a3bf892197513",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_005_002",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 54132,
+    "y": 110680,
+    "z": 12380,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_005_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_005_002",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-f20aeca3a6a90f7c5524",
+    "name": "城市违规行径 · CityEvent_Gardua_RD_005_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -30609,
+    "y": 57864,
+    "z": 6812,
+    "betterMapId": "city-crime/CityEvent_Gardua_RD_005_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_RD_005_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-06473fecef09cfb075f4",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_005_001",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": -57756,
+    "y": 80301,
+    "z": 3104,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_005_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_005_001",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  },
+  {
+    "id": "bettermap-dd6f984f383c5048f6b5",
+    "name": "城市违规行径 · CityEvent_Gardua_SH_005_003",
+    "types": [
+      "city-crime",
+      "street-justice"
+    ],
+    "district": "全地图",
+    "description": "城市违规事件可能发生的位置，不代表事件正在发生。",
+    "tags": [],
+    "images": [],
+    "x": 4803,
+    "y": 143023,
+    "z": 4486,
+    "betterMapId": "city-crime/CityEvent_Gardua_SH_005_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
+      "rowId": "CityEvent_Gardua_SH_005_003",
+      "coordinateField": "SendRewardCenter",
+      "level": "XL_map_bigworld_test",
+      "offset": {
+        "asset": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
+        "rowId": "Crimes",
+        "field": "UIData.FatherInfo.MapIconOffset"
+      }
+    }
+  }
+]

@@ -709,8 +709,8 @@ export function useMapApp() {
     if (!Number.isFinite(x) || !Number.isFinite(y)) return null
     const normalized = {
       ...location,
-      x: Number(x.toFixed(3)),
-      y: Number(y.toFixed(3)),
+      x,
+      y,
     }
     delete normalized.lat
     delete normalized.lng
@@ -2206,12 +2206,15 @@ export function useMapApp() {
       const { finalizedImages, finalizedAssets } = await prepareLocationImagesForSave(locationId, form.images)
       const addedCategories = clone(form.pendingCustomTypes)
       const saved = {
+        ...locations.value.find((location) => location.id === editingLocationId.value),
+        ...(isNewLocation ? { source: { method: 'manual' } } : {}),
         id: locationId,
         name: form.name.trim(),
         types: [...form.types],
         district: districtOptions.value.includes(form.district) ? form.district : '全地图',
         x: Number(form.x),
         y: Number(form.y),
+        ...(Number.isFinite(form.z) ? { z: form.z } : {}),
         description: form.description.trim(),
         tags: form.tagsText.split(',').map((tag) => tag.trim()).filter(Boolean),
         images: finalizedImages,

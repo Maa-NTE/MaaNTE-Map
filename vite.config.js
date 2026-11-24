@@ -4,6 +4,7 @@ import { createHash, randomUUID } from 'node:crypto'
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath, URL } from 'node:url'
+import { readMapData, writeMapData } from './scripts/lib/map-data-store.mjs'
 
 const DATA_FILE = process.env.MAANTE_MAP_DATA_FILE
   ? path.resolve(process.env.MAANTE_MAP_DATA_FILE)
@@ -158,22 +159,6 @@ function storeLocationImageAtomically(image, buffer) {
   }
 }
 
-function writeJsonFileAtomically(filePath, value) {
-  const temporaryPath = `${filePath}.${process.pid}-${randomUUID()}.tmp`
-  let descriptor
-  try {
-    descriptor = fs.openSync(temporaryPath, 'wx')
-    fs.writeFileSync(descriptor, `${JSON.stringify(value, null, 2)}\n`, 'utf8')
-    fs.fsyncSync(descriptor)
-    fs.closeSync(descriptor)
-    descriptor = undefined
-    fs.renameSync(temporaryPath, filePath)
-  } finally {
-    if (descriptor !== undefined) fs.closeSync(descriptor)
-    fs.rmSync(temporaryPath, { force: true })
-  }
-}
-
 function localMapEditorPlugin() {
   return {
     name: 'local-map-editor',
@@ -278,7 +263,7 @@ function localMapEditorPlugin() {
       server.middlewares.use('/api/map-data', async (request, response) => {
         if (request.method === 'GET') {
           response.setHeader('Content-Type', 'application/json; charset=utf-8')
-          response.end(fs.readFileSync(DATA_FILE, 'utf8'))
+          response.end(JSON.stringify(readMapData(DATA_FILE)))
           return
         }
 
@@ -301,7 +286,7 @@ function localMapEditorPlugin() {
             }, 400)
             return
           }
-          writeJsonFileAtomically(DATA_FILE, data)
+          writeMapData(DATA_FILE, data)
           sendJson(response, { ok: true })
         } catch (error) {
           sendJson(response, { error: error.message }, 500)
@@ -393,17 +378,17 @@ export default defineConfig({
   base: './',
   plugins: [vue(), localMapEditorPlugin()],
   server: {
-    // The editor writes this file through /api/map-data. Reloading the page
+    // The editor writes metadata and category files through /api/map-data. Reloading the page
     // after that write would discard the user's current filters and map state.
     watch: {
-      ignored: [DATA_FILE, `${DATA_FILE}.*.tmp`],
+      ignored: [DATA_FILE, `${DATA_FILE}.*.tmp`, `${path.dirname(DATA_FILE).replaceAll(path.sep, '/')}/locations/**`],
     },
   },
   build: {
     rollupOptions: {
       output: {
         manualChunks(id) {
-          if (id.includes('map-data.json')) return 'markers'
+          if (id.includes('/data/locations/') || id.includes('map-data.json')) return 'markers'
         },
       },
     },

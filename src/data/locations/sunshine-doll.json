@@ -1,0 +1,432 @@
+[
+  {
+    "id": "sunshine-doll-001",
+    "name": "扫晴娘 #001",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 扫晴娘",
+    "tags": [
+      "怪物",
+      "扫晴娘",
+      "全地图"
+    ],
+    "images": [],
+    "x": -118268.912707,
+    "y": 131289.360866,
+    "z": 9976.345536,
+    "betterMapId": "monster/mon_030_BP/-118268.912707/131289.360866/9976.3455360000007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sunshine-doll-002",
+    "name": "扫晴娘 #002",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 扫晴娘",
+    "tags": [
+      "怪物",
+      "扫晴娘",
+      "全地图"
+    ],
+    "images": [],
+    "x": -120030.810143,
+    "y": 110384.844148,
+    "z": 8735.32708,
+    "betterMapId": "monster/mon_030_BP/-120030.810143/110384.844148/8735.3270799999991",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sunshine-doll-003",
+    "name": "扫晴娘 #003",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 扫晴娘",
+    "tags": [
+      "怪物",
+      "扫晴娘",
+      "全地图"
+    ],
+    "images": [],
+    "x": -85181.925913,
+    "y": -11281.752082,
+    "z": 9161.640446,
+    "betterMapId": "monster/mon_030_BP/-85181.925912999999/-11281.752082000001/9161.6404459999994",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sunshine-doll-004",
+    "name": "扫晴娘 #004",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 扫晴娘",
+    "tags": [
+      "怪物",
+      "扫晴娘",
+      "全地图"
+    ],
+    "images": [],
+    "x": -104105.122656,
+    "y": 31672.513303,
+    "z": 9102.769471,
+    "betterMapId": "monster/mon_030_BP/-104105.12265600001/31672.513303/9102.7694709999996",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sunshine-doll-005",
+    "name": "扫晴娘 #005",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 扫晴娘",
+    "tags": [
+      "怪物",
+      "扫晴娘",
+      "全地图"
+    ],
+    "images": [],
+    "x": -92687.707035,
+    "y": 25617.113428,
+    "z": 8844.421243,
+    "betterMapId": "monster/mon_030_BP/-92687.707034999999/25617.113428000001/8844.4212430000007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sunshine-doll-006",
+    "name": "扫晴娘 #006",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 扫晴娘",
+    "tags": [
+      "怪物",
+      "扫晴娘",
+      "全地图"
+    ],
+    "images": [],
+    "x": 33725.894884,
+    "y": 94296.414236,
+    "z": 8896.831604,
+    "betterMapId": "monster/mon_030_BP/33725.894884000001/94296.414235999997/8896.8316040000009",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sunshine-doll-007",
+    "name": "扫晴娘 #007",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 扫晴娘",
+    "tags": [
+      "怪物",
+      "扫晴娘",
+      "全地图"
+    ],
+    "images": [],
+    "x": 40791.397149,
+    "y": 23746.895487,
+    "z": 6954.459522,
+    "betterMapId": "monster/mon_030_BP/40791.397148999997/23746.895487000002/6954.4595220000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sunshine-doll-008",
+    "name": "扫晴娘 #008",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 扫晴娘",
+    "tags": [
+      "怪物",
+      "扫晴娘",
+      "全地图"
+    ],
+    "images": [],
+    "x": 36111.101598,
+    "y": 22150.920392,
+    "z": 7829,
+    "betterMapId": "monster/mon_030_BP/36111.101598000001/22150.920392/7829",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sunshine-doll-009",
+    "name": "扫晴娘 #009",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 扫晴娘",
+    "tags": [
+      "怪物",
+      "扫晴娘",
+      "全地图"
+    ],
+    "images": [],
+    "x": -8521.788369,
+    "y": -3813.808797,
+    "z": 9278.217141,
+    "betterMapId": "monster/mon_030_BP/-8521.7883689999999/-3813.8087970000001/9278.2171409999992",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sunshine-doll-010",
+    "name": "扫晴娘 #010",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 扫晴娘",
+    "tags": [
+      "怪物",
+      "扫晴娘",
+      "全地图"
+    ],
+    "images": [],
+    "x": -16656.876673,
+    "y": 17467.513788,
+    "z": 9293.249577,
+    "betterMapId": "monster/mon_030_BP/-16656.876672999999/17467.513788/9293.2495770000005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sunshine-doll-011",
+    "name": "扫晴娘 #011",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 扫晴娘",
+    "tags": [
+      "怪物",
+      "扫晴娘",
+      "全地图"
+    ],
+    "images": [],
+    "x": -24563.441728,
+    "y": 19846.774339,
+    "z": 8963.327966,
+    "betterMapId": "monster/mon_030_BP/-24563.441728000002/19846.774339/8963.3279660000007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sunshine-doll-012",
+    "name": "扫晴娘 #012",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 扫晴娘",
+    "tags": [
+      "怪物",
+      "扫晴娘",
+      "全地图"
+    ],
+    "images": [],
+    "x": -36465.435384,
+    "y": -1455.303623,
+    "z": 8361.592242,
+    "betterMapId": "monster/mon_030_BP/-36465.435383999997/-1455.303623/8361.5922420000006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sunshine-doll-013",
+    "name": "扫晴娘 #013",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 扫晴娘",
+    "tags": [
+      "怪物",
+      "扫晴娘",
+      "全地图"
+    ],
+    "images": [],
+    "x": -44879,
+    "y": -18057.999998,
+    "z": 9238.359547,
+    "betterMapId": "monster/mon_030_BP/-44879/-18057.999997999999/9238.359547",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sunshine-doll-014",
+    "name": "扫晴娘 #014",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 扫晴娘",
+    "tags": [
+      "怪物",
+      "扫晴娘",
+      "全地图"
+    ],
+    "images": [],
+    "x": -50093.871968,
+    "y": -5866.424036,
+    "z": 7786.058428,
+    "betterMapId": "monster/mon_030_BP/-50093.871967999999/-5866.4240360000003/7786.0584280000003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-c3426fd22adfc11d952a",
+    "name": "扫晴娘 · mon_030_BP",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -112524.693709,
+    "y": 20245.327848,
+    "z": 9391.531034,
+    "betterMapId": "monster/mon_030_BP/-112524.693709/20245.327848000001/9391.5310339999996",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-b115b72fe93a715a2d38",
+    "name": "扫晴娘 · mon_030_BP",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -113720.791811,
+    "y": 16500.570746,
+    "z": 9278.679767,
+    "betterMapId": "monster/mon_030_BP/-113720.791811/16500.570746000001/9278.6797669999996",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-b1082ac3e1a585362d79",
+    "name": "扫晴娘 · mon_030_BP",
+    "types": [
+      "sunshine-doll"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -115473.125442,
+    "y": 19219.177826,
+    "z": 9515.453342,
+    "betterMapId": "monster/mon_030_BP/-115473.125442/19219.177825999999/9515.4533420000007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_030_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

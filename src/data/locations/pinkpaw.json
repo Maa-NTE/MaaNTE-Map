@@ -1,0 +1,24 @@
+[
+  {
+    "id": "pinkpaw-001",
+    "name": "粉爪总行",
+    "types": [
+      "pinkpaw"
+    ],
+    "district": "新赫兰德",
+    "description": "传送点 · 粉爪总行",
+    "tags": [],
+    "images": [],
+    "x": 17219.234,
+    "y": 69877.266,
+    "z": 6385.269,
+    "gameDataId": "DT_TeleportPoint/Bank_05_00",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "Bank_05_00",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

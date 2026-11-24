@@ -1,0 +1,236 @@
+[
+  {
+    "id": "record-spirit-002",
+    "name": "唱片附电灵 #002",
+    "types": [
+      "record-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 唱片附电灵",
+    "tags": [
+      "怪物",
+      "唱片附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": 19491.705084,
+    "y": 105658.653782,
+    "z": 6955.010731,
+    "betterMapId": "monster/mon_029_BP/19491.705084000001/105658.65378199999/6955.0107310000003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_029_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "record-spirit-003",
+    "name": "唱片附电灵 #003",
+    "types": [
+      "record-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 唱片附电灵",
+    "tags": [
+      "怪物",
+      "唱片附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": 18277.71895,
+    "y": 18597.024777,
+    "z": 8598.164036,
+    "betterMapId": "monster/mon_029_BP/18277.718949999999/18597.024776999999/8598.1640360000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_029_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "record-spirit-004",
+    "name": "唱片附电灵 #004",
+    "types": [
+      "record-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 唱片附电灵",
+    "tags": [
+      "怪物",
+      "唱片附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -43156.378034,
+    "y": -6302.082477,
+    "z": 8289.994632,
+    "betterMapId": "monster/mon_029_BP/-43156.378034000001/-6302.0824769999999/8289.9946319999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_029_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "record-spirit-005",
+    "name": "唱片附电灵 #005",
+    "types": [
+      "record-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 唱片附电灵",
+    "tags": [
+      "怪物",
+      "唱片附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -50425.143181,
+    "y": 23758.222045,
+    "z": 7820.97789,
+    "betterMapId": "monster/mon_029_BP/-50425.143180999999/23758.222044999999/7820.9778900000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_029_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "record-spirit-006",
+    "name": "唱片附电灵 #006",
+    "types": [
+      "record-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 唱片附电灵",
+    "tags": [
+      "怪物",
+      "唱片附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -27192.545788,
+    "y": 23262.893742,
+    "z": 8267.243865,
+    "betterMapId": "monster/mon_029_BP/-27192.545787999999/23262.893742/8267.2438650000004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_029_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "record-spirit-008",
+    "name": "唱片附电灵 #008",
+    "types": [
+      "record-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 唱片附电灵",
+    "tags": [
+      "怪物",
+      "唱片附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -50373.083268,
+    "y": 86102.368026,
+    "z": 3119.632412,
+    "betterMapId": "monster/mon_029_BP/-50373.083268000002/86102.368025999996/3119.6324119999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_029_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "record-spirit-009",
+    "name": "唱片附电灵 #009",
+    "types": [
+      "record-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 唱片附电灵",
+    "tags": [
+      "怪物",
+      "唱片附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -92405.234699,
+    "y": 94704.029786,
+    "z": 6560,
+    "betterMapId": "monster/mon_029_BP/-92405.234698999993/94704.029785999999/6560",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_029_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "record-spirit-011",
+    "name": "唱片附电灵 #011",
+    "types": [
+      "record-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 唱片附电灵",
+    "tags": [
+      "怪物",
+      "唱片附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -141895.463294,
+    "y": 193480.756745,
+    "z": 8310,
+    "betterMapId": "monster/mon_029_BP/-141895.46329399999/193480.75674499999/8310",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_029_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "record-spirit-013",
+    "name": "唱片附电灵 #013",
+    "types": [
+      "record-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 唱片附电灵",
+    "tags": [
+      "怪物",
+      "唱片附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -113385.814481,
+    "y": 148952.309697,
+    "z": 7382.906616,
+    "betterMapId": "monster/mon_029_BP/-113385.81448099999/148952.30969699999/7382.9066160000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_029_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

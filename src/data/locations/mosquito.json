@@ -1,0 +1,1575 @@
+[
+  {
+    "id": "mosquito-1",
+    "name": "包包蚊 #1",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -269596.53,
+    "y": 353099.38,
+    "z": 4595.4536,
+    "gameDataId": "HTAISpawnManager/89ECA4C74995FA05091F8CAFE8DC7AF9/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/06HQCG2PKTG6INJBIXBK1BZCF",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254BEBDC02_1636895286",
+      "actorGuid": "89ECA4C7-4995FA05-091F8CAF-E8DC7AF9",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-d68423172847eff62e30",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -269487.88,
+    "y": 353110.56,
+    "z": 4543.742,
+    "gameDataId": "HTAISpawnManager/89ECA4C74995FA05091F8CAFE8DC7AF9/0/0/1",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/06HQCG2PKTG6INJBIXBK1BZCF",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254BEBDC02_1636895286",
+      "actorGuid": "89ECA4C7-4995FA05-091F8CAF-E8DC7AF9",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[1].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-31d21f56924c5f06eec8",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -269598.2,
+    "y": 353228.16,
+    "z": 4572.7373,
+    "gameDataId": "HTAISpawnManager/89ECA4C74995FA05091F8CAFE8DC7AF9/0/0/2",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/06HQCG2PKTG6INJBIXBK1BZCF",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254BEBDC02_1636895286",
+      "actorGuid": "89ECA4C7-4995FA05-091F8CAF-E8DC7AF9",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[2].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-2",
+    "name": "包包蚊 #2",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -12373.883,
+    "y": 79667.93,
+    "z": 6475.5083,
+    "gameDataId": "HTAISpawnManager/C3F2D8E744A2EAA183764295948F34F2/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/0P6RKGSO12AVMBK6G6S308LTY",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D2A6F02_1178409217",
+      "actorGuid": "C3F2D8E7-44A2EAA1-83764295-948F34F2",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-3",
+    "name": "包包蚊 #3",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -8888.713,
+    "y": 85887.734,
+    "z": 8814.169,
+    "gameDataId": "HTAISpawnManager/3E1B04DF4FC0B696B688C7A4F1A8BFF1/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/0YW8GX12BNWSFQQLSP2L1GS9P",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D2A6F02_1252071219",
+      "actorGuid": "3E1B04DF-4FC0B696-B688C7A4-F1A8BFF1",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-4",
+    "name": "包包蚊 #4",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -37029.22,
+    "y": 40268.504,
+    "z": 7753.942,
+    "gameDataId": "HTAISpawnManager/7AC1E5D84282BBC06661D586963C2CB1/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/1MJ4353R7CHI5Q2TVDMYCMSYO",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D226F02_1908972775",
+      "actorGuid": "7AC1E5D8-4282BBC0-6661D586-963C2CB1",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-5",
+    "name": "包包蚊 #5",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -33595.188,
+    "y": 40812.332,
+    "z": 7766.62,
+    "gameDataId": "HTAISpawnManager/01FED5F04373A3283E1ED6BEDCD6981F/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/1MJ4353R7CHI5Q2TVDMYCMSYO",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D236F02_1081579957",
+      "actorGuid": "01FED5F0-4373A328-3E1ED6BE-DCD6981F",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-6",
+    "name": "包包蚊 #6",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -189317.73,
+    "y": 139268.6,
+    "z": 5528.1304,
+    "gameDataId": "HTAISpawnManager/37931DF04F97CAF99D407C9C7F7BEDBD/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/1Q7ILPC1L2XCZXT83216APFPS",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D1D7102_1617993234",
+      "actorGuid": "37931DF0-4F97CAF9-9D407C9C-7F7BEDBD",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-7",
+    "name": "包包蚊 #7",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -21522.564,
+    "y": 23361.531,
+    "z": 7836.8945,
+    "gameDataId": "HTAISpawnManager/E761D72B409821D2361026BD566AB906/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/2121J8D3UL0Y69YV4YTX3034E",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D216F02_1632629588",
+      "actorGuid": "E761D72B-409821D2-361026BD-566AB906",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-28",
+    "name": "包包蚊 #28",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": 324.91666,
+    "y": 84490.945,
+    "z": 6405.075,
+    "gameDataId": "HTAISpawnManager/85DDB0E94838446F095BADA8D1459F85/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/ACAS2YMX8LS1S3GOIM93DR8G7",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D2A6F02_1648736227",
+      "actorGuid": "85DDB0E9-4838446F-095BADA8-D1459F85",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-29",
+    "name": "包包蚊 #29",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -190320.22,
+    "y": 126292.6,
+    "z": 7240.1943,
+    "gameDataId": "HTAISpawnManager/790E80F7480B161BFB5005B0C527332E/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/AEQO3DSRZ9FTVC8ERCZAHF55U",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D1D7102_1582778232",
+      "actorGuid": "790E80F7-480B161B-FB5005B0-C527332E",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-30",
+    "name": "包包蚊 #30",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -123991.95,
+    "y": 191301.05,
+    "z": 6699.2896,
+    "gameDataId": "HTAISpawnManager/3396284F47DE7F6D97E81EB12D3BFA3E/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/AJ5MFYDFS635UUJX0JV3AEY9B",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D167102_1591702083",
+      "actorGuid": "3396284F-47DE7F6D-97E81EB1-2D3BFA3E",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-31",
+    "name": "包包蚊 #31",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -109282.305,
+    "y": 148162.97,
+    "z": 6254.114,
+    "gameDataId": "HTAISpawnManager/17FEE6B0477E0B278783A0BCCFEDC6D4/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/B5SDSTAJGGSWPAP4IQ2AN7SCS",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D177102_1998485263",
+      "actorGuid": "17FEE6B0-477E0B27-8783A0BC-CFEDC6D4",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-32",
+    "name": "包包蚊 #32",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -16555.162,
+    "y": 31532.496,
+    "z": 7895.0376,
+    "gameDataId": "HTAISpawnManager/1A55F4584B8A5DD5F1E04481CC21E1E9/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/B8TPQ9EH6GCFNWDQULY2NI4ZI",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D226F02_1838861773",
+      "actorGuid": "1A55F458-4B8A5DD5-F1E04481-CC21E1E9",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-33",
+    "name": "包包蚊 #33",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -14814.855,
+    "y": 90966.86,
+    "z": 6392.6626,
+    "gameDataId": "HTAISpawnManager/74607F7D4C4571D17E02239BA0EC2A4F/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/BAK5P30YDU53ZW7DHV997JJ6R",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D236F02_1569197961",
+      "actorGuid": "74607F7D-4C4571D1-7E02239B-A0EC2A4F",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-34",
+    "name": "包包蚊 #34",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -95.57041,
+    "y": 20076.518,
+    "z": 7894.2153,
+    "gameDataId": "HTAISpawnManager/527C6A564F014ABBAE37B19D575F0742/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/BX2NYU9CLPCYOA3TVFJCW02HW",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D216F02_1704534590",
+      "actorGuid": "527C6A56-4F014ABB-AE37B19D-575F0742",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-2f475c34e62ec670bb13",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "野外刷新"
+    ],
+    "images": [],
+    "x": 309.886,
+    "y": 20709.404,
+    "z": 7878.849,
+    "gameDataId": "HTAISpawnManager/527C6A564F014ABBAE37B19D575F0742/0/0/1",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/BX2NYU9CLPCYOA3TVFJCW02HW",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D216F02_1704534590",
+      "actorGuid": "527C6A56-4F014ABB-AE37B19D-575F0742",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[1].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-35",
+    "name": "包包蚊 #35",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -21800.498,
+    "y": 40755.113,
+    "z": 7780.9263,
+    "gameDataId": "HTAISpawnManager/DBFFB87A4AE6DBE8341A5DAFE4247ABF/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/CRPG65ZT8KPJJ591D0XWAV1OW",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D226F02_2084874779",
+      "actorGuid": "DBFFB87A-4AE6DBE8-341A5DAF-E4247ABF",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-36",
+    "name": "包包蚊 #36",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -4574.775,
+    "y": 74425.27,
+    "z": 6389.7485,
+    "gameDataId": "HTAISpawnManager/605EAFBA407364CA7082BE856D726DA8/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/DB7NE8G02I8GM7ANS58JM2U87",
+      "objectName": "HTAISpawnManager_UAID_BCFCE76D277734CC02_1903161315",
+      "actorGuid": "605EAFBA-407364CA-7082BE85-6D726DA8",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-ad5b32072a77f5aac72d",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -4493.14,
+    "y": 74302.055,
+    "z": 6410.2856,
+    "gameDataId": "HTAISpawnManager/605EAFBA407364CA7082BE856D726DA8/0/0/1",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/DB7NE8G02I8GM7ANS58JM2U87",
+      "objectName": "HTAISpawnManager_UAID_BCFCE76D277734CC02_1903161315",
+      "actorGuid": "605EAFBA-407364CA-7082BE85-6D726DA8",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[1].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-37",
+    "name": "包包蚊 #37",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": 5275.4756,
+    "y": 83331.305,
+    "z": 8901.365,
+    "gameDataId": "HTAISpawnManager/FC726BC044A86878127714BC8BF221CC/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/DF2HDPFADGCHQ1FAKNIQQIBLV",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D2A6F02_1597895225",
+      "actorGuid": "FC726BC0-44A86878-127714BC-8BF221CC",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-38",
+    "name": "包包蚊 #38",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": 778.59076,
+    "y": 79479.72,
+    "z": 6405.075,
+    "gameDataId": "HTAISpawnManager/17943CB54A239769D838F09587F4BCF2/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/DF2HDPFADGCHQ1FAKNIQQIBLV",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D2A6F02_1687173229",
+      "actorGuid": "17943CB5-4A239769-D838F095-87F4BCF2",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-39",
+    "name": "包包蚊 #39",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -175135.16,
+    "y": 116311.05,
+    "z": 7196.2656,
+    "gameDataId": "HTAISpawnManager/5538F97F452E9CD757026BBB225A2A86/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/ECZK65BI51RDLQ8NW45PKKN1C",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D1D7102_1311698226",
+      "actorGuid": "5538F97F-452E9CD7-57026BBB-225A2A86",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-40",
+    "name": "包包蚊 #40",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -256000.89,
+    "y": 352971.2,
+    "z": 2614.024,
+    "gameDataId": "HTAISpawnManager/79B248D84A167E238F50119AF5D4AF49/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/EJZT4BWPH383WIA6K6N9IU398",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254BE3DC02_1736061855",
+      "actorGuid": "79B248D8-4A167E23-8F50119A-F5D4AF49",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-57ee0f886ed4c63175dd",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -255896.25,
+    "y": 352978.22,
+    "z": 2631.8892,
+    "gameDataId": "HTAISpawnManager/79B248D84A167E238F50119AF5D4AF49/0/0/1",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/EJZT4BWPH383WIA6K6N9IU398",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254BE3DC02_1736061855",
+      "actorGuid": "79B248D8-4A167E23-8F50119A-F5D4AF49",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[1].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-fc8effe382d78cd80aa6",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -256031.25,
+    "y": 352862.4,
+    "z": 2582.945,
+    "gameDataId": "HTAISpawnManager/79B248D84A167E238F50119AF5D4AF49/0/0/2",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/EJZT4BWPH383WIA6K6N9IU398",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254BE3DC02_1736061855",
+      "actorGuid": "79B248D8-4A167E23-8F50119A-F5D4AF49",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[2].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-41",
+    "name": "包包蚊 #41",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -25409.906,
+    "y": 47781.07,
+    "z": 7346.307,
+    "gameDataId": "HTAISpawnManager/459515B64802E8E9CF96208F9D7E69F6/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/EMMZCODHL614HRJILHSVAE9JS",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D1F6F02_1389395222",
+      "actorGuid": "459515B6-4802E8E9-CF96208F-9D7E69F6",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-8",
+    "name": "包包蚊 #8",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -51863.965,
+    "y": 33216.402,
+    "z": 7766.62,
+    "gameDataId": "HTAISpawnManager/18F0606643E001A67BF11CB7B63127AB/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/2AQPCN293E8J2NY1CJXPP8ZW6",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D236F02_1119974959",
+      "actorGuid": "18F06066-43E001A6-7BF11CB7-B63127AB",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-9",
+    "name": "包包蚊 #9",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": 37413.375,
+    "y": 100625.81,
+    "z": 9083.624,
+    "gameDataId": "HTAISpawnManager/7E19F1C34C850BF1D4C90DBF9116EA04/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/2XUS7HJ38A7SQ4X5CXM9E40W2",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254B09CA02_1149785390",
+      "actorGuid": "7E19F1C3-4C850BF1-D4C90DBF-9116EA04",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-e604ac694bad07c7d84e",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": 37399.723,
+    "y": 100527.56,
+    "z": 9118.388,
+    "gameDataId": "HTAISpawnManager/7E19F1C34C850BF1D4C90DBF9116EA04/1/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/2XUS7HJ38A7SQ4X5CXM9E40W2",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254B09CA02_1149785390",
+      "actorGuid": "7E19F1C3-4C850BF1-D4C90DBF-9116EA04",
+      "coordinateField": "SpawnWaveEntries[1].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-cd7a94d2750493a9381d",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": 37478.99,
+    "y": 100615.3,
+    "z": 9133.041,
+    "gameDataId": "HTAISpawnManager/7E19F1C34C850BF1D4C90DBF9116EA04/2/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/2XUS7HJ38A7SQ4X5CXM9E40W2",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254B09CA02_1149785390",
+      "actorGuid": "7E19F1C3-4C850BF1-D4C90DBF-9116EA04",
+      "coordinateField": "SpawnWaveEntries[2].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-10",
+    "name": "包包蚊 #10",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -80904.77,
+    "y": 155141.22,
+    "z": 4288.825,
+    "gameDataId": "HTAISpawnManager/705B0CCD4368E25EACB0FEA745EDBD82/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/2YH3EUA105SUH0G1CNJLH5MTQ",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254B6DC902_1256811613",
+      "actorGuid": "705B0CCD-4368E25E-ACB0FEA7-45EDBD82",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-33258dc6b1693df0d50c",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -81003.84,
+    "y": 155146.25,
+    "z": 4323.5894,
+    "gameDataId": "HTAISpawnManager/705B0CCD4368E25EACB0FEA745EDBD82/1/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/2YH3EUA105SUH0G1CNJLH5MTQ",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254B6DC902_1256811613",
+      "actorGuid": "705B0CCD-4368E25E-ACB0FEA7-45EDBD82",
+      "coordinateField": "SpawnWaveEntries[1].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-9b8f3b5928ce42a97c58",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -80909.53,
+    "y": 155074.94,
+    "z": 4338.243,
+    "gameDataId": "HTAISpawnManager/705B0CCD4368E25EACB0FEA745EDBD82/2/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/2YH3EUA105SUH0G1CNJLH5MTQ",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254B6DC902_1256811613",
+      "actorGuid": "705B0CCD-4368E25E-ACB0FEA7-45EDBD82",
+      "coordinateField": "SpawnWaveEntries[2].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-11",
+    "name": "包包蚊 #11",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": 18208.805,
+    "y": 135037.58,
+    "z": 5556.8184,
+    "gameDataId": "HTAISpawnManager/D29C598C49965339AA69D1AB7727083C/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/35AYKL9UTYYU7Y3VO14Y2ECZ2",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D167102_1256808768",
+      "actorGuid": "D29C598C-49965339-AA69D1AB-7727083C",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-12",
+    "name": "包包蚊 #12",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -19903.713,
+    "y": 100053.51,
+    "z": 6404.169,
+    "gameDataId": "HTAISpawnManager/05A0BC344E10DF58AFD005BE5BB91F24/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/3J6QO4PXXIQPMCIAQVZ0750HY",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D2A6F02_1319151221",
+      "actorGuid": "05A0BC34-4E10DF58-AFD005BE-5BB91F24",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-13",
+    "name": "包包蚊 #13",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -36551.047,
+    "y": 32361.893,
+    "z": 7836.8945,
+    "gameDataId": "HTAISpawnManager/3445BD744B77E5FAED634B8A97F52C50/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/3VO9CYGKMFKKOHT2MX6CW9F74",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D216F02_1417678586",
+      "actorGuid": "3445BD74-4B77E5FA-ED634B8A-97F52C50",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-14",
+    "name": "包包蚊 #14",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -32619.346,
+    "y": 15313.678,
+    "z": 8011.0303,
+    "gameDataId": "HTAISpawnManager/4F388B5D49E7B7CA7B3582BAEACEE1F6/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/3XRGEBWTCNZLBUDPV8NW80UD1",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254B08CA02_1371470206",
+      "actorGuid": "4F388B5D-49E7B7CA-7B3582BA-EACEE1F6",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-3e44b7bc82548aea924b",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -32529.145,
+    "y": 15284.125,
+    "z": 8041.6665,
+    "gameDataId": "HTAISpawnManager/4F388B5D49E7B7CA7B3582BAEACEE1F6/1/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/3XRGEBWTCNZLBUDPV8NW80UD1",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254B08CA02_1371470206",
+      "actorGuid": "4F388B5D-49E7B7CA-7B3582BA-EACEE1F6",
+      "coordinateField": "SpawnWaveEntries[1].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-07902c91717a577fc5aa",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -32629.28,
+    "y": 15369.191,
+    "z": 8050.866,
+    "gameDataId": "HTAISpawnManager/4F388B5D49E7B7CA7B3582BAEACEE1F6/2/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/3XRGEBWTCNZLBUDPV8NW80UD1",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254B08CA02_1371470206",
+      "actorGuid": "4F388B5D-49E7B7CA-7B3582BA-EACEE1F6",
+      "coordinateField": "SpawnWaveEntries[2].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-5a67977b90931bd58787",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -32501.11,
+    "y": 15335.876,
+    "z": 8069.622,
+    "gameDataId": "HTAISpawnManager/4F388B5D49E7B7CA7B3582BAEACEE1F6/3/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/3XRGEBWTCNZLBUDPV8NW80UD1",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254B08CA02_1371470206",
+      "actorGuid": "4F388B5D-49E7B7CA-7B3582BA-EACEE1F6",
+      "coordinateField": "SpawnWaveEntries[3].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-15",
+    "name": "包包蚊 #15",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -150059.11,
+    "y": 221557.75,
+    "z": 11641.11,
+    "gameDataId": "HTAISpawnManager/EF8267944C81BCAF196D7193636EA613/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/42R85EU385QLUVWVO89CM16X5",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D1B7102_2143344251",
+      "actorGuid": "EF826794-4C81BCAF-196D7193-636EA613",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-16",
+    "name": "包包蚊 #16",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -181681.97,
+    "y": 112912.914,
+    "z": 10403.559,
+    "gameDataId": "HTAISpawnManager/BEA0A76D4820EEB2FE77CA9F06AF5374/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/49K94G6Z5QZSKQJKMB7ERSVIY",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D1D7102_1537443230",
+      "actorGuid": "BEA0A76D-4820EEB2-FE77CA9F-06AF5374",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-17",
+    "name": "包包蚊 #17",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -135725.33,
+    "y": 137958.31,
+    "z": 6773.068,
+    "gameDataId": "HTAISpawnManager/0A0F4E3C474CE32D18058BB5F90C7DAA/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/4I3NFD4UEC6ZQTLC0GPLVODUD",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D1C7102_1855044783",
+      "actorGuid": "0A0F4E3C-474CE32D-18058BB5-F90C7DAA",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-18",
+    "name": "包包蚊 #18",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -100388.805,
+    "y": 164933.44,
+    "z": 4194.1924,
+    "gameDataId": "HTAISpawnManager/3E55A06A44189027CF8E4CBD81CABDA2/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/5ZV1Q8560MEAI76EF60YBBONO",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D187102_1114640441",
+      "actorGuid": "3E55A06A-44189027-CF8E4CBD-81CABDA2",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-19",
+    "name": "包包蚊 #19",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": 23149.457,
+    "y": 105219.984,
+    "z": 7062,
+    "gameDataId": "HTAISpawnManager/582681ED40C9465468CCDD93784338BC/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/6BE7KB0JYXD06YL0QTWSHDSS6",
+      "objectName": "HTAISpawnManager_UAID_BCFCE76D277772A302_1484632963",
+      "actorGuid": "582681ED-40C94654-68CCDD93-784338BC",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-97cb698b5a166e56757c",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -120753.76,
+    "y": 56190.65,
+    "z": 7479.6084,
+    "gameDataId": "HTAISpawnManager/FACE7D4A453803AA614E1AAAE8636714/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/6UTXZ9SWH459AI5R1W09GQ2WH",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254B07CA02_1191230012",
+      "actorGuid": "FACE7D4A-453803AA-614E1AAA-E8636714",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-cc7429ae7cfba42db270",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -120656.76,
+    "y": 56211.42,
+    "z": 7510.2446,
+    "gameDataId": "HTAISpawnManager/FACE7D4A453803AA614E1AAAE8636714/1/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/6UTXZ9SWH459AI5R1W09GQ2WH",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254B07CA02_1191230012",
+      "actorGuid": "FACE7D4A-453803AA-614E1AAA-E8636714",
+      "coordinateField": "SpawnWaveEntries[1].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-c97dd9440ef23b70e9b0",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -120766.31,
+    "y": 56255.902,
+    "z": 7519.445,
+    "gameDataId": "HTAISpawnManager/FACE7D4A453803AA614E1AAAE8636714/2/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/6UTXZ9SWH459AI5R1W09GQ2WH",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254B07CA02_1191230012",
+      "actorGuid": "FACE7D4A-453803AA-614E1AAA-E8636714",
+      "coordinateField": "SpawnWaveEntries[2].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-20",
+    "name": "包包蚊 #20",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -120675.914,
+    "y": 56261.113,
+    "z": 7543.645,
+    "gameDataId": "HTAISpawnManager/FACE7D4A453803AA614E1AAAE8636714/3/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/6UTXZ9SWH459AI5R1W09GQ2WH",
+      "objectName": "HTAISpawnManager_UAID_A0AD9F12254B07CA02_1191230012",
+      "actorGuid": "FACE7D4A-453803AA-614E1AAA-E8636714",
+      "coordinateField": "SpawnWaveEntries[3].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-21",
+    "name": "包包蚊 #21",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -27113.723,
+    "y": 39229.965,
+    "z": 7736.785,
+    "gameDataId": "HTAISpawnManager/996A88D94770FC2CD3D3EEABDD3FDA0F/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/6Y6VDALXF4XR6PYS85TOW7QVA",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D206F02_1960503408",
+      "actorGuid": "996A88D9-4770FC2C-D3D3EEAB-DD3FDA0F",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-22",
+    "name": "包包蚊 #22",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -144489.16,
+    "y": 176579.94,
+    "z": 7588.328,
+    "gameDataId": "HTAISpawnManager/27D9A03B40F81C6F18EB259CFBF0761B/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/7IYTXBAVVMKZN4T8W27PXZ769",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D177102_1868472261",
+      "actorGuid": "27D9A03B-40F81C6F-18EB259C-FBF0761B",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-23",
+    "name": "包包蚊 #23",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -5889.852,
+    "y": 41021.855,
+    "z": 7790.5337,
+    "gameDataId": "HTAISpawnManager/B2F34ED04E96440E3E2DEB9C63E6B28A/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/7M03ZP40LR6BTKY8H5BQZJTES",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D226F02_2021427777",
+      "actorGuid": "B2F34ED0-4E96440E-3E2DEB9C-63E6B28A",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-24",
+    "name": "包包蚊 #24",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -2111.448,
+    "y": 31174.877,
+    "z": 7733.0117,
+    "gameDataId": "HTAISpawnManager/9210689C40F81C973100B5B7BB412B7F/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/7QKEA7Y5TGDAIEZDOKNH1SBMU",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D226F02_1760144771",
+      "actorGuid": "9210689C-40F81C97-3100B5B7-BB412B7F",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-25",
+    "name": "包包蚊 #25",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": 2015.7039,
+    "y": 23790.242,
+    "z": 7733.0117,
+    "gameDataId": "HTAISpawnManager/A2CEC6FF41A7D5C314955981F21853EE/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/7Y727LUF9XHA6Y9ELHD54L3BA",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D216F02_1813371593",
+      "actorGuid": "A2CEC6FF-41A7D5C3-14955981-F21853EE",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-26",
+    "name": "包包蚊 #26",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "野外刷新"
+    ],
+    "images": [],
+    "x": -185939.8,
+    "y": 215246.77,
+    "z": 16759.738,
+    "gameDataId": "HTAISpawnManager/46ABD24F451C4EF35DE3A78AA56BDBD8/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/8Z28I9P007AT0QEJGOVWZBNHL",
+      "objectName": "HTAISpawnManager_UAID_BCFCE7626E2D1A7102_1647181049",
+      "actorGuid": "46ABD24F-451C4EF3-5DE3A78A-A56BDBD8",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mosquito-27",
+    "name": "包包蚊 #27",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "怪物",
+      "包包蚊",
+      "全地图",
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -148440.58,
+    "y": 197559.78,
+    "z": 8411.951,
+    "gameDataId": "HTAISpawnManager/8C45A92C42445E4B653542A9AF2B7821/0/0/0",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/96I110LC4O96GN7PVPCEM02CX",
+      "objectName": "HTAISpawnManager_UAID_BCFCE76D27779CCB02_1927584167",
+      "actorGuid": "8C45A92C-42445E4B-653542A9-AF2B7821",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[0].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-49a187f45c95d120b242",
+    "name": "包包蚊",
+    "types": [
+      "mosquito"
+    ],
+    "district": "全地图",
+    "description": "包包蚊出生位置；事件型、天气型刷怪器仅在对应条件下出现。",
+    "tags": [
+      "城市交互事件"
+    ],
+    "images": [],
+    "x": -148740.97,
+    "y": 197399.52,
+    "z": 8411.951,
+    "gameDataId": "HTAISpawnManager/8C45A92C42445E4B653542A9AF2B7821/0/0/1",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/Maps/Map_bigworld/XL_map_bigworld_test/_Generated_/96I110LC4O96GN7PVPCEM02CX",
+      "objectName": "HTAISpawnManager_UAID_BCFCE76D27779CCB02_1927584167",
+      "actorGuid": "8C45A92C-42445E4B-653542A9-AF2B7821",
+      "coordinateField": "SpawnWaveEntries[0].SpawnEntries[0].SpawnTransformPointsOverride[1].Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

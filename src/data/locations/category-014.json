@@ -1,0 +1,302 @@
+[
+  {
+    "id": "category-014-001",
+    "name": "纸翼战队 #001",
+    "types": [
+      "category-014"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 纸翼战队",
+    "tags": [
+      "怪物",
+      "纸翼战队",
+      "全地图"
+    ],
+    "images": [],
+    "x": -6601.536719,
+    "y": 13179.670235,
+    "z": 8852.967266,
+    "betterMapId": "monster/mon_026_BP/-6601.5367189999997/13179.670235/8852.9672659999997",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_026_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-014-002",
+    "name": "纸翼战队 #002",
+    "types": [
+      "category-014"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 纸翼战队",
+    "tags": [
+      "怪物",
+      "纸翼战队",
+      "全地图"
+    ],
+    "images": [],
+    "x": -135261.059003,
+    "y": 233789.759912,
+    "z": 2933.814615,
+    "betterMapId": "monster/mon_026_BP/-135261.059003/233789.75991200001/2933.8146149999998",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_026_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-014-004",
+    "name": "纸翼战队 #004",
+    "types": [
+      "category-014"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 纸翼战队",
+    "tags": [
+      "怪物",
+      "纸翼战队",
+      "全地图"
+    ],
+    "images": [],
+    "x": -119968.725574,
+    "y": 147570.512992,
+    "z": 8454.8206,
+    "betterMapId": "monster/mon_026_BP/-119968.725574/147570.512992/8454.8205999999991",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_026_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-014-006",
+    "name": "纸翼战队 #006",
+    "types": [
+      "category-014"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 纸翼战队",
+    "tags": [
+      "怪物",
+      "纸翼战队",
+      "全地图"
+    ],
+    "images": [],
+    "x": -103981.823206,
+    "y": 50914.397855,
+    "z": 8428.301087,
+    "betterMapId": "monster/mon_026_BP/-103981.823206/50914.397855000003/8428.3010869999998",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_026_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-014-007",
+    "name": "纸翼战队 #007",
+    "types": [
+      "category-014"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 纸翼战队",
+    "tags": [
+      "怪物",
+      "纸翼战队",
+      "全地图"
+    ],
+    "images": [],
+    "x": -80570.883709,
+    "y": 285.354717,
+    "z": 8298.730238,
+    "betterMapId": "monster/mon_026_BP/-80570.883709000002/285.35471699999999/8298.7302380000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_026_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-014-008",
+    "name": "纸翼战队 #008",
+    "types": [
+      "category-014"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 纸翼战队",
+    "tags": [
+      "怪物",
+      "纸翼战队",
+      "全地图"
+    ],
+    "images": [],
+    "x": -43646.428423,
+    "y": 6405.249853,
+    "z": 7702.336366,
+    "betterMapId": "monster/mon_026_BP/-43646.428422999998/6405.2498530000003/7702.3363660000005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_026_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-014-010",
+    "name": "纸翼战队 #010",
+    "types": [
+      "category-014"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 纸翼战队",
+    "tags": [
+      "怪物",
+      "纸翼战队",
+      "全地图"
+    ],
+    "images": [],
+    "x": -30915.300721,
+    "y": 16439.497765,
+    "z": 8797.619455,
+    "betterMapId": "monster/mon_026_BP/-30915.300721/16439.497765/8797.619455",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_026_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-014-011",
+    "name": "纸翼战队 #011",
+    "types": [
+      "category-014"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 纸翼战队",
+    "tags": [
+      "怪物",
+      "纸翼战队",
+      "全地图"
+    ],
+    "images": [],
+    "x": -16965,
+    "y": 95143,
+    "z": 6520,
+    "betterMapId": "monster/mon_026_BP/-16965/95143/6520",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_026_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-014-012",
+    "name": "纸翼战队 #012",
+    "types": [
+      "category-014"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 纸翼战队",
+    "tags": [
+      "怪物",
+      "纸翼战队",
+      "全地图"
+    ],
+    "images": [],
+    "x": 23675.6537,
+    "y": 77176.703543,
+    "z": 6922.247115,
+    "betterMapId": "monster/mon_026_BP/23675.653699999999/77176.703542999996/6922.2471150000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_026_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-a4a620e00149ccf55671",
+    "name": "纸翼战队 · mon_026_BP",
+    "types": [
+      "category-014"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -195145.406,
+    "y": 187803.288459,
+    "z": 8680.804427,
+    "betterMapId": "monster/mon_026_BP/-195145.40599999999/187803.288459/8680.8044269999991",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_026_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-fba73a2f3d318c001b7f",
+    "name": "纸翼战队 · mon_026_BP",
+    "types": [
+      "category-014"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -124405.536721,
+    "y": 59004.680057,
+    "z": 8899.499784,
+    "betterMapId": "monster/mon_026_BP/-124405.536721/59004.680056999998/8899.4997839999996",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_026_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-a05988040d7e9bdf7b44",
+    "name": "纸翼战队 · mon_026_BP",
+    "types": [
+      "category-014"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": 48018.012173,
+    "y": 124580.114678,
+    "z": 6600.472594,
+    "betterMapId": "monster/mon_026_BP/48018.012173000003/124580.114678/6600.4725939999998",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_026_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "id": "sad-bear-001",
+    "name": "伤心英熊 #001",
+    "types": [
+      "sad-bear"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 伤心英熊",
+    "tags": [
+      "怪物",
+      "伤心英熊",
+      "全地图"
+    ],
+    "images": [],
+    "x": 34793.934298,
+    "y": 73747.60624,
+    "z": 6485.482609,
+    "betterMapId": "monster/mon_019_SadBear_BP/34793.934298/73747.606239999994/6485.4826089999997",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_019_SadBear_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sad-bear-004",
+    "name": "伤心英熊 #004",
+    "types": [
+      "sad-bear"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 伤心英熊",
+    "tags": [
+      "怪物",
+      "伤心英熊",
+      "全地图"
+    ],
+    "images": [],
+    "x": -28639.796398,
+    "y": 84167.49857,
+    "z": 6370.757505,
+    "betterMapId": "monster/mon_019_SadBear_BP/-28639.796397999999/84167.498569999996/6370.7575049999996",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_019_SadBear_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sad-bear-005",
+    "name": "伤心英熊 #005",
+    "types": [
+      "sad-bear"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 伤心英熊",
+    "tags": [
+      "怪物",
+      "伤心英熊",
+      "全地图"
+    ],
+    "images": [],
+    "x": -34838.763465,
+    "y": 131905.372376,
+    "z": 3157.851502,
+    "betterMapId": "monster/mon_019_SadBear_BP/-34838.763465000004/131905.37237600001/3157.851502",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_019_SadBear_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-1ac735b1a730c5af00b0",
+    "name": "伤心英熊 · mon_019_SadBear_BP",
+    "types": [
+      "sad-bear"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": 36161.743645,
+    "y": 138706.565577,
+    "z": 3571.375808,
+    "betterMapId": "monster/mon_019_SadBear_BP/36161.743645000002/138706.565577/3571.3758079999998",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_019_SadBear_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-3135c6552a168921ce92",
+    "name": "伤心英熊 · mon_019_SadBear_BP",
+    "types": [
+      "sad-bear"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": 27410.341242,
+    "y": 115083.741119,
+    "z": 7135.765192,
+    "betterMapId": "monster/mon_019_SadBear_BP/27410.341241999999/115083.741119/7135.7651919999998",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_019_SadBear_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

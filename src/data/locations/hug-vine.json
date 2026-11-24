@@ -1,0 +1,354 @@
+[
+  {
+    "id": "local-1782106776448",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -163448.219122,
+    "y": 176551.261144,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8901.92129,
+    "betterMapId": "monster/mon_011_BP/-163448.21912200001/176551.26114399999/8901.9212900000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782106812569",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -165530,
+    "y": 172370,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8800,
+    "betterMapId": "monster/mon_011_BP/-165530/172370/8800",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782106844140",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -161177,
+    "y": 170786,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 9302,
+    "betterMapId": "monster/mon_011_BP/-161177/170786/9302",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782106920859",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -170036.983315,
+    "y": 176024.371052,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8784.617413,
+    "betterMapId": "monster/mon_011_BP/-170036.98331499999/176024.371052/8784.6174129999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782106932189",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -169254,
+    "y": 177081,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8768,
+    "betterMapId": "monster/mon_011_BP/-169254/177081/8768",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782106954506",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -168646,
+    "y": 178257,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 9538,
+    "betterMapId": "monster/mon_011_BP/-168646/178257/9538",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782106986248",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -168347.945267,
+    "y": 179487.265735,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8679.62733,
+    "betterMapId": "monster/mon_011_BP/-168347.945267/179487.26573499999/8679.6273299999993",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782107058582",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -168556.256194,
+    "y": 183961.748641,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8821.525921,
+    "betterMapId": "monster/mon_011_BP/-168556.25619399999/183961.74864100001/8821.5259210000004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782107218812",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -164586,
+    "y": 191620,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 9422,
+    "betterMapId": "monster/mon_011_BP/-164586/191620/9422",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782107260188",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -156763.608074,
+    "y": 192973.652277,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 9326.584435,
+    "betterMapId": "monster/mon_011_BP/-156763.60807399999/192973.65227699999/9326.5844350000007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782107303928",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -159481.036756,
+    "y": 188884.951409,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8761.052422,
+    "betterMapId": "monster/mon_011_BP/-159481.03675599999/188884.951409/8761.0524220000007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782107358815",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -156840,
+    "y": 183425,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8675,
+    "betterMapId": "monster/mon_011_BP/-156840/183425/8675",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782107431883",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -167533,
+    "y": 176789,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 10375,
+    "betterMapId": "monster/mon_011_BP/-167533/176789/10375",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782107451017",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -165353,
+    "y": 177667,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8673,
+    "betterMapId": "monster/mon_011_BP/-165353/177667/8673",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782107491920",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -172300,
+    "y": 178149,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8644,
+    "betterMapId": "monster/mon_011_BP/-172300/178149/8644",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782107509533",
+    "name": "花",
+    "types": [
+      "hug-vine"
+    ],
+    "district": "全地图",
+    "x": -175048,
+    "y": 179039,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8724,
+    "betterMapId": "monster/mon_011_BP/-175048/179039/8724",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_011_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

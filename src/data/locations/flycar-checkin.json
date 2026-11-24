@@ -1,0 +1,222 @@
+[
+  {
+    "id": "game-f82491837c22809ab916",
+    "name": "星沉湾沙滩",
+    "types": [
+      "flycar-checkin"
+    ],
+    "district": "泊暮区",
+    "description": "海的那边是什么？沙滩，白浪，以及闪闪发光的你。",
+    "tags": [],
+    "images": [],
+    "x": -263855.72,
+    "y": 153486.78,
+    "z": 3518.039,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00601",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00601",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-4317cb8bae26c863dead",
+    "name": "巨石之门",
+    "types": [
+      "flycar-checkin"
+    ],
+    "district": "泊暮区",
+    "description": "在另一条未知的世界线中，我只存在于某个人的记忆。",
+    "tags": [],
+    "images": [],
+    "x": -242572.75,
+    "y": 64299.004,
+    "z": 11298.455,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00602",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00602",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-befdd0081d981cb5dd9b",
+    "name": "长风谷",
+    "types": [
+      "flycar-checkin"
+    ],
+    "district": "泊暮区",
+    "description": "风今天吹过山谷， 明天还会继续吹过。",
+    "tags": [],
+    "images": [],
+    "x": -220096.48,
+    "y": 36351.613,
+    "z": 13462.517,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00603",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00603",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-d87b4ac8a9117f04d0ec",
+    "name": "獾爪螺旋高速",
+    "types": [
+      "flycar-checkin"
+    ],
+    "district": "泊暮区",
+    "description": "一圈圈攀升的不仅是载具，还有心情。",
+    "tags": [],
+    "images": [],
+    "x": -249481.52,
+    "y": 28215.695,
+    "z": 10877.207,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00604",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00604",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-55dce00ce9457408c565",
+    "name": "金花路瞭望台",
+    "types": [
+      "flycar-checkin"
+    ],
+    "district": "泊暮区",
+    "description": "远处还有更高的山。",
+    "tags": [],
+    "images": [],
+    "x": -242338.28,
+    "y": -176391.31,
+    "z": 19053.531,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00605",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00605",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-18b394f5ddcfd03ab1a3",
+    "name": "湖边便利店",
+    "types": [
+      "flycar-checkin"
+    ],
+    "district": "泊暮区",
+    "description": "来或不来，便利店就在那里。",
+    "tags": [],
+    "images": [],
+    "x": -290716.78,
+    "y": -83250.48,
+    "z": 12695.161,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00606",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00606",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-84e65c3ca42c3b36f192",
+    "name": "清坪水田",
+    "types": [
+      "flycar-checkin"
+    ],
+    "district": "泊暮区",
+    "description": "每株秧苗都会做收获的梦。",
+    "tags": [],
+    "images": [],
+    "x": -233196.48,
+    "y": -28809.63,
+    "z": 11207.893,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00607",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00607",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-12896c0f5a5b1687b73d",
+    "name": "浅水溪",
+    "types": [
+      "flycar-checkin"
+    ],
+    "district": "泊暮区",
+    "description": "耳饱溪声，目览秀色。",
+    "tags": [],
+    "images": [],
+    "x": -187518.47,
+    "y": -162869.53,
+    "z": 13324.835,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00608",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00608",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-5719040ce9ec69b7ee29",
+    "name": "夏阳花田",
+    "types": [
+      "flycar-checkin"
+    ],
+    "district": "泊暮区",
+    "description": "愿你的幸福像花一样怒放，灿烂如同夏日金阳。",
+    "tags": [],
+    "images": [],
+    "x": -215106.31,
+    "y": -175780.25,
+    "z": 14975.649,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00609",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00609",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-4cec18082dc24d959bc5",
+    "name": "白尾树九连弯",
+    "types": [
+      "flycar-checkin"
+    ],
+    "district": "泊暮区",
+    "description": "弯道过后，前路尽是坦途。",
+    "tags": [],
+    "images": [],
+    "x": -117301.375,
+    "y": -120062.96,
+    "z": 22049.404,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00610",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00610",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

@@ -1,0 +1,584 @@
+[
+  {
+    "id": "sidequest-019",
+    "name": "「幽灵车神」",
+    "types": [
+      "sidequest"
+    ],
+    "district": "米尔格",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -84684.64,
+    "y": 186.41977,
+    "z": 8431.711,
+    "gameDataId": "DT_QuestFixedMapIconData/K110001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "K110001",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-018",
+    "name": "「爱丽丝烘焙坊」",
+    "types": [
+      "sidequest"
+    ],
+    "district": "桥间地",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -90344,
+    "y": 164749,
+    "z": 4080,
+    "gameDataId": "DT_QuestFixedMapIconData/K110201",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "K110201",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-011",
+    "name": "归途",
+    "types": [
+      "sidequest"
+    ],
+    "district": "桥间地",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -109050,
+    "y": 169780,
+    "z": 6510,
+    "gameDataId": "DT_QuestFixedMapIconData/K110301",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "K110301",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-021",
+    "name": "给小书迷的礼物",
+    "types": [
+      "sidequest"
+    ],
+    "district": "米尔格",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -39328.242,
+    "y": 23329.246,
+    "z": 7723.0527,
+    "gameDataId": "DT_QuestFixedMapIconData/K110401",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "K110401",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-001",
+    "name": "异象失踪事件",
+    "types": [
+      "sidequest"
+    ],
+    "district": "桥间地",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -96141.375,
+    "y": 155777.53,
+    "z": 4573,
+    "gameDataId": "DT_QuestFixedMapIconData/S110101_b",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "S110101_b",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-014",
+    "name": "电话亭也颠倒？",
+    "types": [
+      "sidequest"
+    ],
+    "district": "桥间地",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -123653.59,
+    "y": 187291.48,
+    "z": 6699.677,
+    "gameDataId": "DT_QuestFixedMapIconData/S110201",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "S110201",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-006",
+    "name": "雨人",
+    "types": [
+      "sidequest"
+    ],
+    "district": "桥间地",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -150419.69,
+    "y": 163594.03,
+    "z": 7570.977,
+    "gameDataId": "DT_QuestFixedMapIconData/S110300",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "S110300",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-016",
+    "name": "唱片店",
+    "types": [
+      "sidequest"
+    ],
+    "district": "桥间地",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -83796.445,
+    "y": 164004.7,
+    "z": 3337.629,
+    "gameDataId": "DT_QuestFixedMapIconData/S110401",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "S110401",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-010",
+    "name": "「棉绒绒」之乱",
+    "types": [
+      "sidequest"
+    ],
+    "district": "桥间地",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -81956,
+    "y": 163574,
+    "z": 3325,
+    "gameDataId": "DT_QuestFixedMapIconData/S110501",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "S110501",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-017",
+    "name": "拜访艺术家",
+    "types": [
+      "sidequest"
+    ],
+    "district": "桥间地",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -129686.914,
+    "y": 152204.73,
+    "z": 6271.5376,
+    "gameDataId": "DT_QuestFixedMapIconData/S110602",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "S110602",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-002",
+    "name": "歧骸语专业译员",
+    "types": [
+      "sidequest"
+    ],
+    "district": "新赫兰德",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -31884.893,
+    "y": 47051.938,
+    "z": 7744.585,
+    "gameDataId": "DT_QuestFixedMapIconData/S110701",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "S110701",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-c8d745cc6b59338c19da",
+    "name": "幽灵列车的入场券",
+    "types": [
+      "sidequest"
+    ],
+    "district": "全地图",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [],
+    "images": [],
+    "x": -29552.969,
+    "y": -20946.295,
+    "z": -8851.627,
+    "gameDataId": "DT_QuestFixedMapIconData/S110831",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "S110831",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-020",
+    "name": "收……收集冷气？",
+    "types": [
+      "sidequest"
+    ],
+    "district": "米尔格",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -37834.133,
+    "y": 23312.285,
+    "z": 7723.0693,
+    "gameDataId": "DT_QuestFixedMapIconData/S111101",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "S111101",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-003",
+    "name": "开灯",
+    "types": [
+      "sidequest"
+    ],
+    "district": "新赫兰德",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 26183.898,
+    "y": 121236.84,
+    "z": 7020.64,
+    "gameDataId": "DT_QuestFixedMapIconData/S111201",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "S111201",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-005",
+    "name": "中古店的镜子",
+    "types": [
+      "sidequest"
+    ],
+    "district": "桥间地",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -91381.18,
+    "y": 162971.06,
+    "z": 4248.405,
+    "gameDataId": "DT_QuestFixedMapIconData/S111701_F",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "S111701_F",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-004",
+    "name": "第二盏灯",
+    "types": [
+      "sidequest"
+    ],
+    "district": "新赫兰德",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 26183.898,
+    "y": 121236.84,
+    "z": 7020.64,
+    "gameDataId": "DT_QuestFixedMapIconData/S111301",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "S111301",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-009",
+    "name": "热情的推销？",
+    "types": [
+      "sidequest"
+    ],
+    "district": "桥间地",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -127971,
+    "y": 188475,
+    "z": 6612,
+    "gameDataId": "DT_QuestFixedMapIconData/S111601",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "S111601",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-015",
+    "name": "新手摄影师",
+    "types": [
+      "sidequest"
+    ],
+    "district": "桥间地",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -79509.08,
+    "y": 158582.02,
+    "z": 3322.3164,
+    "gameDataId": "DT_QuestFixedMapIconData/WQ100101",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "WQ100101",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-007",
+    "name": "大自然的馈赠",
+    "types": [
+      "sidequest"
+    ],
+    "district": "桥间地",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -79509.08,
+    "y": 158582.02,
+    "z": 3322.3164,
+    "gameDataId": "DT_QuestFixedMapIconData/WQ100201",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "WQ100201",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "sidequest-013",
+    "name": "定格音乐",
+    "types": [
+      "sidequest"
+    ],
+    "district": "桥间地",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [
+      "探索度",
+      "支线任务",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -79509.08,
+    "y": 158582.02,
+    "z": 3322.3164,
+    "gameDataId": "DT_QuestFixedMapIconData/WQ100301",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "WQ100301",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-3fb1c88f2f85ed86be3d",
+    "name": "第一百位幸运儿",
+    "types": [
+      "sidequest"
+    ],
+    "district": "米尔格",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [],
+    "images": [],
+    "x": 18673.846,
+    "y": 20281.998,
+    "z": 7624.158,
+    "gameDataId": "DT_QuestFixedMapIconData/WQ100501",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "WQ100501",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-35f322210a9915f84b07",
+    "name": "囚笼里的新风",
+    "types": [
+      "sidequest"
+    ],
+    "district": "全地图",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [],
+    "images": [],
+    "x": 230450.39,
+    "y": 367452.72,
+    "z": 4110,
+    "gameDataId": "DT_QuestFixedMapIconData/WQ100401",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "WQ100401",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-cfc690b217b08a95a245",
+    "name": "跃动吧，夏日之心！",
+    "types": [
+      "sidequest"
+    ],
+    "district": "泊暮区",
+    "description": "支线任务标记位置；同一地点可能有不同阶段的任务，需要满足前置条件。",
+    "tags": [],
+    "images": [],
+    "x": -256319.52,
+    "y": 138608.19,
+    "z": 2634.0503,
+    "gameDataId": "DT_QuestFixedMapIconData/S130001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MiniMap/DT_QuestFixedMapIconData",
+      "rowId": "S130001",
+      "coordinateField": "OverrideLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

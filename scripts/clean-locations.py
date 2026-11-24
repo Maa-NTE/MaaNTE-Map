@@ -6,6 +6,8 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import os
+import tempfile
 from collections import Counter
 from pathlib import Path
 
@@ -92,7 +94,7 @@ AFFINE_DETERMINANT = MAP_X[0] * MAP_Y[1] - MAP_X[1] * MAP_Y[0]
 
 def normalized_coordinates(location: dict) -> dict:
     if isinstance(location.get("x"), (int, float)) and isinstance(location.get("y"), (int, float)):
-        return {"x": round(float(location["x"]), 3), "y": round(float(location["y"]), 3)}
+        return {"x": location["x"], "y": location["y"]}
     pixel_x = CALIBRATION["sourceWidth"] / 2 + float(location["lng"]) * 22
     pixel_y = CALIBRATION["sourceHeight"] / 2 - float(location["lat"]) * 22
     shifted_x = pixel_x - MAP_X[2]
@@ -171,12 +173,19 @@ def clean_snapshot(source_path: Path) -> dict:
 
 def clean_local_data(source_path: Path) -> dict:
     source = json.loads(source_path.read_text(encoding="utf-8"))
+    if "locationFiles" in source:
+        source["locations"] = []
+        for filename in source["locationFiles"]:
+            if not re.fullmatch(r"locations/[a-z0-9][a-z0-9_-]{0,79}\.json", filename):
+                raise ValueError(f"Invalid location filename: {filename}")
+            source["locations"].extend(json.loads((source_path.parent / filename).read_text(encoding="utf-8")))
     categories = [
         {
             "id": category["id"],
             "group": category["group"],
             "label": category["label"],
             "icon": category["icon"],
+            **({"iconUrl": category["iconUrl"]} if "iconUrl" in category else {}),
             "color": category["color"],
             "isDefault": bool(category.get("isDefault")),
             "isHidden": bool(category.get("isHidden")),
@@ -190,6 +199,10 @@ def clean_local_data(source_path: Path) -> dict:
             "types": location["types"],
             "district": location.get("district", "全地图"),
             **normalized_coordinates(location),
+            **({"z": location["z"]} if "z" in location else {}),
+            **({"betterMapId": location["betterMapId"]} if "betterMapId" in location else {}),
+            **({"gameDataId": location["gameDataId"]} if "gameDataId" in location else {}),
+            **({"source": location["source"]} if "source" in location else {}),
             "description": location.get("description", ""),
             "tags": location.get("tags", []),
             "images": location.get("images", []),
@@ -198,11 +211,24 @@ def clean_local_data(source_path: Path) -> dict:
     ]
     return {
         "version": 2,
-        "map": MAP_CONFIG,
+        "map": source.get("map", MAP_CONFIG),
         "categories": categories,
         "locations": locations,
         "routes": source.get("routes", []),
+        **({"locationFiles": source["locationFiles"]} if "locationFiles" in source else {}),
     }
+
+
+def write_json(path: Path, value: object) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    descriptor, temporary = tempfile.mkstemp(dir=path.parent, suffix=".tmp")
+    try:
+        with os.fdopen(descriptor, "w", encoding="utf-8", newline="\n") as handle:
+            handle.write(json.dumps(value, ensure_ascii=False, indent=2) + "\n")
+        os.replace(temporary, path)
+    finally:
+        if os.path.exists(temporary):
+            os.unlink(temporary)
 
 
 def main() -> None:
@@ -222,11 +248,19 @@ def main() -> None:
     args = parser.parse_args()
 
     cleaned = clean_local_data(args.input) if args.input.suffix == ".json" else clean_snapshot(args.input)
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(
-        json.dumps(cleaned, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    if "locationFiles" in cleaned:
+        files = {filename: [] for filename in cleaned["locationFiles"]}
+        for location in cleaned["locations"]:
+            category = location["types"][0]
+            if not re.fullmatch(r"[a-z0-9][a-z0-9_-]{0,79}", category):
+                raise ValueError(f"Invalid location category: {category}")
+            files.setdefault(f"locations/{category}.json", []).append(location)
+        cleaned["locationFiles"] = sorted(files)
+        for filename, locations in files.items():
+            write_json(args.output.parent / filename, locations)
+        write_json(args.output, {key: value for key, value in cleaned.items() if key != "locations"})
+    else:
+        write_json(args.output, cleaned)
     print(
         f"Wrote {len(cleaned['locations'])} locations and "
         f"{len(cleaned['categories'])} categories to {args.output}"

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "teleport-weeklyclone_boss26",
+    "name": "讨债人",
+    "types": [
+      "boss-26"
+    ],
+    "district": "全地图",
+    "description": "异象巡礼入口",
+    "tags": [
+      "传送点",
+      "异象巡礼",
+      "讨债人"
+    ],
+    "images": [],
+    "x": 39715.727,
+    "y": -12978.594,
+    "z": 8181.094,
+    "gameDataId": "DT_TeleportPoint/WeeklyClone_Boss26",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "WeeklyClone_Boss26",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

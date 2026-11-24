@@ -1,0 +1,466 @@
+[
+  {
+    "id": "game-2fbde3724b2720b258b8",
+    "name": "电话亭",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "全地图",
+    "description": "传送点 · 电话亭",
+    "tags": [],
+    "images": [],
+    "x": 4002.999,
+    "y": 260999.62,
+    "z": 7122,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00001",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-010",
+    "name": "电话亭 #010",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "桥间地",
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": -91137.586,
+    "y": 153176.33,
+    "z": 4076,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00101",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00101",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-012",
+    "name": "电话亭 #012",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "桥间地",
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": -123430,
+    "y": 153690,
+    "z": 6603,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00102",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00102",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-013",
+    "name": "电话亭 #013",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "未闻浦",
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": -135274.78,
+    "y": 200707.36,
+    "z": 11425,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00201",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00201",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-011",
+    "name": "电话亭 #011",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "绘空町",
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": -152550,
+    "y": 128914,
+    "z": 6720,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00301",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00301",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-009",
+    "name": "电话亭 #009",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "绘空町",
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": -102836.61,
+    "y": 66336.62,
+    "z": 6714,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00302",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00302",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-007",
+    "name": "电话亭 #007",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "米尔格",
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": -81535.125,
+    "y": -15737.951,
+    "z": 9809,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00401",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00401",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-005",
+    "name": "电话亭 #005",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "米尔格",
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": -18738.71,
+    "y": 39748.168,
+    "z": 7640,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00402",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00402",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-006",
+    "name": "电话亭 #006",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "米尔格",
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": 13070,
+    "y": 20005,
+    "z": 7652,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00403",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00403",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-008",
+    "name": "电话亭 #008",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "新赫兰德",
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": -58843.703,
+    "y": 84450.836,
+    "z": 2581,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00501",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00501",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-001",
+    "name": "电话亭 #001",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "新赫兰德",
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": 40423,
+    "y": 102071,
+    "z": 9628,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00502",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00502",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-003",
+    "name": "电话亭 #003",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "新赫兰德",
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": -9813.496,
+    "y": 124269.89,
+    "z": 33554.99,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00503",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00503",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-002",
+    "name": "电话亭 #002",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "新赫兰德",
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": 13545,
+    "y": 121325,
+    "z": 6344,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00504",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00504",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-004",
+    "name": "电话亭 #004",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "新赫兰德",
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "x": -11354.659,
+    "y": 74277.586,
+    "z": 6324,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00505",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00505",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-006-01",
+    "name": "电话亭 泊暮区 #01",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "泊暮区",
+    "x": -231586.83,
+    "y": -42692.402,
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "z": 11061.109,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00601",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00601",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-006-02",
+    "name": "电话亭 泊暮区 #02",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "泊暮区",
+    "x": -244990.42,
+    "y": -180786.78,
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "z": 18853.1,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00602",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00602",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-006-03",
+    "name": "电话亭 泊暮区 #03",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "泊暮区",
+    "x": -140192.4,
+    "y": -105613.18,
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "z": 14024.647,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00603",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00603",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "phonebooth-015",
+    "name": "电话亭 #015",
+    "types": [
+      "phonebooth"
+    ],
+    "district": "向阳岛",
+    "x": -263295,
+    "y": 351465,
+    "description": "传送点 · 电话亭",
+    "tags": [
+      "传送点",
+      "电话亭",
+      "全地图"
+    ],
+    "images": [],
+    "z": 3233,
+    "gameDataId": "DT_TeleportPoint/MapTransfer_00901",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "MapTransfer_00901",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

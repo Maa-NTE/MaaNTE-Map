@@ -1,7 +1,8 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
-import { createHash, randomUUID } from 'node:crypto'
+import { createHash } from 'node:crypto'
 import { unzipSync } from 'fflate'
+import { readMapData, writeMapData } from './lib/map-data-store.mjs'
 
 const DEFAULT_TARGET_FILE = path.resolve('src/data/map-data.json')
 const DEFAULT_ASSETS_DIR = path.resolve('public/images/locations')
@@ -61,6 +62,7 @@ function parseArgs(argv) {
 function printHelp() {
   console.log(`Usage:
   npm run merge:locations -- <location-changes.json|location-changes.zip>
+  npm run merge:locations -- output/imports/bettermap
   npm run merge:locations -- C:/Users/owo/Downloads/点位.json
   npm run merge:locations -- C:/Users/owo/Downloads/点位.zip
   npm run merge:locations -- output/imports/nte-location-changes.json --dry-run
@@ -210,6 +212,7 @@ function hasZipSignature(data) {
 async function readChangesSource(filePath) {
   const sourceLabel = relative(filePath)
   const sourceStat = await fs.stat(filePath)
+  if (sourceStat.isDirectory()) return readChangesIndex(path.join(filePath, 'index.json'))
   if (!sourceStat.isFile()) throw new Error(`Source is not a file: ${sourceLabel}`)
   const sourceHandle = await fs.open(filePath, 'r')
   const signatureBuffer = Buffer.alloc(4)
@@ -223,7 +226,8 @@ async function readChangesSource(filePath) {
   if (sourceStat.size > sizeLimit) throw new Error(`Source exceeds the size limit: ${sourceLabel}`)
   const data = await fs.readFile(filePath)
   if (!isZip) {
-    return { changes: parseJson(data, sourceLabel), bundle: null }
+    const changes = parseJson(data, sourceLabel)
+    return changes.type === 'location-changes-index' ? readChangesIndex(filePath) : { changes, bundle: null }
   }
   if (data.length > MAX_BUNDLE_BYTES) throw new Error(`ZIP bundle exceeds the size limit: ${sourceLabel}`)
 
@@ -253,6 +257,25 @@ async function readChangesSource(filePath) {
     changes: parseJson(files[BUNDLE_MANIFEST_PATH], `${sourceLabel}:${BUNDLE_MANIFEST_PATH}`),
     bundle: { entries, files },
   }
+}
+
+async function readChangesIndex(filePath) {
+  const index = await readJson(filePath)
+  if (index.type !== 'location-changes-index' || index.version !== 1 || !Array.isArray(index.files)
+    || new Set(index.files).size !== index.files.length
+    || index.files.some((file) => typeof file !== 'string' || !/^[a-z0-9][a-z0-9_-]{0,79}\.json$/.test(file) || file === 'index.json')) {
+    throw new Error('Invalid categorized location changes index.')
+  }
+  const changes = { version: 1, type: 'location-changes', categories: [], upsertLocations: [], deletedLocationIds: [] }
+  for (const file of index.files) {
+    const category = await readJson(path.join(path.dirname(filePath), file))
+    validateChanges(category)
+    if ((category.imageAssets || []).length) throw new Error('Categorized JSON changes cannot contain bundled images.')
+    changes.categories.push(...(category.categories || []))
+    changes.upsertLocations.push(...(category.upsertLocations || []))
+    changes.deletedLocationIds.push(...(category.deletedLocationIds || []))
+  }
+  return { changes, bundle: null }
 }
 
 function assertArray(value, name) {
@@ -564,22 +587,6 @@ async function writeAssets(assetPlan) {
   return written
 }
 
-async function writeJsonAtomically(filePath, value) {
-  const temporaryPath = `${filePath}.${process.pid}-${randomUUID()}.tmp`
-  let handle
-  try {
-    handle = await fs.open(temporaryPath, 'wx')
-    await handle.writeFile(`${JSON.stringify(value, null, 2)}\n`, 'utf8')
-    await handle.sync()
-    await handle.close()
-    handle = null
-    await fs.rename(temporaryPath, filePath)
-  } finally {
-    if (handle) await handle.close().catch(() => {})
-    await fs.rm(temporaryPath, { force: true })
-  }
-}
-
 function findReplacementCharacters(value, pathParts = []) {
   if (typeof value === 'string') {
     return value.includes('\uFFFD') ? [pathParts.join('.') || '$'] : []
@@ -668,7 +675,7 @@ function validateTypeReferences(mapData) {
 
 async function main() {
   const options = parseArgs(process.argv.slice(2))
-  const mapData = await readJson(options.targetFile)
+  const mapData = readMapData(options.targetFile)
   const { changes, bundle } = await readChangesSource(options.sourceFile)
 
   validateMapData(mapData)
@@ -715,9 +722,11 @@ async function main() {
   if (!options.dryRun) {
     const writtenAssets = await writeAssets(assetPlan)
     try {
-      await writeJsonAtomically(options.targetFile, mapData)
+      writeMapData(options.targetFile, mapData)
     } catch (error) {
-      await Promise.allSettled(writtenAssets.map((filePath) => fs.rm(filePath, { force: true })))
+      if (!error.mapDataMayHaveChanged) {
+        await Promise.allSettled(writtenAssets.map((filePath) => fs.rm(filePath, { force: true })))
+      }
       throw error
     }
   }

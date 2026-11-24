@@ -1,0 +1,236 @@
+[
+  {
+    "id": "dream-001",
+    "name": "流梦种 #001",
+    "types": [
+      "dream"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 流梦种",
+    "tags": [
+      "怪物",
+      "流梦种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -130050,
+    "y": 229360,
+    "z": 2530,
+    "betterMapId": "monster/mon_033_BP/-130050/229360/2530",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_033_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "dream-002",
+    "name": "流梦种 #002",
+    "types": [
+      "dream"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 流梦种",
+    "tags": [
+      "怪物",
+      "流梦种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -61295.761626,
+    "y": -7686.108629,
+    "z": 7827.319747,
+    "betterMapId": "monster/mon_033_BP/-61295.761626/-7686.1086290000003/7827.3197469999996",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_033_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "dream-003",
+    "name": "流梦种 #003",
+    "types": [
+      "dream"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 流梦种",
+    "tags": [
+      "怪物",
+      "流梦种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -79246.084796,
+    "y": 13379.642356,
+    "z": 7663,
+    "betterMapId": "monster/mon_033_BP/-79246.084795999996/13379.642356/7663",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_033_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "dream-004",
+    "name": "流梦种 #004",
+    "types": [
+      "dream"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 流梦种",
+    "tags": [
+      "怪物",
+      "流梦种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -74891.448035,
+    "y": 16725.29707,
+    "z": 7757.065439,
+    "betterMapId": "monster/mon_033_BP/-74891.448034999994/16725.297070000001/7757.065439",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_033_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "dream-005",
+    "name": "流梦种 #005",
+    "types": [
+      "dream"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 流梦种",
+    "tags": [
+      "怪物",
+      "流梦种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -170090,
+    "y": 233960,
+    "z": 2772.132566,
+    "betterMapId": "monster/mon_033_BP/-170090/233960/2772.1325660000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_033_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "dream-006",
+    "name": "流梦种 #006",
+    "types": [
+      "dream"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 流梦种",
+    "tags": [
+      "怪物",
+      "流梦种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -127815.502503,
+    "y": 115462.370999,
+    "z": 7225,
+    "betterMapId": "monster/mon_033_BP/-127815.502503/115462.37099900001/7225",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_033_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "dream-007",
+    "name": "流梦种 #007",
+    "types": [
+      "dream"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 流梦种",
+    "tags": [
+      "怪物",
+      "流梦种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -45528.783922,
+    "y": 150897.552566,
+    "z": 2744,
+    "betterMapId": "monster/mon_033_BP/-45528.783922000002/150897.552566/2744",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_033_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "dream-008",
+    "name": "流梦种 #008",
+    "types": [
+      "dream"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 流梦种",
+    "tags": [
+      "怪物",
+      "流梦种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -192640,
+    "y": 170430,
+    "z": 2860,
+    "betterMapId": "monster/mon_033_BP/-192640/170430/2860",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_033_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "dream-009",
+    "name": "流梦种 #009",
+    "types": [
+      "dream"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 流梦种",
+    "tags": [
+      "怪物",
+      "流梦种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -180195.624564,
+    "y": 155371.455279,
+    "z": 2284.475681,
+    "betterMapId": "monster/mon_033_BP/-180195.624564/155371.45527899999/2284.4756809999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_033_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

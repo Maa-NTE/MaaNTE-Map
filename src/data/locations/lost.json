@@ -1,0 +1,284 @@
+[
+  {
+    "id": "lost-001",
+    "name": "迷失种 #001",
+    "types": [
+      "lost"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 迷失种",
+    "tags": [
+      "怪物",
+      "迷失种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -168666,
+    "y": 114021,
+    "z": 7409,
+    "betterMapId": "monster/mon_04_BP/-168666/114021/7409",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_04_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "lost-002",
+    "name": "迷失种 #002",
+    "types": [
+      "lost"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 迷失种",
+    "tags": [
+      "怪物",
+      "迷失种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -177175,
+    "y": 139895,
+    "z": 6965,
+    "betterMapId": "monster/mon_04_BP/-177175/139895/6965",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_04_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "lost-003",
+    "name": "迷失种 #003",
+    "types": [
+      "lost"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 迷失种",
+    "tags": [
+      "怪物",
+      "迷失种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -135441.640428,
+    "y": 142533.413785,
+    "z": 6941.448106,
+    "betterMapId": "monster/mon_04_BP/-135441.64042800001/142533.41378500001/6941.4481059999998",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_04_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "lost-004",
+    "name": "迷失种 #004",
+    "types": [
+      "lost"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 迷失种",
+    "tags": [
+      "怪物",
+      "迷失种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -133458.038237,
+    "y": 211422.569975,
+    "z": 10113.246629,
+    "betterMapId": "monster/mon_04_BP/-133458.038237/211422.56997499999/10113.246628999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_04_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "lost-005",
+    "name": "迷失种 #005",
+    "types": [
+      "lost"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 迷失种",
+    "tags": [
+      "怪物",
+      "迷失种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -107234,
+    "y": 178261,
+    "z": 6219,
+    "betterMapId": "monster/mon_04_BP/-107234/178261/6219",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_04_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "lost-006",
+    "name": "迷失种 #006",
+    "types": [
+      "lost"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 迷失种",
+    "tags": [
+      "怪物",
+      "迷失种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -100923,
+    "y": 149597,
+    "z": 7489,
+    "betterMapId": "monster/mon_04_BP/-100923/149597/7489",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_04_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "lost-007",
+    "name": "迷失种 #007",
+    "types": [
+      "lost"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 迷失种",
+    "tags": [
+      "怪物",
+      "迷失种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -94502.814773,
+    "y": 152377.421147,
+    "z": 4640,
+    "betterMapId": "monster/mon_04_BP/-94502.814773000006/152377.42114699999/4640",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_04_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "lost-008",
+    "name": "迷失种 #008",
+    "types": [
+      "lost"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 迷失种",
+    "tags": [
+      "怪物",
+      "迷失种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -88395.105808,
+    "y": 79649.184648,
+    "z": 4606,
+    "betterMapId": "monster/mon_04_BP/-88395.105807999993/79649.184647999995/4606",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_04_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "lost-009",
+    "name": "迷失种 #009",
+    "types": [
+      "lost"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 迷失种",
+    "tags": [
+      "怪物",
+      "迷失种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -35904.263821,
+    "y": 70967.986935,
+    "z": 6463.927028,
+    "betterMapId": "monster/mon_04_BP/-35904.263821/70967.986934999994/6463.9270280000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_04_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "lost-010",
+    "name": "迷失种 #010",
+    "types": [
+      "lost"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 迷失种",
+    "tags": [
+      "怪物",
+      "迷失种",
+      "全地图"
+    ],
+    "images": [],
+    "x": -6052.812354,
+    "y": 134729.236286,
+    "z": 6327.885912,
+    "betterMapId": "monster/mon_04_BP/-6052.8123539999997/134729.236286/6327.8859119999997",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_04_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-0b09db62c39fcff731aa",
+    "name": "迷失种 · mon_04_BP",
+    "types": [
+      "lost"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": 13096.338115,
+    "y": 61150.553148,
+    "z": 7251.221253,
+    "betterMapId": "monster/mon_04_BP/13096.338115/61150.553147999999/7251.2212529999997",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_04_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

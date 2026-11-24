@@ -1,0 +1,28 @@
+[
+  {
+    "id": "teleport-weeklyclone_boss36",
+    "name": "贵腐巢母",
+    "types": [
+      "boss-36"
+    ],
+    "district": "全地图",
+    "description": "异象巡礼入口",
+    "tags": [
+      "传送点",
+      "异象巡礼",
+      "贵腐巢母"
+    ],
+    "images": [],
+    "x": -225455,
+    "y": 95841.06,
+    "z": 9390,
+    "gameDataId": "DT_TeleportPoint/WeeklyClone_Boss36",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "WeeklyClone_Boss36",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

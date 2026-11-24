@@ -1,0 +1,996 @@
+[
+  {
+    "id": "checkin-032",
+    "name": "伊波恩古董店",
+    "types": [
+      "checkin"
+    ],
+    "district": "桥间地",
+    "description": "总有一天你会渴望回到这里。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -90500,
+    "y": 153050,
+    "z": 4079.5,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00101",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00101",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-030",
+    "name": "桥间地商业区",
+    "types": [
+      "checkin"
+    ],
+    "district": "桥间地",
+    "description": "桥间地最繁华的街口，闲逛的好去处。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -130000,
+    "y": 163210,
+    "z": 7307,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00102",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00102",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-033",
+    "name": "斯特利速递",
+    "types": [
+      "checkin"
+    ],
+    "district": "桥间地",
+    "description": "「只要钱到位，什么都能送！」",
+    "tags": [
+      "探索度",
+      "打卡",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -112370,
+    "y": 155230,
+    "z": 5807,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00103",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00103",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-035",
+    "name": "绿墙坡观景台",
+    "types": [
+      "checkin"
+    ],
+    "district": "桥间地",
+    "description": "将桥间地收入眼中。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -93430,
+    "y": 132595,
+    "z": 9180,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00104",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00104",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-034",
+    "name": "魔女之家",
+    "types": [
+      "checkin"
+    ],
+    "district": "桥间地",
+    "description": "笼中鸟透过水晶，窥视你的命运。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -100800.5,
+    "y": 173865,
+    "z": 5461.5,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00105",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00105",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-031",
+    "name": "新越车行",
+    "types": [
+      "checkin"
+    ],
+    "district": "桥间地",
+    "description": "年轻人的第一辆代步车，就选新越。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -133480,
+    "y": 173650,
+    "z": 6620,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00106",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00106",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-025",
+    "name": "汽车影院",
+    "types": [
+      "checkin"
+    ],
+    "district": "未闻浦",
+    "description": "没有座位的露天影院，记得开车或自备板凳。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -140070,
+    "y": 204660,
+    "z": 10200,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00201",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00201",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-027",
+    "name": "湛望露营地",
+    "types": [
+      "checkin"
+    ],
+    "district": "未闻浦",
+    "description": "山的终点，海的起点。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -152475,
+    "y": 225575,
+    "z": 11513,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00202",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00202",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-026",
+    "name": "未闻浦站台",
+    "types": [
+      "checkin"
+    ],
+    "district": "未闻浦",
+    "description": "骗你的，我们不去世界尽头。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -147965,
+    "y": 241025,
+    "z": 2466,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00203",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00203",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-028",
+    "name": "奥利哈刚「理想馆」",
+    "types": [
+      "checkin"
+    ],
+    "district": "未闻浦",
+    "description": "穹顶以下，海平面以上，在此之间是众人的欢呼。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -188206,
+    "y": 213087,
+    "z": 17630,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00204",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00204",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-029",
+    "name": "塞润尼缇庄园",
+    "types": [
+      "checkin"
+    ],
+    "district": "未闻浦",
+    "description": "如今，丛生的草木才是这里的主人。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -160315,
+    "y": 185390,
+    "z": 8357,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00205",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00205",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-023",
+    "name": "纳库佩达许愿池",
+    "types": [
+      "checkin"
+    ],
+    "district": "绘空町",
+    "description": "你的愿望，纳库佩达已经听到了。至于能不能实现……就看你自己的「期望」有多强了！",
+    "tags": [
+      "探索度",
+      "打卡",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -150825,
+    "y": 150425,
+    "z": 6650.5,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00301",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00301",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-019",
+    "name": "玉饼街街口",
+    "types": [
+      "checkin"
+    ],
+    "district": "绘空町",
+    "description": "平凡的街道上洋溢着简单的幸福。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -166765,
+    "y": 111135,
+    "z": 7107,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00302",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00302",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-021",
+    "name": "克莱门学园大门",
+    "types": [
+      "checkin"
+    ],
+    "district": "绘空町",
+    "description": "无关人员禁止入内；学生不得擅自外出。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -152725,
+    "y": 105735,
+    "z": 7107,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00303",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00303",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-024",
+    "name": "折千市场入口",
+    "types": [
+      "checkin"
+    ],
+    "district": "绘空町",
+    "description": "全海特洛最实惠的市场，希望你省下的钱能比来这儿的路费多。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -116395,
+    "y": 67685,
+    "z": 7368,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00304",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00304",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-020",
+    "name": "落雨庭",
+    "types": [
+      "checkin"
+    ],
+    "district": "绘空町",
+    "description": "雨从亭檐落下的时候，你在想什么？",
+    "tags": [
+      "探索度",
+      "打卡",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -135190,
+    "y": 117020,
+    "z": 6760,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00305",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00305",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-022",
+    "name": "海特洛市立医院",
+    "types": [
+      "checkin"
+    ],
+    "district": "绘空町",
+    "description": "海特洛规模最大的医院，市民健康的坚固防线。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -152750,
+    "y": 135235,
+    "z": 6719,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00306",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00306",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-007",
+    "name": "银杏街街头",
+    "types": [
+      "checkin"
+    ],
+    "district": "米尔格",
+    "description": "踏入银杏街，逃离世界。记得回家吃饭。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -80840,
+    "y": 43210,
+    "z": 7710,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00401",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00401",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-008",
+    "name": "诺提克桥畔",
+    "types": [
+      "checkin"
+    ],
+    "district": "米尔格",
+    "description": "当你看向对面的桥，那儿的人也在对面看你。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -40270,
+    "y": 36495,
+    "z": 7715,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00402",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00402",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-001",
+    "name": "上晴塔顶",
+    "types": [
+      "checkin"
+    ],
+    "district": "米尔格",
+    "description": "穿过云层，就会发现永远都是晴天。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 26813,
+    "y": 43305,
+    "z": 52638,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00403",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00403",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-003",
+    "name": "谷仓街边",
+    "types": [
+      "checkin"
+    ],
+    "district": "米尔格",
+    "description": "有些熟悉的氛围，令人安心的宁静。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 16500,
+    "y": 20255,
+    "z": 7613,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00404",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00404",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-004",
+    "name": "粉玉",
+    "types": [
+      "checkin"
+    ],
+    "district": "米尔格",
+    "description": "永恒的春天。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 10110,
+    "y": 6440,
+    "z": 8995,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00405",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00405",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-005",
+    "name": "水菱湖畔",
+    "types": [
+      "checkin"
+    ],
+    "district": "米尔格",
+    "description": "在内陆城市中，湖经常被视为海的替代品。幸好这里是海特洛，水菱湖就是它自己。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -45460,
+    "y": 7670,
+    "z": 7250,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00406",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00406",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-006",
+    "name": "北角镇街头",
+    "types": [
+      "checkin"
+    ],
+    "district": "米尔格",
+    "description": "依山傍水的两座小镇当中，住户更多的一座。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -47080,
+    "y": -8750,
+    "z": 7800,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00407",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00407",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-002",
+    "name": "摇曳镇街头",
+    "types": [
+      "checkin"
+    ],
+    "district": "米尔格",
+    "description": "依山傍水的两座小镇当中，店铺更多的一座。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -85745,
+    "y": 4995,
+    "z": 8421,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00408",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00408",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-009",
+    "name": "TerraX车行",
+    "types": [
+      "checkin"
+    ],
+    "district": "米尔格",
+    "description": "神秘探险家「铁骑士」建立的汽车品牌，深受硬核玩家青睐。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -51815,
+    "y": 46330,
+    "z": 7700,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00409",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00409",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-011",
+    "name": "星渚游艇码头",
+    "types": [
+      "checkin"
+    ],
+    "district": "新赫兰德",
+    "description": "一片没有风浪的海，船只和游人的寝床。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -65730,
+    "y": 89060,
+    "z": 2580,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00501",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00501",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-013",
+    "name": "新赫兰德中心",
+    "types": [
+      "checkin"
+    ],
+    "district": "新赫兰德",
+    "description": "条条大路通此处。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -5330,
+    "y": 99870,
+    "z": 6306,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00502",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00502",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-017",
+    "name": "迈达斯科技大厦",
+    "types": [
+      "checkin"
+    ],
+    "district": "新赫兰德",
+    "description": "请传授给我——不用咻啪也能从顶楼下来的方法。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -14270,
+    "y": 122555,
+    "z": 6334,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00503",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00503",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-018",
+    "name": "海角广场",
+    "types": [
+      "checkin"
+    ],
+    "district": "新赫兰德",
+    "description": "一颗巨蛋；然而其中是已孵化的梦想。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 7320,
+    "y": 139560,
+    "z": 6114.5,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00504",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00504",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-015",
+    "name": "金苹果藏馆",
+    "types": [
+      "checkin"
+    ],
+    "district": "新赫兰德",
+    "description": "在这里，传说中的金苹果也算不上罕见的物什。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 19105,
+    "y": 120875,
+    "z": 6300,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00505",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00505",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-014",
+    "name": "愿木坡许愿树",
+    "types": [
+      "checkin"
+    ],
+    "district": "新赫兰德",
+    "description": "你登高时的愿望是能看到这棵树；现在你看到它了。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 52410,
+    "y": 108975,
+    "z": 12987,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00506",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00506",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-012",
+    "name": "华彩街入口",
+    "types": [
+      "checkin"
+    ],
+    "district": "新赫兰德",
+    "description": "经检测，新赫兰德的烟火气中不含任何油烟成分。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 24480,
+    "y": 71355,
+    "z": 6311,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00507",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00507",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "checkin-016",
+    "name": "雷加利亚车行",
+    "types": [
+      "checkin"
+    ],
+    "district": "新赫兰德",
+    "description": "拥有一辆雷加利亚，就拥有了一切你想去的地方。",
+    "tags": [
+      "探索度",
+      "打卡",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 8175,
+    "y": 126800,
+    "z": 6350,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00508",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00508",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-f36a3e29b71c131bd639",
+    "name": "鹦鹉螺隧道",
+    "types": [
+      "checkin"
+    ],
+    "district": "新赫兰德",
+    "description": "怀念几亿年前，那时我们不需要修建通路，就能在海底穿梭自如。",
+    "tags": [],
+    "images": [],
+    "x": -59690,
+    "y": 177045,
+    "z": -744,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00509",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00509",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-82338b0e383a671220fd",
+    "name": "游船码头",
+    "types": [
+      "checkin"
+    ],
+    "district": "向阳岛",
+    "description": "游船停靠的地方，来岛的第一站。栈桥不长，但视野开阔，船靠岸时正好看见一整片海。",
+    "tags": [],
+    "images": [],
+    "x": -256100,
+    "y": 344600,
+    "z": 2500,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00901",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00901",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-9eaa1a71083f85e046c6",
+    "name": "一意向阳",
+    "types": [
+      "checkin"
+    ],
+    "district": "向阳岛",
+    "description": "异象福利院，人们来这里观光了解异象，或是担保异象。环境优雅，设施齐全。周末常有父母带孩子来参观。",
+    "tags": [],
+    "images": [],
+    "x": -267650,
+    "y": 358500,
+    "z": 4100,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00902",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00902",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-b38a17ed6237459ec44f",
+    "name": "月见塔",
+    "types": [
+      "checkin"
+    ],
+    "district": "向阳岛",
+    "description": "这里是岛的最高处。月见塔历史悠久，坍塌废弃多年，于近年重新修葺。过去的岛民爱在这里观星赏月，说是离天近，许愿灵。",
+    "tags": [],
+    "images": [],
+    "x": -247480,
+    "y": 362220,
+    "z": 7950,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00903",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00903",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-83fb94428a1591e27dad",
+    "name": "拱门湾",
+    "types": [
+      "checkin"
+    ],
+    "district": "向阳岛",
+    "description": "一座天然石拱门立在湾口，里头搁着一艘旧船。船已破旧不堪，没人知道它在那里多久了。",
+    "tags": [],
+    "images": [],
+    "x": -271450,
+    "y": 374900,
+    "z": 3130,
+    "gameDataId": "DT_MapExploreViewPointConfig/WP_00904",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/MapExplore/DT_MapExploreViewPointConfig",
+      "rowId": "WP_00904",
+      "coordinateField": "IconTransform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "cardboard-castle-001",
+    "name": "瓦楞城堡 #001",
+    "types": [
+      "cardboard-castle"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 瓦楞城堡",
+    "tags": [
+      "怪物",
+      "瓦楞城堡",
+      "全地图"
+    ],
+    "images": [],
+    "x": -51448.815112,
+    "y": 47714.03753,
+    "z": 13358.185417,
+    "betterMapId": "monster/mon_048_BP/-51448.815111999997/47714.037530000001/13358.185417000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_048_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "cardboard-castle-002",
+    "name": "瓦楞城堡 #002",
+    "types": [
+      "cardboard-castle"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 瓦楞城堡",
+    "tags": [
+      "怪物",
+      "瓦楞城堡",
+      "全地图"
+    ],
+    "images": [],
+    "x": -13531.607993,
+    "y": 110083.166656,
+    "z": 12189.246623,
+    "betterMapId": "monster/mon_048_BP/-13531.607993/110083.166656/12189.246623000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_048_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "cardboard-castle-003",
+    "name": "瓦楞城堡 #003",
+    "types": [
+      "cardboard-castle"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 瓦楞城堡",
+    "tags": [
+      "怪物",
+      "瓦楞城堡",
+      "全地图"
+    ],
+    "images": [],
+    "x": -126782,
+    "y": 76776,
+    "z": 9102,
+    "betterMapId": "monster/mon_048_BP/-126782/76776/9102",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_048_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

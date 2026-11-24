@@ -1,0 +1,344 @@
+[
+  {
+    "id": "cotton-001",
+    "name": "棉绒绒 #001",
+    "types": [
+      "cotton"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 棉绒绒",
+    "tags": [
+      "怪物",
+      "棉绒绒",
+      "全地图"
+    ],
+    "images": [],
+    "x": -113806.476355,
+    "y": 194048.293721,
+    "z": 4190.818276,
+    "betterMapId": "monster/mon_018_BP/-113806.47635500001/194048.29372099999/4190.818276",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_018_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "cotton-002",
+    "name": "棉绒绒 #002",
+    "types": [
+      "cotton"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 棉绒绒",
+    "tags": [
+      "怪物",
+      "棉绒绒",
+      "全地图"
+    ],
+    "images": [],
+    "x": -151730,
+    "y": 175890,
+    "z": 7980,
+    "betterMapId": "monster/mon_018_BP/-151730/175890/7980",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_018_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "cotton-003",
+    "name": "棉绒绒 #003",
+    "types": [
+      "cotton"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 棉绒绒",
+    "tags": [
+      "怪物",
+      "棉绒绒",
+      "全地图"
+    ],
+    "images": [],
+    "x": 39629.734778,
+    "y": 64770.92258,
+    "z": 5084.320115,
+    "betterMapId": "monster/mon_018_BP/39629.734777999998/64770.922579999999/5084.3201150000004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_018_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782102984224",
+    "name": "棉绒绒",
+    "types": [
+      "cotton"
+    ],
+    "district": "全地图",
+    "x": -156347.67606,
+    "y": 90301.157573,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8490.000104,
+    "betterMapId": "monster/mon_018_BP/-156347.67606/90301.157573000004/8490.0001040000006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_018_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-41172a542175a87cbfb3",
+    "name": "棉绒绒 · mon_018_BP",
+    "types": [
+      "cotton"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -24841.804874,
+    "y": 121816.372663,
+    "z": 6528,
+    "betterMapId": "monster/mon_018_BP/-24841.804874000001/121816.372663/6528",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_018_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-8f12149ea9e6a1006f59",
+    "name": "棉绒绒 · mon_018_BP",
+    "types": [
+      "cotton"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -133515.625244,
+    "y": 73517.28187,
+    "z": 8490.000104,
+    "betterMapId": "monster/mon_018_BP/-133515.625244/73517.281870000006/8490.0001040000006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_018_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-719e7a8e77b5b64d5dea",
+    "name": "棉绒绒 · mon_018_BP",
+    "types": [
+      "cotton"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -16056.592318,
+    "y": -3400.724894,
+    "z": 9203.436798,
+    "betterMapId": "monster/mon_018_BP/-16056.592318000001/-3400.7248939999999/9203.4367980000006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_018_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-6215b18d6be251f96640",
+    "name": "棉绒绒 · mon_018_BP",
+    "types": [
+      "cotton"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -141895.463294,
+    "y": 193480.756745,
+    "z": 8310,
+    "betterMapId": "monster/mon_018_BP/-141895.46329399999/193480.75674499999/8310",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_018_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-ed502df030d422005d78",
+    "name": "棉绒绒 · mon_018_BP",
+    "types": [
+      "cotton"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -101038.840538,
+    "y": 25360.212967,
+    "z": 9120.022228,
+    "betterMapId": "monster/mon_018_BP/-101038.840538/25360.212966999999/9120.0222279999998",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_018_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-bc51bb99debb2857546c",
+    "name": "棉绒绒 · mon_018_BP",
+    "types": [
+      "cotton"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -103518.361445,
+    "y": 42851.870152,
+    "z": 9922.995968,
+    "betterMapId": "monster/mon_018_BP/-103518.361445/42851.870152000003/9922.9959679999993",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_018_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-2aa5926638e314128d07",
+    "name": "棉绒绒 · mon_018_BP",
+    "types": [
+      "cotton"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -91226.884815,
+    "y": 18198.331078,
+    "z": 8893.018891,
+    "betterMapId": "monster/mon_018_BP/-91226.884814999998/18198.331077999999/8893.0188909999997",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_018_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-21d79e3265558fd9c101",
+    "name": "棉绒绒 · mon_018_BP",
+    "types": [
+      "cotton"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -48641.03428,
+    "y": 68613.788309,
+    "z": 5133.208918,
+    "betterMapId": "monster/mon_018_BP/-48641.03428/68613.788308999996/5133.2089180000003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_018_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-a1aea510a204c9d7f25e",
+    "name": "棉绒绒 · mon_018_BP",
+    "types": [
+      "cotton"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -26726.324839,
+    "y": -3507.70006,
+    "z": 9068.169923,
+    "betterMapId": "monster/mon_018_BP/-26726.324839000001/-3507.7000600000001/9068.1699229999995",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_018_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-de30dc03abcfd4d1bfc5",
+    "name": "棉绒绒 · mon_018_BP",
+    "types": [
+      "cotton"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -103534.169378,
+    "y": 1236.418468,
+    "z": 10677.037703,
+    "betterMapId": "monster/mon_018_BP/-103534.16937800001/1236.4184680000001/10677.037703",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_018_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-8ee150c6876b4517ee4d",
+    "name": "棉绒绒 · mon_018_BP",
+    "types": [
+      "cotton"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -106588.103817,
+    "y": 54736.530932,
+    "z": 8459.76516,
+    "betterMapId": "monster/mon_018_BP/-106588.103817/54736.530932000001/8459.7651600000008",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_018_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

@@ -1,0 +1,310 @@
+[
+  {
+    "id": "furniture-001",
+    "name": "家具 #001",
+    "types": [
+      "furniture"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 家具",
+    "tags": [
+      "资源",
+      "家具",
+      "全地图"
+    ],
+    "images": [],
+    "x": -87785,
+    "y": 156406,
+    "z": 4081,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/FurnitureBox_A_Area01_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "FurnitureBox_A_Area01_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "furniture-011",
+    "name": "家具 #011",
+    "types": [
+      "furniture"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 家具",
+    "tags": [
+      "资源",
+      "家具",
+      "全地图"
+    ],
+    "images": [],
+    "x": -81534,
+    "y": 168297,
+    "z": 3322,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/FurnitureBox_A_Area01_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "FurnitureBox_A_Area01_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "furniture-009",
+    "name": "家具 #009",
+    "types": [
+      "furniture"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 家具",
+    "tags": [
+      "资源",
+      "家具",
+      "全地图"
+    ],
+    "images": [],
+    "x": -139711,
+    "y": 170948,
+    "z": 6847,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/FurnitureBox_A_Area01_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "FurnitureBox_A_Area01_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "furniture-010",
+    "name": "家具 #010",
+    "types": [
+      "furniture"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 家具",
+    "tags": [
+      "资源",
+      "家具",
+      "全地图"
+    ],
+    "images": [],
+    "x": -102367.31,
+    "y": 183993.34,
+    "z": 3092.2795,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/FurnitureBox_A_Area01_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "FurnitureBox_A_Area01_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-0134fd5773c1fac8e6f7",
+    "name": "家具",
+    "types": [
+      "furniture"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 家具",
+    "tags": [],
+    "images": [],
+    "x": -91841,
+    "y": 159850,
+    "z": 4077,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/FurnitureBox_A_Area01_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "FurnitureBox_A_Area01_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "furniture-002",
+    "name": "家具 #002",
+    "types": [
+      "furniture"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 家具",
+    "tags": [
+      "资源",
+      "家具",
+      "全地图"
+    ],
+    "images": [],
+    "x": -112058,
+    "y": 150474,
+    "z": 6139,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/FurnitureBox_A_Area01_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "FurnitureBox_A_Area01_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "furniture-004",
+    "name": "家具 #004",
+    "types": [
+      "furniture"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 家具",
+    "tags": [
+      "资源",
+      "家具",
+      "全地图"
+    ],
+    "images": [],
+    "x": -128561,
+    "y": 134275,
+    "z": 6717,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/FurnitureBox_A_Area03_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "FurnitureBox_A_Area03_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "furniture-005",
+    "name": "家具 #005",
+    "types": [
+      "furniture"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 家具",
+    "tags": [
+      "资源",
+      "家具",
+      "全地图"
+    ],
+    "images": [],
+    "x": -134749,
+    "y": 132556,
+    "z": 6985,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/FurnitureBox_A_Area03_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "FurnitureBox_A_Area03_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "furniture-006",
+    "name": "家具 #006",
+    "types": [
+      "furniture"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 家具",
+    "tags": [
+      "资源",
+      "家具",
+      "全地图"
+    ],
+    "images": [],
+    "x": -170429,
+    "y": 137856,
+    "z": 6641,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/FurnitureBox_A_Area03_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "FurnitureBox_A_Area03_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "furniture-008",
+    "name": "家具 #008",
+    "types": [
+      "furniture"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 家具",
+    "tags": [
+      "资源",
+      "家具",
+      "全地图"
+    ],
+    "images": [],
+    "x": -174550,
+    "y": 117614,
+    "z": 7100,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/FurnitureBox_A_Area03_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "FurnitureBox_A_Area03_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "furniture-007",
+    "name": "家具 #007",
+    "types": [
+      "furniture"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 家具",
+    "tags": [
+      "资源",
+      "家具",
+      "全地图"
+    ],
+    "images": [],
+    "x": -163530,
+    "y": 111492,
+    "z": 7106,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/FurnitureBox_A_Area03_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "FurnitureBox_A_Area03_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "furniture-003",
+    "name": "家具 #003",
+    "types": [
+      "furniture"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 家具",
+    "tags": [
+      "资源",
+      "家具",
+      "全地图"
+    ],
+    "images": [],
+    "x": -181462,
+    "y": 123316,
+    "z": 7308,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/FurnitureBox_A_Area03_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "FurnitureBox_A_Area03_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

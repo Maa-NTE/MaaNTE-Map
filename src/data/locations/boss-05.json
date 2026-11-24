@@ -1,0 +1,28 @@
+[
+  {
+    "id": "teleport-weeklyclone_boss05",
+    "name": "墨菲克斯",
+    "types": [
+      "boss-05"
+    ],
+    "district": "全地图",
+    "description": "异象巡礼入口",
+    "tags": [
+      "传送点",
+      "异象巡礼",
+      "墨菲克斯"
+    ],
+    "images": [],
+    "x": -112441,
+    "y": 129845,
+    "z": 12182.714,
+    "gameDataId": "DT_TeleportPoint/WeeklyClone_Boss05",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "WeeklyClone_Boss05",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

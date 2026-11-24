@@ -1,0 +1,6936 @@
+[
+  {
+    "id": "oracle-stone-001",
+    "name": "谕石 #001",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -279619,
+    "y": 336635,
+    "z": 2706,
+    "betterMapId": "oracle-stone/OracleStone_009_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_009_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-002",
+    "name": "谕石 #002",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -220821,
+    "y": 357406,
+    "z": 2316,
+    "betterMapId": "oracle-stone/OracleStone_009_009",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_009_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-004",
+    "name": "谕石 #004",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -270032,
+    "y": 362882,
+    "z": 6028,
+    "betterMapId": "oracle-stone/OracleStone_009_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_009_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-005",
+    "name": "谕石 #005",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -272040.693477,
+    "y": 372942.321392,
+    "z": 2435,
+    "betterMapId": "oracle-stone/OracleStone_009_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_009_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006",
+    "name": "谕石 #006",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -255139.731213,
+    "y": 370226.453979,
+    "z": 2567,
+    "betterMapId": "oracle-stone/OracleStone_009_008",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_009_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-007",
+    "name": "谕石 #007",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -247301,
+    "y": 362722,
+    "z": 9669,
+    "betterMapId": "oracle-stone/OracleStone_009_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_009_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-008",
+    "name": "谕石 #008",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -247101,
+    "y": 358066,
+    "z": 6884,
+    "betterMapId": "oracle-stone/OracleStone_009_010",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_009_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-009",
+    "name": "谕石 #009",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -266296,
+    "y": 349694,
+    "z": 3820,
+    "betterMapId": "oracle-stone/OracleStone_009_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_009_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-010",
+    "name": "谕石 #010",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -252298,
+    "y": 345275,
+    "z": 2574,
+    "betterMapId": "oracle-stone/OracleStone_009_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_009_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-011",
+    "name": "谕石 #011",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -45250.597816,
+    "y": 29707.126521,
+    "z": 10551.617837,
+    "betterMapId": "oracle-stone/OracleStone_004_025",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_025",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-012",
+    "name": "谕石 #012",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -35656,
+    "y": 38269,
+    "z": 7715,
+    "betterMapId": "oracle-stone/OracleStone_004_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-013",
+    "name": "谕石 #013",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -55025,
+    "y": 49159,
+    "z": 8516,
+    "betterMapId": "oracle-stone/OracleStone_004_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-014",
+    "name": "谕石 #014",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -27128,
+    "y": 52489,
+    "z": 7448,
+    "betterMapId": "oracle-stone/OracleStone_004_026",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_026",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-015",
+    "name": "谕石 #015",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -2316.268568,
+    "y": 49593.971818,
+    "z": 9106,
+    "betterMapId": "oracle-stone/OracleStone_004_029",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_029",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-016",
+    "name": "谕石 #016",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -8121,
+    "y": 51010,
+    "z": 7840,
+    "betterMapId": "oracle-stone/OracleStone_004_027",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_027",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-017",
+    "name": "谕石 #017",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -32481.90318,
+    "y": -16415.680969,
+    "z": 9275,
+    "betterMapId": "oracle-stone/OracleStone_004_016",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_016",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-018",
+    "name": "谕石 #018",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -74227.447308,
+    "y": 50986.835283,
+    "z": 6757,
+    "betterMapId": "oracle-stone/OracleStone_004_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-019",
+    "name": "谕石 #019",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -88484.704009,
+    "y": 53746.247017,
+    "z": 7833,
+    "betterMapId": "oracle-stone/OracleStone_004_038",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_038",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-020",
+    "name": "谕石 #020",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -98073.219639,
+    "y": 45422.923141,
+    "z": 11020,
+    "betterMapId": "oracle-stone/OracleStone_004_023",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_023",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-021",
+    "name": "谕石 #021",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -122426.640258,
+    "y": 29620.695,
+    "z": 10627.874719,
+    "betterMapId": "oracle-stone/OracleStone_004_012",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-023",
+    "name": "谕石 #023",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -61816.338594,
+    "y": -30569.80645,
+    "z": 10490,
+    "betterMapId": "oracle-stone/OracleStone_004_015",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_015",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-024",
+    "name": "谕石 #024",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -106346.910009,
+    "y": 12774.750149,
+    "z": 9969.238862,
+    "betterMapId": "oracle-stone/OracleStone_004_019",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_019",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-025",
+    "name": "谕石 #025",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -77924.794833,
+    "y": 20785.258687,
+    "z": 9424,
+    "betterMapId": "oracle-stone/OracleStone_004_011",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-026",
+    "name": "谕石 #026",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -64916.19588,
+    "y": 11868.912967,
+    "z": 7482,
+    "betterMapId": "oracle-stone/OracleStone_004_035",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_035",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-027",
+    "name": "谕石 #027",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -44835,
+    "y": 17510,
+    "z": 8307,
+    "betterMapId": "oracle-stone/OracleStone_004_022",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_022",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-028",
+    "name": "谕石 #028",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -11068.332966,
+    "y": 37111.400567,
+    "z": 7780,
+    "betterMapId": "oracle-stone/OracleStone_004_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-029",
+    "name": "谕石 #029",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 12138.233563,
+    "y": 46506.043364,
+    "z": 9728.910455,
+    "betterMapId": "oracle-stone/OracleStone_004_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-030",
+    "name": "谕石 #030",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 3510,
+    "y": 33942,
+    "z": 9178,
+    "betterMapId": "oracle-stone/OracleStone_004_028",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_028",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-031",
+    "name": "谕石 #031",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -995.823797,
+    "y": 23012.71122,
+    "z": 7867,
+    "betterMapId": "oracle-stone/OracleStone_004_040",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_040",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-032",
+    "name": "谕石 #032",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 29925.139737,
+    "y": 33747.909168,
+    "z": 7748,
+    "betterMapId": "oracle-stone/OracleStone_004_031",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_031",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-033",
+    "name": "谕石 #033",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 23715.005717,
+    "y": 43512.694602,
+    "z": 52750,
+    "betterMapId": "oracle-stone/OracleStone_004_045",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_045",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-034",
+    "name": "谕石 #034",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 20904.638598,
+    "y": 43393.157273,
+    "z": 8701.580666,
+    "betterMapId": "oracle-stone/OracleStone_004_008",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-035",
+    "name": "谕石 #035",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 43831.096011,
+    "y": 83610.427555,
+    "z": 6356,
+    "betterMapId": "oracle-stone/OracleStone_005_039",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_039",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-036",
+    "name": "谕石 #036",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -45004.593137,
+    "y": 33067.402949,
+    "z": 16133,
+    "betterMapId": "oracle-stone/OracleStone_004_044",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_044",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-037",
+    "name": "谕石 #037",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -87707.704756,
+    "y": 7008.642205,
+    "z": 8954,
+    "betterMapId": "oracle-stone/OracleStone_004_036",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_036",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-038",
+    "name": "谕石 #038",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -84365.441899,
+    "y": -4216.467632,
+    "z": 9732.320141,
+    "betterMapId": "oracle-stone/OracleStone_004_018",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_018",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-039",
+    "name": "谕石 #039",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -95650.009676,
+    "y": -13546.256996,
+    "z": 15941,
+    "betterMapId": "oracle-stone/OracleStone_004_013",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_013",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-040",
+    "name": "谕石 #040",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 47127.134997,
+    "y": 30366.386511,
+    "z": 6718,
+    "betterMapId": "oracle-stone/OracleStone_004_009",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-041",
+    "name": "谕石 #041",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 41783.702628,
+    "y": 34019.370098,
+    "z": 7313,
+    "betterMapId": "oracle-stone/OracleStone_004_042",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_042",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-042",
+    "name": "谕石 #042",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 35843.000009,
+    "y": 22028.999981,
+    "z": 7820,
+    "betterMapId": "oracle-stone/OracleStone_004_032",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_032",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-043",
+    "name": "谕石 #043",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 22512.23147,
+    "y": 22393.508133,
+    "z": 8554,
+    "betterMapId": "oracle-stone/OracleStone_004_041",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_041",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-044",
+    "name": "谕石 #044",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 16071.8332,
+    "y": 13780.982598,
+    "z": 8683,
+    "betterMapId": "oracle-stone/OracleStone_004_021",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_021",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-045",
+    "name": "谕石 #045",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -18956,
+    "y": 25351,
+    "z": 8227,
+    "betterMapId": "oracle-stone/OracleStone_004_043",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_043",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-046",
+    "name": "谕石 #046",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -21576.52905,
+    "y": 15798.897311,
+    "z": 9269.361492,
+    "betterMapId": "oracle-stone/OracleStone_004_010",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-047",
+    "name": "谕石 #047",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -26162.533229,
+    "y": 6335.947982,
+    "z": 8616,
+    "betterMapId": "oracle-stone/OracleStone_004_020",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_020",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-048",
+    "name": "谕石 #048",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -34339,
+    "y": 151,
+    "z": 8583,
+    "betterMapId": "oracle-stone/OracleStone_004_034",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_034",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-049",
+    "name": "谕石 #049",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -52400.88585,
+    "y": -1929.012321,
+    "z": 7440,
+    "betterMapId": "oracle-stone/OracleStone_004_017",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_017",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-050",
+    "name": "谕石 #050",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -45824.442013,
+    "y": -16449.358846,
+    "z": 9641,
+    "betterMapId": "oracle-stone/OracleStone_004_033",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_033",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-051",
+    "name": "谕石 #051",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -73898,
+    "y": -12485,
+    "z": 8574,
+    "betterMapId": "oracle-stone/OracleStone_004_037",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_037",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-052",
+    "name": "谕石 #052",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -83224.183198,
+    "y": 37224.272946,
+    "z": 13515.305642,
+    "betterMapId": "oracle-stone/OracleStone_004_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-053",
+    "name": "谕石 #053",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -71231.88538,
+    "y": 33272.585625,
+    "z": 9447,
+    "betterMapId": "oracle-stone/OracleStone_004_024",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_024",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-054",
+    "name": "谕石 #054",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -62987,
+    "y": 38779,
+    "z": 8112,
+    "betterMapId": "oracle-stone/OracleStone_004_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-055",
+    "name": "谕石 #055",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -53117,
+    "y": 25760,
+    "z": 9327,
+    "betterMapId": "oracle-stone/OracleStone_004_039",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_039",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-056",
+    "name": "谕石 #056",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -21400.580705,
+    "y": 61140.05022,
+    "z": 7447,
+    "betterMapId": "oracle-stone/OracleStone_005_017",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_017",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-057",
+    "name": "谕石 #057",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -57817.918649,
+    "y": 68354.53617,
+    "z": 3943,
+    "betterMapId": "oracle-stone/OracleStone_005_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-058",
+    "name": "谕石 #058",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -49117.559809,
+    "y": 64819.96753,
+    "z": 8683,
+    "betterMapId": "oracle-stone/OracleStone_005_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-059",
+    "name": "谕石 #059",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -51777.250356,
+    "y": 80135.961985,
+    "z": 4195.058724,
+    "betterMapId": "oracle-stone/OracleStone_005_049",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_049",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-060",
+    "name": "谕石 #060",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -32749.511842,
+    "y": 98122.88293,
+    "z": 5148,
+    "betterMapId": "oracle-stone/OracleStone_005_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-061",
+    "name": "谕石 #061",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -49085.867967,
+    "y": 97763.173666,
+    "z": 4203,
+    "betterMapId": "oracle-stone/OracleStone_005_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-062",
+    "name": "谕石 #062",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 53514.206045,
+    "y": 140853.81908,
+    "z": 3382.136918,
+    "betterMapId": "oracle-stone/OracleStone_005_034",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_034",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-063",
+    "name": "谕石 #063",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 11339,
+    "y": 109527,
+    "z": 7526,
+    "betterMapId": "oracle-stone/OracleStone_005_027",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_027",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-064",
+    "name": "谕石 #064",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 38211,
+    "y": 131587,
+    "z": 7441,
+    "betterMapId": "oracle-stone/OracleStone_005_032",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_032",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-065",
+    "name": "谕石 #065",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 42611.725326,
+    "y": 117058.437525,
+    "z": 7285,
+    "betterMapId": "oracle-stone/OracleStone_005_043",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_043",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-066",
+    "name": "谕石 #066",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 36832.264522,
+    "y": 104105.78499,
+    "z": 8968,
+    "betterMapId": "oracle-stone/OracleStone_005_037",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_037",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-067",
+    "name": "谕石 #067",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 25621.397165,
+    "y": 108002.936015,
+    "z": 8105,
+    "betterMapId": "oracle-stone/OracleStone_005_030",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_030",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-068",
+    "name": "谕石 #068",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -68931.65037,
+    "y": 87854.295975,
+    "z": 2425,
+    "betterMapId": "oracle-stone/OracleStone_005_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-069",
+    "name": "谕石 #069",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -56205.33459,
+    "y": 107476.917288,
+    "z": 2449,
+    "betterMapId": "oracle-stone/OracleStone_005_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-070",
+    "name": "谕石 #070",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 38264,
+    "y": 95094,
+    "z": 10650.708474,
+    "betterMapId": "oracle-stone/OracleStone_005_038",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_038",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-071",
+    "name": "谕石 #071",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 28023.402872,
+    "y": 97330.746416,
+    "z": 7227.990151,
+    "betterMapId": "oracle-stone/OracleStone_005_048",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_048",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-072",
+    "name": "谕石 #072",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 16785.136892,
+    "y": 68000.32282,
+    "z": 8953.832321,
+    "betterMapId": "oracle-stone/OracleStone_005_028",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_028",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-073",
+    "name": "谕石 #073",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 20725.905513,
+    "y": 58270.201798,
+    "z": 6669,
+    "betterMapId": "oracle-stone/OracleStone_005_041",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_041",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-074",
+    "name": "谕石 #074",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 41099,
+    "y": 52873,
+    "z": 5854,
+    "betterMapId": "oracle-stone/OracleStone_004_030",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_030",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-075",
+    "name": "谕石 #075",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -991.80911,
+    "y": 60545.77756,
+    "z": 7323,
+    "betterMapId": "oracle-stone/OracleStone_005_025",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_025",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-076",
+    "name": "谕石 #076",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 4036,
+    "y": 69726,
+    "z": 6606,
+    "betterMapId": "oracle-stone/OracleStone_005_045",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_045",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-077",
+    "name": "谕石 #077",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -12815.211744,
+    "y": 74332.278963,
+    "z": 7009.831399,
+    "betterMapId": "oracle-stone/OracleStone_005_018",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_018",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-078",
+    "name": "谕石 #078",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -5265.119682,
+    "y": 101677.500114,
+    "z": 9566,
+    "betterMapId": "oracle-stone/OracleStone_005_020",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_020",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-079",
+    "name": "谕石 #079",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -8079.009636,
+    "y": 86641.607459,
+    "z": 8900,
+    "betterMapId": "oracle-stone/OracleStone_005_050",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_050",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-080",
+    "name": "谕石 #080",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 4347.709972,
+    "y": 84454.827586,
+    "z": 9134,
+    "betterMapId": "oracle-stone/OracleStone_005_026",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_026",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-081",
+    "name": "谕石 #081",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 14939.771639,
+    "y": 88315.85195,
+    "z": 11697,
+    "betterMapId": "oracle-stone/OracleStone_005_029",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_029",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-082",
+    "name": "谕石 #082",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 26480.271059,
+    "y": 77540.089906,
+    "z": 7369.828473,
+    "betterMapId": "oracle-stone/OracleStone_005_040",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_040",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-083",
+    "name": "谕石 #083",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 40472.752317,
+    "y": 69631.915173,
+    "z": 5309,
+    "betterMapId": "oracle-stone/OracleStone_005_042",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_042",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-084",
+    "name": "谕石 #084",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 60897.725511,
+    "y": 91573.437745,
+    "z": 7483,
+    "betterMapId": "oracle-stone/OracleStone_005_036",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_036",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-085",
+    "name": "谕石 #085",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 54107.142364,
+    "y": 107716.309697,
+    "z": 13951.402367,
+    "betterMapId": "oracle-stone/OracleStone_005_035",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_035",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-086",
+    "name": "谕石 #086",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 26043,
+    "y": 119382,
+    "z": 11430,
+    "betterMapId": "oracle-stone/OracleStone_005_031",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_031",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-087",
+    "name": "谕石 #087",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 7236.510311,
+    "y": 118903.218873,
+    "z": 7138.675881,
+    "betterMapId": "oracle-stone/OracleStone_005_021",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_021",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-088",
+    "name": "谕石 #088",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 25846.87425,
+    "y": 142352.25047,
+    "z": 3727.176568,
+    "betterMapId": "oracle-stone/OracleStone_005_033",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_033",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-089",
+    "name": "谕石 #089",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -48895.863048,
+    "y": 134556.563368,
+    "z": 3027,
+    "betterMapId": "oracle-stone/OracleStone_005_009",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-090",
+    "name": "谕石 #090",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -32872,
+    "y": 83254,
+    "z": 6351,
+    "betterMapId": "oracle-stone/OracleStone_005_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-091",
+    "name": "谕石 #091",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -21760.989159,
+    "y": 85965.558391,
+    "z": 7869,
+    "betterMapId": "oracle-stone/OracleStone_005_044",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_044",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-092",
+    "name": "谕石 #092",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -17947.838071,
+    "y": 102569.349301,
+    "z": 7650,
+    "betterMapId": "oracle-stone/OracleStone_005_019",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_019",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-093",
+    "name": "谕石 #093",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -26343.461153,
+    "y": 111689.682167,
+    "z": 9627,
+    "betterMapId": "oracle-stone/OracleStone_005_016",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_016",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-094",
+    "name": "谕石 #094",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -21592.341706,
+    "y": 127967.97253,
+    "z": 6758.808938,
+    "betterMapId": "oracle-stone/OracleStone_005_014",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_014",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-095",
+    "name": "谕石 #095",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -8844.212088,
+    "y": 120002.441869,
+    "z": 31248.892922,
+    "betterMapId": "oracle-stone/OracleStone_005_015",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_015",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-096",
+    "name": "谕石 #096",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -5280.565295,
+    "y": 173564.842835,
+    "z": 2398,
+    "betterMapId": "oracle-stone/OracleStone_005_012",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-097",
+    "name": "谕石 #097",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 14186,
+    "y": 158690,
+    "z": 4841,
+    "betterMapId": "oracle-stone/OracleStone_005_024",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_024",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-098",
+    "name": "谕石 #098",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 7180,
+    "y": 144971,
+    "z": 4582,
+    "betterMapId": "oracle-stone/OracleStone_005_023",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_023",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-099",
+    "name": "谕石 #099",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 6819,
+    "y": 130089,
+    "z": 6660,
+    "betterMapId": "oracle-stone/OracleStone_005_022",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_022",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-100",
+    "name": "谕石 #100",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -5625,
+    "y": 146532,
+    "z": 5024,
+    "betterMapId": "oracle-stone/OracleStone_005_013",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_013",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-101",
+    "name": "谕石 #101",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -17400.90906,
+    "y": 151180.433073,
+    "z": 4921.359841,
+    "betterMapId": "oracle-stone/OracleStone_005_047",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_047",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-102",
+    "name": "谕石 #102",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -44168.472326,
+    "y": 162300.576616,
+    "z": 2328,
+    "betterMapId": "oracle-stone/OracleStone_005_011",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-103",
+    "name": "谕石 #103",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -31766,
+    "y": 146007,
+    "z": 14964,
+    "betterMapId": "oracle-stone/OracleStone_005_010",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-104",
+    "name": "谕石 #104",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -32294.457692,
+    "y": 120268.573186,
+    "z": 8890,
+    "betterMapId": "oracle-stone/OracleStone_005_008",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-105",
+    "name": "谕石 #105",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -39705.850156,
+    "y": 118077.785099,
+    "z": 5695,
+    "betterMapId": "oracle-stone/OracleStone_005_046",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_005_046",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-106",
+    "name": "谕石 #106",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -79902.208717,
+    "y": 82218.202266,
+    "z": 4235,
+    "betterMapId": "oracle-stone/OracleStone_003_041",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_041",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-107",
+    "name": "谕石 #107",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -85633.750655,
+    "y": 66750.076116,
+    "z": 10150.908112,
+    "betterMapId": "oracle-stone/OracleStone_003_046",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_046",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-108",
+    "name": "谕石 #108",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -177333.924469,
+    "y": 151094.803378,
+    "z": 5757.561952,
+    "betterMapId": "oracle-stone/OracleStone_003_020",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_020",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-109",
+    "name": "谕石 #109",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -110964,
+    "y": 98855,
+    "z": 7782,
+    "betterMapId": "oracle-stone/OracleStone_003_038",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_038",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-110",
+    "name": "谕石 #110",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -98028.430234,
+    "y": 60583.537302,
+    "z": 8337.478823,
+    "betterMapId": "oracle-stone/OracleStone_003_050",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_050",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-111",
+    "name": "谕石 #111",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -110727.060775,
+    "y": 66559.563084,
+    "z": 7649,
+    "betterMapId": "oracle-stone/OracleStone_003_045",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_045",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-112",
+    "name": "谕石 #112",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -111233.397917,
+    "y": 59012.492729,
+    "z": 7548.628701,
+    "betterMapId": "oracle-stone/OracleStone_003_049",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_049",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-113",
+    "name": "谕石 #113",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -124925,
+    "y": 63175,
+    "z": 8015,
+    "betterMapId": "oracle-stone/OracleStone_003_044",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_044",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-114",
+    "name": "谕石 #114",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -192030.68527,
+    "y": 134879.501661,
+    "z": 6985.379285,
+    "betterMapId": "oracle-stone/OracleStone_003_034",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_034",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-115",
+    "name": "谕石 #115",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -185288.106209,
+    "y": 135750.390622,
+    "z": 8919.388943,
+    "betterMapId": "oracle-stone/OracleStone_003_035",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_035",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-116",
+    "name": "谕石 #116",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -182061.91941,
+    "y": 121916.269302,
+    "z": 10027.590983,
+    "betterMapId": "oracle-stone/OracleStone_003_029",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_029",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-117",
+    "name": "谕石 #117",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -133712.861941,
+    "y": 78539.04976,
+    "z": 8768,
+    "betterMapId": "oracle-stone/OracleStone_003_047",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_047",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-118",
+    "name": "谕石 #118",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -185510.74254557796,
+    "y": 114515.54963866825,
+    "z": 8488.090916569055,
+    "betterMapId": "oracle-stone/OracleStone_003_033",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_033",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-119",
+    "name": "谕石 #119",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -177563.06785020145,
+    "y": 108995.49856295835,
+    "z": 7450.245875807056,
+    "betterMapId": "oracle-stone/OracleStone_003_032",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_032",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-120",
+    "name": "谕石 #120",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -169612.259384,
+    "y": 103134.910492,
+    "z": 7202.095593,
+    "betterMapId": "oracle-stone/OracleStone_003_031",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_031",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-121",
+    "name": "谕石 #121",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -167172.40041359075,
+    "y": 111014.1947309178,
+    "z": 8228.341073439631,
+    "betterMapId": "oracle-stone/OracleStone_003_027",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_027",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-122",
+    "name": "谕石 #122",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -167397.662877,
+    "y": 118368.940017,
+    "z": 9530.149589,
+    "betterMapId": "oracle-stone/OracleStone_003_026",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_026",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-123",
+    "name": "谕石 #123",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -141566,
+    "y": 144448,
+    "z": 7622,
+    "betterMapId": "oracle-stone/OracleStone_003_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-124",
+    "name": "谕石 #124",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -130026.728878,
+    "y": 116900.197507,
+    "z": 6956.999999,
+    "betterMapId": "oracle-stone/OracleStone_003_010",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-125",
+    "name": "谕石 #125",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -143595.183267,
+    "y": 102005.216829,
+    "z": 8979.805993,
+    "betterMapId": "oracle-stone/OracleStone_003_012",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-126",
+    "name": "谕石 #126",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -136138.822146,
+    "y": 96848.881506,
+    "z": 7339,
+    "betterMapId": "oracle-stone/OracleStone_003_036",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_036",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-127",
+    "name": "谕石 #127",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -149849.570902,
+    "y": 95927.363316,
+    "z": 7215.508333,
+    "betterMapId": "oracle-stone/OracleStone_003_011",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-128",
+    "name": "谕石 #128",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -151960.19711740906,
+    "y": 114371.2662125629,
+    "z": 8994.47986413984,
+    "betterMapId": "oracle-stone/OracleStone_003_023",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_023",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-129",
+    "name": "谕石 #129",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -138032.827953,
+    "y": 133036.806011,
+    "z": 6905.001333,
+    "betterMapId": "oracle-stone/OracleStone_003_018",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_018",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-130",
+    "name": "谕石 #130",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -138519.99623,
+    "y": 125238.152225,
+    "z": 7158.223644,
+    "betterMapId": "oracle-stone/OracleStone_003_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-131",
+    "name": "谕石 #131",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -142935.680349,
+    "y": 124856.240233,
+    "z": 7110.748584,
+    "betterMapId": "oracle-stone/OracleStone_003_009",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-132",
+    "name": "谕石 #132",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -147998.0549771029,
+    "y": 121081.90471680833,
+    "z": 11876.398504609606,
+    "betterMapId": "oracle-stone/OracleStone_003_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-133",
+    "name": "谕石 #133",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -156784.494174,
+    "y": 124453.330182,
+    "z": 7473.124975,
+    "betterMapId": "oracle-stone/OracleStone_003_008",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-134",
+    "name": "谕石 #134",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -170267.151047,
+    "y": 125309.163765,
+    "z": 8253.853299,
+    "betterMapId": "oracle-stone/OracleStone_003_024",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_024",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-135",
+    "name": "谕石 #135",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -172973.68898,
+    "y": 130790.383322,
+    "z": 7426.591259,
+    "betterMapId": "oracle-stone/OracleStone_003_025",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_025",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-136",
+    "name": "谕石 #136",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -171719.459895,
+    "y": 135235.506652,
+    "z": 7761.994612,
+    "betterMapId": "oracle-stone/OracleStone_003_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-137",
+    "name": "谕石 #137",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -176405.297961,
+    "y": 140225.283131,
+    "z": 6751.797036,
+    "betterMapId": "oracle-stone/OracleStone_003_030",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_030",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-138",
+    "name": "谕石 #138",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -168930.010822,
+    "y": 142927.905695,
+    "z": 7484,
+    "betterMapId": "oracle-stone/OracleStone_003_021",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_021",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-139",
+    "name": "谕石 #139",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -165062,
+    "y": 135665,
+    "z": 7100,
+    "betterMapId": "oracle-stone/OracleStone_003_019",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_019",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-140",
+    "name": "谕石 #140",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -166693.700795,
+    "y": 131233.652701,
+    "z": 11054.144009,
+    "betterMapId": "oracle-stone/OracleStone_003_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-141",
+    "name": "谕石 #141",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -157097.611388,
+    "y": 129944.722387,
+    "z": 7199,
+    "betterMapId": "oracle-stone/OracleStone_003_016",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_016",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-142",
+    "name": "谕石 #142",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -155374,
+    "y": 143061,
+    "z": 6791,
+    "betterMapId": "oracle-stone/OracleStone_003_014",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_014",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-143",
+    "name": "谕石 #143",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -166841.860506,
+    "y": 152737.633253,
+    "z": 7615.477915,
+    "betterMapId": "oracle-stone/OracleStone_003_022",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_022",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-144",
+    "name": "谕石 #144",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -159213,
+    "y": 154219,
+    "z": 6419,
+    "betterMapId": "oracle-stone/OracleStone_003_013",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_013",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-145",
+    "name": "谕石 #145",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -123833,
+    "y": 90621,
+    "z": 11102,
+    "betterMapId": "oracle-stone/OracleStone_003_037",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_037",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-146",
+    "name": "谕石 #146",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -115960,
+    "y": 80335,
+    "z": 7574,
+    "betterMapId": "oracle-stone/OracleStone_003_043",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_043",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-147",
+    "name": "谕石 #147",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -106847,
+    "y": 74630,
+    "z": 9583,
+    "betterMapId": "oracle-stone/OracleStone_003_048",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_048",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-148",
+    "name": "谕石 #148",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -100618.444491,
+    "y": 73867.447339,
+    "z": 6735.872848,
+    "betterMapId": "oracle-stone/OracleStone_003_042",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_042",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-149",
+    "name": "谕石 #149",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -99184.623073,
+    "y": 95984.560136,
+    "z": 7114,
+    "betterMapId": "oracle-stone/OracleStone_003_040",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_040",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-150",
+    "name": "谕石 #150",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -93140.216719,
+    "y": 94972.75333,
+    "z": 6630.327876,
+    "betterMapId": "oracle-stone/OracleStone_003_039",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_039",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-151",
+    "name": "谕石 #151",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -85586.453512,
+    "y": 108731.897222,
+    "z": 4411,
+    "betterMapId": "oracle-stone/OracleStone_003_017",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_017",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-152",
+    "name": "谕石 #152",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -128962,
+    "y": 135546,
+    "z": 6937.5,
+    "betterMapId": "oracle-stone/OracleStone_003_015",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_015",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-153",
+    "name": "谕石 #153",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -135383.598549,
+    "y": 139260.800872,
+    "z": 8880.168896,
+    "betterMapId": "oracle-stone/OracleStone_003_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-154",
+    "name": "谕石 #154",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -129037,
+    "y": 139671,
+    "z": 7101,
+    "betterMapId": "oracle-stone/OracleStone_003_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-155",
+    "name": "谕石 #155",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -177530.9218613288,
+    "y": 119408.87207693272,
+    "z": 7409.195470113373,
+    "betterMapId": "oracle-stone/OracleStone_003_028",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_003_028",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-156",
+    "name": "谕石 #156",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -112030.101204,
+    "y": 203887.437796,
+    "z": 2704,
+    "betterMapId": "oracle-stone/OracleStone_002_012",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-157",
+    "name": "谕石 #157",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -149534.67785479134,
+    "y": 213946.22871510033,
+    "z": 10178.2768842261,
+    "betterMapId": "oracle-stone/OracleStone_002_015",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_015",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-158",
+    "name": "谕石 #158",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -187252.712027,
+    "y": 221249.876223,
+    "z": 16066.378045,
+    "betterMapId": "oracle-stone/OracleStone_002_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-159",
+    "name": "谕石 #159",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -201357.798752,
+    "y": 216432.952661,
+    "z": 7993.153295,
+    "betterMapId": "oracle-stone/OracleStone_002_025",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_025",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-160",
+    "name": "谕石 #160",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -181925.98227,
+    "y": 227619.479229,
+    "z": 8739,
+    "betterMapId": "oracle-stone/OracleStone_002_011",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-161",
+    "name": "谕石 #161",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -205866.426394,
+    "y": 232583.72998,
+    "z": 4959.746142,
+    "betterMapId": "oracle-stone/OracleStone_002_019",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_019",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-162",
+    "name": "谕石 #162",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -203999.8466665539,
+    "y": 199232.69339533764,
+    "z": 7723.62984480625,
+    "betterMapId": "oracle-stone/OracleStone_002_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-163",
+    "name": "谕石 #163",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -203351.257301,
+    "y": 194329.437145,
+    "z": 7606.891026,
+    "betterMapId": "oracle-stone/OracleStone_002_018",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_018",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-164",
+    "name": "谕石 #164",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -184557.360353,
+    "y": 177351.318342,
+    "z": 6197.155484,
+    "betterMapId": "oracle-stone/OracleStone_002_010",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-165",
+    "name": "谕石 #165",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -137815.960617,
+    "y": 212022.174611,
+    "z": 10902.071194,
+    "betterMapId": "oracle-stone/OracleStone_002_014",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_014",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-166",
+    "name": "谕石 #166",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -140430.89501959947,
+    "y": 197408.97856122223,
+    "z": 10571.849615836189,
+    "betterMapId": "oracle-stone/OracleStone_002_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-167",
+    "name": "谕石 #167",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -145124.337812,
+    "y": 250353.803611,
+    "z": 2385.479734,
+    "betterMapId": "oracle-stone/OracleStone_002_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-168",
+    "name": "谕石 #168",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -156473.215656,
+    "y": 234330.024734,
+    "z": 4913.275862,
+    "betterMapId": "oracle-stone/OracleStone_002_020",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_020",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-169",
+    "name": "谕石 #169",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -148825,
+    "y": 225316,
+    "z": 11592.5,
+    "betterMapId": "oracle-stone/OracleStone_002_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-170",
+    "name": "谕石 #170",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -160403.261333,
+    "y": 225690.497819,
+    "z": 7384.851645,
+    "betterMapId": "oracle-stone/OracleStone_002_016",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_016",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-171",
+    "name": "谕石 #171",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -160762.28314,
+    "y": 210921.5256,
+    "z": 4013.01905,
+    "betterMapId": "oracle-stone/OracleStone_002_017",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_017",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-172",
+    "name": "谕石 #172",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -160348.6986042747,
+    "y": 204747.9898640656,
+    "z": 7124.5,
+    "betterMapId": "oracle-stone/OracleStone_002_008",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-173",
+    "name": "谕石 #173",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -156185.290519,
+    "y": 192253.696564,
+    "z": 10180.639227,
+    "betterMapId": "oracle-stone/OracleStone_002_022",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_022",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-174",
+    "name": "谕石 #174",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -157643.8112743637,
+    "y": 182174.4474610307,
+    "z": 9283.285847009292,
+    "betterMapId": "oracle-stone/OracleStone_002_021",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_021",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-175",
+    "name": "谕石 #175",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -164505.19088595698,
+    "y": 179711.7856315936,
+    "z": 11277,
+    "betterMapId": "oracle-stone/OracleStone_002_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-176",
+    "name": "谕石 #176",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -169060.20815,
+    "y": 193825.234235,
+    "z": 8504.65635,
+    "betterMapId": "oracle-stone/OracleStone_002_009",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-177",
+    "name": "谕石 #177",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -172471.688139,
+    "y": 206035.973503,
+    "z": 11455.629332,
+    "betterMapId": "oracle-stone/OracleStone_002_024",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_024",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-178",
+    "name": "谕石 #178",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -193422.133494,
+    "y": 204770.846087,
+    "z": 15067.244644,
+    "betterMapId": "oracle-stone/OracleStone_002_023",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_023",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-179",
+    "name": "谕石 #179",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -192714.314469,
+    "y": 210144.208146,
+    "z": 16915.371185,
+    "betterMapId": "oracle-stone/OracleStone_002_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-180",
+    "name": "谕石 #180",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -134909.853875,
+    "y": 200265.121158,
+    "z": 14691.508333,
+    "betterMapId": "oracle-stone/OracleStone_002_013",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_002_013",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-181",
+    "name": "谕石 #181",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -149692,
+    "y": 168469,
+    "z": 9354,
+    "betterMapId": "oracle-stone/OracleStone_001_017",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_017",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-182",
+    "name": "谕石 #182",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -111959.672674,
+    "y": 131164.666468,
+    "z": 12177.363229,
+    "betterMapId": "oracle-stone/OracleStone_001_037",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_037",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-183",
+    "name": "谕石 #183",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -91451.708117,
+    "y": 134186.085727,
+    "z": 9535.81712,
+    "betterMapId": "oracle-stone/OracleStone_001_030",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_030",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-184",
+    "name": "谕石 #184",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -92454.36093876444,
+    "y": 141694.47837697362,
+    "z": 6796.432464415515,
+    "betterMapId": "oracle-stone/OracleStone_001_031",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_031",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-185",
+    "name": "谕石 #185",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -100461.952915,
+    "y": 174553.598239,
+    "z": 5892.661601,
+    "betterMapId": "oracle-stone/OracleStone_001_026",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_026",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-186",
+    "name": "谕石 #186",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -77305.532628,
+    "y": 190037.780739,
+    "z": 2491,
+    "betterMapId": "oracle-stone/OracleStone_001_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-187",
+    "name": "谕石 #187",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -77083.393837,
+    "y": 170748.911137,
+    "z": 3299.192853,
+    "betterMapId": "oracle-stone/OracleStone_001_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-188",
+    "name": "谕石 #188",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -71172.975027,
+    "y": 161132.94805,
+    "z": 2541.37273,
+    "betterMapId": "oracle-stone/OracleStone_001_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-189",
+    "name": "谕石 #189",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -86087.037065,
+    "y": 158349.225514,
+    "z": 3680.363009,
+    "betterMapId": "oracle-stone/OracleStone_001_008",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-190",
+    "name": "谕石 #190",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -91012.593535,
+    "y": 173526.328108,
+    "z": 4034.11155,
+    "betterMapId": "oracle-stone/OracleStone_001_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-191",
+    "name": "谕石 #191",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -90957.80989019189,
+    "y": 167637.62322229004,
+    "z": 5232.311830239147,
+    "betterMapId": "oracle-stone/OracleStone_001_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-192",
+    "name": "谕石 #192",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -68440,
+    "y": 139543,
+    "z": 2950,
+    "betterMapId": "oracle-stone/OracleStone_001_012",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-193",
+    "name": "谕石 #193",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -76776.961471,
+    "y": 139996.695538,
+    "z": 6132.580483,
+    "betterMapId": "oracle-stone/OracleStone_001_032",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_032",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-194",
+    "name": "谕石 #194",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -138238.208306,
+    "y": 156558.442249,
+    "z": 11860.600136,
+    "betterMapId": "oracle-stone/OracleStone_001_034",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_034",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-195",
+    "name": "谕石 #195",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -78483.001009,
+    "y": 149989.11239,
+    "z": 4321,
+    "betterMapId": "oracle-stone/OracleStone_001_021",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_021",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-196",
+    "name": "谕石 #196",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -109785.625782,
+    "y": 160916.507294,
+    "z": 6305,
+    "betterMapId": "oracle-stone/OracleStone_001_019",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_019",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-197",
+    "name": "谕石 #197",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -107139.71124,
+    "y": 163178.13508,
+    "z": 6488.957055,
+    "betterMapId": "oracle-stone/OracleStone_001_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-198",
+    "name": "谕石 #198",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -111253.03318424516,
+    "y": 169412.64005249366,
+    "z": 6477.455040153747,
+    "betterMapId": "oracle-stone/OracleStone_001_010",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-199",
+    "name": "谕石 #199",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -114098.699895,
+    "y": 173173.737348,
+    "z": 6425.149891,
+    "betterMapId": "oracle-stone/OracleStone_001_016",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_016",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-200",
+    "name": "谕石 #200",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -113045.853852,
+    "y": 177226.495606,
+    "z": 8928.468468,
+    "betterMapId": "oracle-stone/OracleStone_001_024",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_024",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-201",
+    "name": "谕石 #201",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -104858.835925,
+    "y": 186230.726182,
+    "z": 4322,
+    "betterMapId": "oracle-stone/OracleStone_001_013",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_013",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-202",
+    "name": "谕石 #202",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -109102,
+    "y": 191163,
+    "z": 2364,
+    "betterMapId": "oracle-stone/OracleStone_001_023",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_023",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-203",
+    "name": "谕石 #203",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -123136.418355,
+    "y": 189122.376454,
+    "z": 8996.818722,
+    "betterMapId": "oracle-stone/OracleStone_001_033",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_033",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-204",
+    "name": "谕石 #204",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -125809.265128,
+    "y": 189482.250841,
+    "z": 7575,
+    "betterMapId": "oracle-stone/OracleStone_001_014",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_014",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-205",
+    "name": "谕石 #205",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -125937.54260451414,
+    "y": 179339.35334911378,
+    "z": 7225.678734997655,
+    "betterMapId": "oracle-stone/OracleStone_001_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-206",
+    "name": "谕石 #206",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -142392.54511702943,
+    "y": 171451.82424225975,
+    "z": 8039.614904827587,
+    "betterMapId": "oracle-stone/OracleStone_001_029",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_029",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-207",
+    "name": "谕石 #207",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -142586.617295,
+    "y": 170363.822062,
+    "z": 7762.928508,
+    "betterMapId": "oracle-stone/OracleStone_001_028",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_028",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-208",
+    "name": "谕石 #208",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -100615.651605,
+    "y": 118449.320143,
+    "z": 12432,
+    "betterMapId": "oracle-stone/OracleStone_001_036",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_036",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-209",
+    "name": "谕石 #209",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -132034.135338,
+    "y": 158111.218097,
+    "z": 7058,
+    "betterMapId": "oracle-stone/OracleStone_001_015",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_015",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-210",
+    "name": "谕石 #210",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -122244.526474,
+    "y": 158613.334046,
+    "z": 9919.278323,
+    "betterMapId": "oracle-stone/OracleStone_001_027",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_027",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-211",
+    "name": "谕石 #211",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -127211,
+    "y": 154247,
+    "z": 6235.5,
+    "betterMapId": "oracle-stone/OracleStone_001_020",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_020",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-212",
+    "name": "谕石 #212",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -131676.285532,
+    "y": 151188.376164,
+    "z": 8123.119675,
+    "betterMapId": "oracle-stone/OracleStone_001_035",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_035",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-213",
+    "name": "谕石 #213",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -116066.5717035588,
+    "y": 145152.83838672275,
+    "z": 9819.261095174712,
+    "betterMapId": "oracle-stone/OracleStone_001_022",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_022",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-214",
+    "name": "谕石 #214",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -113871,
+    "y": 154463,
+    "z": 7027,
+    "betterMapId": "oracle-stone/OracleStone_001_025",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_025",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-215",
+    "name": "谕石 #215",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -102360.592325,
+    "y": 149931.646466,
+    "z": 5763,
+    "betterMapId": "oracle-stone/OracleStone_001_009",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-216",
+    "name": "谕石 #216",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -99024,
+    "y": 151754,
+    "z": 5656,
+    "betterMapId": "oracle-stone/OracleStone_001_011",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-217",
+    "name": "谕石 #217",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -90423,
+    "y": 151268,
+    "z": 5405,
+    "betterMapId": "oracle-stone/OracleStone_001_018",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_001_018",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-001",
+    "name": "谕石 泊暮区 #001",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -223670,
+    "y": 161518,
+    "z": 4149,
+    "betterMapId": "oracle-stone/OracleStone_006_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-002",
+    "name": "谕石 泊暮区 #002",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -265076,
+    "y": 155645,
+    "z": 3426.809365,
+    "betterMapId": "oracle-stone/OracleStone_006_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-003",
+    "name": "谕石 泊暮区 #003",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -247815,
+    "y": 125132,
+    "z": 3369,
+    "betterMapId": "oracle-stone/OracleStone_006_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-004",
+    "name": "谕石 泊暮区 #004",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -256540.610916,
+    "y": 139398.277909,
+    "z": 2839.536233,
+    "betterMapId": "oracle-stone/OracleStone_006_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-005",
+    "name": "谕石 泊暮区 #005",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -287464.666939,
+    "y": 112054.204743,
+    "z": 2589,
+    "betterMapId": "oracle-stone/OracleStone_006_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-006",
+    "name": "谕石 泊暮区 #006",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -269211,
+    "y": 90279,
+    "z": 5214,
+    "betterMapId": "oracle-stone/OracleStone_006_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-007",
+    "name": "谕石 泊暮区 #007",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -288572,
+    "y": 71700,
+    "z": 5801,
+    "betterMapId": "oracle-stone/OracleStone_006_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-008",
+    "name": "谕石 泊暮区 #008",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -289666,
+    "y": 32286,
+    "z": 13984,
+    "betterMapId": "oracle-stone/OracleStone_006_008",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-009",
+    "name": "谕石 泊暮区 #009",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -303523,
+    "y": -38190,
+    "z": 17320,
+    "betterMapId": "oracle-stone/OracleStone_006_009",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-010",
+    "name": "谕石 泊暮区 #010",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -320645,
+    "y": -101991,
+    "z": 17319,
+    "betterMapId": "oracle-stone/OracleStone_006_010",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-011",
+    "name": "谕石 泊暮区 #011",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -310284,
+    "y": -127895,
+    "z": 15614,
+    "betterMapId": "oracle-stone/OracleStone_006_011",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-012",
+    "name": "谕石 泊暮区 #012",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -291068.878266,
+    "y": -197127.513041,
+    "z": 24316,
+    "betterMapId": "oracle-stone/OracleStone_006_012",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-013",
+    "name": "谕石 泊暮区 #013",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -260823,
+    "y": -237488,
+    "z": 27355,
+    "betterMapId": "oracle-stone/OracleStone_006_013",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_013",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-014",
+    "name": "谕石 泊暮区 #014",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -240984,
+    "y": -238407,
+    "z": 24714,
+    "betterMapId": "oracle-stone/OracleStone_006_014",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_014",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-015",
+    "name": "谕石 泊暮区 #015",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -220983,
+    "y": -229453,
+    "z": 21669,
+    "betterMapId": "oracle-stone/OracleStone_006_015",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_015",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-016",
+    "name": "谕石 泊暮区 #016",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -168114,
+    "y": -233052,
+    "z": 18746,
+    "betterMapId": "oracle-stone/OracleStone_006_016",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_016",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-017",
+    "name": "谕石 泊暮区 #017",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -161626,
+    "y": -200541,
+    "z": 17303,
+    "betterMapId": "oracle-stone/OracleStone_006_017",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_017",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-018",
+    "name": "谕石 泊暮区 #018",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -138732,
+    "y": -143991,
+    "z": 13459,
+    "betterMapId": "oracle-stone/OracleStone_006_018",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_018",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-019",
+    "name": "谕石 泊暮区 #019",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -109214,
+    "y": -134249,
+    "z": 20390,
+    "betterMapId": "oracle-stone/OracleStone_006_019",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_019",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-020",
+    "name": "谕石 泊暮区 #020",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -96358.984386,
+    "y": -103165.176021,
+    "z": 26609,
+    "betterMapId": "oracle-stone/OracleStone_006_020",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_020",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-021",
+    "name": "谕石 泊暮区 #021",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -215975,
+    "y": 63236,
+    "z": 10735,
+    "betterMapId": "oracle-stone/OracleStone_006_021",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_021",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-022",
+    "name": "谕石 泊暮区 #022",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -194139,
+    "y": 19989,
+    "z": 13688,
+    "betterMapId": "oracle-stone/OracleStone_006_022",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_022",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-023",
+    "name": "谕石 泊暮区 #023",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -197497,
+    "y": -7930,
+    "z": 16022,
+    "betterMapId": "oracle-stone/OracleStone_006_023",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_023",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-024",
+    "name": "谕石 泊暮区 #024",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -160264,
+    "y": -57320,
+    "z": 14327,
+    "betterMapId": "oracle-stone/OracleStone_006_024",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_024",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-025",
+    "name": "谕石 泊暮区 #025",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -127300,
+    "y": -81679,
+    "z": 17706,
+    "betterMapId": "oracle-stone/OracleStone_006_025",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_025",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-026",
+    "name": "谕石 泊暮区 #026",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -127029,
+    "y": -111369,
+    "z": 15771,
+    "betterMapId": "oracle-stone/OracleStone_006_026",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_026",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-027",
+    "name": "谕石 泊暮区 #027",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -224087,
+    "y": 43797,
+    "z": 11751,
+    "betterMapId": "oracle-stone/OracleStone_006_027",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_027",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-028",
+    "name": "谕石 泊暮区 #028",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -223154.193293,
+    "y": 4819.721716,
+    "z": 11125,
+    "betterMapId": "oracle-stone/OracleStone_006_028",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_028",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-029",
+    "name": "谕石 泊暮区 #029",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -197538,
+    "y": -36537,
+    "z": 11628,
+    "betterMapId": "oracle-stone/OracleStone_006_029",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_029",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-030",
+    "name": "谕石 泊暮区 #030",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -140912.544262,
+    "y": -104673.414546,
+    "z": 14154,
+    "betterMapId": "oracle-stone/OracleStone_006_030",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_030",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-031",
+    "name": "谕石 泊暮区 #031",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -249185,
+    "y": 29216,
+    "z": 10423,
+    "betterMapId": "oracle-stone/OracleStone_006_031",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_031",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-032",
+    "name": "谕石 泊暮区 #032",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -242812,
+    "y": -26129,
+    "z": 11089,
+    "betterMapId": "oracle-stone/OracleStone_006_032",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_032",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-033",
+    "name": "谕石 泊暮区 #033",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -254721.656506,
+    "y": 9452.437315,
+    "z": 14552,
+    "betterMapId": "oracle-stone/OracleStone_006_033",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_033",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-034",
+    "name": "谕石 泊暮区 #034",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -217790,
+    "y": -64113,
+    "z": 10485,
+    "betterMapId": "oracle-stone/OracleStone_006_034",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_034",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-035",
+    "name": "谕石 泊暮区 #035",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -181908,
+    "y": -96271,
+    "z": 10923,
+    "betterMapId": "oracle-stone/OracleStone_006_035",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_035",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-036",
+    "name": "谕石 泊暮区 #036",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -232781,
+    "y": -150184,
+    "z": 11703.005471,
+    "betterMapId": "oracle-stone/OracleStone_006_036",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_036",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-037",
+    "name": "谕石 泊暮区 #037",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -286068,
+    "y": -87610,
+    "z": 12529,
+    "betterMapId": "oracle-stone/OracleStone_006_037",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_037",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-038",
+    "name": "谕石 泊暮区 #038",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -243268.583128,
+    "y": -181955.131269,
+    "z": 18870,
+    "betterMapId": "oracle-stone/OracleStone_006_038",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_038",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-039",
+    "name": "谕石 泊暮区 #039",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -189878,
+    "y": -151825,
+    "z": 12987,
+    "betterMapId": "oracle-stone/OracleStone_006_039",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_039",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-040",
+    "name": "谕石 泊暮区 #040",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -229900,
+    "y": -45978,
+    "z": 11097,
+    "betterMapId": "oracle-stone/OracleStone_006_040",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_040",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-041",
+    "name": "谕石 泊暮区 #041",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -161967,
+    "y": -119271,
+    "z": 12007,
+    "betterMapId": "oracle-stone/OracleStone_006_041",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_041",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-042",
+    "name": "谕石 泊暮区 #042",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -276415.23402,
+    "y": -151500.007988,
+    "z": 14065,
+    "betterMapId": "oracle-stone/OracleStone_006_042",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_042",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-043",
+    "name": "谕石 泊暮区 #043",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -233081.494654,
+    "y": 37631.037444,
+    "z": 8740,
+    "betterMapId": "oracle-stone/OracleStone_006_043",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_043",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-044",
+    "name": "谕石 泊暮区 #044",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -238528,
+    "y": -164818,
+    "z": 13785,
+    "betterMapId": "oracle-stone/OracleStone_006_044",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_044",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-045",
+    "name": "谕石 泊暮区 #045",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -276696,
+    "y": 103281,
+    "z": 3828,
+    "betterMapId": "oracle-stone/OracleStone_006_045",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_045",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-046",
+    "name": "谕石 泊暮区 #046",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -229193,
+    "y": 123969,
+    "z": 9412,
+    "betterMapId": "oracle-stone/OracleStone_006_046",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_046",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-047",
+    "name": "谕石 泊暮区 #047",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -162358.227626,
+    "y": -79849.716472,
+    "z": 13043,
+    "betterMapId": "oracle-stone/OracleStone_006_047",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_047",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-048",
+    "name": "谕石 泊暮区 #048",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -193500,
+    "y": -169793,
+    "z": 13728,
+    "betterMapId": "oracle-stone/OracleStone_006_048",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_048",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-049",
+    "name": "谕石 泊暮区 #049",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -157006.791163,
+    "y": -162578.214245,
+    "z": 15509,
+    "betterMapId": "oracle-stone/OracleStone_006_049",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_049",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "oracle-stone-006-050",
+    "name": "谕石 泊暮区 #050",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "泊暮区",
+    "description": "泊暮区 · 探索度 · 谕石",
+    "tags": [
+      "探索度",
+      "谕石",
+      "泊暮区"
+    ],
+    "images": [],
+    "x": -278467,
+    "y": -24647,
+    "z": 14729,
+    "betterMapId": "oracle-stone/OracleStone_006_050",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_006_050",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-9cbb9b985d7c121c85e9",
+    "name": "谕石 · OracleStone_004_014",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -87185.527685,
+    "y": -38580.114413,
+    "z": 20114,
+    "betterMapId": "oracle-stone/OracleStone_004_014",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_004_014",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-5a7bcbfc022f38692037",
+    "name": "谕石 · OracleStone_009_006",
+    "types": [
+      "oracle-stone"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -284481,
+    "y": 348129,
+    "z": 2412,
+    "betterMapId": "oracle-stone/OracleStone_009_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_OracleStoneConfig",
+      "rowId": "OracleStone_009_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

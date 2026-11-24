@@ -1,0 +1,2246 @@
+[
+  {
+    "id": "gift-21-001",
+    "name": "21的赠礼 #001",
+    "types": [
+      "gift-21"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -249772.37028287022,
+    "y": 365132.90644465113,
+    "z": 3957.29879195406,
+    "betterMapId": "gift-21/Lv3_TreasureBox_009_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_009_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-002",
+    "name": "21的赠礼 #002",
+    "types": [
+      "gift-21"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -283243.0417307995,
+    "y": 349340.9365467268,
+    "z": 2298.953655727422,
+    "betterMapId": "gift-21/Lv3_TreasureBox_009_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_009_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-003",
+    "name": "21的赠礼 #003",
+    "types": [
+      "gift-21"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -242273.290965011,
+    "y": 372106.5543507504,
+    "z": 2255,
+    "betterMapId": "gift-21/Lv2_TreasureBox_009_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_009_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-004",
+    "name": "21的赠礼 #004",
+    "types": [
+      "gift-21"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -252787.4442496154,
+    "y": 361557.9953004808,
+    "z": 5715,
+    "betterMapId": "gift-21/Lv2_TreasureBox_009_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_009_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-005",
+    "name": "21的赠礼 #005",
+    "types": [
+      "gift-21"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -260811.65039401565,
+    "y": 354673.3306558793,
+    "z": 3209,
+    "betterMapId": "gift-21/Lv2_TreasureBox_009_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_009_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-006",
+    "name": "21的赠礼 #006",
+    "types": [
+      "gift-21"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -273318.09697,
+    "y": 356731.7483,
+    "z": 4412.440996,
+    "betterMapId": "gift-21/Lv2_TreasureBox_009_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_009_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-007",
+    "name": "21的赠礼 #007",
+    "types": [
+      "gift-21"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -261452.71998040305,
+    "y": 376996.4380708395,
+    "z": 2240.0467304855715,
+    "betterMapId": "gift-21/Lv2_TreasureBox_009_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_009_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-008",
+    "name": "21的赠礼 #008",
+    "types": [
+      "gift-21"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -277313,
+    "y": 366220.9266507253,
+    "z": 2344.7973363439432,
+    "betterMapId": "gift-21/Lv2_TreasureBox_009_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_009_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-009",
+    "name": "21的赠礼 #009",
+    "types": [
+      "gift-21"
+    ],
+    "district": "向阳岛",
+    "description": "向阳岛 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "向阳岛"
+    ],
+    "images": [],
+    "x": -254083.4397510839,
+    "y": 348657.3874177861,
+    "z": 2471.9439355651434,
+    "betterMapId": "gift-21/Lv2_TreasureBox_009_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_009_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-010",
+    "name": "21的赠礼 #010",
+    "types": [
+      "gift-21"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 25611.720443215654,
+    "y": 30046.314616917636,
+    "z": 7668.300696,
+    "betterMapId": "gift-21/Lv2_TreasureBox_004_029",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_004_029",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-011",
+    "name": "21的赠礼 #011",
+    "types": [
+      "gift-21"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -35435.351152057476,
+    "y": 1763.2410013876197,
+    "z": 8163.05915670688,
+    "betterMapId": "gift-21/Lv3_TreasureBox_004_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_004_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-012",
+    "name": "21的赠礼 #012",
+    "types": [
+      "gift-21"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -20771.562872643248,
+    "y": 31491.3549717704,
+    "z": 7624.650050999946,
+    "betterMapId": "gift-21/Lv3_TreasureBox_004_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_004_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-013",
+    "name": "21的赠礼 #013",
+    "types": [
+      "gift-21"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 44262.84728070226,
+    "y": 44706.183662417,
+    "z": 5167.630874000024,
+    "betterMapId": "gift-21/Lv3_TreasureBox_004_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_004_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-014",
+    "name": "21的赠礼 #014",
+    "types": [
+      "gift-21"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 10386.822751415093,
+    "y": 22085.93875541311,
+    "z": 7737.268928939569,
+    "betterMapId": "gift-21/Lv3_TreasureBox_004_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_004_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-018",
+    "name": "21的赠礼 #018",
+    "types": [
+      "gift-21"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -31212.416911412147,
+    "y": 16317.628340068622,
+    "z": 8496.634789378288,
+    "betterMapId": "gift-21/Lv2_TreasureBox_004_025",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_004_025",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-019",
+    "name": "21的赠礼 #019",
+    "types": [
+      "gift-21"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -86507.60734280483,
+    "y": 54871.91830547845,
+    "z": 7765.288868722695,
+    "betterMapId": "gift-21/Lv2_TreasureBox_004_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_004_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-020",
+    "name": "21的赠礼 #020",
+    "types": [
+      "gift-21"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -32339.37951802928,
+    "y": 23817.60648671174,
+    "z": 7839.806803108965,
+    "betterMapId": "gift-21/Lv2_TreasureBox_004_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_004_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-021",
+    "name": "21的赠礼 #021",
+    "types": [
+      "gift-21"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": 25357.828214813744,
+    "y": 17938.23023144127,
+    "z": 7615.125616252639,
+    "betterMapId": "gift-21/Lv2_TreasureBox_004_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_004_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-022",
+    "name": "21的赠礼 #022",
+    "types": [
+      "gift-21"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -70609.379497,
+    "y": 38740.165077,
+    "z": 7710.867074,
+    "betterMapId": "gift-21/Lv2_TreasureBox_004_028",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_004_028",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-023",
+    "name": "21的赠礼 #023",
+    "types": [
+      "gift-21"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -61199.8256686827,
+    "y": 32042.883280030117,
+    "z": 7702.149704988395,
+    "betterMapId": "gift-21/Lv2_TreasureBox_004_031",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_004_031",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-024",
+    "name": "21的赠礼 #024",
+    "types": [
+      "gift-21"
+    ],
+    "district": "米格尔区",
+    "description": "米格尔区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "米格尔区"
+    ],
+    "images": [],
+    "x": -51895.58610699828,
+    "y": 48805.98210989073,
+    "z": 12800.700924741266,
+    "betterMapId": "gift-21/Lv3_TreasureBox_004_008",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_004_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-025",
+    "name": "21的赠礼 #025",
+    "types": [
+      "gift-21"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 13203.236092292671,
+    "y": 61162.282687625855,
+    "z": 6924.34286534524,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_010",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-026",
+    "name": "21的赠礼 #026",
+    "types": [
+      "gift-21"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 39174.293844873246,
+    "y": 56038.90352017569,
+    "z": 9317.312298836865,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-027",
+    "name": "21的赠礼 #027",
+    "types": [
+      "gift-21"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -17436,
+    "y": 74976,
+    "z": 8291,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-029",
+    "name": "21的赠礼 #029",
+    "types": [
+      "gift-21"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 1427.8304234476327,
+    "y": 89998.78612768429,
+    "z": 12682,
+    "betterMapId": "gift-21/Lv3_TreasureBox_005_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_005_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-030",
+    "name": "21的赠礼 #030",
+    "types": [
+      "gift-21"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 32752.479217,
+    "y": 102596.486253,
+    "z": 8451,
+    "betterMapId": "gift-21/Lv3_TreasureBox_005_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_005_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-034",
+    "name": "21的赠礼 #034",
+    "types": [
+      "gift-21"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -12394,
+    "y": 110283,
+    "z": 11595,
+    "betterMapId": "gift-21/Lv3_TreasureBox_005_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_005_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-035",
+    "name": "21的赠礼 #035",
+    "types": [
+      "gift-21"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -35466.30693253584,
+    "y": 70899.62975802468,
+    "z": 6526.750866898725,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-036",
+    "name": "21的赠礼 #036",
+    "types": [
+      "gift-21"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -46555.429909019396,
+    "y": 87594.57735338317,
+    "z": 9451.337705848917,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-037",
+    "name": "21的赠礼 #037",
+    "types": [
+      "gift-21"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 36352,
+    "y": 138546,
+    "z": 3167,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_013",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_013",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-039",
+    "name": "21的赠礼 #039",
+    "types": [
+      "gift-21"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": 26389.66880813684,
+    "y": 114367.1049555736,
+    "z": 7058.825312391128,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_014",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_014",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-040",
+    "name": "21的赠礼 #040",
+    "types": [
+      "gift-21"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -28854.621591811177,
+    "y": 84964.36800292286,
+    "z": 6339.489646718178,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_011",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-041",
+    "name": "21的赠礼 #041",
+    "types": [
+      "gift-21"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -6455.578633395111,
+    "y": 134891.2005374541,
+    "z": 6327.8859193806775,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-042",
+    "name": "21的赠礼 #042",
+    "types": [
+      "gift-21"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -34296.94451935686,
+    "y": 131251.85576498427,
+    "z": 2838.106005593274,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_015",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_015",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-043",
+    "name": "21的赠礼 #043",
+    "types": [
+      "gift-21"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -34896.87730212,
+    "y": 119001.80718615404,
+    "z": 13782.833312632014,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-044",
+    "name": "21的赠礼 #044",
+    "types": [
+      "gift-21"
+    ],
+    "district": "新赫兰德区",
+    "description": "新赫兰德区 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "新赫兰德区"
+    ],
+    "images": [],
+    "x": -76631.54900914781,
+    "y": 70690.1063170901,
+    "z": 10574.594772649736,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-045",
+    "name": "21的赠礼 #045",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -127193,
+    "y": 76870,
+    "z": 8104,
+    "betterMapId": "gift-21/Lv3_TreasureBox_003_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_003_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-046",
+    "name": "21的赠礼 #046",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -125389.38256495865,
+    "y": 96558.69543826109,
+    "z": 12812.96295515591,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_018",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_018",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-049",
+    "name": "21的赠礼 #049",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -88697,
+    "y": 78861,
+    "z": 4227,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-050",
+    "name": "21的赠礼 #050",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -108908.02718311003,
+    "y": 79405.2037236545,
+    "z": 15296.986255524069,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_012",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-051",
+    "name": "21的赠礼 #051",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -180000.59512234372,
+    "y": 145616.12813310546,
+    "z": 9914.591984866742,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_017",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_017",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-052",
+    "name": "21的赠礼 #052",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -114686.49515416255,
+    "y": 64953.53334720133,
+    "z": 8743,
+    "betterMapId": "gift-21/Lv3_TreasureBox_003_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_003_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-053",
+    "name": "21的赠礼 #053",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -133883.945539,
+    "y": 87773.284681,
+    "z": 7401,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-054",
+    "name": "21的赠礼 #054",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -183286.79761644252,
+    "y": 124839.1783237275,
+    "z": 7453.273023086833,
+    "betterMapId": "gift-21/Lv3_TreasureBox_003_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_003_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-055",
+    "name": "21的赠礼 #055",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -190992.77617950144,
+    "y": 106092.05712491751,
+    "z": 7293.229203735487,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-056",
+    "name": "21的赠礼 #056",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -184021.12987847778,
+    "y": 100229.8388022281,
+    "z": 12533.039902649567,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_019",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_019",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-057",
+    "name": "21的赠礼 #057",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -169741,
+    "y": 113990,
+    "z": 7106.683747155759,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-058",
+    "name": "21的赠礼 #058",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -129422.16769736471,
+    "y": 127231.36631831709,
+    "z": 6887.033279327093,
+    "betterMapId": "gift-21/Lv3_TreasureBox_003_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_003_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-059",
+    "name": "21的赠礼 #059",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -157206,
+    "y": 87400,
+    "z": 8266,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-060",
+    "name": "21的赠礼 #060",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -156538.62297998107,
+    "y": 108223.61786114563,
+    "z": 7227.6803140342345,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_015",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_015",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-061",
+    "name": "21的赠礼 #061",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -138149,
+    "y": 132918,
+    "z": 6718,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_014",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_014",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-062",
+    "name": "21的赠礼 #062",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -142841.83568497017,
+    "y": 128275.28941401097,
+    "z": 12472.93941301138,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_016",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_016",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-063",
+    "name": "21的赠礼 #063",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -177635,
+    "y": 139925,
+    "z": 6670,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-064",
+    "name": "21的赠礼 #064",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -92947.000723,
+    "y": 90709.871427,
+    "z": 6133,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-065",
+    "name": "21的赠礼 #065",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -92390.12269347603,
+    "y": 98009.84124862614,
+    "z": 6146.813257087169,
+    "betterMapId": "gift-21/Lv3_TreasureBox_003_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_003_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-066",
+    "name": "21的赠礼 #066",
+    "types": [
+      "gift-21"
+    ],
+    "district": "绘空町",
+    "description": "绘空町 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "绘空町"
+    ],
+    "images": [],
+    "x": -135102.32279843907,
+    "y": 141792.29683480912,
+    "z": 6711.533433429889,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_011",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-067",
+    "name": "21的赠礼 #067",
+    "types": [
+      "gift-21"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -195948.87505555272,
+    "y": 187649.28870498185,
+    "z": 8195.819126176819,
+    "betterMapId": "gift-21/Lv2_TreasureBox_002_023",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_002_023",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-068",
+    "name": "21的赠礼 #068",
+    "types": [
+      "gift-21"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -181261.9823902707,
+    "y": 241139.11847956356,
+    "z": 2429.7652354449506,
+    "betterMapId": "gift-21/Lv2_TreasureBox_002_020",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_002_020",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-069",
+    "name": "21的赠礼 #069",
+    "types": [
+      "gift-21"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -207103.33988963094,
+    "y": 194420.869268757,
+    "z": 7580.489737475566,
+    "betterMapId": "gift-21/Lv2_TreasureBox_002_021",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_002_021",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-070",
+    "name": "21的赠礼 #070",
+    "types": [
+      "gift-21"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -169473,
+    "y": 183844,
+    "z": 9162,
+    "betterMapId": "gift-21/Lv2_TreasureBox_002_012",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_002_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-071",
+    "name": "21的赠礼 #071",
+    "types": [
+      "gift-21"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -170532.17140034874,
+    "y": 176459.08381846003,
+    "z": 8704.07166026762,
+    "betterMapId": "gift-21/Lv2_TreasureBox_002_013",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_002_013",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-072",
+    "name": "21的赠礼 #072",
+    "types": [
+      "gift-21"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -133166.769202,
+    "y": 211515.76381,
+    "z": 10053.232387,
+    "betterMapId": "gift-21/Lv2_TreasureBox_002_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_002_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-073",
+    "name": "21的赠礼 #073",
+    "types": [
+      "gift-21"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -153248.93704086033,
+    "y": 205272.9873019928,
+    "z": 6756.754126474777,
+    "betterMapId": "gift-21/Lv2_TreasureBox_002_014",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_002_014",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-074",
+    "name": "21的赠礼 #074",
+    "types": [
+      "gift-21"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -156187,
+    "y": 192335,
+    "z": 9155,
+    "betterMapId": "gift-21/Lv2_TreasureBox_002_010",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_002_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-075",
+    "name": "21的赠礼 #075",
+    "types": [
+      "gift-21"
+    ],
+    "district": "未闻浦",
+    "description": "未闻浦 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "未闻浦"
+    ],
+    "images": [],
+    "x": -160672.3468197915,
+    "y": 185034.46340975043,
+    "z": 8731.181049505163,
+    "betterMapId": "gift-21/Lv2_TreasureBox_002_011",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_002_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-077",
+    "name": "21的赠礼 #077",
+    "types": [
+      "gift-21"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -85033,
+    "y": 164306,
+    "z": 4145,
+    "betterMapId": "gift-21/Lv2_TreasureBox_001_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_001_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-078",
+    "name": "21的赠礼 #078",
+    "types": [
+      "gift-21"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -86702.74078019374,
+    "y": 149692.05746959723,
+    "z": 4271.204699741698,
+    "betterMapId": "gift-21/Lv2_TreasureBox_001_007",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_001_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-079",
+    "name": "21的赠礼 #079",
+    "types": [
+      "gift-21"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -107157,
+    "y": 178322,
+    "z": 5991,
+    "betterMapId": "gift-21/Lv2_TreasureBox_001_004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_001_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-080",
+    "name": "21的赠礼 #080",
+    "types": [
+      "gift-21"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -123658.72693255745,
+    "y": 190825.5793609027,
+    "z": 8812.740441332862,
+    "betterMapId": "gift-21/Lv2_TreasureBox_001_012",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_001_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-081",
+    "name": "21的赠礼 #081",
+    "types": [
+      "gift-21"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -120449.133767,
+    "y": 185925.288733,
+    "z": 6164.77445,
+    "betterMapId": "gift-21/Lv3_TreasureBox_001_001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_001_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-082",
+    "name": "21的赠礼 #082",
+    "types": [
+      "gift-21"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -136204,
+    "y": 181366,
+    "z": 7143,
+    "betterMapId": "gift-21/Lv2_TreasureBox_001_006",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_001_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-083",
+    "name": "21的赠礼 #083",
+    "types": [
+      "gift-21"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -142086.54312719565,
+    "y": 172809.60015548943,
+    "z": 7194.028359980117,
+    "betterMapId": "gift-21/Lv2_TreasureBox_001_010",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_001_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-084",
+    "name": "21的赠礼 #084",
+    "types": [
+      "gift-21"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -140819.32125809207,
+    "y": 156605.84901266804,
+    "z": 6832.882079982948,
+    "betterMapId": "gift-21/Lv2_TreasureBox_001_009",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_001_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-085",
+    "name": "21的赠礼 #085",
+    "types": [
+      "gift-21"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -138612.3246457428,
+    "y": 156322.99760839873,
+    "z": 11679.063488413041,
+    "betterMapId": "gift-21/Lv2_TreasureBox_001_013",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_001_013",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-086",
+    "name": "21的赠礼 #086",
+    "types": [
+      "gift-21"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -122050.11340823786,
+    "y": 157677.1619105006,
+    "z": 10191.342378697525,
+    "betterMapId": "gift-21/Lv3_TreasureBox_001_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_001_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-087",
+    "name": "21的赠礼 #087",
+    "types": [
+      "gift-21"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -101019,
+    "y": 149739,
+    "z": 7349,
+    "betterMapId": "gift-21/Lv2_TreasureBox_001_005",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_001_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "gift-21-088",
+    "name": "21的赠礼 #088",
+    "types": [
+      "gift-21"
+    ],
+    "district": "桥间地",
+    "description": "桥间地 · 探索度 · 21的赠礼",
+    "tags": [
+      "探索度",
+      "21的赠礼",
+      "桥间地"
+    ],
+    "images": [],
+    "x": -94547.81475415725,
+    "y": 152264.4211434652,
+    "z": 4460,
+    "betterMapId": "gift-21/Lv2_TreasureBox_001_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_001_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-cea4574c7c2104f95156",
+    "name": "21的赠礼 · Lv2_TreasureBox_002_024",
+    "types": [
+      "gift-21"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -135163.348442,
+    "y": 233795.742667,
+    "z": 2297.203119,
+    "betterMapId": "gift-21/Lv2_TreasureBox_002_024",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_002_024",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-b3a256dfaba2c1bd9233",
+    "name": "21的赠礼 · Lv2_TreasureBox_003_008",
+    "types": [
+      "gift-21"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -103968,
+    "y": 50912,
+    "z": 8258,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_008",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-dc5a9a4941e0397f9c70",
+    "name": "21的赠礼 · Lv2_TreasureBox_003_009",
+    "types": [
+      "gift-21"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -124599,
+    "y": 58586,
+    "z": 8249,
+    "betterMapId": "gift-21/Lv2_TreasureBox_003_009",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_003_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-30e1d59544941aec09d2",
+    "name": "21的赠礼 · Lv2_TreasureBox_004_024",
+    "types": [
+      "gift-21"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -80382.00742844137,
+    "y": 316.35984642830556,
+    "z": 8134.7455720000435,
+    "betterMapId": "gift-21/Lv2_TreasureBox_004_024",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_004_024",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-bbb4ad5dedc5f158a94b",
+    "name": "21的赠礼 · Lv2_TreasureBox_004_026",
+    "types": [
+      "gift-21"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -6998.920414844901,
+    "y": 13102.160159968556,
+    "z": 8689.9826,
+    "betterMapId": "gift-21/Lv2_TreasureBox_004_026",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_004_026",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-80c4a01af034f7f2a6f7",
+    "name": "21的赠礼 · Lv2_TreasureBox_004_027",
+    "types": [
+      "gift-21"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -43998.91194554787,
+    "y": 6457.628829169664,
+    "z": 7452.344875191198,
+    "betterMapId": "gift-21/Lv2_TreasureBox_004_027",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_004_027",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-1a592ac6a7c1bf602542",
+    "name": "21的赠礼 · Lv2_TreasureBox_005_012",
+    "types": [
+      "gift-21"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": 35250.191704497185,
+    "y": 73227.7991579508,
+    "z": 6177.588182540663,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_012",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-d809f6c820619432f7b0",
+    "name": "21的赠礼 · Lv2_TreasureBox_005_016",
+    "types": [
+      "gift-21"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": 48629.919864997995,
+    "y": 124416.37478829644,
+    "z": 6457.766052606821,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_016",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_016",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-c7dd54ae80c2c8e6f614",
+    "name": "21的赠礼 · Lv2_TreasureBox_005_017",
+    "types": [
+      "gift-21"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": 24185.6537,
+    "y": 77846.703543,
+    "z": 6300,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_017",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_017",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-ee554398c672dfd43193",
+    "name": "21的赠礼 · Lv2_TreasureBox_005_018",
+    "types": [
+      "gift-21"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -17352,
+    "y": 95419,
+    "z": 6326.069954736326,
+    "betterMapId": "gift-21/Lv2_TreasureBox_005_018",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv2_TreasureBox_005_018",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-8c27704b69d5b5e0e001",
+    "name": "21的赠礼 · Lv3_TreasureBox_005_002",
+    "types": [
+      "gift-21"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -23773,
+    "y": 137868,
+    "z": 5498,
+    "betterMapId": "gift-21/Lv3_TreasureBox_005_002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
+      "rowId": "Lv3_TreasureBox_005_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

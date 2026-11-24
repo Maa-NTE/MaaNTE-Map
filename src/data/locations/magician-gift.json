@@ -1,0 +1,3310 @@
+[
+  {
+    "id": "magician-gift-069",
+    "name": "魔术师的馈赠 #069",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -93445.12,
+    "y": 165357.33,
+    "z": 4105,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-079",
+    "name": "魔术师的馈赠 #079",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -78069,
+    "y": 163049,
+    "z": 3234,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-066",
+    "name": "魔术师的馈赠 #066",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -85999.99,
+    "y": 155475.2,
+    "z": 4285,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-068",
+    "name": "魔术师的馈赠 #068",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -91326,
+    "y": 158035,
+    "z": 4074,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-071",
+    "name": "魔术师的馈赠 #071",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -104002,
+    "y": 173630,
+    "z": 5334,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-074",
+    "name": "魔术师的馈赠 #074",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -125987.52,
+    "y": 176946.36,
+    "z": 7442,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-062",
+    "name": "魔术师的馈赠 #062",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -120706.15,
+    "y": 159213.98,
+    "z": 6682.7485,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_007",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-059",
+    "name": "魔术师的馈赠 #059",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -119218.27,
+    "y": 146531.19,
+    "z": 8424,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_008",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-076",
+    "name": "魔术师的馈赠 #076",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -117929.09,
+    "y": 192163.52,
+    "z": 5770,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_009",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-105",
+    "name": "魔术师的馈赠 #105",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -148827,
+    "y": 170671,
+    "z": 8267,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_010",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-072",
+    "name": "魔术师的馈赠 #072",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -111961.12,
+    "y": 168988.39,
+    "z": 5890,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv2_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv2_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-080",
+    "name": "魔术师的馈赠 #080",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -69793.76,
+    "y": 132659.56,
+    "z": 2955.6206,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv2_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv2_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-061",
+    "name": "魔术师的馈赠 #061",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -131016,
+    "y": 154835,
+    "z": 6755,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv2_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv2_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-103",
+    "name": "魔术师的馈赠 #103",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -141998.1,
+    "y": 161762.1,
+    "z": 6930,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv2_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv2_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-075",
+    "name": "魔术师的馈赠 #075",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -120424.98,
+    "y": 181559.92,
+    "z": 6907,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv2_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv2_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-108",
+    "name": "魔术师的馈赠 #108",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -132480,
+    "y": 200990.22,
+    "z": 10873,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area02_Lv1_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area02_Lv1_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-107",
+    "name": "魔术师的馈赠 #107",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -140243.39,
+    "y": 202615.02,
+    "z": 10297,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area02_Lv1_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area02_Lv1_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-111",
+    "name": "魔术师的馈赠 #111",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -148505.48,
+    "y": 222285.66,
+    "z": 11605,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area02_Lv1_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area02_Lv1_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-109",
+    "name": "魔术师的馈赠 #109",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -145347.89,
+    "y": 246595.92,
+    "z": 2366.039,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area02_Lv1_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area02_Lv1_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-112",
+    "name": "魔术师的馈赠 #112",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -181504.19,
+    "y": 214415.97,
+    "z": 16531,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area02_Lv1_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area02_Lv1_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-113",
+    "name": "魔术师的馈赠 #113",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -204333,
+    "y": 197676,
+    "z": 7619.5,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area02_Lv1_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area02_Lv1_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-106",
+    "name": "魔术师的馈赠 #106",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -158315,
+    "y": 189166,
+    "z": 8367.5,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area02_Lv1_007",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area02_Lv1_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-114",
+    "name": "魔术师的馈赠 #114",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -192165.02,
+    "y": 208853.52,
+    "z": 15801,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area02_Lv1_008",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area02_Lv1_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-102",
+    "name": "魔术师的馈赠 #102",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -159785,
+    "y": 164837,
+    "z": 7444,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area02_Lv1_009",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area02_Lv1_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-110",
+    "name": "魔术师的馈赠 #110",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -162171,
+    "y": 233111,
+    "z": 3670,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area02_Lv1_010",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area02_Lv1_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-101",
+    "name": "魔术师的馈赠 #101",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -143302.75,
+    "y": 147031.94,
+    "z": 6839,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-056",
+    "name": "魔术师的馈赠 #056",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -129213.95,
+    "y": 143778.12,
+    "z": 6800,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-055",
+    "name": "魔术师的馈赠 #055",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -133486,
+    "y": 133386,
+    "z": 6805,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-100",
+    "name": "魔术师的馈赠 #100",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -156597.11,
+    "y": 145293.36,
+    "z": 6510,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-049",
+    "name": "魔术师的馈赠 #049",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -129098,
+    "y": 114385,
+    "z": 6857.5,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-053",
+    "name": "魔术师的馈赠 #053",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -140986.31,
+    "y": 124542.49,
+    "z": 7216,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-099",
+    "name": "魔术师的馈赠 #099",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -155281.12,
+    "y": 136421.88,
+    "z": 6769.034,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_007",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-098",
+    "name": "魔术师的馈赠 #098",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -166242.53,
+    "y": 132363.88,
+    "z": 6883.9766,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_008",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-097",
+    "name": "魔术师的馈赠 #097",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -185665.12,
+    "y": 140621.8,
+    "z": 6154,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_009",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-096",
+    "name": "魔术师的馈赠 #096",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -187839.17,
+    "y": 131115.7,
+    "z": 7130.1694,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_010",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-094",
+    "name": "魔术师的馈赠 #094",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -180312,
+    "y": 123077,
+    "z": 7268,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_011",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-091",
+    "name": "魔术师的馈赠 #091",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -173998,
+    "y": 105545,
+    "z": 7213,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_012",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-090",
+    "name": "魔术师的馈赠 #090",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -158537.7,
+    "y": 106148.38,
+    "z": 7180,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_013",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_013",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-092",
+    "name": "魔术师的馈赠 #092",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -147543,
+    "y": 108844,
+    "z": 7197,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_014",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_014",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-084",
+    "name": "魔术师的馈赠 #084",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -142440.94,
+    "y": 98537.516,
+    "z": 7215,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_015",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_015",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-082",
+    "name": "魔术师的馈赠 #082",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -124188,
+    "y": 92971,
+    "z": 7898,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_016",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_016",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-046",
+    "name": "魔术师的馈赠 #046",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -109998,
+    "y": 104894,
+    "z": 6508,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_017",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_017",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-044",
+    "name": "魔术师的馈赠 #044",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -102712.88,
+    "y": 95606.95,
+    "z": 6958,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_018",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_018",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-043",
+    "name": "魔术师的馈赠 #043",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -97415.92,
+    "y": 92431.85,
+    "z": 6851,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_019",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_019",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-042",
+    "name": "魔术师的馈赠 #042",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -105051,
+    "y": 77063,
+    "z": 6708,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_020",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_020",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-041",
+    "name": "魔术师的馈赠 #041",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -86013.57,
+    "y": 81045.71,
+    "z": 4235,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_026",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_026",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-093",
+    "name": "魔术师的馈赠 #093",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -168287.23,
+    "y": 116956.85,
+    "z": 7175,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_027",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_027",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-095",
+    "name": "魔术师的馈赠 #095",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -188686.64,
+    "y": 119423.836,
+    "z": 7187,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_028",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_028",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-051",
+    "name": "魔术师的馈赠 #051",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -136743.31,
+    "y": 114583.76,
+    "z": 7170,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_029",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_029",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-083",
+    "name": "魔术师的馈赠 #083",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -132378.19,
+    "y": 102540.445,
+    "z": 7332,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_B_Area03_Lv1_030",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_B_Area03_Lv1_030",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-078",
+    "name": "魔术师的馈赠 #078",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -82882,
+    "y": 177283,
+    "z": 3725,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_016",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_016",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-064",
+    "name": "魔术师的馈赠 #064",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -110910.2,
+    "y": 152038.27,
+    "z": 6534,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_017",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_017",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-077",
+    "name": "魔术师的馈赠 #077",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -94060.45,
+    "y": 182001.9,
+    "z": 4421.25,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_018",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_018",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-073",
+    "name": "魔术师的馈赠 #073",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -111786.57,
+    "y": 175754.73,
+    "z": 6589,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_019",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_019",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-104",
+    "name": "魔术师的馈赠 #104",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -141745.27,
+    "y": 166367.67,
+    "z": 6988,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_020",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_020",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-065",
+    "name": "魔术师的馈赠 #065",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -104272.75,
+    "y": 157526.95,
+    "z": 5897,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_021",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_021",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-081",
+    "name": "魔术师的馈赠 #081",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -72494.39,
+    "y": 137451.28,
+    "z": 4305,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_022",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_022",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-045",
+    "name": "魔术师的馈赠 #045",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -95177,
+    "y": 133335,
+    "z": 9356,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_023",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_023",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-048",
+    "name": "魔术师的馈赠 #048",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -117294,
+    "y": 113058,
+    "z": 9216,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_024",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_024",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-058",
+    "name": "魔术师的馈赠 #058",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -120586.88,
+    "y": 135314.17,
+    "z": 8847,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area01_Lv1_025",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area01_Lv1_025",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-067",
+    "name": "魔术师的馈赠 #067",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -86337.375,
+    "y": -898.8301,
+    "z": 8605,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-040",
+    "name": "魔术师的馈赠 #040",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -47537.85,
+    "y": -14129.632,
+    "z": 8551,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-030",
+    "name": "魔术师的馈赠 #030",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -23884,
+    "y": 24129,
+    "z": 7893,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-035",
+    "name": "魔术师的馈赠 #035",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 10359.21,
+    "y": 38600.77,
+    "z": 7727,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-050",
+    "name": "魔术师的馈赠 #050",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -67975.11,
+    "y": 51945.664,
+    "z": 7862,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-73f7036c98f299619b77",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -88369.29,
+    "y": 53914.043,
+    "z": 7812,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-5231569e70c44405b154",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -109679.53,
+    "y": 32596.65,
+    "z": 8943.913,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_007",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-037",
+    "name": "魔术师的馈赠 #037",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 2661,
+    "y": -6230,
+    "z": 10716,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_008",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-034",
+    "name": "魔术师的馈赠 #034",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -6771,
+    "y": 38215,
+    "z": 7435,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_009",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-052",
+    "name": "魔术师的馈赠 #052",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -60417.207,
+    "y": 25261.303,
+    "z": 7905.5,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_010",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-054",
+    "name": "魔术师的馈赠 #054",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -69814.59,
+    "y": 14688.456,
+    "z": 7585,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_011",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-039",
+    "name": "魔术师的馈赠 #039",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -46917.74,
+    "y": 5120.5176,
+    "z": 7417.8037,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_012",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-031",
+    "name": "魔术师的馈赠 #031",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -39985.402,
+    "y": 22645.309,
+    "z": 7821,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_013",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_013",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-028",
+    "name": "魔术师的馈赠 #028",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -34472.516,
+    "y": 54028.94,
+    "z": 7589,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_014",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_014",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-027",
+    "name": "魔术师的馈赠 #027",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -10103,
+    "y": 55899,
+    "z": 7945,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_015",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_015",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-063",
+    "name": "魔术师的馈赠 #063",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -120210.16,
+    "y": 9294.653,
+    "z": 10921.556,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_016",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_016",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-070",
+    "name": "魔术师的馈赠 #070",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -78670.85,
+    "y": 1992.0609,
+    "z": 7410.8706,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_017",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_017",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-032",
+    "name": "魔术师的馈赠 #032",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -36209,
+    "y": 33529,
+    "z": 7756,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_018",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_018",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-024",
+    "name": "魔术师的馈赠 #024",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 52888.848,
+    "y": 18464.393,
+    "z": 7566,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_019",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_019",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-033",
+    "name": "魔术师的馈赠 #033",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -23378.258,
+    "y": 38726.742,
+    "z": 7405,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_020",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_020",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-029",
+    "name": "魔术师的馈赠 #029",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -50528.66,
+    "y": 51387.82,
+    "z": 7854,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_021",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_021",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-057",
+    "name": "魔术师的馈赠 #057",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -93212.78,
+    "y": 25565.146,
+    "z": 8224.808,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_022",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_022",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-038",
+    "name": "魔术师的馈赠 #038",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -23337.06,
+    "y": 3705.8752,
+    "z": 8701.5,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_023",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_023",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-036",
+    "name": "魔术师的馈赠 #036",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 8360,
+    "y": 14273,
+    "z": 8624,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_024",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_024",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-025",
+    "name": "魔术师的馈赠 #025",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 24837,
+    "y": 45059,
+    "z": 8865.302,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area04_Lv1_025",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area04_Lv1_025",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-089",
+    "name": "魔术师的馈赠 #089",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -72359.17,
+    "y": 80966.13,
+    "z": 3152,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-087",
+    "name": "魔术师的馈赠 #087",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -58215.414,
+    "y": 69735.82,
+    "z": 3726,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-005",
+    "name": "魔术师的馈赠 #005",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -14738.311,
+    "y": 78269.08,
+    "z": 6496,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-023",
+    "name": "魔术师的馈赠 #023",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 38905.41,
+    "y": 69524.73,
+    "z": 5418,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-019",
+    "name": "魔术师的馈赠 #019",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 39602.117,
+    "y": 109250.33,
+    "z": 9075,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-018",
+    "name": "魔术师的馈赠 #018",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 34249.41,
+    "y": 119175.766,
+    "z": 7159,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-014",
+    "name": "魔术师的馈赠 #014",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 16237.76,
+    "y": 141597.6,
+    "z": 5555,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_007",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-010",
+    "name": "魔术师的馈赠 #010",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -17731.223,
+    "y": 153979.67,
+    "z": 5052,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_008",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-009",
+    "name": "魔术师的馈赠 #009",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -36012,
+    "y": 144084,
+    "z": 2888,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_009",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-008",
+    "name": "魔术师的馈赠 #008",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -37548.473,
+    "y": 120262.12,
+    "z": 5090,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_010",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-086",
+    "name": "魔术师的馈赠 #086",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -49080.758,
+    "y": 83035.17,
+    "z": 3010,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_011",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-012",
+    "name": "魔术师的馈赠 #012",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 40316,
+    "y": 137836,
+    "z": 3677,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_012",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-020",
+    "name": "魔术师的馈赠 #020",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 56784.33,
+    "y": 100277.336,
+    "z": 13600,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_013",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_013",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-021",
+    "name": "魔术师的馈赠 #021",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 25077,
+    "y": 87045,
+    "z": 6496,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_014",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_014",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-016",
+    "name": "魔术师的馈赠 #016",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 8882.012,
+    "y": 106445.266,
+    "z": 6363.111,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_015",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_015",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-015",
+    "name": "魔术师的馈赠 #015",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -6321.99,
+    "y": 95606.68,
+    "z": 6456,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_016",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_016",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-007",
+    "name": "魔术师的馈赠 #007",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -25054.62,
+    "y": 118332.664,
+    "z": 6432.73,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_017",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_017",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-006",
+    "name": "魔术师的馈赠 #006",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -30205.283,
+    "y": 104778.29,
+    "z": 4861,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_018",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_018",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-088",
+    "name": "魔术师的馈赠 #088",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -72175.94,
+    "y": 64862.902,
+    "z": 4005,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_019",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_019",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-013",
+    "name": "魔术师的馈赠 #013",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 34887.445,
+    "y": 162615.19,
+    "z": 2394,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_020",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_020",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-022",
+    "name": "魔术师的馈赠 #022",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 39504.75,
+    "y": 84497.19,
+    "z": 6412,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_021",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_021",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-026",
+    "name": "魔术师的馈赠 #026",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 7789,
+    "y": 60557,
+    "z": 7063,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_022",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_022",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-011",
+    "name": "魔术师的馈赠 #011",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 150.82655,
+    "y": 134521.7,
+    "z": 7730.5,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_023",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_023",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-085",
+    "name": "魔术师的馈赠 #085",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -58945.57,
+    "y": 99566.61,
+    "z": 2424.9968,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_024",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_024",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-017",
+    "name": "魔术师的馈赠 #017",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": 19189.83,
+    "y": 119068.88,
+    "z": 6726,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area05_Lv1_025",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area05_Lv1_025",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-002",
+    "name": "魔术师的馈赠 #002",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -249795.69,
+    "y": 348441.9,
+    "z": 2505,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area06_Lv1_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area06_Lv1_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-003",
+    "name": "魔术师的馈赠 #003",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -258403,
+    "y": 352026,
+    "z": 3229,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area06_Lv1_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area06_Lv1_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-004",
+    "name": "魔术师的馈赠 #004",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -266128,
+    "y": 360484,
+    "z": 4369,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area06_Lv1_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area06_Lv1_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-93e48f4c0c66650efa93",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -242251.4,
+    "y": 363297.2,
+    "z": 6221,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area06_Lv1_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area06_Lv1_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "magician-gift-001",
+    "name": "魔术师的馈赠 #001",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [
+      "资源",
+      "魔术师的馈赠",
+      "全地图"
+    ],
+    "images": [],
+    "x": -252127,
+    "y": 355262,
+    "z": 2748,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_A_Area06_Lv1_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_A_Area06_Lv1_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-1bcfd960f3b4da6e3bb4",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -259026,
+    "y": 153397,
+    "z": 3282,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_E_Area006_Lv1_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_E_Area006_Lv1_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-df68e59cfd8f0dd80678",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -264015,
+    "y": 116302,
+    "z": 2635,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_E_Area006_Lv1_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_E_Area006_Lv1_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-0a47ef664b1afa69ef4b",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -280143,
+    "y": 106922,
+    "z": 3562,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_E_Area006_Lv1_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_E_Area006_Lv1_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-7a24aeeba6abc29f0fcd",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -259501.98,
+    "y": -37356.266,
+    "z": 11384.864,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_E_Area006_Lv1_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_E_Area006_Lv1_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-172e36a4c2b283bf2582",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -225800,
+    "y": 48261,
+    "z": 11171,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_E_Area006_Lv1_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_E_Area006_Lv1_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-30ef3418fb7d71aa5f0b",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -199229.81,
+    "y": -46206.758,
+    "z": 11956,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_E_Area006_Lv1_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_E_Area006_Lv1_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-3702d5e1f935186ef08e",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -236716,
+    "y": -45470,
+    "z": 11048,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_E_Area006_Lv1_007",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_E_Area006_Lv1_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-12af188dabec867ee2c6",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -200080.47,
+    "y": -164029.11,
+    "z": 13552,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_E_Area006_Lv1_008",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_E_Area006_Lv1_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-1f9667b0119d6e6b1581",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -235054.44,
+    "y": -42072.938,
+    "z": 11152,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_E_Area006_Lv1_009",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_E_Area006_Lv1_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-7773b5b163a140824516",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -221097,
+    "y": 5636,
+    "z": 11052,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_E_Area006_Lv1_010",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_E_Area006_Lv1_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-d60bc64c1a945af79c2b",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -224950,
+    "y": 94119,
+    "z": 9387,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_E_Area006_Lv1_011",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_E_Area006_Lv1_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-30acfe9ddadc1a0d7f90",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -292104,
+    "y": 122931,
+    "z": 2506,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_E_Area006_Lv1_012",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_E_Area006_Lv1_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-7fc184160e2b169d27c5",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -207872.66,
+    "y": -39911.996,
+    "z": 11079,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_E_Area006_Lv1_013",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_E_Area006_Lv1_013",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-4f938a4044510743d613",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -214552,
+    "y": -190762,
+    "z": 16935,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_E_Area006_Lv1_014",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_E_Area006_Lv1_014",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-fbc2ab64cecb0dff59d5",
+    "name": "魔术师的馈赠",
+    "types": [
+      "magician-gift"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 魔术师的馈赠",
+    "tags": [],
+    "images": [],
+    "x": -250744,
+    "y": 124640,
+    "z": 3267,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/CharacterUpBox_E_Area006_Lv1_015",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "CharacterUpBox_E_Area006_Lv1_015",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

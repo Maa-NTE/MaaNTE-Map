@@ -1,0 +1,1670 @@
+[
+  {
+    "id": "category-010-043",
+    "name": "避役的包裹 #043",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -99906,
+    "y": 166601,
+    "z": 4246,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area01_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area01_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-042",
+    "name": "避役的包裹 #042",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -96307.99,
+    "y": 155090.22,
+    "z": 5301,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area01_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area01_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-041",
+    "name": "避役的包裹 #041",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -120485,
+    "y": 168079,
+    "z": 7111,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area01_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area01_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-022",
+    "name": "避役的包裹 #022",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -122173.77,
+    "y": 158307.5,
+    "z": 8191,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area01_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area01_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-59c7937fdebcf42a70ae",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -132943,
+    "y": 174791,
+    "z": 6710,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area01_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area01_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-029",
+    "name": "避役的包裹 #029",
+    "types": [
+      "category-010"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -149937.56,
+    "y": 220863.34,
+    "z": 11702,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area01_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area01_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-b2717bba87eff8332a5c",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -116188,
+    "y": 154204,
+    "z": 5960,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area01_007",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area01_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-d7f2d1198b069f9007ad",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -132528,
+    "y": 165273,
+    "z": 6650,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area01_008",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area01_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-31f7f8b44cb122d88e96",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -122406,
+    "y": 168503,
+    "z": 6697,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area01_009",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area01_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-2dee5b0a768231c0333d",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -127157.8,
+    "y": 172982.92,
+    "z": 6623,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area01_010",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area01_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-b141431516f209eb3818",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -126133.82,
+    "y": 188026.28,
+    "z": 6727,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area01_011",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area01_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-bd83988b7a96335c79c6",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -130246.8,
+    "y": 183895.19,
+    "z": 6635,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area01_012",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area01_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-c0b30d9e6716bd95dde8",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -132943,
+    "y": 177632,
+    "z": 7119,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area01_013",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area01_013",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-b951e509369129f21263",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -142383,
+    "y": 164174,
+    "z": 7527,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area01_014",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area01_014",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-191239b4480b3378ecc2",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -131263,
+    "y": 152930,
+    "z": 6773,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area01_015",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area01_015",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-026",
+    "name": "避役的包裹 #026",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -148020.2,
+    "y": 139229.45,
+    "z": 7121,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area03_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area03_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-023",
+    "name": "避役的包裹 #023",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -169903,
+    "y": 110007,
+    "z": 7231,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area03_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area03_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-031",
+    "name": "避役的包裹 #031",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -147190.23,
+    "y": 96665.68,
+    "z": 8619,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area03_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area03_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-019",
+    "name": "避役的包裹 #019",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -116812.875,
+    "y": 59466.055,
+    "z": 7436,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area03_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area03_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-034",
+    "name": "避役的包裹 #034",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -94916.21,
+    "y": 90675.97,
+    "z": 6904.682,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area03_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area03_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-2d393695a28fb537ed46",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -176545.38,
+    "y": 117603.96,
+    "z": 7180,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area03_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area03_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-a61afa77369188299576",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -173592.12,
+    "y": 119585.15,
+    "z": 7160,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area03_007",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area03_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-34b84f0f6ef40b30b808",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -158573.4,
+    "y": 116689.74,
+    "z": 7168,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area03_008",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area03_008",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-b5c91292728125e4e771",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -168509,
+    "y": 110431,
+    "z": 7218,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area03_009",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area03_009",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-81eefb1c8c8de8d92e3a",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -147698.6,
+    "y": 96339.56,
+    "z": 7313,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area03_010",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area03_010",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-9529add6b9fb567c660f",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -123549.22,
+    "y": 69699.92,
+    "z": 7514,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area03_011",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area03_011",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-d35e6adac5c227ed07e6",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -112227,
+    "y": 63461,
+    "z": 7524,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area03_012",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area03_012",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-05b70826cd09340786ad",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -94134,
+    "y": 75146,
+    "z": 6759,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area03_013",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area03_013",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-e470e1e5f60738742b6a",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -132429,
+    "y": 102625,
+    "z": 7332,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area03_014",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area03_014",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-4f6f7b43130a52c25e69",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -132429,
+    "y": 102625,
+    "z": 7332,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area03_015",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area03_015",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-044",
+    "name": "避役的包裹 #044",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -86681.02,
+    "y": 158663.33,
+    "z": 3659,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area01_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area01_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-027",
+    "name": "避役的包裹 #027",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -142659,
+    "y": 165560,
+    "z": 6942,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area01_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area01_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-035",
+    "name": "避役的包裹 #035",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -115685.42,
+    "y": 154151.72,
+    "z": 5831,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area01_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area01_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-040",
+    "name": "避役的包裹 #040",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -125689,
+    "y": 187518,
+    "z": 7177,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area01_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area01_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-021",
+    "name": "避役的包裹 #021",
+    "types": [
+      "category-010"
+    ],
+    "district": "桥间地",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -89954.64,
+    "y": 131951.66,
+    "z": 9570,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area01_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area01_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-028",
+    "name": "避役的包裹 #028",
+    "types": [
+      "category-010"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -135214,
+    "y": 206577,
+    "z": 10319,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area01_006",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area01_006",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-ee1e93f780bd7f5b6324",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "未闻浦",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -194139.25,
+    "y": 216354.17,
+    "z": 17912.143,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area01_007",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area01_007",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-025",
+    "name": "避役的包裹 #025",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -167644,
+    "y": 131398,
+    "z": 7277,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area03_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area03_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-020",
+    "name": "避役的包裹 #020",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -123402,
+    "y": 70095,
+    "z": 7593,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area03_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area03_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-003",
+    "name": "避役的包裹 #003",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -138418,
+    "y": 126473,
+    "z": 6776,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area03_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area03_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-024",
+    "name": "避役的包裹 #024",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -176555,
+    "y": 123155,
+    "z": 7162,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area03_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area03_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-018",
+    "name": "避役的包裹 #018",
+    "types": [
+      "category-010"
+    ],
+    "district": "绘空町",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -123696.03,
+    "y": 50454.66,
+    "z": 7853,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area03_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area03_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-037",
+    "name": "避役的包裹 #037",
+    "types": [
+      "category-010"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -77241,
+    "y": 47615,
+    "z": 7802,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area04_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area04_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-005",
+    "name": "避役的包裹 #005",
+    "types": [
+      "category-010"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": 11471.901,
+    "y": 49839.5,
+    "z": 8343,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area04_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area04_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-038",
+    "name": "避役的包裹 #038",
+    "types": [
+      "category-010"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -46504,
+    "y": -11601,
+    "z": 7912,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area04_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area04_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-033",
+    "name": "避役的包裹 #033",
+    "types": [
+      "category-010"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -39386,
+    "y": 23213,
+    "z": 7841,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area04_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area04_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-012",
+    "name": "避役的包裹 #012",
+    "types": [
+      "category-010"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -16777,
+    "y": 49486,
+    "z": 7820,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area04_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area04_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-004",
+    "name": "避役的包裹 #004",
+    "types": [
+      "category-010"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": 23159,
+    "y": 21712,
+    "z": 7632,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area04_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area04_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-015",
+    "name": "避役的包裹 #015",
+    "types": [
+      "category-010"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -82269,
+    "y": 4730,
+    "z": 8476,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area04_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area04_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-016",
+    "name": "避役的包裹 #016",
+    "types": [
+      "category-010"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -75502,
+    "y": 42722,
+    "z": 7787,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area04_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area04_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-013",
+    "name": "避役的包裹 #013",
+    "types": [
+      "category-010"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -34123,
+    "y": 33068,
+    "z": 7780,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area04_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area04_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-014",
+    "name": "避役的包裹 #014",
+    "types": [
+      "category-010"
+    ],
+    "district": "米尔格",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -21429.545,
+    "y": 6299.1294,
+    "z": 8930,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area04_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area04_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-017",
+    "name": "避役的包裹 #017",
+    "types": [
+      "category-010"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -65723.61,
+    "y": 84555.83,
+    "z": 6221.76,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area05_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area05_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-008",
+    "name": "避役的包裹 #008",
+    "types": [
+      "category-010"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": 27299,
+    "y": 118534,
+    "z": 7177,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area05_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area05_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-006",
+    "name": "避役的包裹 #006",
+    "types": [
+      "category-010"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": 20564,
+    "y": 58829,
+    "z": 6355,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area05_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area05_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-010",
+    "name": "避役的包裹 #010",
+    "types": [
+      "category-010"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -10990,
+    "y": 119511,
+    "z": 6960,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area05_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area05_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-011",
+    "name": "避役的包裹 #011",
+    "types": [
+      "category-010"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -13795,
+    "y": 92652,
+    "z": 6411,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area05_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area05_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-039",
+    "name": "避役的包裹 #039",
+    "types": [
+      "category-010"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": 33384,
+    "y": 84548,
+    "z": 6391,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area05_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area05_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-032",
+    "name": "避役的包裹 #032",
+    "types": [
+      "category-010"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -18896,
+    "y": 76105,
+    "z": 6514,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area05_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area05_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-007",
+    "name": "避役的包裹 #007",
+    "types": [
+      "category-010"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": 43857,
+    "y": 118715,
+    "z": 7084,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area05_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area05_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-009",
+    "name": "避役的包裹 #009",
+    "types": [
+      "category-010"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -32252,
+    "y": 144049,
+    "z": 4841,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area05_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area05_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-036",
+    "name": "避役的包裹 #036",
+    "types": [
+      "category-010"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -7137.19,
+    "y": 104409.69,
+    "z": 7223,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area05_005",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area05_005",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-002",
+    "name": "避役的包裹 #002",
+    "types": [
+      "category-010"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -257283,
+    "y": 353277,
+    "z": 3055,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_A_Area06_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_A_Area06_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "category-010-001",
+    "name": "避役的包裹 #001",
+    "types": [
+      "category-010"
+    ],
+    "district": "新赫兰德",
+    "description": "资源 · 避役的包裹",
+    "tags": [
+      "资源",
+      "避役的包裹",
+      "全地图"
+    ],
+    "images": [],
+    "x": -246629,
+    "y": 362286,
+    "z": 7937,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_B_Area06_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_B_Area06_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-095404d29c31c6bb1743",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -288607.06,
+    "y": 116813.01,
+    "z": 2565,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_E_Area006_001",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_E_Area006_001",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-22a3c2687263f6462805",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -209783,
+    "y": -171884,
+    "z": 13906,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_E_Area006_002",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_E_Area006_002",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-d01426ab1c64bf3a4561",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -311884.22,
+    "y": -130940,
+    "z": 15471,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_E_Area006_003",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_E_Area006_003",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "game-1fcadd2521006a642867",
+    "name": "避役的包裹",
+    "types": [
+      "category-010"
+    ],
+    "district": "泊暮区",
+    "description": "资源 · 避役的包裹",
+    "tags": [],
+    "images": [],
+    "x": -160849,
+    "y": -204896,
+    "z": 17151,
+    "gameDataId": "DT_EnvirTreasureBoxConfig/ChameleonBox_E_Area006_004",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/Treasurebox/DT_EnvirTreasureBoxConfig",
+      "rowId": "ChameleonBox_E_Area006_004",
+      "coordinateField": "Location",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

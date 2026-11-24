@@ -1,0 +1,228 @@
+[
+  {
+    "id": "mask-kite-001",
+    "name": "诡面筝 #001",
+    "types": [
+      "mask-kite"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 诡面筝",
+    "tags": [
+      "怪物",
+      "诡面筝",
+      "全地图"
+    ],
+    "images": [],
+    "x": -24566.425052,
+    "y": 40916.511721,
+    "z": 12495.209209,
+    "betterMapId": "monster/mon_024_BP/-24566.425051999999/40916.511721000003/12495.209209000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_024_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mask-kite-002",
+    "name": "诡面筝 #002",
+    "types": [
+      "mask-kite"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 诡面筝",
+    "tags": [
+      "怪物",
+      "诡面筝",
+      "全地图"
+    ],
+    "images": [],
+    "x": 25314.698274,
+    "y": 24151.369806,
+    "z": 9664.94537,
+    "betterMapId": "monster/mon_024_BP/25314.698273999998/24151.369805999999/9664.9453699999995",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_024_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mask-kite-003",
+    "name": "诡面筝 #003",
+    "types": [
+      "mask-kite"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 诡面筝",
+    "tags": [
+      "怪物",
+      "诡面筝",
+      "全地图"
+    ],
+    "images": [],
+    "x": 2095.345461,
+    "y": -6209.304834,
+    "z": 10860.572648,
+    "betterMapId": "monster/mon_024_BP/2095.3454609999999/-6209.3048339999996/10860.572647999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_024_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mask-kite-004",
+    "name": "诡面筝 #004",
+    "types": [
+      "mask-kite"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 诡面筝",
+    "tags": [
+      "怪物",
+      "诡面筝",
+      "全地图"
+    ],
+    "images": [],
+    "x": -52873.898458,
+    "y": -15133.693395,
+    "z": 8757.907771,
+    "betterMapId": "monster/mon_024_BP/-52873.898458000003/-15133.693395/8757.9077710000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_024_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mask-kite-007",
+    "name": "诡面筝 #007",
+    "types": [
+      "mask-kite"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 诡面筝",
+    "tags": [
+      "怪物",
+      "诡面筝",
+      "全地图"
+    ],
+    "images": [],
+    "x": -211060.577823,
+    "y": 201606.811721,
+    "z": 7720.000003,
+    "betterMapId": "monster/mon_024_BP/-211060.577823/201606.81172100001/7720.0000030000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_024_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mask-kite-009",
+    "name": "诡面筝 #009",
+    "types": [
+      "mask-kite"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 诡面筝",
+    "tags": [
+      "怪物",
+      "诡面筝",
+      "全地图"
+    ],
+    "images": [],
+    "x": -175160,
+    "y": 211290,
+    "z": 11955.238778,
+    "betterMapId": "monster/mon_024_BP/-175160/211290/11955.238778000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_024_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "mask-kite-011",
+    "name": "诡面筝 #011",
+    "types": [
+      "mask-kite"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 诡面筝",
+    "tags": [
+      "怪物",
+      "诡面筝",
+      "全地图"
+    ],
+    "images": [],
+    "x": -164490,
+    "y": 150530,
+    "z": 6450,
+    "betterMapId": "monster/mon_024_BP/-164490/150530/6450",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_024_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782106883928",
+    "name": "风筝",
+    "types": [
+      "mask-kite"
+    ],
+    "district": "全地图",
+    "x": -171860,
+    "y": 173800,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 9640,
+    "betterMapId": "monster/mon_024_BP/-171860/173800/9640",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_024_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-0260a98fd345a6572737",
+    "name": "诡面筝 · mon_024_BP",
+    "types": [
+      "mask-kite"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -115617.309341,
+    "y": 39692.99183,
+    "z": 9509.070383,
+    "betterMapId": "monster/mon_024_BP/-115617.309341/39692.991829999999/9509.0703830000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_024_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

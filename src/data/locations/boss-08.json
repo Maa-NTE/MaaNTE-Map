@@ -1,0 +1,28 @@
+[
+  {
+    "id": "teleport-boss_08_bp_worldboss",
+    "name": "斑蝶",
+    "types": [
+      "boss-08"
+    ],
+    "district": "全地图",
+    "description": "世界 Boss 入口",
+    "tags": [
+      "传送点",
+      "异象追猎",
+      "斑蝶"
+    ],
+    "images": [],
+    "x": -4033.0576,
+    "y": 104662.09,
+    "z": 7255.236,
+    "gameDataId": "DT_TeleportPoint/boss_08_BP_WorldBoss",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "boss_08_BP_WorldBoss",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

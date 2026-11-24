@@ -1,0 +1,488 @@
+[
+  {
+    "id": "vending-spirit-001",
+    "name": "售货附电灵 #001",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -119667.809861,
+    "y": 196531.200645,
+    "z": 6158,
+    "betterMapId": "monster/mon_016_BP/-119667.809861/196531.200645/6158",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-002",
+    "name": "售货附电灵 #002",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -188581.050824,
+    "y": 224277.089936,
+    "z": 16343.804263,
+    "betterMapId": "monster/mon_016_BP/-188581.05082400001/224277.089936/16343.804263",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-003",
+    "name": "售货附电灵 #003",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -185114.997421,
+    "y": 136177.415325,
+    "z": 7237.862173,
+    "betterMapId": "monster/mon_016_BP/-185114.99742100001/136177.41532500001/7237.8621730000004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-004",
+    "name": "售货附电灵 #004",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -156488.487599,
+    "y": 141969.500136,
+    "z": 6723.828879,
+    "betterMapId": "monster/mon_016_BP/-156488.48759899999/141969.50013599999/6723.8288789999997",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-005",
+    "name": "售货附电灵 #005",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -128669.209321,
+    "y": 158695.595504,
+    "z": 6997.372752,
+    "betterMapId": "monster/mon_016_BP/-128669.209321/158695.595504/6997.3727520000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-006",
+    "name": "售货附电灵 #006",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -111558.10352,
+    "y": 173615.529332,
+    "z": 6506.213612,
+    "betterMapId": "monster/mon_016_BP/-111558.10352/173615.52933200001/6506.2136119999996",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-007",
+    "name": "售货附电灵 #007",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -8184.230022,
+    "y": 141455.141663,
+    "z": 4802.580508,
+    "betterMapId": "monster/mon_016_BP/-8184.2300219999997/141455.14166299999/4802.580508",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-008",
+    "name": "售货附电灵 #008",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -14265.614649,
+    "y": 135242.597559,
+    "z": 6337.929468,
+    "betterMapId": "monster/mon_016_BP/-14265.614648999999/135242.59755899999/6337.9294680000003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-009",
+    "name": "售货附电灵 #009",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": 19491.705084,
+    "y": 105658.653782,
+    "z": 6955.010731,
+    "betterMapId": "monster/mon_016_BP/19491.705084000001/105658.65378199999/6955.0107310000003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-010",
+    "name": "售货附电灵 #010",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": 40057.610745,
+    "y": 109888.525565,
+    "z": 9243.320115,
+    "betterMapId": "monster/mon_016_BP/40057.610744999998/109888.525565/9243.3201150000004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-011",
+    "name": "售货附电灵 #011",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": 41653.48933,
+    "y": 51866.063058,
+    "z": 5114.191364,
+    "betterMapId": "monster/mon_016_BP/41653.489329999997/51866.063058/5114.1913640000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-012",
+    "name": "售货附电灵 #012",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": 18277.71895,
+    "y": 18597.024777,
+    "z": 8598.164036,
+    "betterMapId": "monster/mon_016_BP/18277.718949999999/18597.024776999999/8598.1640360000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-013",
+    "name": "售货附电灵 #013",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": 7596.992947,
+    "y": 31432.307523,
+    "z": 7988.369769,
+    "betterMapId": "monster/mon_016_BP/7596.9929469999997/31432.307522999999/7988.3697689999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-014",
+    "name": "售货附电灵 #014",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": 5294.682222,
+    "y": 48093.750703,
+    "z": 7673.6412,
+    "betterMapId": "monster/mon_016_BP/5294.6822220000004/48093.750702999998/7673.6412",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-015",
+    "name": "售货附电灵 #015",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -87.497076,
+    "y": 63489.297478,
+    "z": 7193.208918,
+    "betterMapId": "monster/mon_016_BP/-87.497076000000007/63489.297478/7193.2089180000003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-016",
+    "name": "售货附电灵 #016",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -34522.182428,
+    "y": 30938.591579,
+    "z": 8028.02624,
+    "betterMapId": "monster/mon_016_BP/-34522.182428/30938.591579/8028.0262400000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "vending-spirit-017",
+    "name": "售货附电灵 #017",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 售货附电灵",
+    "tags": [
+      "怪物",
+      "售货附电灵",
+      "全地图"
+    ],
+    "images": [],
+    "x": -113947.735573,
+    "y": 50882.95369,
+    "z": 7664.600132,
+    "betterMapId": "monster/mon_016_BP/-113947.735573/50882.953690000002/7664.6001319999996",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-6688d7427022e39f9d70",
+    "name": "售货附电灵 · mon_016_BP",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -22259.078576,
+    "y": 47538.794324,
+    "z": 7710.064664,
+    "betterMapId": "monster/mon_016_BP/-22259.078576/47538.794324000002/7710.0646640000004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-571f0130d7d3105b7ba9",
+    "name": "售货附电灵 · mon_016_BP",
+    "types": [
+      "vending-spirit"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -43156.378034,
+    "y": -6302.082477,
+    "z": 8289.994632,
+    "betterMapId": "monster/mon_016_BP/-43156.378034000001/-6302.0824769999999/8289.9946319999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_016_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "teleport-boss_15_bp_worldboss",
+    "name": "音霸魔王",
+    "types": [
+      "boss-15"
+    ],
+    "district": "全地图",
+    "description": "世界 Boss 入口",
+    "tags": [
+      "传送点",
+      "异象追猎",
+      "音霸魔王"
+    ],
+    "images": [],
+    "x": -102761,
+    "y": 94815,
+    "z": 6886.4263,
+    "gameDataId": "DT_TeleportPoint/boss_15_BP_WorldBoss",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "boss_15_BP_WorldBoss",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

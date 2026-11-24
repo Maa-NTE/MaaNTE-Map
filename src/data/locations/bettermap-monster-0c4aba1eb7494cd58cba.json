@@ -1,0 +1,24 @@
+[
+  {
+    "id": "bettermap-ec1bcb6f14c4a98c440b",
+    "name": "空铠甲 · mon_020_BP",
+    "types": [
+      "bettermap-monster-0c4aba1eb7494cd58cba"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -11480.918774,
+    "y": 125277.592025,
+    "z": 31376.32498,
+    "betterMapId": "monster/mon_020_BP/-11480.918774/125277.59202500001/31376.324980000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_020_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "nonos-001",
+    "name": "诺诺斯 #001",
+    "types": [
+      "nonos"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 诺诺斯",
+    "tags": [
+      "怪物",
+      "诺诺斯",
+      "全地图"
+    ],
+    "images": [],
+    "x": 24901.245389,
+    "y": 138560,
+    "z": 6493,
+    "betterMapId": "monster/mon_027_BP/24901.245389/138560/6493",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_027_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782107014363",
+    "name": "诺诺斯",
+    "types": [
+      "nonos"
+    ],
+    "district": "全地图",
+    "x": -165296,
+    "y": 180745,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8801,
+    "betterMapId": "monster/mon_027_BP/-165296/180745/8801",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_027_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782107070518",
+    "name": "诺诺斯",
+    "types": [
+      "nonos"
+    ],
+    "district": "全地图",
+    "x": -168556.256194,
+    "y": 183961.748641,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8821.525921,
+    "betterMapId": "monster/mon_027_BP/-168556.25619399999/183961.74864100001/8821.5259210000004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_027_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782107335439",
+    "name": "诺诺斯",
+    "types": [
+      "nonos"
+    ],
+    "district": "全地图",
+    "x": -160420,
+    "y": 185630,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 8620,
+    "betterMapId": "monster/mon_027_BP/-160420/185630/8620",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_027_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-a2c1ae68f8b9024b6316",
+    "name": "诺诺斯 · mon_027_BP",
+    "types": [
+      "nonos"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -170036.983315,
+    "y": 176024.371052,
+    "z": 8784.617413,
+    "betterMapId": "monster/mon_027_BP/-170036.98331499999/176024.371052/8784.6174129999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_027_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-a09b9985e2231f49c022",
+    "name": "诺诺斯 · mon_027_BP",
+    "types": [
+      "nonos"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -165530,
+    "y": 172370,
+    "z": 8800,
+    "betterMapId": "monster/mon_027_BP/-165530/172370/8800",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_027_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

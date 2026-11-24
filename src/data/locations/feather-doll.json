@@ -1,0 +1,128 @@
+[
+  {
+    "id": "feather-doll-001",
+    "name": "羽偶 #001",
+    "types": [
+      "feather-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 羽偶",
+    "tags": [
+      "怪物",
+      "羽偶",
+      "全地图"
+    ],
+    "images": [],
+    "x": -154780,
+    "y": 226210,
+    "z": 11120,
+    "betterMapId": "monster/mon_041_BP/-154780/226210/11120",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_041_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "feather-doll-002",
+    "name": "羽偶 #002",
+    "types": [
+      "feather-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 羽偶",
+    "tags": [
+      "怪物",
+      "羽偶",
+      "全地图"
+    ],
+    "images": [],
+    "x": -142330,
+    "y": 224980,
+    "z": 9230,
+    "betterMapId": "monster/mon_041_BP/-142330/224980/9230",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_041_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "feather-doll-003",
+    "name": "羽偶 #003",
+    "types": [
+      "feather-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 羽偶",
+    "tags": [
+      "怪物",
+      "羽偶",
+      "全地图"
+    ],
+    "images": [],
+    "x": -57492.873461,
+    "y": 87522.060662,
+    "z": 2592.393163,
+    "betterMapId": "monster/mon_041_BP/-57492.873461000003/87522.060662000004/2592.3931630000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_041_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "feather-doll-005",
+    "name": "羽偶 #005",
+    "types": [
+      "feather-doll"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 羽偶",
+    "tags": [
+      "怪物",
+      "羽偶",
+      "全地图"
+    ],
+    "images": [],
+    "x": -194906.599858,
+    "y": 198830.853086,
+    "z": 12922.710948,
+    "betterMapId": "monster/mon_041_BP/-194906.599858/198830.85308599999/12922.710948",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_041_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-c07c783a1aec563d2f07",
+    "name": "羽偶 · mon_041_BP",
+    "types": [
+      "feather-doll"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -207611.556966,
+    "y": 210262.117177,
+    "z": 12362.606515,
+    "betterMapId": "monster/mon_041_BP/-207611.556966/210262.11717700001/12362.606514999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_041_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

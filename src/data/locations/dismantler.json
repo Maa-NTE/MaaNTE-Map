@@ -1,0 +1,470 @@
+[
+  {
+    "id": "dismantler-001",
+    "name": "分解者 #001",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 分解者",
+    "tags": [
+      "怪物",
+      "分解者",
+      "全地图"
+    ],
+    "images": [],
+    "x": -164978.877533,
+    "y": 139372.817945,
+    "z": 6994.506133,
+    "betterMapId": "monster/mon_014_BP/-164978.87753299999/139372.81794499999/6994.5061329999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "dismantler-002",
+    "name": "分解者 #002",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 分解者",
+    "tags": [
+      "怪物",
+      "分解者",
+      "全地图"
+    ],
+    "images": [],
+    "x": -164713.03,
+    "y": 89972.8,
+    "z": 7567,
+    "betterMapId": "monster/mon_014_BP/-164713.03/89972.800000000003/7567",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "dismantler-003",
+    "name": "分解者 #003",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 分解者",
+    "tags": [
+      "怪物",
+      "分解者",
+      "全地图"
+    ],
+    "images": [],
+    "x": -104796.406774,
+    "y": 66263.568584,
+    "z": 7223.723979,
+    "betterMapId": "monster/mon_014_BP/-104796.406774/66263.568583999993/7223.7239790000003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "dismantler-004",
+    "name": "分解者 #004",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 分解者",
+    "tags": [
+      "怪物",
+      "分解者",
+      "全地图"
+    ],
+    "images": [],
+    "x": -46555.038375,
+    "y": 104935.167109,
+    "z": 3176.119795,
+    "betterMapId": "monster/mon_014_BP/-46555.038374999996/104935.167109/3176.1197950000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "dismantler-005",
+    "name": "分解者 #005",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 分解者",
+    "tags": [
+      "怪物",
+      "分解者",
+      "全地图"
+    ],
+    "images": [],
+    "x": -50373.083268,
+    "y": 86102.368026,
+    "z": 3119.632412,
+    "betterMapId": "monster/mon_014_BP/-50373.083268000002/86102.368025999996/3119.6324119999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "dismantler-006",
+    "name": "分解者 #006",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 分解者",
+    "tags": [
+      "怪物",
+      "分解者",
+      "全地图"
+    ],
+    "images": [],
+    "x": -58243.531331,
+    "y": 72959.91582,
+    "z": 3943.96413,
+    "betterMapId": "monster/mon_014_BP/-58243.531330999998/72959.915819999995/3943.9641299999998",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "dismantler-007",
+    "name": "分解者 #007",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 分解者",
+    "tags": [
+      "怪物",
+      "分解者",
+      "全地图"
+    ],
+    "images": [],
+    "x": -36544.138427,
+    "y": 49581.220818,
+    "z": 8028.02624,
+    "betterMapId": "monster/mon_014_BP/-36544.138426999998/49581.220818000002/8028.0262400000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782107992982",
+    "name": "垃圾桶",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "x": -185505.95,
+    "y": 207063.58,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 16395.05,
+    "betterMapId": "monster/mon_014_BP/-185505.95000000001/207063.57999999999/16395.049999999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782108128276",
+    "name": "垃圾桶",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "x": -137710.590399,
+    "y": 160887.957579,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 7002.399179,
+    "betterMapId": "monster/mon_014_BP/-137710.59039900001/160887.95757900001/7002.399179",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "local-1782110610833",
+    "name": "垃圾桶",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "x": 29352.704116,
+    "y": 138610.047985,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 3356,
+    "betterMapId": "monster/mon_014_BP/29352.704116000001/138610.04798500001/3356",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-e1e9cb1d5bdfecf705fb",
+    "name": "分解者 · mon_014_BP",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": 19491.705084,
+    "y": 105658.653782,
+    "z": 6955.010731,
+    "betterMapId": "monster/mon_014_BP/19491.705084000001/105658.65378199999/6955.0107310000003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-2c753fd95f1be78a3a37",
+    "name": "分解者 · mon_014_BP",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": 7596.992947,
+    "y": 31432.307523,
+    "z": 7988.369769,
+    "betterMapId": "monster/mon_014_BP/7596.9929469999997/31432.307522999999/7988.3697689999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-3c4cb14c16aca8db51a1",
+    "name": "分解者 · mon_014_BP",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": 42109.138967,
+    "y": 116241.153508,
+    "z": 7268.570412,
+    "betterMapId": "monster/mon_014_BP/42109.138966999999/116241.153508/7268.570412",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-22f9e7dd779315bd17eb",
+    "name": "分解者 · mon_014_BP",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": 41653.48933,
+    "y": 51866.063058,
+    "z": 5114.191364,
+    "betterMapId": "monster/mon_014_BP/41653.489329999997/51866.063058/5114.1913640000002",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-ab77d09388ab52d6f162",
+    "name": "分解者 · mon_014_BP",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -34522.182428,
+    "y": 30938.591579,
+    "z": 8028.02624,
+    "betterMapId": "monster/mon_014_BP/-34522.182428/30938.591579/8028.0262400000001",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-830c0c3861091143b833",
+    "name": "分解者 · mon_014_BP",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -22259.078576,
+    "y": 47538.794324,
+    "z": 7710.064664,
+    "betterMapId": "monster/mon_014_BP/-22259.078576/47538.794324000002/7710.0646640000004",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-0a5db7fe5192fa782d1e",
+    "name": "分解者 · mon_014_BP",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -119667.809861,
+    "y": 196531.200645,
+    "z": 6158,
+    "betterMapId": "monster/mon_014_BP/-119667.809861/196531.200645/6158",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-4cf565b2c199a834efcf",
+    "name": "分解者 · mon_014_BP",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -24617.285575,
+    "y": 66364.216883,
+    "z": 7153.148953,
+    "betterMapId": "monster/mon_014_BP/-24617.285575000002/66364.216883000001/7153.1489529999999",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-f5722e44a1765acb3a36",
+    "name": "分解者 · mon_014_BP",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": 25165.83,
+    "y": 113132.18,
+    "z": 6931.18,
+    "betterMapId": "monster/mon_014_BP/25165.830000000002/113132.17999999999/6931.1800000000003",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "bettermap-3b52c7600e685650681a",
+    "name": "分解者 · mon_014_BP",
+    "types": [
+      "dismantler"
+    ],
+    "district": "全地图",
+    "description": "",
+    "tags": [],
+    "images": [],
+    "x": -121545.133982,
+    "y": 160421.629546,
+    "z": 6709.389141,
+    "betterMapId": "monster/mon_014_BP/-121545.133982/160421.62954600001/6709.3891409999997",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_014_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

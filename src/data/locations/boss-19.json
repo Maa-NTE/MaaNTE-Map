@@ -1,0 +1,28 @@
+[
+  {
+    "id": "teleport-boss_19_bp_worldboss",
+    "name": "海囚",
+    "types": [
+      "boss-19"
+    ],
+    "district": "全地图",
+    "description": "世界 Boss 入口",
+    "tags": [
+      "传送点",
+      "异象追猎",
+      "海囚"
+    ],
+    "images": [],
+    "x": 38534,
+    "y": 134776,
+    "z": 3686.3215,
+    "gameDataId": "DT_TeleportPoint/boss_19_BP_WorldBoss",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "boss_19_BP_WorldBoss",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "local-1782091702027",
+    "name": "无首铁驭",
+    "types": [
+      "headless-rider"
+    ],
+    "district": "全地图",
+    "x": -159233.7,
+    "y": 226545.08,
+    "description": "",
+    "tags": [],
+    "images": [],
+    "z": 7218.25,
+    "gameDataId": "DT_TeleportPoint/boss_13_BP_WorldBoss",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "boss_13_BP_WorldBoss",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

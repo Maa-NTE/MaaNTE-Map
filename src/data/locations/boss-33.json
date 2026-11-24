@@ -1,0 +1,28 @@
+[
+  {
+    "id": "teleport-boss_33_bp_worldboss",
+    "name": "囿巢鸟",
+    "types": [
+      "boss-33"
+    ],
+    "district": "全地图",
+    "description": "世界 Boss 入口",
+    "tags": [
+      "传送点",
+      "异象追猎",
+      "囿巢鸟"
+    ],
+    "images": [],
+    "x": -50212.516,
+    "y": 64136.926,
+    "z": 13830,
+    "gameDataId": "DT_TeleportPoint/boss_33_BP_WorldBoss",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "boss_33_BP_WorldBoss",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

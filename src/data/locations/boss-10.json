@@ -1,0 +1,28 @@
+[
+  {
+    "id": "teleport-weeklyclone_boss10",
+    "name": "永不谢幕的阿拉克涅",
+    "types": [
+      "boss-10"
+    ],
+    "district": "全地图",
+    "description": "异象巡礼入口",
+    "tags": [
+      "传送点",
+      "异象巡礼",
+      "永不谢幕的阿拉克涅"
+    ],
+    "images": [],
+    "x": -33530.664,
+    "y": 149190.44,
+    "z": 3043.06,
+    "gameDataId": "DT_TeleportPoint/WeeklyClone_Boss10",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "WeeklyClone_Boss10",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

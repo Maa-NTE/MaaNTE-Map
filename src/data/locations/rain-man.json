@@ -1,0 +1,236 @@
+[
+  {
+    "id": "rain-man-001",
+    "name": "雨人 #001",
+    "types": [
+      "rain-man"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 雨人",
+    "tags": [
+      "怪物",
+      "雨人",
+      "全地图"
+    ],
+    "images": [],
+    "x": -156625.556172,
+    "y": 86928.495882,
+    "z": 8511,
+    "betterMapId": "monster/mon_017_BP/-156625.55617200001/86928.495882000003/8511",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_017_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "rain-man-002",
+    "name": "雨人 #002",
+    "types": [
+      "rain-man"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 雨人",
+    "tags": [
+      "怪物",
+      "雨人",
+      "全地图"
+    ],
+    "images": [],
+    "x": -155906,
+    "y": 108876,
+    "z": 7347,
+    "betterMapId": "monster/mon_017_BP/-155906/108876/7347",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_017_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "rain-man-003",
+    "name": "雨人 #003",
+    "types": [
+      "rain-man"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 雨人",
+    "tags": [
+      "怪物",
+      "雨人",
+      "全地图"
+    ],
+    "images": [],
+    "x": -141521,
+    "y": 172734,
+    "z": 7462,
+    "betterMapId": "monster/mon_017_BP/-141521/172734/7462",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_017_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "rain-man-004",
+    "name": "雨人 #004",
+    "types": [
+      "rain-man"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 雨人",
+    "tags": [
+      "怪物",
+      "雨人",
+      "全地图"
+    ],
+    "images": [],
+    "x": -140276.925094,
+    "y": 157705.22297,
+    "z": 6896,
+    "betterMapId": "monster/mon_017_BP/-140276.92509400001/157705.22297/6896",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_017_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "rain-man-005",
+    "name": "雨人 #005",
+    "types": [
+      "rain-man"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 雨人",
+    "tags": [
+      "怪物",
+      "雨人",
+      "全地图"
+    ],
+    "images": [],
+    "x": -137014,
+    "y": 132596,
+    "z": 6859,
+    "betterMapId": "monster/mon_017_BP/-137014/132596/6859",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_017_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "rain-man-006",
+    "name": "雨人 #006",
+    "types": [
+      "rain-man"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 雨人",
+    "tags": [
+      "怪物",
+      "雨人",
+      "全地图"
+    ],
+    "images": [],
+    "x": -85550,
+    "y": 149640,
+    "z": 4525,
+    "betterMapId": "monster/mon_017_BP/-85550/149640/4525",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_017_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "rain-man-007",
+    "name": "雨人 #007",
+    "types": [
+      "rain-man"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 雨人",
+    "tags": [
+      "怪物",
+      "雨人",
+      "全地图"
+    ],
+    "images": [],
+    "x": -92674,
+    "y": 90181,
+    "z": 6287,
+    "betterMapId": "monster/mon_017_BP/-92674/90181/6287",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_017_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "rain-man-008",
+    "name": "雨人 #008",
+    "types": [
+      "rain-man"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 雨人",
+    "tags": [
+      "怪物",
+      "雨人",
+      "全地图"
+    ],
+    "images": [],
+    "x": -17589,
+    "y": 76143,
+    "z": 8866,
+    "betterMapId": "monster/mon_017_BP/-17589/76143/8866",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_017_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  },
+  {
+    "id": "rain-man-009",
+    "name": "雨人 #009",
+    "types": [
+      "rain-man"
+    ],
+    "district": "全地图",
+    "description": "全地图 · 怪物 · 雨人",
+    "tags": [
+      "怪物",
+      "雨人",
+      "全地图"
+    ],
+    "images": [],
+    "x": 26295.418839,
+    "y": 18251.299684,
+    "z": 7973.055436,
+    "betterMapId": "monster/mon_017_BP/26295.418839000002/18251.299684000001/7973.0554359999996",
+    "source": {
+      "method": "bettermap-export",
+      "asset": "/Game/DataTable/DT_MonsterManualConfig",
+      "rowId": "mon_017_BP",
+      "coordinateField": "ArrayWorldLocation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "teleport-boss_07_bp_worldboss",
+    "name": "塞润尼缇",
+    "types": [
+      "boss-07"
+    ],
+    "district": "全地图",
+    "description": "世界 Boss 入口",
+    "tags": [
+      "传送点",
+      "异象追猎",
+      "塞润尼缇"
+    ],
+    "images": [],
+    "x": -162617,
+    "y": 175831,
+    "z": 8325.341,
+    "gameDataId": "DT_TeleportPoint/Boss_07_BP_WorldBoss",
+    "source": {
+      "method": "fmodel-mcp",
+      "asset": "/Game/DataTable/DT_TeleportPoint",
+      "rowId": "Boss_07_BP_WorldBoss",
+      "coordinateField": "Transform.Translation",
+      "level": "XL_map_bigworld_test"
+    }
+  }
+]
