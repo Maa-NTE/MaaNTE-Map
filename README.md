@@ -199,13 +199,17 @@ npm run merge:locations -- output/imports/bettermap
 ## 坐标与扩图
 
 点位和路线持久化为游戏真实坐标 `x/y`。渲染时使用
-`src/data/navi-coordinate-calibration.json` 中的标定点解出二维仿射变换：
+`src/data/navi-coordinate-calibration.json` 中的游戏原生地图中心与覆盖范围投影：
 
 ```text
-[pixelX, pixelY] = affine([gameX, gameY])
+pixelX = ((gameX - centerX) / sizeX + 0.5) * sourceWidth
+pixelY = ((gameY - centerY) / sizeY + 0.5) * sourceHeight
 ```
 
-仿射变换同时处理平移、缩放、轻微旋转和剪切。定位服务和路线下发使用
+当前主世界中心为 `(0, 80000)`，X/Y 覆盖范围均为 `796461.8` 游戏厘米，
+参数来自 `DT_LevelMiniMap.XL_map_bigworld_test.MiniMapBackgroundRenderData`。
+采用原生参数消除旧三点标定中的整体微小偏移。标定文件的 `source` 记录参数来源，
+历史像素帧仍使用各自的标定数据转换。定位服务和路线下发使用
 `13056 × 13056` 的 MapLocator 像素坐标；Leaflet 坐标仅用于页面内部渲染。
 
 坐标转换关系如下：

@@ -167,7 +167,7 @@ try {
       pixelY: 6750,
       coordinateFrame: 'map-2026-06',
     })).map(([key, value]) => [key, Math.round(value)]))
-  }), { pixelX: 4323, pixelY: 8488 })
+  }), { pixelX: 4325, pixelY: 8494 })
   await page.evaluate(() => {
     window.__qaNavigationSocket.receive({
       type: 'navi-state',

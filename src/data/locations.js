@@ -70,6 +70,16 @@ function solveAffine(points) {
 
 export const COORDINATE_CALIBRATION = coordinateCalibration
 
+function nativeMapAffine({ center, size }, width, height) {
+  const scaleX = width / size.x
+  const scaleY = height / size.y
+  return {
+    mapX: { x: scaleX, y: 0, offset: width / 2 - center.x * scaleX },
+    mapY: { x: 0, y: scaleY, offset: height / 2 - center.y * scaleY },
+    inverseDeterminant: scaleX * scaleY,
+  }
+}
+
 // Keep prior locator frames in the calibration file. Map expansions can add
 // pixels around the old map, so resizing an old pixel coordinate is not enough
 // to locate it on the current map; converting through game X/Y preserves the
@@ -79,7 +89,7 @@ const coordinateFrames = [
     id: MAP_LOCATOR_COORDINATE_FRAME,
     sourceWidth: MAP_LOCATOR_SOURCE_WIDTH,
     sourceHeight: MAP_LOCATOR_SOURCE_HEIGHT,
-    affine: solveAffine(coordinateCalibration.points),
+    affine: nativeMapAffine(coordinateCalibration.worldBounds, MAP_LOCATOR_SOURCE_WIDTH, MAP_LOCATOR_SOURCE_HEIGHT),
   },
   ...(Array.isArray(coordinateCalibration.previousFrames)
     ? coordinateCalibration.previousFrames.map((frame) => ({

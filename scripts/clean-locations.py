@@ -66,42 +66,15 @@ CALIBRATION = json.loads(
 )
 
 
-def affine_coefficients(index: int) -> tuple[float, float, float]:
-    first, second, third = CALIBRATION["points"]
-    x1, y1 = first["raw"][:2]
-    x2, y2 = second["raw"][:2]
-    x3, y3 = third["raw"][:2]
-    determinant = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)
-    value1 = first["map"][index]
-    value2 = second["map"][index]
-    value3 = third["map"][index]
-    return (
-        (value1 * (y2 - y3) + value2 * (y3 - y1) + value3 * (y1 - y2)) / determinant,
-        (value1 * (x3 - x2) + value2 * (x1 - x3) + value3 * (x2 - x1)) / determinant,
-        (
-            value1 * (x2 * y3 - x3 * y2)
-            + value2 * (x3 * y1 - x1 * y3)
-            + value3 * (x1 * y2 - x2 * y1)
-        )
-        / determinant,
-    )
-
-
-MAP_X = affine_coefficients(0)
-MAP_Y = affine_coefficients(1)
-AFFINE_DETERMINANT = MAP_X[0] * MAP_Y[1] - MAP_X[1] * MAP_Y[0]
-
-
 def normalized_coordinates(location: dict) -> dict:
     if isinstance(location.get("x"), (int, float)) and isinstance(location.get("y"), (int, float)):
         return {"x": location["x"], "y": location["y"]}
     pixel_x = CALIBRATION["sourceWidth"] / 2 + float(location["lng"]) * 22
     pixel_y = CALIBRATION["sourceHeight"] / 2 - float(location["lat"]) * 22
-    shifted_x = pixel_x - MAP_X[2]
-    shifted_y = pixel_y - MAP_Y[2]
+    bounds = CALIBRATION["worldBounds"]
     return {
-        "x": round((shifted_x * MAP_Y[1] - MAP_X[1] * shifted_y) / AFFINE_DETERMINANT, 3),
-        "y": round((MAP_X[0] * shifted_y - shifted_x * MAP_Y[0]) / AFFINE_DETERMINANT, 3),
+        "x": round((pixel_x / CALIBRATION["sourceWidth"] - 0.5) * bounds["size"]["x"] + bounds["center"]["x"], 3),
+        "y": round((pixel_y / CALIBRATION["sourceHeight"] - 0.5) * bounds["size"]["y"] + bounds["center"]["y"], 3),
     }
 
 

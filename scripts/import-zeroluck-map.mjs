@@ -271,36 +271,11 @@ function createTermStore(existingTermsPayload) {
   }
 }
 
-function solveAffine(index) {
-  const [first, second, third] = coordinateCalibration.points
-  const [x1, y1] = first.raw
-  const [x2, y2] = second.raw
-  const [x3, y3] = third.raw
-  const determinant = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)
-  const value1 = first.map[index]
-  const value2 = second.map[index]
-  const value3 = third.map[index]
-  return {
-    x: (value1 * (y2 - y3) + value2 * (y3 - y1) + value3 * (y1 - y2)) / determinant,
-    y: (value1 * (x3 - x2) + value2 * (x1 - x3) + value3 * (x2 - x1)) / determinant,
-    offset: (
-      value1 * (x2 * y3 - x3 * y2)
-      + value2 * (x3 * y1 - x1 * y3)
-      + value3 * (x1 * y2 - x2 * y1)
-    ) / determinant,
-  }
-}
-
-const affineMapX = solveAffine(0)
-const affineMapY = solveAffine(1)
-const affineDeterminant = affineMapX.x * affineMapY.y - affineMapX.y * affineMapY.x
-
 function mapPixelToGame(pixelX, pixelY) {
-  const shiftedX = pixelX - affineMapX.offset
-  const shiftedY = pixelY - affineMapY.offset
+  const { center, size } = coordinateCalibration.worldBounds
   return {
-    x: (shiftedX * affineMapY.y - affineMapX.y * shiftedY) / affineDeterminant,
-    y: (affineMapX.x * shiftedY - shiftedX * affineMapY.x) / affineDeterminant,
+    x: (pixelX / coordinateCalibration.sourceWidth - 0.5) * size.x + center.x,
+    y: (pixelY / coordinateCalibration.sourceHeight - 0.5) * size.y + center.y,
   }
 }
 

@@ -1,22 +1,21 @@
 {
-  "version": 1,
+  "version": 2,
   "coordinateFrame": "map-2026-08",
   "sourceWidth": 13056,
   "sourceHeight": 13056,
-  "points": [
-    {
-      "raw": [-134394.56, 199913.53, 11416.17],
-      "map": [4323, 8488]
-    },
-    {
-      "raw": [39731.64, 100731.11, 9699.52],
-      "map": [7178, 6862]
-    },
-    {
-      "raw": [-102621.85, 66062.87, 6792.88],
-      "map": [4844, 6294]
-    }
-  ],
+  "worldBounds": {
+    "center": { "x": 0, "y": 80000 },
+    "size": { "x": 796461.8, "y": 796461.8 }
+  },
+  "source": {
+    "method": "fmodel-mcp",
+    "asset": "/Game/DataTable/MiniMap/DT_LevelMiniMap",
+    "rowId": "XL_map_bigworld_test",
+    "coordinateFields": [
+      "MiniMapBackgroundRenderData.MiniMapCenterLocation",
+      "MiniMapBackgroundRenderData.MiniMapEdgeSize"
+    ]
+  },
   "previousFrames": [
     {
       "coordinateFrame": "map-2026-06",
