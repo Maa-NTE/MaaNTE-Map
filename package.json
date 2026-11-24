@@ -17,6 +17,7 @@
     "merge:locations": "node scripts/merge-location-changes.mjs"
   },
   "dependencies": {
+    "@vue/server-renderer": "3.5.42",
     "fflate": "^0.8.3",
     "leaflet": "^1.9.4",
     "leaflet.markercluster": "^1.5.3",
