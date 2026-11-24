@@ -20,3 +20,4 @@ scripts/*
 __pycache__/
 *.log
 .local/
+.mapupdate/
