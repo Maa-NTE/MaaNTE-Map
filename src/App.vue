@@ -1,10 +1,11 @@
 <script setup>
-import { computed, onBeforeUnmount, ref, watch } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import L from 'leaflet'
 import { useMapApp } from './composables/useMapApp'
 import { MAP_HEIGHT, MAP_TILE_URL, MAP_WIDTH, TILE_SIZE, gameToMapLatLng, mapPixelToGame, mapPixelToMapLatLng } from './data/locations'
-import { INITIAL_ZOOM, MIN_ZOOM } from './constants/mapApp'
+import { INITIAL_ZOOM, MIN_ZOOM, UI_THEME_STORAGE_KEY } from './constants/mapApp'
 import announcement from './data/announcements.json'
+import ThemeToggle from './components/ThemeToggle.vue'
 
 // App.vue 保留页面结构，所有交互状态和业务动作都由组合函数提供。
 const {
@@ -149,6 +150,48 @@ const hudGameCoordinates = computed(() => navigationGameCoordinates.value || {
   y: coordinates.value.y,
 })
 
+const readInitialUiTheme = () => {
+  try {
+    return localStorage.getItem(UI_THEME_STORAGE_KEY) === 'dark' ? 'dark' : 'light'
+  } catch {
+    return 'light'
+  }
+}
+
+const uiTheme = ref(readInitialUiTheme())
+
+const applyUiTheme = (theme) => {
+  const resolved = theme === 'dark' ? 'dark' : 'light'
+  if (typeof document !== 'undefined') {
+    document.documentElement.dataset.theme = resolved
+    const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+    if (metaThemeColor) {
+      metaThemeColor.setAttribute('content', resolved === 'dark' ? '#0f172a' : '#e8f4ff')
+    }
+  }
+  try {
+    localStorage.setItem(UI_THEME_STORAGE_KEY, resolved)
+  } catch {
+    // Ignore storage failures in private browsing contexts.
+  }
+  if (pictureInPictureWindow.value && !pictureInPictureWindow.value.closed) {
+    pictureInPictureWindow.value.document.documentElement.dataset.theme = resolved
+  }
+}
+
+const topbarElement = ref(null)
+const panelsTopOffset = ref(104)
+let topbarResizeObserver = null
+
+const syncTopbarClearance = () => {
+  const el = topbarElement.value
+  if (!el) return
+  const rect = el.getBoundingClientRect()
+  if (rect.height > 0) {
+    panelsTopOffset.value = Math.ceil(rect.bottom + 12)
+  }
+}
+
 const announcementPanelOpen = ref(true)
 
 const normalizeAnnouncementUrl = (value) => {
@@ -198,14 +241,15 @@ const pictureInPictureButtonLabel = computed(() =>
 )
 
 const injectPictureInPictureStyles = (doc) => {
+  doc.documentElement.dataset.theme = uiTheme.value
   const copiedStyleNodes = [...document.querySelectorAll('link[rel="stylesheet"], style')]
     .map((node) => node.cloneNode(true))
   const style = doc.createElement('style')
   style.textContent = `
     :root {
-      color: #f5fffd;
-      background: #071112;
-      font-family: 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;
+      color: var(--ink-primary, #0f2438);
+      background: #0b0f14;
+      font-family: var(--font-sans, 'Inter', 'PingFang SC', 'Microsoft YaHei UI', system-ui, sans-serif);
       font-synthesis: none;
       text-rendering: optimizeLegibility;
     }
@@ -220,13 +264,13 @@ const injectPictureInPictureStyles = (doc) => {
       height: 100vh;
       margin: 0;
       overflow: hidden;
-      background: #000;
+      background: #0b0f14;
     }
 
     #pip-map {
       width: 100vw;
       height: 100vh;
-      background: #000;
+      background: #0b0f14;
     }
 
     #pip-map::after {
@@ -236,22 +280,25 @@ const injectPictureInPictureStyles = (doc) => {
       pointer-events: none;
       content: '';
       background:
-        linear-gradient(90deg, rgba(0, 0, 0, 0.3), transparent 22%, transparent 78%, rgba(0, 0, 0, 0.3)),
-        linear-gradient(rgba(0, 0, 0, 0.2), transparent 18%, transparent 82%, rgba(0, 0, 0, 0.22));
+        linear-gradient(90deg, rgba(6, 12, 20, 0.22), transparent 20%, transparent 80%, rgba(6, 12, 20, 0.22)),
+        linear-gradient(rgba(6, 12, 20, 0.14), transparent 16%, transparent 84%, rgba(6, 12, 20, 0.16));
     }
 
     .pip-map-status {
       position: absolute;
       z-index: 1000;
-      left: 8px;
-      bottom: 8px;
-      padding: 5px 7px;
-      color: #b8fff2;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      border-radius: 4px;
-      background: rgba(0, 0, 0, 0.72);
+      left: 10px;
+      bottom: 10px;
+      padding: 5px 10px;
+      color: var(--accent-ink, #0369a1);
+      border: 1px solid var(--border-glass, rgba(255, 255, 255, 0.88));
+      border-radius: 999px;
+      background: var(--surface-glass-strong, rgba(255, 255, 255, 0.94));
+      box-shadow: 0 6px 18px rgba(3, 14, 30, 0.36);
+      backdrop-filter: blur(14px);
       font-size: 11px;
-      font-weight: 800;
+      font-weight: 700;
+      letter-spacing: 0.3px;
       pointer-events: none;
     }
 
@@ -284,7 +331,7 @@ const createPictureInPictureMarkerIcon = (location) => {
     className: 'marker-shell',
     html: `
       <div class="map-marker ${completed ? 'map-marker--completed' : ''} ${selected ? 'map-marker--selected' : ''}"
-        style="--marker-color:${category?.color || '#8adfd6'}">
+        style="--marker-color:${category?.color || '#38bdf8'}">
         <span>${categoryIconHtml(category)}</span>
         ${extraCount ? `<b>+${extraCount}</b>` : ''}
       </div>
@@ -405,7 +452,7 @@ const renderPictureInPictureStatus = () => {
   if (!pipWindow || pipWindow.closed) return
   const status = pipWindow.document.querySelector('.pip-map-status')
   if (status) {
-    status.textContent = `NAVI ${navigationConnectionLabel.value}`
+    status.textContent = `导航 ${navigationConnectionLabel.value}`
   }
 }
 
@@ -540,13 +587,26 @@ const toggleDocumentPictureInPicture = async () => {
   }
 }
 
+watch(uiTheme, applyUiTheme, { immediate: true })
 watch(mapView, schedulePictureInPictureViewSync, { deep: true })
 watch([navigationConnectionLabel, navigationConnectionStatus], renderPictureInPictureStatus)
 watch(navigationState, renderPictureInPictureNavigation, { deep: true })
 watch([filteredLocations, completedIds, selectedLocation, activeCategories], renderPictureInPictureMarkers, { deep: true })
 watch(mergeAdjacentLocationsEnabled, rebuildPictureInPictureMarkerLayer)
 
+onMounted(() => {
+  syncTopbarClearance()
+  if (typeof ResizeObserver !== 'undefined' && topbarElement.value) {
+    topbarResizeObserver = new ResizeObserver(syncTopbarClearance)
+    topbarResizeObserver.observe(topbarElement.value)
+  }
+  window.addEventListener('resize', syncTopbarClearance)
+})
+
 onBeforeUnmount(() => {
+  topbarResizeObserver?.disconnect()
+  topbarResizeObserver = null
+  window.removeEventListener('resize', syncTopbarClearance)
   destroyPictureInPictureMap()
   if (isPictureInPictureOpen.value) {
     pictureInPictureWindow.value.close()
@@ -555,14 +615,13 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <main class="app-shell">
+  <main class="app-shell" :style="{ '--panels-top': `${panelsTopOffset}px` }">
     <div ref="mapElement" class="map-canvas" />
 
-    <header class="topbar glass-panel">
+    <header ref="topbarElement" class="topbar glass-panel">
       <div class="brand-block topbar-brand">
         <img class="brand-mark" :src="publicAssetUrl('/logo.png')" alt="MaaNTE" />
         <div class="brand-copy">
-          <p class="eyebrow">MaaNTE Map</p>
           <div class="brand-title-row">
             <details class="brand-map-menu">
               <summary>
@@ -579,7 +638,12 @@ onBeforeUnmount(() => {
       </div>
       <div class="topbar-search">
         <label class="search-box">
-        <span class="search-icon">⌕</span>
+        <span class="search-icon" aria-hidden="true">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="9" r="5.75" />
+            <path d="M13.5 13.5L17 17" />
+          </svg>
+        </span>
         <input ref="searchInput" v-model="query" type="search" placeholder="搜索地点、区域或关键词..." />
         <kbd>/</kbd>
         </label>
@@ -605,6 +669,7 @@ onBeforeUnmount(() => {
         <button :class="{ 'toolbar-button--active': routePanelOpen }" type="button" @click="routePanelOpen = !routePanelOpen">
           路线
         </button>
+        <ThemeToggle v-model="uiTheme" />
         <div class="progress-block">
           <div class="progress-copy"><span>探索进度</span><strong>{{ progress }}%</strong></div>
           <div class="progress-track"><i :style="{ width: `${progress}%` }" /></div>
@@ -629,13 +694,20 @@ onBeforeUnmount(() => {
     </header>
 
     <aside class="sidebar glass-panel" :class="{ 'sidebar--collapsed': sidebarCollapsed }">
-      <button class="sidebar-toggle" type="button" @click="sidebarCollapsed = !sidebarCollapsed">
-        {{ sidebarCollapsed ? '›' : '‹' }}
+      <button
+        class="sidebar-toggle"
+        type="button"
+        :aria-label="sidebarCollapsed ? '展开侧栏' : '收起侧栏'"
+        @click="sidebarCollapsed = !sidebarCollapsed"
+      >
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path :d="sidebarCollapsed ? 'M6 3.5L10.5 8L6 12.5' : 'M10 3.5L5.5 8L10 12.5'" />
+        </svg>
       </button>
       <div class="sidebar-content">
         <div class="sidebar-categories">
           <div class="sidebar-heading">
-            <div><p class="eyebrow">MARKER CATEGORIES</p><h2>标记分类</h2></div>
+            <div><h2>标记分类</h2></div>
             <div class="filter-actions">
               <button type="button" class="text-button" @click="selectAllCategories">全选</button>
               <button type="button" class="text-button" @click="clearCategories">清空</button>
@@ -651,8 +723,8 @@ onBeforeUnmount(() => {
                   type="button"
                   @click="showFavoritesOnly = !showFavoritesOnly"
                 >
-                  <span class="category-icon" :style="{ '--category-color': '#f1c75b' }">★</span>
-                  <span>已收藏</span><small>{{ favoriteCount }}</small>
+                  <span class="category-icon category-icon--favorite" :style="{ '--category-color': '#f59e0b' }">★</span>
+                  <span class="category-label">已收藏</span><small>{{ favoriteCount }}</small>
                 </button>
               </div>
             </div>
@@ -686,18 +758,22 @@ onBeforeUnmount(() => {
                       </span>
                     </button>
                     <small>{{ group.categories.length }}</small>
-                    <i>{{ isCategoryGroupCollapsed(group.label) ? '▸' : '▾' }}</i>
+                    <i class="collapse-chevron" :class="{ 'collapse-chevron--open': !isCategoryGroupCollapsed(group.label) }" aria-hidden="true">
+                      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 3.5L10.5 8L6 12.5" />
+                      </svg>
+                    </i>
                   </span>
                 </button>
                 <p v-else class="category-group">{{ group.label }}</p>
                 <div v-show="!isCategoryGroupCollapsed(group.label)" class="category-group-items">
                   <button v-for="category in group.categories" :key="category.id" class="category-button"
-                    :class="{ 'category-button--muted': !activeCategories.has(category.id) }" type="button" @click="toggleCategory(category.id)">
+                    :class="{ 'category-button--muted': !activeCategories.has(category.id) }" :title="category.label" type="button" @click="toggleCategory(category.id)">
                     <span class="category-icon" :style="{ '--category-color': category.color }">
                       <img v-if="category.iconUrl || category.icon?.startsWith('/')" :src="publicAssetUrl(category.iconUrl || category.icon)" alt="" />
                       <template v-else>{{ category.icon }}</template>
                     </span>
-                    <span>{{ category.label }}</span><small>{{ visibleCounts[category.id] }}</small>
+                    <span class="category-label">{{ category.label }}</span><small>{{ visibleCounts[category.id] }}</small>
                   </button>
                 </div>
               </div>
@@ -707,13 +783,21 @@ onBeforeUnmount(() => {
         <div class="sidebar-footer">
           <button class="sidebar-footer__toggle" type="button" @click="sidebarFooterOpen = !sidebarFooterOpen">
             <span><b>设置选项</b><small>{{ sidebarFooterOpen ? '点击收起设置' : '点击展开设置' }}</small></span>
-            <i>{{ sidebarFooterOpen ? '▾' : '▸' }}</i>
+            <i class="collapse-chevron" :class="{ 'collapse-chevron--open': sidebarFooterOpen }" aria-hidden="true">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 3.5L10.5 8L6 12.5" />
+              </svg>
+            </i>
           </button>
           <div v-show="sidebarFooterOpen" class="sidebar-footer__body">
           <div class="sidebar-expander">
             <button class="sidebar-expander__toggle" type="button" @click="districtFilterOpen = !districtFilterOpen">
               <span><b>区域筛选</b><small>{{ hasActiveDistricts ? `${activeDistricts.size} 项已选` : '按区域筛选点位' }}</small></span>
-              <i>{{ districtFilterOpen ? '▾' : '▸' }}</i>
+              <i class="collapse-chevron" :class="{ 'collapse-chevron--open': districtFilterOpen }" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 3.5L10.5 8L6 12.5" />
+                </svg>
+              </i>
             </button>
             <div v-show="districtFilterOpen" class="sidebar-expander__body">
               <div class="district-list">
@@ -790,43 +874,47 @@ onBeforeUnmount(() => {
     </aside>
 
     <div class="right-panel-stack">
-      <aside class="announcement-panel glass-panel">
+      <aside class="announcement-panel glass-panel" :class="{ 'announcement-panel--collapsed': !announcementPanelOpen }">
         <button
-          class="announcement-panel__toggle"
+          class="announcement-toggle"
           type="button"
           :aria-expanded="announcementPanelOpen"
+          :aria-label="announcementPanelOpen ? '收起公告' : '展开公告'"
           @click="announcementPanelOpen = !announcementPanelOpen"
         >
-          <span>
-            <p class="eyebrow">ANNOUNCEMENT</p>
-            <h2>{{ announcement.title }}</h2>
-          </span>
-          <i>{{ announcementPanelOpen ? '-' : '+' }}</i>
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path :d="announcementPanelOpen ? 'M6 3.5L10.5 8L6 12.5' : 'M10 3.5L5.5 8L10 12.5'" />
+          </svg>
         </button>
-        <div v-show="announcementPanelOpen" class="announcement-panel__body">
-          <p v-if="announcement.subtitle" class="announcement-panel__summary">{{ announcement.subtitle }}</p>
-          <div class="announcement-list">
-            <article v-for="item in announcementItems" :key="item.title" class="announcement-item">
-              <h3>{{ item.title }}</h3>
-              <a
-                v-if="item.quickUrl"
-                class="announcement-item__link"
-                :href="item.quickUrl"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {{ item.body || item.quickUrl }}
-              </a>
-              <p v-else>{{ item.body }}</p>
-            </article>
+        <div class="announcement-panel__content">
+          <div class="announcement-panel__header">
+            <h2>{{ announcement.title }}</h2>
           </div>
-          <small v-if="announcement.updatedAt" class="announcement-panel__date">更新：{{ announcement.updatedAt }}</small>
+          <div class="announcement-panel__body">
+            <p v-if="announcement.subtitle" class="announcement-panel__summary">{{ announcement.subtitle }}</p>
+            <div class="announcement-list">
+              <article v-for="item in announcementItems" :key="item.title" class="announcement-item">
+                <h3>{{ item.title }}</h3>
+                <a
+                  v-if="item.quickUrl"
+                  class="announcement-item__link"
+                  :href="item.quickUrl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {{ item.body || item.quickUrl }}
+                </a>
+                <p v-else>{{ item.body }}</p>
+              </article>
+            </div>
+            <small v-if="announcement.updatedAt" class="announcement-panel__date">更新：{{ announcement.updatedAt }}</small>
+          </div>
         </div>
       </aside>
 
       <aside v-if="routePanelOpen" class="route-panel glass-panel">
         <div class="sidebar-heading">
-          <div><p class="eyebrow">ROUTES</p><h2>路线规划</h2></div>
+          <div><h2>路线规划</h2></div>
           <button v-if="editorMode" type="button" class="text-button" @click="createRoute">+ 新建</button>
         </div>
         <div class="route-file-actions">
@@ -915,7 +1003,7 @@ onBeforeUnmount(() => {
         {{ hudGameCoordinates.y.toFixed(0) }},
         {{ Number.isFinite(hudGameCoordinates.z) ? hudGameCoordinates.z.toFixed(0) : '--' }}
       </span>
-      <span class="navigation-status" :class="`navigation-status--${navigationConnectionStatus}`">NAVI {{ navigationConnectionLabel }}</span>
+      <span class="navigation-status" :class="`navigation-status--${navigationConnectionStatus}`">导航 {{ navigationConnectionLabel }}</span>
       <span v-if="pictureInPictureError" class="map-hud-error">{{ pictureInPictureError }}</span>
     </div>
     <div v-if="editorMode" class="editor-tip glass-panel">编辑模式：点击地图空白处添加点位</div>

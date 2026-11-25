@@ -236,7 +236,7 @@ try {
     (await page.locator('.map-hud .game-coordinate').innerText()).replace(/\s+/g, ' '),
     'XYZ -134395, 199914, 11416',
   )
-  assert.equal(await page.locator('.map-hud .navigation-status').innerText(), 'NAVI CONNECTED')
+  assert.equal(await page.locator('.map-hud .navigation-status').innerText(), '导航 已连接')
   assert.equal(await page.locator('.map-hud').getByText(/^ML |^POS |^ANGLE /).count(), 0)
   const categoryListBox = await page.locator('.category-list').boundingBox()
   const sidebarFooterBox = await page.locator('.sidebar-footer').boundingBox()

@@ -7,6 +7,7 @@ export const MARKER_FILTERS_STORAGE_KEY = 'nte-marker-filters'
 export const ROUTES_STORAGE_KEY = 'nte-routes'
 export const COMPLETED_STORAGE_KEY = 'nte-completed'
 export const FAVORITES_STORAGE_KEY = 'nte-favorites'
+export const UI_THEME_STORAGE_KEY = 'nte-ui-theme'
 
 // 本地导航服务默认监听地址；生产环境可通过 Vite 环境变量覆盖。
 // 别把客户端连接地址改成 ws://0.0.0.0，0.0.0.0 是服务端监听占位，不是浏览器该连的目标。

@@ -344,10 +344,10 @@ export function useMapApp() {
     realtimeNavigationEnabled.value ? navigationConnection.value : 'disabled',
   )
   const navigationConnectionLabel = computed(() => ({
-    disabled: 'OFF',
-    connected: 'CONNECTED',
-    connecting: 'CONNECTING',
-    disconnected: 'OFFLINE',
+    disabled: '未开启',
+    connected: '已连接',
+    connecting: '连接中',
+    disconnected: '已断开',
   })[navigationConnectionStatus.value])
   const navigationWildcardHostWarning = computed(() => isWildcardNavigationHost(navigationHost.value))
   const navigationWildcardHostWarningMessage = '那我问你，你为什么要把他改成0.0.0.0？你知道0.0.0.0代表什么吗？不知道的话可以问一下豆包:('
@@ -902,7 +902,7 @@ export function useMapApp() {
     const extraCount = Math.max(getVisibleTypes(location).length - 1, 0)
     return `
       <div class="map-marker ${completed ? 'map-marker--completed' : ''} ${selected ? 'map-marker--selected' : ''}"
-        style="--marker-color:${category?.color || '#8adfd6'}">
+        style="--marker-color:${category?.color || '#38bdf8'}">
         <span>${categoryIconHtml(category)}</span>
         ${extraCount ? `<b>+${extraCount}</b>` : ''}
       </div>
